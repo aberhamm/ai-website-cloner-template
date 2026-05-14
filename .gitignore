@@ -47,3 +47,7 @@ next-env.d.ts
 
 # Local temp files
 temp/
+.claude/worktrees/
+
+# Detached clones (npm run detach)
+output/

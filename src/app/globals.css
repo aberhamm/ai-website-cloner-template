@@ -1,130 +1,158 @@
 @import "tailwindcss";
-@import "tw-animate-css";
-@import "shadcn/tailwind.css";
 
+/* Color modes:
+ *   default (no class): cream bg, black text
+ *   .red on <body>:     cream bg, red text
+ *   .dark on <html>:    black bg, cream text
+ */
 @custom-variant dark (&:is(.dark *));
+@custom-variant red (&:is(body.red *));
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
-  --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
-  --font-heading: var(--font-sans);
-  --color-sidebar-ring: var(--sidebar-ring);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar: var(--sidebar);
-  --color-chart-5: var(--chart-5);
-  --color-chart-4: var(--chart-4);
-  --color-chart-3: var(--chart-3);
-  --color-chart-2: var(--chart-2);
-  --color-chart-1: var(--chart-1);
-  --color-ring: var(--ring);
-  --color-input: var(--input);
-  --color-border: var(--border);
-  --color-destructive: var(--destructive);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-accent: var(--accent);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-muted: var(--muted);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-secondary: var(--secondary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-primary: var(--primary);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-popover: var(--popover);
-  --color-card-foreground: var(--card-foreground);
-  --color-card: var(--card);
-  --radius-sm: calc(var(--radius) * 0.6);
-  --radius-md: calc(var(--radius) * 0.8);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) * 1.4);
-  --radius-2xl: calc(var(--radius) * 1.8);
-  --radius-3xl: calc(var(--radius) * 2.2);
-  --radius-4xl: calc(var(--radius) * 2.6);
-}
+  --font-sans: var(--font-neue-haas), "Helvetica Neue", Arial, sans-serif;
+  --font-heading: var(--font-neue-haas), "Helvetica Neue", Arial, sans-serif;
 
-:root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
-}
+  --color-cream: #ede4dd;
+  --color-red: #ff0001;
+  --color-black: #000000;
+  --color-white: #ede4dd;
 
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --color-background: var(--color-cream);
+  --color-foreground: var(--color-black);
+
+  --ease-soft-bounce: cubic-bezier(.34, 1.56, .64, 1);
+  --ease-back-out: cubic-bezier(.175, .885, .32, 1.275);
+  --ease-back-in-out: cubic-bezier(.68, -.55, .265, 1.55);
+  --ease-out-smooth: cubic-bezier(.5, 1, .89, 1);
+  --ease-in-extreme: cubic-bezier(.7, 0, .84, 0);
+  --ease-decelerate: cubic-bezier(0, 0, .2, 1);
+  --ease-accelerate: cubic-bezier(.4, 0, 1, 1);
+
+  --spacing-26: 6.5rem;
+  --spacing-34: 8.5rem;
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
   html {
-    @apply font-sans;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: geometricPrecision;
+  }
+
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-black);
+    overscroll-behavior: none;
+  }
+
+  body::selection,
+  body *::selection {
+    background-color: var(--color-red);
+    color: var(--color-white);
+  }
+
+  body.red {
+    background-color: var(--color-cream);
+    color: var(--color-red);
+  }
+
+  body.red::selection,
+  body.red *::selection {
+    background-color: var(--color-black);
+    color: var(--color-white);
+  }
+
+  html.dark body {
+    background-color: var(--color-black);
+    color: var(--color-cream);
+  }
+
+  html.dark body::selection,
+  html.dark body *::selection {
+    background-color: var(--color-cream);
+    color: var(--color-black);
+  }
+}
+
+/* Page-level utilities used across the site */
+@utility container-px {
+  padding-inline: 1rem;
+  @media (min-width: 1024px) {
+    padding-inline: 1.5rem;
+  }
+}
+
+@utility aspect-large {
+  aspect-ratio: 9 / 12;
+}
+
+/* Page transition — letters of the LOOKBOOK wordmark rise from clipped
+ * masks with a per-letter stagger (delays set via animation-delay inline
+ * on each .wordmark-letter), while the wordmark container subtly scales
+ * from 0.9 → 1 over the cover phase. */
+.wordmark-letter {
+  display: inline-block;
+  transform: translateY(110%);
+  animation: wordmark-letter-rise 700ms cubic-bezier(0.7, 0, 0.2, 1) both;
+}
+@keyframes wordmark-letter-rise {
+  to { transform: translateY(0); }
+}
+
+.wordmark-scale {
+  transform: scale(0.9);
+  animation: wordmark-scale-up 800ms cubic-bezier(0.34, 1.2, 0.64, 1) both;
+}
+@keyframes wordmark-scale-up {
+  to { transform: scale(1); }
+}
+
+/* (Page rise now driven by stage-conditional Tailwind classes in
+ * PageTransition.tsx — no keyframe needed.) */
+
+/* Intro loader — photo cards drop into the stack one at a time. Each card
+ * starts above the stack at scale 0.6 and rotation 0, and settles to its
+ * resting angle (passed via --rotate). */
+.intro-photo {
+  opacity: 0;
+  transform: translateY(-30%) scale(0.6) rotate(0deg);
+  animation: intro-photo-drop 700ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+@keyframes intro-photo-drop {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1) rotate(var(--rotate));
+  }
+}
+
+/* Hero entrance — letters cascade in via the shared `.wordmark-letter`
+ * class (per-letter masks with staggered animation-delay set inline on
+ * each span). The rule below grows from the left at the same time. */
+.hero-line {
+  animation: hero-line-grow 900ms cubic-bezier(0.87, 0, 0.13, 1) 200ms both;
+}
+@keyframes hero-line-grow {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+@utility link-hover {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 1px;
+    background-color: currentColor;
+    transform: scaleX(0);
+    transform-origin: right center;
+    transition: transform 350ms cubic-bezier(0.7, 0, 0.3, 1);
+  }
+  &:hover::after,
+  &.is-active::after {
+    transform: scaleX(1);
+    transform-origin: left center;
   }
 }

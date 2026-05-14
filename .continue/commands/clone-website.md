@@ -463,6 +463,24 @@ These are lessons from previous failed clones — each one cost hours of rework:
 - **Don't forget smooth scroll libraries.** Check for Lenis (`.lenis` class), Locomotive Scroll, or similar. Default browser scrolling feels noticeably different and the user will spot it immediately.
 - **Don't dispatch builders without a spec file.** The spec file forces exhaustive extraction and creates an auditable artifact. Skipping it means the builder gets whatever you can fit in a prompt from memory.
 
+## Phase 6: Detach (optional)
+
+Once the clone is verified, offer to detach it into a portable, self-contained project:
+
+```bash
+npm run detach -- <name>
+```
+
+This produces `output/<name>/` containing:
+- `src/`, `public/`, and minimal Next.js config files (no template noise)
+- A trimmed `package.json` with only deps actually imported by `src/` code
+- A `README.md` with integration notes for downstream agents
+- A fresh git repo with a single initial commit
+
+The output folder is gitignored. The user can move it to a new repo or hand it to another agent for integration.
+
+Before running detach, **clean up unused source files** (e.g. shadcn scaffolding files that the clone doesn't actually use). The script trims `package.json` based on imports it sees, so any leftover unused file with a stray import will pin a phantom dep.
+
 ## Completion
 
 When done, report:
@@ -473,3 +491,4 @@ When done, report:
 - Build status (`npm run build` result)
 - Visual QA results (any remaining discrepancies)
 - Any known gaps or limitations
+- Whether the clone has been detached (`output/<name>/` path) or is still in-tree
