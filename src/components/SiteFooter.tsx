@@ -1,67 +1,195 @@
-import { HelloHelloWordmark } from '@/components/icons';
+import { MymindLogo } from "@/components/icons";
+import Image from "next/image";
+
+const FOOTER_LINKS_LEFT = [
+  { label: "Why people love mymind", href: "#" },
+  { label: "Our pricing", href: "#" },
+  { label: "See how it works", href: "#" },
+  { label: "mymind & ADHD", href: "#" },
+];
+
+const APP_LINKS = [
+  { label: "iOS app", href: "#" },
+  { label: "Android app", href: "#" },
+  { label: "Browser extension", href: "#" },
+  { label: "MacOS app", href: "#" },
+];
+
+const ABOUT_LINKS = [
+  { label: "Our manifesto", href: "#" },
+  { label: "Our promise", href: "#" },
+];
+
+const HELP_LINKS = [
+  { label: "@mymind on Twitter", href: "#" },
+  { label: "Guides & contact form", href: "#" },
+  { label: "Video tutorials", href: "#" },
+];
+
+const AUTH_LINKS = [
+  { label: "Sign in to mymind", href: "#" },
+  { label: "Create an account", href: "#" },
+];
 
 export function SiteFooter() {
   return (
-    <footer className="mx-auto mb-10 px-4 text-sm lg:px-6">
-      <div className="mb-6 h-[5px] w-full bg-current" aria-hidden />
+    <footer
+      className="relative"
+      style={{
+        background:
+          "linear-gradient(#FFF1F1 0%, rgba(255,241,241,0) 30%)",
+      }}
+    >
+      <div
+        className="absolute inset-0 -z-10"
+        style={{
+          backgroundImage: "url(/images/mymind/footer_bg.jpg)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      />
 
-      <div className="mb-6 flex flex-col justify-between gap-4 md:flex-row md:gap-8">
-        <div className="flex-1 text-[2.75rem] leading-[1] font-[900] tracking-tighter text-balance md:text-[6vw]">
-          <p>Made to be worn.</p>
-          <p className="red:text-red text-[#5A5A5A]">Or judged. Or both.</p>
-        </div>
-        <div>
-          <p className="text-[45vw] leading-[1] font-[900] tracking-tighter md:text-[12.75vw]">
-            ©26
-          </p>
-        </div>
-      </div>
+      <div className="mx-auto max-w-[1100px] px-6 pt-20 pb-10">
+        {/* Top section */}
+        <div className="mb-16 flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
+          {/* Logo + tagline */}
+          <div className="flex items-center gap-3">
+            <MymindLogo className="h-6 w-auto text-black" />
+            <span className="text-[#748297]">·</span>
+            <span
+              className="text-[#FF5924] text-lg"
+              style={{ fontFamily: "Georgia, serif", fontStyle: "italic" }}
+            >
+              Enjoy the silence.
+            </span>
+          </div>
 
-      <div className="mt-[8rem] mb-4 md:mt-[16rem]">
-        <p className="max-w-[52ch] tracking-tight text-balance md:text-2xl">
-          Created by the ++hellohello team, this store and signature collection
-          celebrates our collective creativity and passion for apparel. Carefully designed.
-        </p>
-      </div>
-
-      <hr className="mb-6 h-[2px] w-full bg-current border-0" />
-
-      <div className="grid grid-cols-16 gap-x-6 gap-y-20 font-bold md:gap-6">
-        <div className="order-last col-span-16 md:order-first md:col-span-4">
-          <div className="flex flex-col">
-            <a href="https://hellohello.is" target="_blank" rel="noopener noreferrer" aria-label="hellohello">
-              <HelloHelloWordmark className="mb-2" />
-            </a>
-            <p>All rights reserved ©2026</p>
+          {/* See how it works CTA card */}
+          <div className="rounded-2xl bg-[#F4F5F7] px-12 py-10 text-center">
+            <p
+              className="mb-2 text-3xl font-bold text-black"
+              style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}
+            >
+              See how it works
+            </p>
+            <p className="text-[#748297]" style={{ fontFamily: "Inter, sans-serif", fontSize: 16 }}>
+              mymind walkthroughs
+            </p>
           </div>
         </div>
 
-        <div className="col-span-8 md:col-span-3">
-          <p>Libertad 2529</p>
-          <p>Office 102</p>
-          <p>Montevideo, Uruguay.</p>
+        {/* Footer links grid */}
+        <div className="mb-12 grid grid-cols-1 gap-8 md:grid-cols-4">
+          {/* Left column - main links */}
+          <div className="flex flex-col gap-3">
+            {FOOTER_LINKS_LEFT.map((link) => (
+              <a
+                key={link.label}
+                href={link.href}
+                className="text-lg text-black transition-colors hover:text-[#FF5924]"
+                style={{ fontFamily: "Georgia, serif" }}
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
+
+          {/* Our Apps */}
+          <div>
+            <p
+              className="mb-4 text-xs font-medium uppercase tracking-[2px] text-[#748297]"
+              style={{ fontFamily: "Inter, sans-serif" }}
+            >
+              OUR APPS
+            </p>
+            <div className="flex flex-col gap-2">
+              {APP_LINKS.map((link) => (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  className="text-sm text-[#748297] transition-colors hover:text-black"
+                  style={{ fontFamily: "Inter, sans-serif" }}
+                >
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          </div>
+
+          {/* About Us */}
+          <div>
+            <p
+              className="mb-4 text-xs font-medium uppercase tracking-[2px] text-[#748297]"
+              style={{ fontFamily: "Inter, sans-serif" }}
+            >
+              ABOUT US
+            </p>
+            <div className="flex flex-col gap-2">
+              {ABOUT_LINKS.map((link) => (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  className="text-sm text-[#748297] transition-colors hover:text-black"
+                  style={{ fontFamily: "Inter, sans-serif" }}
+                >
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          </div>
+
+          {/* Help and Contact */}
+          <div>
+            <p
+              className="mb-4 text-xs font-medium uppercase tracking-[2px] text-[#748297]"
+              style={{ fontFamily: "Inter, sans-serif" }}
+            >
+              HELP AND CONTACT
+            </p>
+            <div className="flex flex-col gap-2">
+              {HELP_LINKS.map((link) => (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  className="text-sm text-[#748297] transition-colors hover:text-black"
+                  style={{ fontFamily: "Inter, sans-serif" }}
+                >
+                  {link.label}
+                </a>
+              ))}
+              <div className="mt-4 flex flex-col gap-2">
+                {AUTH_LINKS.map((link) => (
+                  <a
+                    key={link.label}
+                    href={link.href}
+                    className="text-sm text-[#748297] transition-colors hover:text-black"
+                    style={{ fontFamily: "Inter, sans-serif" }}
+                  >
+                    {link.label}
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div className="col-span-8 md:col-span-3">
-          <a href="#" className="link-hover">Privacy Policy</a>
-        </div>
+        {/* Divider */}
+        <div className="mb-6 h-px w-full bg-[#ddd]" />
 
-        <div className="col-span-8 md:col-span-2 flex flex-col gap-1">
-          <a className="link-hover" href="https://dribbble.com/hellohello" target="_blank" rel="noopener noreferrer">Dribbble</a>
-          <a className="link-hover" href="https://instagram.com/hellohello.is" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a className="link-hover" href="https://linkedin.com/company/hellohello-is" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a className="link-hover" href="https://twitter.com/hellohello_is" target="_blank" rel="noopener noreferrer">Twitter (X)</a>
-        </div>
-
-        <div className="col-span-8 md:col-span-2 flex flex-col gap-1">
-          <a className="link-hover" href="https://hellohello.is/work" target="_blank" rel="noopener noreferrer">Work</a>
-          <a className="link-hover" href="https://hellohello.is/services" target="_blank" rel="noopener noreferrer">Services</a>
-          <a className="link-hover" href="https://hellohello.is/about" target="_blank" rel="noopener noreferrer">About</a>
-          <a className="link-hover" href="https://hellohello.is/careers" target="_blank" rel="noopener noreferrer">Careers</a>
-        </div>
-
-        <div className="col-span-8 md:col-span-2 flex flex-col">
-          <a className="link-hover" href="mailto:hello@hellohello.is">Let&apos;s talk</a>
+        {/* Bottom bar */}
+        <div
+          className="flex flex-col items-center justify-between gap-4 text-[13px] text-[#748297] md:flex-row"
+          style={{ fontFamily: "Inter, sans-serif" }}
+        >
+          <p>© mymind, inc. 2025</p>
+          <p>Made with love ♡ from New York City, NY</p>
+          <div className="flex gap-2">
+            <a href="#" className="hover:text-black">Terms &amp; Conditions</a>
+            <span>·</span>
+            <a href="#" className="hover:text-black">Privacy Policy</a>
+            <span>·</span>
+            <a href="#" className="hover:text-black">FAQ</a>
+          </div>
         </div>
       </div>
     </footer>

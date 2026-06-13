@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { Nunito, Inter } from "next/font/google";
 import "./globals.css";
-import { PageTransition } from "@/components/PageTransition";
-import { SiteHeader } from "@/components/SiteHeader";
-import { ColorModeToggle } from "@/components/ColorModeToggle";
-import { IntroLoader } from "@/components/IntroLoader";
 
 const neueHaas = localFont({
   src: [
@@ -15,12 +12,12 @@ const neueHaas = localFont({
     },
     {
       path: "../../public/fonts/NeueHaasGroteskTextPro_Medium-s.p.26ed73d7.woff2",
-      weight: "700",
+      weight: "500",
       style: "normal",
     },
     {
       path: "../../public/fonts/NeueHaasGroteskTextPro_Bold-s.p.d9a7309d.woff2",
-      weight: "800",
+      weight: "700",
       style: "normal",
     },
   ],
@@ -28,25 +25,44 @@ const neueHaas = localFont({
   display: "swap",
 });
 
+const nunito = Nunito({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+  variable: "--font-nunito",
+  display: "swap",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
-  title: "OUTFIT® by ++hellohello",
+  title: "mymind is the extension for your mind.",
   description:
-    "Created by the ++hellohello team, this store and signature collection celebrates our collective creativity and passion for apparel. Carefully designed.",
+    "A private place to save your most precious notes, images, quotes and highlights. Enhanced with AI to help you remember without wasting time on categorizing & organizing.",
+  icons: {
+    icon: "/seo/favicon.png",
+  },
+  openGraph: {
+    title: "mymind is the extension for your mind.",
+    description:
+      "A private place to save your most precious notes, images, quotes and highlights.",
+    images: ["/seo/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={neueHaas.variable}>
-      <body className="red antialiased">
-        <PageTransition>
-          <SiteHeader />
-          <ColorModeToggle />
-          {children}
-        </PageTransition>
-        <IntroLoader />
-      </body>
+    <html
+      lang="en"
+      className={`${neueHaas.variable} ${nunito.variable} ${inter.variable}`}
+    >
+      <body className="antialiased">{children}</body>
     </html>
   );
 }

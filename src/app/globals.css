@@ -1,158 +1,120 @@
 @import "tailwindcss";
 
-/* Color modes:
- *   default (no class): cream bg, black text
- *   .red on <body>:     cream bg, red text
- *   .dark on <html>:    black bg, cream text
- */
-@custom-variant dark (&:is(.dark *));
-@custom-variant red (&:is(body.red *));
-
 @theme inline {
-  --font-sans: var(--font-neue-haas), "Helvetica Neue", Arial, sans-serif;
-  --font-heading: var(--font-neue-haas), "Helvetica Neue", Arial, sans-serif;
+  /* Fonts */
+  --font-sans: var(--font-nunito), "Nunito", -apple-system, "system-ui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-heading: "Louize-Regular-205TF", "Georgia", "Times New Roman", serif;
+  --font-heading-italic: "Louize-Italic-205TF", "Georgia", serif;
+  --font-heading-bold: "Louize-Bold-205TF", "Georgia", serif;
+  --font-heading-medium: "Louize-Medium-205TF", "Georgia", serif;
+  --font-avenir: "Avenir LT W01_45 Book1475508", var(--font-nunito), sans-serif;
+  --font-inter: var(--font-inter), "Inter", sans-serif;
+  --font-neue-haas: var(--font-neue-haas), "neue-haas-grotesk-display", sans-serif;
+  --font-mymindai: "mymindai-Regular", sans-serif;
 
-  --color-cream: #ede4dd;
-  --color-red: #ff0001;
+  /* Primary colors */
+  --color-orange: #FF5924;
+  --color-orange-light: #FFA86A;
+  --color-orange-peach: #FFC0B4;
+  --color-pink-bg: #FFF1F1;
+  --color-pink-end: #FFF2F2;
+  --color-white: #ffffff;
   --color-black: #000000;
-  --color-white: #ede4dd;
+  --color-gray-body: #4A5465;
+  --color-gray-muted: #748297;
+  --color-link-blue: #1573DD;
 
-  --color-background: var(--color-cream);
+  /* Bubble colors (for hero word tags) */
+  --color-bubble-orange: rgba(233, 143, 83, 0.06);
+  --color-bubble-pink: rgba(228, 138, 191, 0.06);
+  --color-bubble-blue: rgba(153, 210, 251, 0.06);
+  --color-bubble-red: rgba(234, 114, 107, 0.06);
+  --color-bubble-yellow: rgba(255, 207, 39, 0.06);
+
+  /* Bubble text colors */
+  --color-text-orange: rgb(233, 143, 83);
+  --color-text-pink: rgb(228, 138, 191);
+  --color-text-blue: rgb(153, 210, 251);
+  --color-text-red: rgb(234, 114, 107);
+  --color-text-yellow: rgb(255, 207, 39);
+
+  /* Shadows */
+  --shadow-nav: 0px 4px 22px 0px rgba(116, 130, 151, 0.14);
+
+  /* Background & foreground */
+  --color-background: var(--color-white);
   --color-foreground: var(--color-black);
 
-  --ease-soft-bounce: cubic-bezier(.34, 1.56, .64, 1);
-  --ease-back-out: cubic-bezier(.175, .885, .32, 1.275);
-  --ease-back-in-out: cubic-bezier(.68, -.55, .265, 1.55);
-  --ease-out-smooth: cubic-bezier(.5, 1, .89, 1);
-  --ease-in-extreme: cubic-bezier(.7, 0, .84, 0);
-  --ease-decelerate: cubic-bezier(0, 0, .2, 1);
-  --ease-accelerate: cubic-bezier(.4, 0, 1, 1);
-
-  --spacing-26: 6.5rem;
-  --spacing-34: 8.5rem;
+  /* Spacing */
+  --spacing-18: 4.5rem;
+  --spacing-22: 5.5rem;
 }
 
 @layer base {
   html {
-    font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
-    text-rendering: geometricPrecision;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
   }
 
   body {
-    background-color: var(--color-cream);
+    background-color: var(--color-white);
     color: var(--color-black);
+    font-family: var(--font-sans);
     overscroll-behavior: none;
   }
 
-  body::selection,
-  body *::selection {
-    background-color: var(--color-red);
+  ::selection {
+    background-color: var(--color-orange);
     color: var(--color-white);
   }
-
-  body.red {
-    background-color: var(--color-cream);
-    color: var(--color-red);
-  }
-
-  body.red::selection,
-  body.red *::selection {
-    background-color: var(--color-black);
-    color: var(--color-white);
-  }
-
-  html.dark body {
-    background-color: var(--color-black);
-    color: var(--color-cream);
-  }
-
-  html.dark body::selection,
-  html.dark body *::selection {
-    background-color: var(--color-cream);
-    color: var(--color-black);
-  }
 }
 
-/* Page-level utilities used across the site */
-@utility container-px {
-  padding-inline: 1rem;
-  @media (min-width: 1024px) {
-    padding-inline: 1.5rem;
-  }
+/* Section label style used across the page */
+@utility section-label {
+  font-family: var(--font-inter);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--color-orange);
 }
 
-@utility aspect-large {
-  aspect-ratio: 9 / 12;
+/* Large serif heading style */
+@utility heading-serif {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  line-height: 1.05;
+  color: var(--color-black);
 }
 
-/* Page transition — letters of the LOOKBOOK wordmark rise from clipped
- * masks with a per-letter stagger (delays set via animation-delay inline
- * on each .wordmark-letter), while the wordmark container subtly scales
- * from 0.9 → 1 over the cover phase. */
-.wordmark-letter {
-  display: inline-block;
-  transform: translateY(110%);
-  animation: wordmark-letter-rise 700ms cubic-bezier(0.7, 0, 0.2, 1) both;
-}
-@keyframes wordmark-letter-rise {
-  to { transform: translateY(0); }
+/* Body text style */
+@utility body-text {
+  font-family: var(--font-inter);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: -0.4px;
+  color: var(--color-gray-body);
 }
 
-.wordmark-scale {
-  transform: scale(0.9);
-  animation: wordmark-scale-up 800ms cubic-bezier(0.34, 1.2, 0.64, 1) both;
-}
-@keyframes wordmark-scale-up {
-  to { transform: scale(1); }
-}
-
-/* (Page rise now driven by stage-conditional Tailwind classes in
- * PageTransition.tsx — no keyframe needed.) */
-
-/* Intro loader — photo cards drop into the stack one at a time. Each card
- * starts above the stack at scale 0.6 and rotation 0, and settles to its
- * resting angle (passed via --rotate). */
-.intro-photo {
-  opacity: 0;
-  transform: translateY(-30%) scale(0.6) rotate(0deg);
-  animation: intro-photo-drop 700ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
-}
-@keyframes intro-photo-drop {
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1) rotate(var(--rotate));
-  }
+/* Features section gradient background */
+.features-gradient {
+  background: linear-gradient(
+    rgb(255, 89, 36) 0%,
+    rgb(255, 192, 180) 20.88%,
+    rgb(255, 255, 255) 37.26%,
+    rgb(255, 255, 255) 85.07%,
+    rgb(255, 242, 242) 100%
+  );
 }
 
-/* Hero entrance — letters cascade in via the shared `.wordmark-letter`
- * class (per-letter masks with staggered animation-delay set inline on
- * each span). The rule below grows from the left at the same time. */
-.hero-line {
-  animation: hero-line-grow 900ms cubic-bezier(0.87, 0, 0.13, 1) 200ms both;
-}
-@keyframes hero-line-grow {
-  from { transform: scaleX(0); }
-  to   { transform: scaleX(1); }
+/* Reviews section pink background */
+.reviews-bg {
+  background-color: rgb(255, 241, 241);
 }
 
-@utility link-hover {
-  position: relative;
-  &::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -2px;
-    height: 1px;
-    background-color: currentColor;
-    transform: scaleX(0);
-    transform-origin: right center;
-    transition: transform 350ms cubic-bezier(0.7, 0, 0.3, 1);
-  }
-  &:hover::after,
-  &.is-active::after {
-    transform: scaleX(1);
-    transform-origin: left center;
-  }
+/* Button gradient for dark buttons */
+.btn-dark-gradient {
+  background: linear-gradient(rgb(0, 0, 0) 0%, rgb(47, 52, 60) 100%);
 }
