@@ -46,7 +46,7 @@ export function Footer() {
 
   return (
     <footer className="readable-footer">
-      <div className="readable-footer-panel">
+      <div data-motion="rise" className="readable-footer-panel">
         <div className="readable-footer-newsletter">
           <Image
             className="readable-footer-logo"

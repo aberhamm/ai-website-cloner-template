@@ -148,28 +148,12 @@
 .phone-side {
   width: 268px;
   top: 62px;
-  animation: phone-reveal 10s ease-in-out infinite;
 }
 .phone-left {
   left: 34px;
 }
 .phone-right {
   right: 34px;
-  animation-delay: 0.2s;
-}
-@keyframes phone-reveal {
-  0%,
-  15%,
-  75%,
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  30%,
-  60% {
-    opacity: 0;
-    transform: translateY(130px);
-  }
 }
 .readable-cta {
   height: 937px;
@@ -395,5 +379,164 @@
   }
   .hero-phones .phone-right {
     right: 26px;
+  }
+}
+/* Original sequence: first card at .5s, second at 1s, third at 1.5s,
+   then the stack fans out at 2.5s. This plays once on page entry. */
+.hero-phones {
+  --phone-spread: 217px;
+  --phone-offset: 62px;
+}
+.hero-phones .phone-side {
+  left: 50%;
+  right: auto;
+  top: 0;
+}
+.hero-phones .phone-left {
+  transform: translate(calc(-50% - var(--phone-spread)), var(--phone-offset));
+}
+.hero-phones .phone-right {
+  transform: translate(calc(-50% + var(--phone-spread)), var(--phone-offset));
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero-phones .phone-left {
+    animation: phone-arrive-left 3.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+  .hero-phones .phone-right {
+    animation: phone-arrive-right 3.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+  .hero-phones .phone-center {
+    animation: phone-arrive-center 3.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+  .hero-copy h1 {
+    animation: hero-title-in 1.3s cubic-bezier(0.68, 0, 0, 1) both;
+  }
+  .hero-copy > p,
+  .hero-copy > a {
+    animation: hero-copy-in 1.2s 0.4s cubic-bezier(0.68, 0, 0, 1) both;
+  }
+  .readable-nav {
+    animation: nav-enter 1.1s 2.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+}
+@keyframes phone-arrive-left {
+  0%,
+  14.285% {
+    transform: translate(-50%, 1899px);
+  }
+  42.857%,
+  71.428% {
+    transform: translate(-50%, 0);
+  }
+  100% {
+    transform: translate(calc(-50% - var(--phone-spread)), var(--phone-offset));
+  }
+}
+@keyframes phone-arrive-right {
+  0%,
+  28.571% {
+    transform: translate(-50%, 1899px);
+  }
+  57.142%,
+  71.428% {
+    transform: translate(-50%, 0);
+  }
+  100% {
+    transform: translate(calc(-50% + var(--phone-spread)), var(--phone-offset));
+  }
+}
+@keyframes phone-arrive-center {
+  0%,
+  42.857% {
+    transform: translate(-50%, 1899px);
+    width: 268px;
+  }
+  71.428% {
+    transform: translate(-50%, 0);
+    width: 268px;
+  }
+  100% {
+    transform: translate(-50%, 0);
+    width: 309px;
+  }
+}
+@keyframes hero-title-in {
+  from {
+    opacity: 0.001;
+    translate: 0 40px;
+    scale: 0.9;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1;
+  }
+}
+@keyframes hero-copy-in {
+  from {
+    opacity: 0.001;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes nav-enter {
+  from {
+    opacity: 0.001;
+    translate: 0 -85px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+@media (max-width: 809px) {
+  .hero-phones {
+    --phone-spread: 98px;
+    --phone-offset: 27px;
+  }
+  .hero-phones .phone-center {
+    width: 135px;
+  }
+  .hero-phones .phone-side {
+    top: 0;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .hero-phones .phone-left {
+      animation: phone-fan-left 1s 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+    .hero-phones .phone-right {
+      animation: phone-fan-right 1s 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+    .hero-phones .phone-center {
+      animation: phone-fan-center 1s 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+    .readable-nav {
+      animation-delay: 0.8s;
+    }
+  }
+}
+@keyframes phone-fan-left {
+  from {
+    transform: translate(-50%, 0);
+  }
+  to {
+    transform: translate(calc(-50% - var(--phone-spread)), var(--phone-offset));
+  }
+}
+@keyframes phone-fan-right {
+  from {
+    transform: translate(-50%, 0);
+  }
+  to {
+    transform: translate(calc(-50% + var(--phone-spread)), var(--phone-offset));
+  }
+}
+@keyframes phone-fan-center {
+  from {
+    width: 117px;
+  }
+  to {
+    width: 135px;
   }
 }

@@ -124,7 +124,10 @@ export function Blog() {
       aria-labelledby="blog-title"
     >
       <div className="container readable-blog-container">
-        <div className="section-heading readable-blog-heading">
+        <div
+          data-motion="rise"
+          className="section-heading readable-blog-heading"
+        >
           <div className="eyebrow">
             <span>
               <Image
@@ -168,6 +171,7 @@ export function Blog() {
         </div>
         <div
           id="readable-blog-carousel"
+          data-motion="rise"
           className="readable-blog-viewport"
           ref={viewport}
           onScroll={handleScroll}

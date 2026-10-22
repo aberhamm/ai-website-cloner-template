@@ -47,7 +47,10 @@ export function HowItWorks() {
         />
       </svg>
       <div className="container readable-how-container">
-        <div className="section-heading readable-how-heading">
+        <div
+          data-motion="rise"
+          className="section-heading readable-how-heading"
+        >
           <span className="eyebrow readable-how-eyebrow">
             <span>
               <Workflow size={24} aria-hidden="true" />
@@ -67,6 +70,7 @@ export function HowItWorks() {
         <div className="readable-how-cards">
           {steps.map(({ title, description, words, Icon }, index) => (
             <article
+              data-motion="rise"
               className={`readable-how-card readable-how-card-${index + 1}`}
               key={title}
             >

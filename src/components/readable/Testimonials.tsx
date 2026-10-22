@@ -125,7 +125,10 @@ export function Testimonials() {
       aria-labelledby="testimonials-title"
     >
       <div className="container testimonials-container">
-        <div className="section-heading testimonials-heading">
+        <div
+          data-motion="rise"
+          className="section-heading testimonials-heading"
+        >
           <div className="eyebrow">
             <span>
               <Image
@@ -149,6 +152,7 @@ export function Testimonials() {
           <div className="testimonials-lanes">
             {[0, 1, 2].map((lane) => (
               <div
+                data-motion={lane === 1 ? "lane-down" : "lane-up"}
                 className={`testimonials-lane testimonials-lane-${lane}`}
                 key={lane}
               >

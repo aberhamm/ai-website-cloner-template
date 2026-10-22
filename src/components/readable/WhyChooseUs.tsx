@@ -53,7 +53,7 @@ export function WhyChooseUs() {
   }, []);
   return (
     <section id="why-choose-us" className="why-section">
-      <div className="why-heading">
+      <div data-motion="rise" className="why-heading">
         <span className="eyebrow">
           <Award />
           Why Choose Us
@@ -71,7 +71,7 @@ export function WhyChooseUs() {
         </div>
         <div className="why-bars">
           {reasons.map(({ title, number, Icon }) => (
-            <div className="why-bar" key={title}>
+            <div data-motion="drop" className="why-bar" key={title}>
               <span className="why-icon">
                 <Icon />
               </span>
@@ -81,7 +81,7 @@ export function WhyChooseUs() {
           ))}
         </div>
       </div>
-      <div className="why-stats" ref={statsRef}>
+      <div data-motion="rise" className="why-stats" ref={statsRef}>
         {stats.map((stat) => (
           <div key={stat.label}>
             <strong>

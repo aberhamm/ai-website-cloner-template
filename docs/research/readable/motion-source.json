@@ -1,0 +1,129 @@
+{
+  "appear": "{\"1lpep8y\":{\"default\":{\"initial\":{\"opacity\":0.001,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"x\":0,\"y\":-85},\"animate\":{\"opacity\":1,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"transition\":{\"damping\":40,\"delay\":2.5,\"mass\":1,\"stiffness\":150,\"type\":\"spring\"},\"x\":0,\"y\":0},\"transformTemplate\":\"translateX(-50%) __Appear_Animation_Transform__\"},\"aolx9s\":{\"initial\":{\"opacity\":0.001,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"x\":0,\"y\":-85},\"animate\":{\"opacity\":1,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"transition\":{\"damping\":40,\"delay\":2.5,\"mass\":1,\"stiffness\":150,\"type\":\"spring\"},\"x\":0,\"y\":0},\"transformTemplate\":\"translateX(-50%) __Appear_Animation_Transform__\"},\"b635xa\":{\"initial\":{\"opacity\":0.001,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"x\":0,\"y\":-85},\"animate\":{\"opacity\":1,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"transition\":{\"damping\":40,\"delay\":0.8,\"mass\":1,\"stiffness\":150,\"type\":\"spring\"},\"x\":0,\"y\":0},\"transformTemplate\":\"translateX(-50%) __Appear_Animation_Transform__\"}},\"4iklmz\":{\"default\":null,\"xndt5\":null,\"p70dvl\":{\"initial\":{\"opacity\":0.001,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"x\":0,\"y\":0},\"animate\":{\"opacity\":1,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"transition\":{\"delay\":0.4,\"duration\":1.2,\"ease\":[0.68,0,0,1],\"type\":\"tween\"},\"x\":0,\"y\":0}}},\"1i1n4nn\":{\"default\":null,\"xndt5\":null,\"p70dvl\":{\"initial\":{\"opacity\":0.001,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":0.9,\"skewX\":0,\"skewY\":0,\"x\":0,\"y\":40},\"animate\":{\"opacity\":1,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"transition\":{\"delay\":0,\"duration\":1.3,\"ease\":[0.68,0,0,1],\"type\":\"tween\"},\"x\":0,\"y\":0}}},\"18kca0w\":{\"default\":null,\"xndt5\":null,\"p70dvl\":{\"initial\":{\"opacity\":0.001,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"x\":0,\"y\":0},\"animate\":{\"opacity\":1,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"transition\":{\"delay\":0.4,\"duration\":1.2,\"ease\":[0.68,0,0,1],\"type\":\"tween\"},\"x\":0,\"y\":0}}},\"ihq3ou\":{\"default\":null,\"xndt5\":null,\"p70dvl\":{\"initial\":{\"opacity\":0.001,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"x\":0,\"y\":0},\"animate\":{\"opacity\":1,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"transition\":{\"delay\":0.4,\"duration\":1.2,\"ease\":[0.68,0,0,1],\"type\":\"tween\"},\"x\":0,\"y\":0}}}}",
+  "below": [
+    {
+      "name": "Header",
+      "cls": "framer-1iohk4z",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Step 1 Card",
+      "cls": "framer-lxx873-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Step 2 Card",
+      "cls": "framer-myajv5-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Step 3 Card",
+      "cls": "framer-vgczyb-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-80ez6y",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Card 1",
+      "cls": "framer-1vpz8cq",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Card 2 ",
+      "cls": "framer-1i72okx",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Card 3",
+      "cls": "framer-ph16hu",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "cls": "framer-31ckeh",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Card 4",
+      "cls": "framer-1j6sdwd-container",
+      "style": "will-change: transform; opacity: 0; transform: translateX(-50%) translateY(-200px);"
+    },
+    {
+      "name": "Card 2",
+      "cls": "framer-vp3t4s-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(-200px) rotate(10deg);"
+    },
+    {
+      "name": "Card 1",
+      "cls": "framer-g07d6c-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(-200px) rotate(-10deg);"
+    },
+    {
+      "name": "Card 3",
+      "cls": "framer-hvu1l9-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(-200px) rotate(-4.5deg);"
+    },
+    {
+      "name": "Data Container",
+      "cls": "framer-z2kt7v",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-heuvrs",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Left Ticker",
+      "cls": "framer-mw6g5c-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(160px);"
+    },
+    {
+      "cls": "",
+      "style": "display:flex;width:100%;height:100%;max-width:100%;max-height:100%;place-items:center;margin:0;padding:0;list-style-type:none;text-indent:none;gap:32px;position:relative;flex-direction:column;will-change:auto;transform:translateY(-0px)"
+    },
+    {
+      "name": "Middle Ticker",
+      "cls": "framer-pw1mn1-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(-160px);"
+    },
+    {
+      "cls": "",
+      "style": "display: flex; width: 100%; height: 100%; max-width: 100%; max-height: 100%; place-items: center; margin: 0px; padding: 0px; list-style-type: none; gap: 32px; position: relative; flex-direction: column; will-change: auto; transform: translateY(0px); top: -2512px;"
+    },
+    {
+      "name": "Right Ticker",
+      "cls": "framer-xtuosb-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(160px);"
+    },
+    {
+      "cls": "",
+      "style": "display:flex;width:100%;height:100%;max-width:100%;max-height:100%;place-items:center;margin:0;padding:0;list-style-type:none;text-indent:none;gap:32px;position:relative;flex-direction:column;will-change:auto;transform:translateY(-0px)"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-1r4iyfq",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "cls": "framer-77sjn4-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Header",
+      "cls": "framer-jk39hl",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Images Container",
+      "cls": "framer-qa4wf1",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "cls": "framer-162rota-container",
+      "style": "transform: translateY(-50%); opacity: 1;"
+    }
+  ]
+}

@@ -105,7 +105,7 @@ export function CTA() {
   return (
     <section className="readable-cta" id="download">
       <Glow />
-      <div className="cta-copy">
+      <div data-motion="rise" className="cta-copy">
         <div className="cta-icons" aria-hidden="true">
           <span>
             <BookOpen />
@@ -120,7 +120,7 @@ export function CTA() {
         <h2>Discover a Smarter, Simpler Way to Read Articles</h2>
         <DownloadButton />
       </div>
-      <div className="cta-phone">
+      <div data-motion="rise" className="cta-phone">
         <img
           src="/readable/k6V56eW3J98gR9GPbAmEhLz09Y.png"
           alt="Readable voice assistant app"

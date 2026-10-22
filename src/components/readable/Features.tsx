@@ -11,7 +11,10 @@ export function Features() {
       aria-labelledby="features-title"
     >
       <div className="container">
-        <div className="section-heading readable-features-heading">
+        <div
+          data-motion="rise"
+          className="section-heading readable-features-heading"
+        >
           <div className="eyebrow">
             <span>
               <Image
@@ -33,7 +36,7 @@ export function Features() {
           </div>
         </div>
         <div className="readable-features-bento">
-          <article className="readable-feature-smart">
+          <article data-motion="rise" className="readable-feature-smart">
             <Image
               className="readable-feature-gradient"
               src={asset("UH0Ycf3jr6Lbwyn8QMDSBsNX2GY.png")}
@@ -102,7 +105,10 @@ export function Features() {
             />
           </span>
           <div className="readable-features-bottom">
-            <article className="readable-feature-card readable-feature-voice">
+            <article
+              data-motion="rise"
+              className="readable-feature-card readable-feature-voice"
+            >
               <h3>Voice Assistant Built-In</h3>
               <p className="readable-feature-description">
                 Talk, don&apos;t type. Our hands-free voice assistant makes it
@@ -116,7 +122,10 @@ export function Features() {
                 alt="Readable voice assistant article view"
               />
             </article>
-            <article className="readable-feature-card readable-feature-summary">
+            <article
+              data-motion="rise"
+              className="readable-feature-card readable-feature-summary"
+            >
               <h3>On-Demand Summaries</h3>
               <p className="readable-feature-description">
                 Pressed for time? Get clear, concise summaries of any article,
