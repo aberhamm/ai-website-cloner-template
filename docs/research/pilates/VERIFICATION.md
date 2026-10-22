@@ -12,8 +12,8 @@ Booking and policy dialogs use concise demo content. The source has no configure
 
 Lint, TypeScript, and Next.js production build pass.
 
-Worktree ownership: root created pilates-clone, pilates-schedule, pilates-faq, and pilates-pricing under the primary project's .worktrees directory. The three worker worktrees were removed after their changes were integrated into pilates-clone. The completed pilates-clone worktree is retained because it serves the active preview at localhost:3017 and the primary checkout independently advanced with another clone. Root owns its cleanup after the preview is stopped and the user integrates or discards the copy. Existing unrelated worktrees are untouched.
+Worktree cleanup: the four task-owned Pilates worktrees (pilates-clone, pilates-schedule, pilates-faq, and pilates-pricing) have been removed after integration. The preview process was stopped. Evidence and assets are preserved in the main checkout. Unrelated active worktrees remain untouched.
 
 ## Integration
 
-Pilates is integrated at `/pilates` with a separate route-group root layout and stylesheet. A concurrent Folio merge superseded the Readable site on master; Folio keeps `/`, `/contact`, `/pricing`, `/privacy`, and `/terms` exactly as that merge configured them. Both active sites preserve their own fonts and metadata. The default repository branch is `master`. Root will remove the Pilates worktree after the merged commit is pushed and no preview process uses it.
+Pilates is integrated at `/pilates` with a separate route-group root layout and stylesheet. A concurrent Folio merge superseded the Readable site on master; Folio keeps `/`, `/contact`, `/pricing`, `/privacy`, and `/terms` exactly as that merge configured them. Both active sites preserve their own fonts and metadata. The default repository branch is `master`. The combined project passed lint, TypeScript, production build, and browser checks for both active sites. Integration commit `cf5a8b1` was pushed to `origin/master` before the final Pilates worktree was removed.
