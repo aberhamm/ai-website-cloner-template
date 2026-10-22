@@ -2,7 +2,7 @@
 
 Source: https://21st-pilates.vercel.app/
 
-Built ten main sections, header, footer, and a shared interaction controller. Twelve component specifications preserve the extracted DOM/classes and computed styles. Thirteen assets are local: four PNG images, two SVG marks, and seven variable font subsets. The source's exact compiled stylesheet is retained so its responsive utility values remain faithful.
+Built ten main sections, header, footer, and a shared interaction controller. Thirteen component specifications preserve the extracted DOM/classes and computed styles. Thirteen assets are local: four PNG images, two SVG marks, and seven variable font subsets. The source's exact compiled stylesheet is retained so its responsive utility values remain faithful.
 
 Desktop screenshots at 1440×1000 and mobile screenshots at 390×844 match the original hero crop, typography, colors, spacing, cards, and portraits. Full desktop page height matches at 6477px. No horizontal document overflow at 390, 768, or 1440px. Images and local fonts load successfully.
 
@@ -12,4 +12,4 @@ Booking and policy dialogs use concise demo content. The source has no configure
 
 Lint, TypeScript, and Next.js production build pass.
 
-Worktree ownership: root created pilates-clone, pilates-schedule, pilates-faq, and pilates-pricing under the primary project's .worktrees directory. Root owns removal after integration and stopping its preview process. Existing unrelated worktrees are untouched.
+Worktree ownership: root created pilates-clone, pilates-schedule, pilates-faq, and pilates-pricing under the primary project's .worktrees directory. The three worker worktrees were removed after their changes were integrated into pilates-clone. The completed pilates-clone worktree is retained because it serves the active preview at localhost:3017 and the primary checkout independently advanced with another clone. Root owns its cleanup after the preview is stopped and the user integrates or discards the copy. Existing unrelated worktrees are untouched.
