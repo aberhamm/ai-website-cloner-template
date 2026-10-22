@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { CardReadMore } from "./CardReadMore";
+import { springProgress } from "@/lib/readable-motion";
 import { useEffect, useRef } from "react";
 import "./Blog.css";
 
@@ -43,14 +45,17 @@ const articles = [
 export function Blog() {
   const viewport = useRef<HTMLDivElement>(null);
   const frame = useRef(0);
-  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const animating = useRef(false);
+  const pendingTarget = useRef<number | null>(null);
 
   function stepSize() {
     const card = viewport.current?.querySelector<HTMLElement>(
       ".readable-blog-card",
     );
-    return card ? card.getBoundingClientRect().width + 30 : 430;
+    const gap = viewport.current
+      ? Number.parseFloat(getComputedStyle(viewport.current).columnGap)
+      : 30;
+    return card ? card.getBoundingClientRect().width + gap : 430;
   }
 
   function normalize() {
@@ -67,55 +72,62 @@ export function Blog() {
     const resize = new ResizeObserver(() => {
       cancelAnimationFrame(frame.current);
       animating.current = false;
+      pendingTarget.current = null;
       element.scrollLeft = stepSize() * articles.length;
     });
     resize.observe(element);
     return () => {
       resize.disconnect();
       cancelAnimationFrame(frame.current);
-      if (timer.current) clearTimeout(timer.current);
     };
   }, []);
 
   function move(direction: number) {
     const element = viewport.current;
-    if (!element || animating.current) return;
-    if (timer.current) clearTimeout(timer.current);
-    normalize();
+    if (!element) return;
+    cancelAnimationFrame(frame.current);
     const step = stepSize();
+    const cycle = step * articles.length;
+    if (pendingTarget.current !== null) {
+      while (pendingTarget.current < cycle) {
+        element.scrollLeft += cycle;
+        pendingTarget.current += cycle;
+      }
+      while (pendingTarget.current >= cycle * 2) {
+        element.scrollLeft -= cycle;
+        pendingTarget.current -= cycle;
+      }
+    } else normalize();
     const start = element.scrollLeft;
-    const target = (Math.round(start / step) + direction) * step;
-    const duration = window.matchMedia("(prefers-reduced-motion: reduce)")
-      .matches
-      ? 0
-      : 400;
+    const target =
+      pendingTarget.current !== null
+        ? pendingTarget.current + direction * step
+        : (Math.round(start / step) + direction) * step;
+    pendingTarget.current = target;
+    const reduced = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
     const began = performance.now();
     animating.current = true;
     function animate(now: number) {
       if (!element) return;
-      const progress =
-        duration === 0 ? 1 : Math.min(1, (now - began) / duration);
-      const eased =
-        progress < 0.5 ? 4 * progress ** 3 : 1 - (-2 * progress + 2) ** 3 / 2;
-      element.scrollLeft = start + (target - start) * eased;
-      if (progress < 1) frame.current = requestAnimationFrame(animate);
+      const elapsed = (now - began) / 1000;
+      const progress = reduced ? 1 : springProgress(elapsed);
+      element.scrollLeft = start + (target - start) * progress;
+      if (
+        !reduced &&
+        elapsed < 2 &&
+        Math.abs(target - element.scrollLeft) > 0.1
+      )
+        frame.current = requestAnimationFrame(animate);
       else {
+        element.scrollLeft = target;
         animating.current = false;
+        pendingTarget.current = null;
         normalize();
       }
     }
     frame.current = requestAnimationFrame(animate);
-  }
-
-  function handleScroll() {
-    if (animating.current) return;
-    if (timer.current) clearTimeout(timer.current);
-    timer.current = setTimeout(normalize, 160);
-  }
-
-  function cancelAnimation() {
-    cancelAnimationFrame(frame.current);
-    animating.current = false;
   }
 
   return (
@@ -175,9 +187,6 @@ export function Blog() {
           data-motion="rise"
           className="readable-blog-viewport"
           ref={viewport}
-          onScroll={handleScroll}
-          onPointerDown={cancelAnimation}
-          onWheel={cancelAnimation}
           onKeyDown={(event) => {
             if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
               event.preventDefault();
@@ -190,7 +199,10 @@ export function Blog() {
         >
           {[0, 1, 2].flatMap((copy) =>
             articles.map((article) => (
-              <article
+              <Link
+                href={`/blog-index/${article.slug}`}
+                aria-label={`Read more: ${article.title}`}
+                tabIndex={copy !== 1 ? -1 : undefined}
                 key={`${copy}-${article.slug}`}
                 className={`readable-blog-card readable-blog-${article.color}`}
                 aria-hidden={copy !== 1 ? true : undefined}
@@ -198,14 +210,7 @@ export function Blog() {
                 <div className="readable-blog-card-content">
                   <h3>{article.title}</h3>
                   <p>{article.description}</p>
-                  <Link
-                    href={`/blog-index/${article.slug}`}
-                    className="readable-blog-read-more"
-                    aria-label={`Read more: ${article.title}`}
-                    tabIndex={copy !== 1 ? -1 : undefined}
-                  >
-                    Read More<span aria-hidden="true">↗</span>
-                  </Link>
+                  <CardReadMore />
                 </div>
                 <Image
                   src={`/readable/${article.image}`}
@@ -214,7 +219,7 @@ export function Blog() {
                   alt=""
                   className="readable-blog-illustration"
                 />
-              </article>
+              </Link>
             )),
           )}
         </div>

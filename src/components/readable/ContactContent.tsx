@@ -58,7 +58,8 @@ export function ContactContent() {
           >
             <Eyebrow icon="hO44sjUFP3idS9BBz8iwQTeyaI.svg">Contact Us</Eyebrow>
             <WordHeading id="contact-heading">
-              Whether it’s a question, suggestion, or just a hello—drop it below.
+              Whether it’s a question, suggestion, or just a hello—drop it
+              below.
             </WordHeading>
             <p>
               We’ll get back to you faster than your favorite anime character

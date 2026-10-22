@@ -239,3 +239,27 @@
     padding: 0 20px;
   }
 }
+.readable-footer-link-group a:is(:hover, :focus-visible) {
+  color: #f4d1ff;
+}
+.readable-footer-form button {
+  position: relative;
+  isolation: isolate;
+  background: linear-gradient(147.792deg, #746e8b, #3a344f);
+}
+.readable-footer-form button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: linear-gradient(147.792deg, #3a344f, #746e8b);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.readable-footer-form button:hover {
+  filter: none;
+}
+.readable-footer-form button:is(:hover, :focus-visible)::before {
+  opacity: 1;
+}

@@ -7,7 +7,8 @@ import { Motion } from "@/components/readable/Motion";
 
 export const metadata: Metadata = {
   title: "Contact | Readable",
-  description: "Whether it’s a question, suggestion, or just a hello—drop it below.",
+  description:
+    "Whether it’s a question, suggestion, or just a hello—drop it below.",
 };
 
 export default function ContactPage() {
@@ -17,7 +18,7 @@ export default function ContactPage() {
       <Nav />
       <main>
         <ContactContent />
-        <Testimonials />
+        <Testimonials reveal={false} />
         <CTA />
       </main>
       <Footer />

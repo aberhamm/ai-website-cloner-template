@@ -244,3 +244,26 @@
     font-size: 26px;
   }
 }
+.readable-how-word-row {
+  animation: none;
+}
+.readable-how-word-row:nth-child(3) {
+  animation-duration: 0s;
+}
+.readable-how-icon:hover {
+  transform: translateX(-50%);
+}
+@media (min-width: 810px) and (max-width: 1199px) {
+  .readable-how-card[data-motion] {
+    --motion-delay: 0.2s;
+  }
+}
+.readable-how-words {
+  mask-image: linear-gradient(
+    90deg,
+    transparent,
+    black 25%,
+    black 75%,
+    transparent
+  );
+}

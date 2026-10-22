@@ -199,3 +199,27 @@ input:focus-visible {
     transition: none !important;
   }
 }
+.dark-button {
+  position: relative;
+  isolation: isolate;
+  background: linear-gradient(147.792deg, #746e8b, #3a344f);
+}
+.dark-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: linear-gradient(147.792deg, #3a344f, #746e8b);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.dark-button:hover {
+  transform: none;
+  box-shadow:
+    inset 0 1px 1px #ffffff55,
+    0 2px 5px #28223622;
+}
+.dark-button:is(:hover, :focus-visible)::before {
+  opacity: 1;
+}

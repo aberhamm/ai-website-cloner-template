@@ -1,6 +1,6 @@
+import { CardReadMore } from "./CardReadMore";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
 import { CTA, Glow, Nav } from "./Hero";
 import { Footer } from "./Footer";
 import { Motion } from "./Motion";
@@ -92,10 +92,7 @@ export function BlogIndex() {
                   <h2>{article.title}</h2>
                   <p>{article.description}</p>
                 </div>
-                <span className="blog-index-read-more">
-                  Read More
-                  <span aria-hidden="true"><ArrowUpRight size={20} /></span>
-                </span>
+                <CardReadMore />
               </div>
               <Image
                 src={`/readable/${article.image}`}

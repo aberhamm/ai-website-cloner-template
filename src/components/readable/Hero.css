@@ -540,3 +540,77 @@
     width: 135px;
   }
 }
+/* Verified source entrance: the panel zooms out before the word title appears. */
+@media (prefers-reduced-motion: no-preference) {
+  .hero-panel {
+    animation: hero-panel-enter 3s 0.75s cubic-bezier(0.68, 0, 0, 0.99) both;
+  }
+  .hero-copy {
+    animation: hero-copy-in 1.2s 1.9s cubic-bezier(0.68, 0, 0, 1) both;
+  }
+  .hero-copy h1 {
+    animation: none;
+  }
+  .hero-phones {
+    animation: hero-phone-group 1s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+}
+@keyframes hero-panel-enter {
+  from {
+    transform: translateY(-460px) scale(2);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes hero-phone-group {
+  from {
+    transform: translateY(-300px) scale(1.2);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes hero-phone-group-mobile {
+  from {
+    transform: translateY(100px) scale(0.8);
+  }
+  to {
+    transform: none;
+  }
+}
+@media (max-width: 809px) and (prefers-reduced-motion: no-preference) {
+  .hero-panel,
+  .hero-copy {
+    animation: none;
+  }
+  .hero-copy h1 {
+    animation: hero-title-in 1.3s cubic-bezier(0.68, 0, 0, 1) both;
+  }
+  .hero-phones {
+    animation: hero-phone-group-mobile 1s 0.6s cubic-bezier(0.16, 1, 0.3, 1)
+      both;
+  }
+}
+.readable-nav nav > a:not(.nav-logo) {
+  color: #d2d2d2;
+  transition: color 0.2s;
+}
+.readable-nav nav > a:hover {
+  opacity: 1;
+  color: #f4d1ff;
+}
+.readable-nav nav > a[aria-current="page"] {
+  color: #f4d1ff;
+}
+.cta-icons span:nth-child(2) {
+  transform: none;
+}
+.cta-icons img {
+  width: 29px;
+  height: 28px;
+}
+.cta-icons span:nth-child(2) img {
+  width: 35px;
+  height: 34px;
+}

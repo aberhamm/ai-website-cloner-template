@@ -1,0 +1,73 @@
+{
+  "hero": {
+    "words": 6,
+    "delays": [
+      "2.2s",
+      "2.25s",
+      "2.3s",
+      "2.35s",
+      "2.4s",
+      "2.45s"
+    ],
+    "panelAnimation": "hero-panel-enter"
+  },
+  "downloadHover": {
+    "overlay": "1",
+    "transform": "none"
+  },
+  "wordRate": {
+    "duration": 20772.5,
+    "distance": 519.3125,
+    "pixelsPerSecond": 25,
+    "state": "running"
+  },
+  "testimonialRate": {
+    "duration": 35885.71428571428,
+    "distance": 1256,
+    "pixelsPerSecond": 35,
+    "state": "running"
+  },
+  "testimonialHover": {
+    "state": "running"
+  },
+  "ctaEntry": {
+    "scale": "1"
+  },
+  "ctaExit": {
+    "scale": "1.2",
+    "loopState": "paused"
+  },
+  "carouselBefore": {
+    "left": 1720,
+    "cardWidth": 400,
+    "gap": "30px"
+  },
+  "carouselPressed": {
+    "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)"
+  },
+  "carouselNext": {
+    "left": 2150
+  },
+  "carouselPrevious": {
+    "left": 1720
+  },
+  "cardHover": {
+    "left": "-94px",
+    "arrow": "132px"
+  },
+  "imageLink": "http://localhost:3112/blog-index/why-your-mood-deserves-better-content",
+  "mobileCarouselBefore": {
+    "left": 1360,
+    "width": 320,
+    "gap": "20px",
+    "overflow": "hidden"
+  },
+  "mobileCarouselAfter": {
+    "left": 1700
+  },
+  "reducedMotion": {
+    "hidden": 0,
+    "animations": 0,
+    "counters": "$\n55\nM+\n\nFewer Search Frustrations\n\n96\n%\n\nOur Customer Retention\n\n85\n%\n\nReport Feeling More Informed\n\n100\n%\n\nLess Time Wasted Searching"
+  }
+}

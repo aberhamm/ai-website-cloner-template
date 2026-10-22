@@ -20,6 +20,7 @@ export function Motion() {
       (entries) => {
         entries.forEach((entry) => {
           const element = entry.target as HTMLElement;
+          element.dataset.inView = String(entry.isIntersecting);
           const visible =
             entry.isIntersecting &&
             entry.intersectionRatio >=
@@ -30,7 +31,11 @@ export function Motion() {
             !preference.matches
           )
             element.removeAttribute("data-visible");
-          if (visible && element.dataset.motionRepeat !== "true")
+          if (
+            visible &&
+            element.dataset.motionRepeat !== "true" &&
+            element.dataset.motionLoop !== "true"
+          )
             observer.unobserve(element);
         });
       },

@@ -1,3 +1,4 @@
+import { LoopTrack } from "./LoopTrack";
 import Image from "next/image";
 import "./Testimonials.css";
 
@@ -117,7 +118,7 @@ function TestimonialCard({ item }: { item: (typeof testimonials)[number] }) {
   );
 }
 
-export function Testimonials() {
+export function Testimonials({ reveal = true }: { reveal?: boolean } = {}) {
   return (
     <section
       className="section readable-testimonials"
@@ -126,7 +127,7 @@ export function Testimonials() {
     >
       <div className="container testimonials-container">
         <div
-          data-motion="rise"
+          data-motion={reveal ? "rise" : undefined}
           className="section-heading testimonials-heading"
         >
           <div className="eyebrow">
@@ -156,7 +157,12 @@ export function Testimonials() {
                 className={`testimonials-lane testimonials-lane-${lane}`}
                 key={lane}
               >
-                <div className="testimonials-track">
+                <LoopTrack
+                  className="testimonials-track"
+                  axis="y"
+                  speed={35}
+                  reverse={lane === 1}
+                >
                   {[0, 1].map((copy) => (
                     <div
                       className="testimonials-group"
@@ -170,7 +176,7 @@ export function Testimonials() {
                         ))}
                     </div>
                   ))}
-                </div>
+                </LoopTrack>
               </div>
             ))}
           </div>

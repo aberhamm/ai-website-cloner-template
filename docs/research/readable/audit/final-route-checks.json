@@ -1,0 +1,142 @@
+[
+  {
+    "path": "/",
+    "viewport": 1440,
+    "width": 1440,
+    "titleWords": 6,
+    "missing": [],
+    "pending": [],
+    "remote": [],
+    "articleCardAnchors": 12
+  },
+  {
+    "path": "/blog-index",
+    "viewport": 1440,
+    "width": 1440,
+    "titleWords": 6,
+    "missing": [],
+    "pending": [],
+    "remote": [],
+    "articleCardAnchors": 0
+  },
+  {
+    "path": "/contact",
+    "viewport": 1440,
+    "width": 1440,
+    "titleWords": 11,
+    "missing": [],
+    "pending": [],
+    "remote": [],
+    "articleCardAnchors": 0
+  },
+  {
+    "path": "/blog-index/why-your-mood-deserves-better-content",
+    "viewport": 1440,
+    "width": 1440,
+    "titleWords": 6,
+    "missing": [],
+    "pending": [],
+    "remote": [],
+    "articleCardAnchors": 12
+  },
+  {
+    "path": "/blog-index/article-summaries-that-make-sense",
+    "viewport": 1440,
+    "width": 1440,
+    "titleWords": 5,
+    "missing": [],
+    "pending": [],
+    "remote": [],
+    "articleCardAnchors": 12
+  },
+  {
+    "path": "/blog-index/why-scrolling-is-out-and-speaking-is-in",
+    "viewport": 1440,
+    "width": 1440,
+    "titleWords": 8,
+    "missing": [],
+    "pending": [],
+    "remote": [],
+    "articleCardAnchors": 12
+  },
+  {
+    "path": "/blog-index/how-to-do-online-dating-as-weebs",
+    "viewport": 1440,
+    "width": 1440,
+    "titleWords": 7,
+    "missing": [],
+    "pending": [],
+    "remote": [],
+    "articleCardAnchors": 12
+  },
+  {
+    "path": "/",
+    "viewport": 390,
+    "width": 390,
+    "titleWords": 6,
+    "missing": [],
+    "pending": [],
+    "remote": [],
+    "articleCardAnchors": 12
+  },
+  {
+    "path": "/blog-index",
+    "viewport": 390,
+    "width": 390,
+    "titleWords": 6,
+    "missing": [],
+    "pending": [],
+    "remote": [],
+    "articleCardAnchors": 0
+  },
+  {
+    "path": "/contact",
+    "viewport": 390,
+    "width": 390,
+    "titleWords": 11,
+    "missing": [],
+    "pending": [],
+    "remote": [],
+    "articleCardAnchors": 0
+  },
+  {
+    "path": "/blog-index/why-your-mood-deserves-better-content",
+    "viewport": 390,
+    "width": 390,
+    "titleWords": 6,
+    "missing": [],
+    "pending": [],
+    "remote": [],
+    "articleCardAnchors": 12
+  },
+  {
+    "path": "/blog-index/article-summaries-that-make-sense",
+    "viewport": 390,
+    "width": 390,
+    "titleWords": 5,
+    "missing": [],
+    "pending": [],
+    "remote": [],
+    "articleCardAnchors": 12
+  },
+  {
+    "path": "/blog-index/why-scrolling-is-out-and-speaking-is-in",
+    "viewport": 390,
+    "width": 390,
+    "titleWords": 8,
+    "missing": [],
+    "pending": [],
+    "remote": [],
+    "articleCardAnchors": 12
+  },
+  {
+    "path": "/blog-index/how-to-do-online-dating-as-weebs",
+    "viewport": 390,
+    "width": 390,
+    "titleWords": 7,
+    "missing": [],
+    "pending": [],
+    "remote": [],
+    "articleCardAnchors": 12
+  }
+]
