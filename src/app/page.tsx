@@ -1,26 +1,37 @@
-import { Nav, Hero, CTA } from "@/components/readable/Hero";
-import { HowItWorks } from "@/components/readable/HowItWorks";
-import { Features } from "@/components/readable/Features";
-import { WhyChooseUs } from "@/components/readable/WhyChooseUs";
-import { Testimonials } from "@/components/readable/Testimonials";
-import { Footer } from "@/components/readable/Footer";
-import { Blog } from "@/components/readable/Blog";
-import { Motion } from "@/components/readable/Motion";
+import { Header } from "@/components/forma/Header";
+import { Hero } from "@/components/forma/Hero";
+import { Difference } from "@/components/forma/Difference";
+import { Classes } from "@/components/forma/Classes";
+import { Schedule } from "@/components/forma/Schedule";
+import { Pricing } from "@/components/forma/Pricing";
+import { Instructors } from "@/components/forma/Instructors";
+import { Testimonials } from "@/components/forma/Testimonials";
+import { Visit } from "@/components/forma/Visit";
+import { FAQ } from "@/components/forma/FAQ";
+import { Intro } from "@/components/forma/Intro";
+import { Footer } from "@/components/forma/Footer";
+import { Interactions } from "@/components/forma/Interactions";
+
 export default function Home() {
   return (
-    <>
-      <Motion />
-      <Nav />
-      <main>
+    <Interactions>
+      <a href="#main" className="forma-skip">
+        Skip to content
+      </a>
+      <Header />
+      <main id="main">
         <Hero />
-        <HowItWorks />
-        <Features />
-        <WhyChooseUs />
+        <Difference />
+        <Classes />
+        <Schedule />
+        <Pricing />
+        <Instructors />
         <Testimonials />
-        <Blog />
-        <CTA />
+        <Visit />
+        <FAQ />
+        <Intro />
       </main>
       <Footer />
-    </>
+    </Interactions>
   );
 }
