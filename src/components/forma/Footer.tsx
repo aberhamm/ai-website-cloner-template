@@ -1,9 +1,9 @@
-/* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 export function Footer() {
   return (
     <footer className="bg-white">
       <div className="mx-auto w-full max-w-[1600px] px-gutter flex flex-col gap-10 py-10 max-mobile:gap-8 max-mobile:py-8">
-        <a
+        <Link
           className="inline-flex max-mobile:[&_.brand-mark]:w-[34px]"
           aria-label="Forma, home"
           href="/"
@@ -12,7 +12,7 @@ export function Footer() {
             <span className="brand-mark" aria-hidden="true"></span>
             <span>{"forma"}</span>
           </span>
-        </a>
+        </Link>
         <div className="flex justify-between gap-8 max-mobile:grid max-mobile:grid-cols-2 max-mobile:gap-5">
           <nav
             className="flex gap-8 text-[13px]/5 max-mobile:flex-col max-mobile:items-start max-mobile:gap-1 max-mobile:text-[15px]/6"

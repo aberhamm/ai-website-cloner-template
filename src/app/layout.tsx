@@ -3,6 +3,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Forma — Pilates, redefined",
   description: "Small-group reformer Pilates. Right here in South Austin.",
+  icons: { icon: "/images/brand-mark.svg" },
 };
 export default function RootLayout({
   children,

@@ -61,6 +61,37 @@ export function Interactions({ children }: { children: ReactNode }) {
     const onScroll = () =>
       header?.setAttribute("data-scrolled", String(window.scrollY > 20));
     onScroll();
+    const onPhotoMove = (event: PointerEvent) => {
+      if (
+        window.matchMedia("(prefers-reduced-motion: reduce), (pointer: coarse)")
+          .matches
+      )
+        return;
+      const photo = (event.target as HTMLElement).closest<HTMLElement>(
+        ".instructor-photo",
+      );
+      if (!photo) return;
+      const rect = photo.getBoundingClientRect();
+      photo.style.setProperty(
+        "--photo-tilt-x",
+        `${((event.clientY - rect.top) / rect.height - 0.5) * -8}deg`,
+      );
+      photo.style.setProperty(
+        "--photo-tilt-y",
+        `${((event.clientX - rect.left) / rect.width - 0.5) * 8}deg`,
+      );
+    };
+    const onPhotoLeave = (event: PointerEvent) => {
+      const photo = (event.target as HTMLElement).closest<HTMLElement>(
+        ".instructor-photo",
+      );
+      if (photo && !photo.contains(event.relatedTarget as Node | null)) {
+        photo.style.removeProperty("--photo-tilt-x");
+        photo.style.removeProperty("--photo-tilt-y");
+      }
+    };
+    document.addEventListener("pointermove", onPhotoMove, { passive: true });
+    document.addEventListener("pointerout", onPhotoLeave, { passive: true });
     window.addEventListener("scroll", onScroll, { passive: true });
     const onDialog = (event: Event) =>
       setContent((event as CustomEvent<StudioDialog>).detail);
@@ -90,6 +121,8 @@ export function Interactions({ children }: { children: ReactNode }) {
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("forma:dialog", onDialog);
       observer.disconnect();
+      document.removeEventListener("pointermove", onPhotoMove);
+      document.removeEventListener("pointerout", onPhotoLeave);
     };
   }, []);
 
@@ -115,7 +148,7 @@ export function Interactions({ children }: { children: ReactNode }) {
 
   function onClick(event: MouseEvent<HTMLDivElement>) {
     const button = (event.target as HTMLElement).closest("button");
-    if (!button || button.disabled) return;
+    if (!button || button.disabled || button.closest("dialog")) return;
     const label = button.textContent?.trim() ?? "";
     trigger.current = button;
     if (button.closest("#classes")) {
@@ -157,10 +190,12 @@ export function Interactions({ children }: { children: ReactNode }) {
     }
   }
   function closeDialog() {
+    dialog.current?.close();
     setContent(null);
     trigger.current?.focus();
   }
   function closeMenu() {
+    menu.current?.close();
     setMenuOpen(false);
     trigger.current?.focus();
   }

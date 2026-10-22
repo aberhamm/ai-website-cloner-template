@@ -1,12 +1,12 @@
-/* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 export function Header() {
   return (
     <header
       className="fixed inset-x-0 top-0 z-20 bg-transparent backdrop-blur-none transition-[background-color,backdrop-filter] duration-300 ease-in-out data-[scrolled=true]:bg-white/30 data-[scrolled=true]:backdrop-blur-[24px]"
-      data-scrolled="true"
+      data-scrolled="false"
     >
       <div className="mx-auto w-full max-w-[1600px] px-gutter flex min-h-[52px] items-center justify-between py-2 max-mobile:min-h-14 max-mobile:px-4">
-        <a
+        <Link
           className="inline-flex max-mobile:[&_.brand-mark]:w-[34px]"
           aria-label="Forma, home"
           href="/"
@@ -15,7 +15,7 @@ export function Header() {
             <span className="brand-mark" aria-hidden="true"></span>
             <span>{"forma"}</span>
           </span>
-        </a>
+        </Link>
         <nav
           className="flex items-center gap-6 text-sm/4 max-mobile:hidden"
           aria-label="Main navigation"

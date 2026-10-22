@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 export function Visit() {
   return (
     <section id="visit" className="bg-muted">

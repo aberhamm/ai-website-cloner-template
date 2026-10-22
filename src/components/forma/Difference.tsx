@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 export function Difference() {
   return (
     <section className="bg-muted" aria-label="The Forma difference">
