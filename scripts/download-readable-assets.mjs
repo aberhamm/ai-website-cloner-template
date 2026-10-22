@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+const research=JSON.parse(await fs.readFile('docs/research/readable/extraction.json','utf8'));
+const detail=JSON.parse(await fs.readFile('docs/research/readable/detail.json','utf8'));
+const urls=[...new Set([...research.images,...detail.images].map(x=>x.src).filter(x=>x?.startsWith('https:')))];
+for(const css of research.fontCSS) if(css.includes('U+0000-00FF')&&css.includes('font-style:normal')) urls.push(css.match(/url\((.*?)\)/)[1]);
+await fs.mkdir('public/readable',{recursive:true});
+const manifest={};
+for(let i=0;i<urls.length;i+=4)await Promise.all(urls.slice(i,i+4).map(async url=>{const name=path.basename(new URL(url).pathname);const res=await fetch(url);if(!res.ok)throw Error(url);await fs.writeFile('public/readable/'+name,Buffer.from(await res.arrayBuffer()));manifest[url]='/readable/'+name;}));
+await fs.writeFile('docs/research/readable/assets.json',JSON.stringify(manifest,null,2));
+console.log(Object.keys(manifest).length+' assets downloaded');

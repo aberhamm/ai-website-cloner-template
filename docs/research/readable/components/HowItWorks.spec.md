@@ -1,0 +1,7 @@
+# HowItWorks
+Target src/components/readable/HowItWorks.tsx; named export. Reference docs/design-references/readable/top.png.
+DOM: section#how-it-works > .container > section heading + three cards.
+Computed: section padding120px 40px; container max1280px; header gap68px to cards. Eyebrow How it works. h2 48px/57.6 weight400 #323140 width602. Subtitle right 16px/22.4 #94939d. Cards gap24px each width411 height469 radius20 padding24; backgrounds #c5d8ff,#f1d3ff,#dcd0ff. Top number badge 01/02/03 white outlined circle. Bottom title24/28.8. White icon tile centered, three large moving word rows behind. White connecting line behind cards down below section.
+Text: Find the Right Articles Without Typing a Word. Let your voice guide you—our AI listens, understands, and delivers exactly what you're in the mood for.
+Cards: Start Talking — Start by tapping the mic and saying what you’re looking for—no typing needed. Words Speak,Record,Send. Let AI Work — Our system quickly finds and summarizes content that matches your mood. Words Ask,Receive,Trust. Read or Listen — Get short summaries, full articles, or audio versions—your call, your flow. Words Share,Build,Grow.
+Time-driven marquees, alternate directions per row; icon hover scale .2sec. No clicks. Mobile <=809 cards stack width100%, about469px tall, heading32px, padding24; reference mobile-loaded.png. Use lucide icons Mic,BookOpen,AudioLines. Use shared .section .container .section-heading .eyebrow. Local scoped CSS HowItWorks.css. All values available in HowItWorks.computed.json.

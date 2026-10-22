@@ -1,0 +1,1 @@
+Fixed nav; Hero (1043px desktop); How It Works (960px); Features bento (1910px); Why Choose Us (1002px); Testimonials (1234px); Blog carousel (1137px); CTA (937px); Footer (415px). Desktop container max-width 1280px, typical section padding 120px 40px. Reference images captured at 1440,768,390. Source data and computed styles preserved in JSON.
