@@ -1,0 +1,2 @@
+Font: original self-hosted Inter variable Latin WOFF2, weights400/500/600. Body14px/20px, tableheader12px/16px, detaillabel13px/19.5px,detailtitle24px/30px500with-.6pxtracking.
+Colors white#fff,foreground#0a0a0a,muted#737373,border#e5e5e5,sidebar#fafafa,active#ededed,overdue#ff001c. Buttons4pxradius28/32pxh. Modal8pxradius. Boardcards12pxradius. Sidebar256px;pageheader41px;toolbar45px. All values extracted via computed styles/captured DOM. No image assets on the CRM; all icons sourceLucide.
