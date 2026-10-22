@@ -172,3 +172,29 @@
 .readable-blog-heading .eyebrow {
   margin-bottom: 0;
 }
+.readable-blog-viewport {
+  overflow-x: hidden;
+  overflow-anchor: none;
+}
+.readable-blog-controls button {
+  transition: transform 0.15s;
+}
+.readable-blog-controls button:hover {
+  transform: none;
+}
+.readable-blog-controls button:active {
+  transform: scale(0.9);
+}
+@media (max-width: 809px) {
+  .readable-blog {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .readable-blog-viewport {
+    gap: 20px;
+  }
+  .readable-blog-card {
+    width: 320px;
+    flex-basis: 320px;
+  }
+}

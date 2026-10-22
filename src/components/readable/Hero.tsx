@@ -1,11 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-import {
-  ArrowDown,
-  ArrowUpRight,
-  AudioLines,
-  BookOpen,
-  Sparkles,
-} from "lucide-react";
+import { WordHeading } from "./WordHeading";
+export { Nav } from "./SiteNavigation";
+import { ArrowDown, ArrowUpRight, Sparkles } from "lucide-react";
 import "./Hero.css";
 const checkout =
   "https://buy.polar.sh/polar_cl_fDPipgYkKQBrQPiTxQvLdLqKdnqoNn1zL41Zj2t24LR";
@@ -14,22 +10,6 @@ export function DownloadButton() {
     <a className="dark-button" href={checkout}>
       Download For Free <ArrowUpRight aria-hidden="true" />
     </a>
-  );
-}
-export function Nav() {
-  return (
-    <header className="readable-nav">
-      <nav aria-label="Main navigation">
-        <a href="#" aria-label="Readable home" className="nav-logo">
-          <img src="/readable/aTHWZjlwriiOo8Qpy2DtD6NQD4.png" alt="" />
-        </a>
-        <a href="https://readable.framer.website/blog-index">Blog</a>
-        <a href="https://readable.framer.website/contact">Contact</a>
-        <a className="nav-template" href={checkout}>
-          Get Template <ArrowUpRight size={12} />
-        </a>
-      </nav>
-    </header>
   );
 }
 export function Glow() {
@@ -73,7 +53,9 @@ export function Hero() {
             </span>
             Join our waitlist and claim instant offer <ArrowUpRight size={12} />
           </a>
-          <h1>Seamless Article Discovery with AI-Powered Search</h1>
+          <WordHeading start="hero">
+            Seamless Article Discovery with AI-Powered Search
+          </WordHeading>
           <p>
             Our pre recorded sessions contain all the essentials to help you fix
             your mood in few sessions
@@ -108,13 +90,13 @@ export function CTA() {
       <div data-motion="rise" className="cta-copy">
         <div className="cta-icons" aria-hidden="true">
           <span>
-            <BookOpen />
+            <img src="/readable/FDAhq9f3ug0BoEPs7O4ptpHO8k.svg" alt="" />
+          </span>
+          <span data-motion="cta-icon" data-motion-repeat="true">
+            <img src="/readable/0fnpgGw2fQQkJod5JVuxzWjDnk.svg" alt="" />
           </span>
           <span>
-            <AudioLines />
-          </span>
-          <span>
-            <Sparkles />
+            <img src="/readable/s2MHfZebUoon0iQxB2MiLlw6S0.svg" alt="" />
           </span>
         </div>
         <h2>Discover a Smarter, Simpler Way to Read Articles</h2>

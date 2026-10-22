@@ -36,7 +36,11 @@ export function Features() {
           </div>
         </div>
         <div className="readable-features-bento">
-          <article data-motion="rise" className="readable-feature-smart">
+          <article
+            data-motion="rise"
+            data-motion-delay="0.2"
+            className="readable-feature-smart"
+          >
             <Image
               className="readable-feature-gradient"
               src={asset("UH0Ycf3jr6Lbwyn8QMDSBsNX2GY.png")}
@@ -96,7 +100,13 @@ export function Features() {
               alt="Readable personalized article recommendations"
             />
           </article>
-          <span className="readable-features-joint">
+          <span
+            className="readable-features-joint"
+            data-motion="scale"
+            data-motion-delay="0.6"
+            data-motion-threshold="1"
+            data-motion-loop="true"
+          >
             <Image
               src={asset("m6i9HHtWPD7nb4cfZVIkXpxDWoI.png")}
               width={67}
@@ -107,6 +117,7 @@ export function Features() {
           <div className="readable-features-bottom">
             <article
               data-motion="rise"
+              data-motion-delay="0.2"
               className="readable-feature-card readable-feature-voice"
             >
               <h3>Voice Assistant Built-In</h3>
@@ -124,6 +135,7 @@ export function Features() {
             </article>
             <article
               data-motion="rise"
+              data-motion-delay="0.4"
               className="readable-feature-card readable-feature-summary"
             >
               <h3>On-Demand Summaries</h3>

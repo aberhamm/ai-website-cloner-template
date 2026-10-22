@@ -282,3 +282,17 @@
     font-size: 32px;
   }
 }
+.testimonials-track {
+  animation: none;
+}
+.testimonials-panel:hover .testimonials-track {
+  animation-play-state: running;
+}
+.testimonials-lanes {
+  mask-image: linear-gradient(
+    transparent,
+    black 12.5%,
+    black 87.5%,
+    transparent
+  );
+}

@@ -17,40 +17,82 @@ const reasons = [
   { title: "Loved By Millions", number: "01", Icon: Heart },
 ];
 const stats = [
-  { value: 55, suffix: "M+", prefix: "$", label: "Fewer Search Frustrations" },
-  { value: 96, suffix: "%", prefix: "", label: "Our Customer Retention" },
-  { value: 85, suffix: "%", prefix: "", label: "Report Feeling More Informed" },
-  { value: 100, suffix: "%", prefix: "", label: "Less Time Wasted Searching" },
+  {
+    value: 55,
+    speed: 23,
+    suffix: "M+",
+    prefix: "$",
+    label: "Fewer Search Frustrations",
+  },
+  {
+    value: 96,
+    speed: 8,
+    suffix: "%",
+    prefix: "",
+    label: "Our Customer Retention",
+  },
+  {
+    value: 85,
+    speed: 8,
+    suffix: "%",
+    prefix: "",
+    label: "Report Feeling More Informed",
+  },
+  {
+    value: 100,
+    speed: 8,
+    suffix: "%",
+    prefix: "",
+    label: "Less Time Wasted Searching",
+  },
 ];
-export function WhyChooseUs() {
-  const statsRef = useRef<HTMLDivElement>(null);
-  const [progress, setProgress] = useState(0);
+function Count({ end, speed }: { end: number; speed: number }) {
+  const ref = useRef<HTMLSpanElement>(null);
+  const [value, setValue] = useState(1);
   useEffect(() => {
-    let frame = 0;
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (!entry.isIntersecting) return;
-        observer.disconnect();
-        if (matchMedia("(prefers-reduced-motion: reduce)").matches) {
-          setProgress(1);
-          return;
-        }
-        const start = performance.now();
-        const tick = (now: number) => {
-          const next = Math.min(1, (now - start) / 2000);
-          setProgress(next);
-          if (next < 1) frame = requestAnimationFrame(tick);
-        };
-        frame = requestAnimationFrame(tick);
-      },
-      { threshold: 0.3 },
-    );
-    if (statsRef.current) observer.observe(statsRef.current);
-    return () => {
-      observer.disconnect();
-      cancelAnimationFrame(frame);
+    let timer: ReturnType<typeof setInterval> | undefined;
+    let finished = false;
+    let count = 1;
+    const preference = matchMedia("(prefers-reduced-motion: reduce)");
+    const stop = () => {
+      if (timer) clearInterval(timer);
+      timer = undefined;
     };
-  }, []);
+    const reduced = () => {
+      if (preference.matches) {
+        stop();
+        finished = true;
+        setValue(end);
+      }
+    };
+    const observer = new IntersectionObserver(([entry]) => {
+      stop();
+      if (preference.matches) {
+        reduced();
+        return;
+      }
+      if (entry.isIntersecting && !finished)
+        timer = setInterval(() => {
+          count = Math.min(end, count + 1);
+          if (count === end) {
+            finished = true;
+            stop();
+          }
+          setValue(count);
+        }, speed);
+    });
+    if (ref.current) observer.observe(ref.current);
+    reduced();
+    preference.addEventListener("change", reduced);
+    return () => {
+      stop();
+      observer.disconnect();
+      preference.removeEventListener("change", reduced);
+    };
+  }, [end, speed]);
+  return <span ref={ref}>{value}</span>;
+}
+export function WhyChooseUs() {
   return (
     <section id="why-choose-us" className="why-section">
       <div data-motion="rise" className="why-heading">
@@ -70,8 +112,13 @@ export function WhyChooseUs() {
           ))}
         </div>
         <div className="why-bars">
-          {reasons.map(({ title, number, Icon }) => (
-            <div data-motion="drop" className="why-bar" key={title}>
+          {reasons.map(({ title, number, Icon }, index) => (
+            <div
+              data-motion="drop"
+              data-motion-delay={String(Number((0.8 - index * 0.2).toFixed(1)))}
+              className="why-bar"
+              key={title}
+            >
               <span className="why-icon">
                 <Icon />
               </span>
@@ -81,13 +128,13 @@ export function WhyChooseUs() {
           ))}
         </div>
       </div>
-      <div data-motion="rise" className="why-stats" ref={statsRef}>
+      <div data-motion="rise" className="why-stats">
         {stats.map((stat) => (
           <div key={stat.label}>
             <strong>
               <ArrowUp />
               {stat.prefix}
-              {Math.round(stat.value * progress)}
+              <Count end={stat.value} speed={stat.speed} />
               {stat.suffix}
             </strong>
             <p>{stat.label}</p>

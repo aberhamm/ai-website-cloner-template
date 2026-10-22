@@ -277,3 +277,28 @@
     padding: 56px 20px;
   }
 }
+@media (prefers-reduced-motion: no-preference) {
+  .readable-features-joint > img {
+    animation: feature-badge-rock 1s cubic-bezier(0.44, 0, 0.56, 1) infinite
+      alternate;
+  }
+}
+@keyframes feature-badge-rock {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 20deg;
+  }
+}
+@media (max-width: 809px) {
+  .readable-feature-summary[data-motion] {
+    --motion-delay: 0.2s;
+  }
+}
+.readable-features-joint > img {
+  animation-play-state: paused;
+}
+.readable-features-joint[data-in-view="true"] > img {
+  animation-play-state: running;
+}

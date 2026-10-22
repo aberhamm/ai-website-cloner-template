@@ -1,37 +1,57 @@
 "use client";
 
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 import "./Motion.css";
 
-/** Reveals the server-rendered content once, when it enters the viewport. */
+/** Source-style mount entrances and once-only/repeating viewport effects. */
 export function Motion() {
+  const pathname = usePathname();
   useEffect(() => {
     const elements = document.querySelectorAll<HTMLElement>("[data-motion]");
     const preference = window.matchMedia("(prefers-reduced-motion: reduce)");
     const revealAll = () => {
-      if (preference.matches) {
+      if (preference.matches)
         elements.forEach((element) =>
           element.setAttribute("data-visible", "true"),
         );
-      }
     };
-    revealAll();
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (!entry.isIntersecting) return;
-          entry.target.setAttribute("data-visible", "true");
-          observer.unobserve(entry.target);
+          const element = entry.target as HTMLElement;
+          element.dataset.inView = String(entry.isIntersecting);
+          const visible =
+            entry.isIntersecting &&
+            entry.intersectionRatio >=
+              Number(element.dataset.motionThreshold || 0);
+          if (visible) element.setAttribute("data-visible", "true");
+          else if (
+            element.dataset.motionRepeat === "true" &&
+            !preference.matches
+          )
+            element.removeAttribute("data-visible");
+          if (
+            visible &&
+            element.dataset.motionRepeat !== "true" &&
+            element.dataset.motionLoop !== "true"
+          )
+            observer.unobserve(element);
         });
       },
-      { threshold: 0, rootMargin: "0px 0px -5% 0px" },
+      { threshold: [0, 1] },
     );
-    elements.forEach((element) => observer.observe(element));
+    elements.forEach((element) => {
+      if (element.dataset.motionTrigger === "mount")
+        element.setAttribute("data-visible", "true");
+      else observer.observe(element);
+    });
+    revealAll();
     preference.addEventListener("change", revealAll);
     return () => {
       observer.disconnect();
       preference.removeEventListener("change", revealAll);
     };
-  }, []);
+  }, [pathname]);
   return null;
 }

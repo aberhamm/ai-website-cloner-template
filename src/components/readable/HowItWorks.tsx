@@ -1,3 +1,4 @@
+import { LoopTrack } from "./LoopTrack";
 import { AudioLines, BookOpen, Mic, Workflow } from "lucide-react";
 import "./HowItWorks.css";
 
@@ -71,14 +72,20 @@ export function HowItWorks() {
           {steps.map(({ title, description, words, Icon }, index) => (
             <article
               data-motion="rise"
+              data-motion-delay={String(Number(((index + 1) * 0.2).toFixed(1)))}
               className={`readable-how-card readable-how-card-${index + 1}`}
               key={title}
             >
               <span className="readable-how-number">0{index + 1}</span>
               <div className="readable-how-graphic" aria-hidden="true">
                 <div className="readable-how-words">
-                  {words.map((word) => (
-                    <div className="readable-how-word-row" key={word}>
+                  {words.map((word, row) => (
+                    <LoopTrack
+                      className="readable-how-word-row"
+                      key={word}
+                      speed={25}
+                      reverse={row === 1}
+                    >
                       {[0, 1].map((copy) => (
                         <span className="readable-how-word-group" key={copy}>
                           {[0, 1, 2, 3].map((repeat) => (
@@ -86,7 +93,7 @@ export function HowItWorks() {
                           ))}
                         </span>
                       ))}
-                    </div>
+                    </LoopTrack>
                   ))}
                 </div>
                 <div className="readable-how-icon">

@@ -1,0 +1,1086 @@
+{
+  "url": "https://readable.framer.website/",
+  "appear": "{\"1lpep8y\":{\"default\":{\"initial\":{\"opacity\":0.001,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"x\":0,\"y\":-85},\"animate\":{\"opacity\":1,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"transition\":{\"damping\":40,\"delay\":2.5,\"mass\":1,\"stiffness\":150,\"type\":\"spring\"},\"x\":0,\"y\":0},\"transformTemplate\":\"translateX(-50%) __Appear_Animation_Transform__\"},\"aolx9s\":{\"initial\":{\"opacity\":0.001,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"x\":0,\"y\":-85},\"animate\":{\"opacity\":1,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"transition\":{\"damping\":40,\"delay\":2.5,\"mass\":1,\"stiffness\":150,\"type\":\"spring\"},\"x\":0,\"y\":0},\"transformTemplate\":\"translateX(-50%) __Appear_Animation_Transform__\"},\"b635xa\":{\"initial\":{\"opacity\":0.001,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"x\":0,\"y\":-85},\"animate\":{\"opacity\":1,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"transition\":{\"damping\":40,\"delay\":0.8,\"mass\":1,\"stiffness\":150,\"type\":\"spring\"},\"x\":0,\"y\":0},\"transformTemplate\":\"translateX(-50%) __Appear_Animation_Transform__\"}},\"4iklmz\":{\"default\":null,\"xndt5\":null,\"p70dvl\":{\"initial\":{\"opacity\":0.001,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"x\":0,\"y\":0},\"animate\":{\"opacity\":1,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"transition\":{\"delay\":0.4,\"duration\":1.2,\"ease\":[0.68,0,0,1],\"type\":\"tween\"},\"x\":0,\"y\":0}}},\"1i1n4nn\":{\"default\":null,\"xndt5\":null,\"p70dvl\":{\"initial\":{\"opacity\":0.001,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":0.9,\"skewX\":0,\"skewY\":0,\"x\":0,\"y\":40},\"animate\":{\"opacity\":1,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"transition\":{\"delay\":0,\"duration\":1.3,\"ease\":[0.68,0,0,1],\"type\":\"tween\"},\"x\":0,\"y\":0}}},\"18kca0w\":{\"default\":null,\"xndt5\":null,\"p70dvl\":{\"initial\":{\"opacity\":0.001,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"x\":0,\"y\":0},\"animate\":{\"opacity\":1,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"transition\":{\"delay\":0.4,\"duration\":1.2,\"ease\":[0.68,0,0,1],\"type\":\"tween\"},\"x\":0,\"y\":0}}},\"ihq3ou\":{\"default\":null,\"xndt5\":null,\"p70dvl\":{\"initial\":{\"opacity\":0.001,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"x\":0,\"y\":0},\"animate\":{\"opacity\":1,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"transition\":{\"delay\":0.4,\"duration\":1.2,\"ease\":[0.68,0,0,1],\"type\":\"tween\"},\"x\":0,\"y\":0}}}}",
+  "scripts": [
+    "https://events.framer.com/script?v=2",
+    "https://framerusercontent.com/sites/5SmrnoBY6nnY5xl7ioPZ2l/script_main.JSUOQPMJ.mjs"
+  ],
+  "hoverables": [
+    {
+      "name": "Logo",
+      "cls": "framer-1lq4qvk framer-1ppkfpg",
+      "tag": "A"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-3D8kT framer-07K7z framer-p9oofr framer-v-p9oofr framer-re8lnd",
+      "tag": "A"
+    },
+    {
+      "name": "Remix for free",
+      "cls": "framer-1ov3ll3",
+      "tag": "DIV"
+    },
+    {
+      "name": "Desktop",
+      "cls": "framer-bW2z4 framer-nTFAp framer-7v6na6 framer-v-7v6na6 framer-124mps3",
+      "tag": "A"
+    },
+    {
+      "name": "Chip Wrapper",
+      "cls": "framer-hpzh5l",
+      "tag": "DIV"
+    },
+    {
+      "name": "Icon",
+      "cls": "framer-1kqo3ka",
+      "tag": "DIV"
+    },
+    {
+      "name": "Get Pro 15%",
+      "cls": "framer-1imxdg0",
+      "tag": "DIV"
+    },
+    {
+      "name": "Join our waitlist and claim instant offer",
+      "cls": "framer-1x1y4tt",
+      "tag": "DIV"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-v3yCg framer-mXbzn framer-122ylsf framer-v-122ylsf framer-g76bbu",
+      "tag": "A"
+    },
+    {
+      "name": "Container",
+      "cls": "framer-i8e25x",
+      "tag": "DIV"
+    },
+    {
+      "name": "Button",
+      "cls": "framer-1fg3fgf",
+      "tag": "DIV"
+    },
+    {
+      "name": "Text",
+      "cls": "framer-lef09m",
+      "tag": "DIV"
+    },
+    {
+      "name": "Label",
+      "cls": "framer-do5qrv",
+      "tag": "DIV"
+    },
+    {
+      "name": "ARROW",
+      "cls": "framer-u60rdu",
+      "tag": "DIV"
+    },
+    {
+      "name": "Desktop",
+      "cls": "framer-pnlJV framer-AGDcC framer-9OItR framer-14pszd8 framer-v-14pszd8 framer-1hzraoj",
+      "tag": "A"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-1h8ecf0",
+      "tag": "DIV"
+    },
+    {
+      "name": "Content ",
+      "cls": "framer-8njlil",
+      "tag": "DIV"
+    },
+    {
+      "name": "Seamless Activity Tracker",
+      "cls": "framer-z94dyo",
+      "tag": "DIV"
+    },
+    {
+      "name": "Our pre recorded sessions contain all the essentials to help you fix your mood",
+      "cls": "framer-1enygzl",
+      "tag": "DIV"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-qaB0Z framer-Fk44o framer-1xde29u framer-v-1xde29u",
+      "tag": "DIV"
+    },
+    {
+      "name": "Label",
+      "cls": "framer-t83et8",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow Container",
+      "cls": "framer-xhsqll",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow",
+      "cls": "framer-hmutyt",
+      "tag": "DIV"
+    },
+    {
+      "name": "Image ",
+      "cls": "framer-1ini8wi",
+      "tag": "DIV"
+    },
+    {
+      "name": "Desktop",
+      "cls": "framer-pnlJV framer-AGDcC framer-9OItR framer-14pszd8 framer-v-14pszd8 framer-1hzraoj",
+      "tag": "A"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-1h8ecf0",
+      "tag": "DIV"
+    },
+    {
+      "name": "Content ",
+      "cls": "framer-8njlil",
+      "tag": "DIV"
+    },
+    {
+      "name": "Seamless Activity Tracker",
+      "cls": "framer-z94dyo",
+      "tag": "DIV"
+    },
+    {
+      "name": "Our pre recorded sessions contain all the essentials to help you fix your mood",
+      "cls": "framer-1enygzl",
+      "tag": "DIV"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-qaB0Z framer-Fk44o framer-1xde29u framer-v-1xde29u",
+      "tag": "DIV"
+    },
+    {
+      "name": "Label",
+      "cls": "framer-t83et8",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow Container",
+      "cls": "framer-xhsqll",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow",
+      "cls": "framer-hmutyt",
+      "tag": "DIV"
+    },
+    {
+      "name": "Image ",
+      "cls": "framer-1ini8wi",
+      "tag": "DIV"
+    },
+    {
+      "name": "Desktop",
+      "cls": "framer-pnlJV framer-AGDcC framer-9OItR framer-14pszd8 framer-v-14pszd8 framer-1hzraoj",
+      "tag": "A"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-1h8ecf0",
+      "tag": "DIV"
+    },
+    {
+      "name": "Content ",
+      "cls": "framer-8njlil",
+      "tag": "DIV"
+    },
+    {
+      "name": "Seamless Activity Tracker",
+      "cls": "framer-z94dyo",
+      "tag": "DIV"
+    },
+    {
+      "name": "Our pre recorded sessions contain all the essentials to help you fix your mood",
+      "cls": "framer-1enygzl",
+      "tag": "DIV"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-qaB0Z framer-Fk44o framer-1xde29u framer-v-1xde29u",
+      "tag": "DIV"
+    },
+    {
+      "name": "Label",
+      "cls": "framer-t83et8",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow Container",
+      "cls": "framer-xhsqll",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow",
+      "cls": "framer-hmutyt",
+      "tag": "DIV"
+    },
+    {
+      "name": "Image ",
+      "cls": "framer-1ini8wi",
+      "tag": "DIV"
+    },
+    {
+      "name": "Desktop",
+      "cls": "framer-pnlJV framer-AGDcC framer-9OItR framer-14pszd8 framer-v-14pszd8 framer-1hzraoj",
+      "tag": "A"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-1h8ecf0",
+      "tag": "DIV"
+    },
+    {
+      "name": "Content ",
+      "cls": "framer-8njlil",
+      "tag": "DIV"
+    },
+    {
+      "name": "Seamless Activity Tracker",
+      "cls": "framer-z94dyo",
+      "tag": "DIV"
+    },
+    {
+      "name": "Our pre recorded sessions contain all the essentials to help you fix your mood",
+      "cls": "framer-1enygzl",
+      "tag": "DIV"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-qaB0Z framer-Fk44o framer-1xde29u framer-v-1xde29u",
+      "tag": "DIV"
+    },
+    {
+      "name": "Label",
+      "cls": "framer-t83et8",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow Container",
+      "cls": "framer-xhsqll",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow",
+      "cls": "framer-hmutyt",
+      "tag": "DIV"
+    },
+    {
+      "name": "Image ",
+      "cls": "framer-1ini8wi",
+      "tag": "DIV"
+    },
+    {
+      "name": "Desktop",
+      "cls": "framer-pnlJV framer-AGDcC framer-9OItR framer-14pszd8 framer-v-14pszd8 framer-1hzraoj",
+      "tag": "A"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-1h8ecf0",
+      "tag": "DIV"
+    },
+    {
+      "name": "Content ",
+      "cls": "framer-8njlil",
+      "tag": "DIV"
+    },
+    {
+      "name": "Seamless Activity Tracker",
+      "cls": "framer-z94dyo",
+      "tag": "DIV"
+    },
+    {
+      "name": "Our pre recorded sessions contain all the essentials to help you fix your mood",
+      "cls": "framer-1enygzl",
+      "tag": "DIV"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-qaB0Z framer-Fk44o framer-1xde29u framer-v-1xde29u",
+      "tag": "DIV"
+    },
+    {
+      "name": "Label",
+      "cls": "framer-t83et8",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow Container",
+      "cls": "framer-xhsqll",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow",
+      "cls": "framer-hmutyt",
+      "tag": "DIV"
+    },
+    {
+      "name": "Image ",
+      "cls": "framer-1ini8wi",
+      "tag": "DIV"
+    },
+    {
+      "name": "Desktop",
+      "cls": "framer-pnlJV framer-AGDcC framer-9OItR framer-14pszd8 framer-v-14pszd8 framer-1hzraoj",
+      "tag": "A"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-1h8ecf0",
+      "tag": "DIV"
+    },
+    {
+      "name": "Content ",
+      "cls": "framer-8njlil",
+      "tag": "DIV"
+    },
+    {
+      "name": "Seamless Activity Tracker",
+      "cls": "framer-z94dyo",
+      "tag": "DIV"
+    },
+    {
+      "name": "Our pre recorded sessions contain all the essentials to help you fix your mood",
+      "cls": "framer-1enygzl",
+      "tag": "DIV"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-qaB0Z framer-Fk44o framer-1xde29u framer-v-1xde29u",
+      "tag": "DIV"
+    },
+    {
+      "name": "Label",
+      "cls": "framer-t83et8",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow Container",
+      "cls": "framer-xhsqll",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow",
+      "cls": "framer-hmutyt",
+      "tag": "DIV"
+    },
+    {
+      "name": "Image ",
+      "cls": "framer-1ini8wi",
+      "tag": "DIV"
+    },
+    {
+      "name": "Desktop",
+      "cls": "framer-pnlJV framer-AGDcC framer-9OItR framer-14pszd8 framer-v-14pszd8 framer-1hzraoj",
+      "tag": "A"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-1h8ecf0",
+      "tag": "DIV"
+    },
+    {
+      "name": "Content ",
+      "cls": "framer-8njlil",
+      "tag": "DIV"
+    },
+    {
+      "name": "Seamless Activity Tracker",
+      "cls": "framer-z94dyo",
+      "tag": "DIV"
+    },
+    {
+      "name": "Our pre recorded sessions contain all the essentials to help you fix your mood",
+      "cls": "framer-1enygzl",
+      "tag": "DIV"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-qaB0Z framer-Fk44o framer-1xde29u framer-v-1xde29u",
+      "tag": "DIV"
+    },
+    {
+      "name": "Label",
+      "cls": "framer-t83et8",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow Container",
+      "cls": "framer-xhsqll",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow",
+      "cls": "framer-hmutyt",
+      "tag": "DIV"
+    },
+    {
+      "name": "Image ",
+      "cls": "framer-1ini8wi",
+      "tag": "DIV"
+    },
+    {
+      "name": "Desktop",
+      "cls": "framer-pnlJV framer-AGDcC framer-9OItR framer-14pszd8 framer-v-14pszd8 framer-1hzraoj",
+      "tag": "A"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-1h8ecf0",
+      "tag": "DIV"
+    },
+    {
+      "name": "Content ",
+      "cls": "framer-8njlil",
+      "tag": "DIV"
+    },
+    {
+      "name": "Seamless Activity Tracker",
+      "cls": "framer-z94dyo",
+      "tag": "DIV"
+    },
+    {
+      "name": "Our pre recorded sessions contain all the essentials to help you fix your mood",
+      "cls": "framer-1enygzl",
+      "tag": "DIV"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-qaB0Z framer-Fk44o framer-1xde29u framer-v-1xde29u",
+      "tag": "DIV"
+    },
+    {
+      "name": "Label",
+      "cls": "framer-t83et8",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow Container",
+      "cls": "framer-xhsqll",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow",
+      "cls": "framer-hmutyt",
+      "tag": "DIV"
+    },
+    {
+      "name": "Image ",
+      "cls": "framer-1ini8wi",
+      "tag": "DIV"
+    },
+    {
+      "name": "Desktop",
+      "cls": "framer-pnlJV framer-AGDcC framer-9OItR framer-14pszd8 framer-v-14pszd8 framer-1hzraoj",
+      "tag": "A"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-1h8ecf0",
+      "tag": "DIV"
+    },
+    {
+      "name": "Content ",
+      "cls": "framer-8njlil",
+      "tag": "DIV"
+    },
+    {
+      "name": "Seamless Activity Tracker",
+      "cls": "framer-z94dyo",
+      "tag": "DIV"
+    },
+    {
+      "name": "Our pre recorded sessions contain all the essentials to help you fix your mood",
+      "cls": "framer-1enygzl",
+      "tag": "DIV"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-qaB0Z framer-Fk44o framer-1xde29u framer-v-1xde29u",
+      "tag": "DIV"
+    },
+    {
+      "name": "Label",
+      "cls": "framer-t83et8",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow Container",
+      "cls": "framer-xhsqll",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow",
+      "cls": "framer-hmutyt",
+      "tag": "DIV"
+    },
+    {
+      "name": "Image ",
+      "cls": "framer-1ini8wi",
+      "tag": "DIV"
+    },
+    {
+      "name": "Desktop",
+      "cls": "framer-pnlJV framer-AGDcC framer-9OItR framer-14pszd8 framer-v-14pszd8 framer-1hzraoj",
+      "tag": "A"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-1h8ecf0",
+      "tag": "DIV"
+    },
+    {
+      "name": "Content ",
+      "cls": "framer-8njlil",
+      "tag": "DIV"
+    },
+    {
+      "name": "Seamless Activity Tracker",
+      "cls": "framer-z94dyo",
+      "tag": "DIV"
+    },
+    {
+      "name": "Our pre recorded sessions contain all the essentials to help you fix your mood",
+      "cls": "framer-1enygzl",
+      "tag": "DIV"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-qaB0Z framer-Fk44o framer-1xde29u framer-v-1xde29u",
+      "tag": "DIV"
+    },
+    {
+      "name": "Label",
+      "cls": "framer-t83et8",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow Container",
+      "cls": "framer-xhsqll",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow",
+      "cls": "framer-hmutyt",
+      "tag": "DIV"
+    },
+    {
+      "name": "Image ",
+      "cls": "framer-1ini8wi",
+      "tag": "DIV"
+    },
+    {
+      "name": "Desktop",
+      "cls": "framer-pnlJV framer-AGDcC framer-9OItR framer-14pszd8 framer-v-14pszd8 framer-1hzraoj",
+      "tag": "A"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-1h8ecf0",
+      "tag": "DIV"
+    },
+    {
+      "name": "Content ",
+      "cls": "framer-8njlil",
+      "tag": "DIV"
+    },
+    {
+      "name": "Seamless Activity Tracker",
+      "cls": "framer-z94dyo",
+      "tag": "DIV"
+    },
+    {
+      "name": "Our pre recorded sessions contain all the essentials to help you fix your mood",
+      "cls": "framer-1enygzl",
+      "tag": "DIV"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-qaB0Z framer-Fk44o framer-1xde29u framer-v-1xde29u",
+      "tag": "DIV"
+    },
+    {
+      "name": "Label",
+      "cls": "framer-t83et8",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow Container",
+      "cls": "framer-xhsqll",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow",
+      "cls": "framer-hmutyt",
+      "tag": "DIV"
+    },
+    {
+      "name": "Image ",
+      "cls": "framer-1ini8wi",
+      "tag": "DIV"
+    },
+    {
+      "name": "Desktop",
+      "cls": "framer-pnlJV framer-AGDcC framer-9OItR framer-14pszd8 framer-v-14pszd8 framer-1hzraoj",
+      "tag": "A"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-1h8ecf0",
+      "tag": "DIV"
+    },
+    {
+      "name": "Content ",
+      "cls": "framer-8njlil",
+      "tag": "DIV"
+    },
+    {
+      "name": "Seamless Activity Tracker",
+      "cls": "framer-z94dyo",
+      "tag": "DIV"
+    },
+    {
+      "name": "Our pre recorded sessions contain all the essentials to help you fix your mood",
+      "cls": "framer-1enygzl",
+      "tag": "DIV"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-qaB0Z framer-Fk44o framer-1xde29u framer-v-1xde29u",
+      "tag": "DIV"
+    },
+    {
+      "name": "Label",
+      "cls": "framer-t83et8",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow Container",
+      "cls": "framer-xhsqll",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow",
+      "cls": "framer-hmutyt",
+      "tag": "DIV"
+    },
+    {
+      "name": "Image ",
+      "cls": "framer-1ini8wi",
+      "tag": "DIV"
+    },
+    {
+      "name": "Desktop",
+      "cls": "framer-pnlJV framer-AGDcC framer-9OItR framer-14pszd8 framer-v-14pszd8 framer-1hzraoj",
+      "tag": "A"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-1h8ecf0",
+      "tag": "DIV"
+    },
+    {
+      "name": "Content ",
+      "cls": "framer-8njlil",
+      "tag": "DIV"
+    },
+    {
+      "name": "Seamless Activity Tracker",
+      "cls": "framer-z94dyo",
+      "tag": "DIV"
+    },
+    {
+      "name": "Our pre recorded sessions contain all the essentials to help you fix your mood",
+      "cls": "framer-1enygzl",
+      "tag": "DIV"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-qaB0Z framer-Fk44o framer-1xde29u framer-v-1xde29u",
+      "tag": "DIV"
+    },
+    {
+      "name": "Label",
+      "cls": "framer-t83et8",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow Container",
+      "cls": "framer-xhsqll",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow",
+      "cls": "framer-hmutyt",
+      "tag": "DIV"
+    },
+    {
+      "name": "Image ",
+      "cls": "framer-1ini8wi",
+      "tag": "DIV"
+    },
+    {
+      "name": "Desktop",
+      "cls": "framer-pnlJV framer-AGDcC framer-9OItR framer-14pszd8 framer-v-14pszd8 framer-1hzraoj",
+      "tag": "A"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-1h8ecf0",
+      "tag": "DIV"
+    },
+    {
+      "name": "Content ",
+      "cls": "framer-8njlil",
+      "tag": "DIV"
+    },
+    {
+      "name": "Seamless Activity Tracker",
+      "cls": "framer-z94dyo",
+      "tag": "DIV"
+    },
+    {
+      "name": "Our pre recorded sessions contain all the essentials to help you fix your mood",
+      "cls": "framer-1enygzl",
+      "tag": "DIV"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-qaB0Z framer-Fk44o framer-1xde29u framer-v-1xde29u",
+      "tag": "DIV"
+    },
+    {
+      "name": "Label",
+      "cls": "framer-t83et8",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow Container",
+      "cls": "framer-xhsqll",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow",
+      "cls": "framer-hmutyt",
+      "tag": "DIV"
+    },
+    {
+      "name": "Image ",
+      "cls": "framer-1ini8wi",
+      "tag": "DIV"
+    },
+    {
+      "name": "Desktop",
+      "cls": "framer-pnlJV framer-AGDcC framer-9OItR framer-14pszd8 framer-v-14pszd8 framer-1hzraoj",
+      "tag": "A"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-1h8ecf0",
+      "tag": "DIV"
+    },
+    {
+      "name": "Content ",
+      "cls": "framer-8njlil",
+      "tag": "DIV"
+    },
+    {
+      "name": "Seamless Activity Tracker",
+      "cls": "framer-z94dyo",
+      "tag": "DIV"
+    },
+    {
+      "name": "Our pre recorded sessions contain all the essentials to help you fix your mood",
+      "cls": "framer-1enygzl",
+      "tag": "DIV"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-qaB0Z framer-Fk44o framer-1xde29u framer-v-1xde29u",
+      "tag": "DIV"
+    },
+    {
+      "name": "Label",
+      "cls": "framer-t83et8",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow Container",
+      "cls": "framer-xhsqll",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow",
+      "cls": "framer-hmutyt",
+      "tag": "DIV"
+    },
+    {
+      "name": "Image ",
+      "cls": "framer-1ini8wi",
+      "tag": "DIV"
+    },
+    {
+      "name": "Desktop",
+      "cls": "framer-pnlJV framer-AGDcC framer-9OItR framer-14pszd8 framer-v-14pszd8 framer-1hzraoj",
+      "tag": "A"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-1h8ecf0",
+      "tag": "DIV"
+    },
+    {
+      "name": "Content ",
+      "cls": "framer-8njlil",
+      "tag": "DIV"
+    },
+    {
+      "name": "Seamless Activity Tracker",
+      "cls": "framer-z94dyo",
+      "tag": "DIV"
+    },
+    {
+      "name": "Our pre recorded sessions contain all the essentials to help you fix your mood",
+      "cls": "framer-1enygzl",
+      "tag": "DIV"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-qaB0Z framer-Fk44o framer-1xde29u framer-v-1xde29u",
+      "tag": "DIV"
+    },
+    {
+      "name": "Label",
+      "cls": "framer-t83et8",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow Container",
+      "cls": "framer-xhsqll",
+      "tag": "DIV"
+    },
+    {
+      "name": "Arrow",
+      "cls": "framer-hmutyt",
+      "tag": "DIV"
+    },
+    {
+      "name": "Image ",
+      "cls": "framer-1ini8wi",
+      "tag": "DIV"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-v3yCg framer-mXbzn framer-122ylsf framer-v-122ylsf framer-g76bbu",
+      "tag": "A"
+    },
+    {
+      "name": "Container",
+      "cls": "framer-i8e25x",
+      "tag": "DIV"
+    },
+    {
+      "name": "Button",
+      "cls": "framer-1fg3fgf",
+      "tag": "DIV"
+    },
+    {
+      "name": "Text",
+      "cls": "framer-lef09m",
+      "tag": "DIV"
+    },
+    {
+      "name": "Label",
+      "cls": "framer-do5qrv",
+      "tag": "DIV"
+    },
+    {
+      "name": "ARROW",
+      "cls": "framer-u60rdu",
+      "tag": "DIV"
+    },
+    {
+      "name": "Normal",
+      "cls": "framer-7zMbw framer-mXbzn framer-1al8966 framer-v-1al8966",
+      "tag": "BUTTON"
+    },
+    {
+      "name": "Container",
+      "cls": "framer-1udsuxz",
+      "tag": "DIV"
+    },
+    {
+      "name": "Button",
+      "cls": "framer-16dr91j",
+      "tag": "DIV"
+    },
+    {
+      "name": "Text",
+      "cls": "framer-1bebc24",
+      "tag": "DIV"
+    },
+    {
+      "name": "Label",
+      "cls": "framer-1j7v758",
+      "tag": "DIV"
+    },
+    {
+      "name": "ARROW",
+      "cls": "framer-eljgr4",
+      "tag": "DIV"
+    },
+    {
+      "name": "Light",
+      "cls": "framer-TLVk2 framer-n0ccwk framer-v-n0ccwk",
+      "tag": "DIV"
+    },
+    {
+      "name": "madeinframer",
+      "cls": "framer-tmnpxq",
+      "tag": "DIV"
+    }
+  ],
+  "initial": [
+    {
+      "name": "Header",
+      "cls": "framer-1iohk4z",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Step 1 Card",
+      "cls": "framer-lxx873-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Step 2 Card",
+      "cls": "framer-myajv5-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Step 3 Card",
+      "cls": "framer-vgczyb-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-80ez6y",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Card 1",
+      "cls": "framer-1vpz8cq",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Wrapper",
+      "cls": "framer-1mf8n5x",
+      "style": "will-change: transform; opacity: 0; transform: scale(0);"
+    },
+    {
+      "name": "Card 2 ",
+      "cls": "framer-1i72okx",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Card 3",
+      "cls": "framer-ph16hu",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "cls": "framer-31ckeh",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Card 4",
+      "cls": "framer-1j6sdwd-container",
+      "style": "will-change: transform; opacity: 0; transform: translateX(-50%) translateY(-200px);"
+    },
+    {
+      "name": "Card 2",
+      "cls": "framer-vp3t4s-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(-200px) rotate(10deg);"
+    },
+    {
+      "name": "Card 1",
+      "cls": "framer-g07d6c-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(-200px) rotate(-10deg);"
+    },
+    {
+      "name": "Card 3",
+      "cls": "framer-hvu1l9-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(-200px) rotate(-4.5deg);"
+    },
+    {
+      "name": "Data Container",
+      "cls": "framer-z2kt7v",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-heuvrs",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Left Ticker",
+      "cls": "framer-mw6g5c-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(160px);"
+    },
+    {
+      "cls": "",
+      "style": "display:flex;width:100%;height:100%;max-width:100%;max-height:100%;place-items:center;margin:0;padding:0;list-style-type:none;text-indent:none;gap:32px;position:relative;flex-direction:column;will-change:auto;transform:translateY(-0px)"
+    },
+    {
+      "name": "Middle Ticker",
+      "cls": "framer-pw1mn1-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(-160px);"
+    },
+    {
+      "cls": "",
+      "style": "display: flex; width: 100%; height: 100%; max-width: 100%; max-height: 100%; place-items: center; margin: 0px; padding: 0px; list-style-type: none; gap: 32px; position: relative; flex-direction: column; will-change: auto; transform: translateY(0px); top: -2512px;"
+    },
+    {
+      "name": "Right Ticker",
+      "cls": "framer-xtuosb-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(160px);"
+    },
+    {
+      "cls": "",
+      "style": "display:flex;width:100%;height:100%;max-width:100%;max-height:100%;place-items:center;margin:0;padding:0;list-style-type:none;text-indent:none;gap:32px;position:relative;flex-direction:column;will-change:auto;transform:translateY(-0px)"
+    },
+    {
+      "name": "Top",
+      "cls": "framer-1r4iyfq",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "cls": "framer-77sjn4-container",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Header",
+      "cls": "framer-jk39hl",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "name": "Icon 1",
+      "cls": "framer-kqt35k",
+      "style": "will-change: transform; opacity: 1; transform: scale(1.2);"
+    },
+    {
+      "name": "Images Container",
+      "cls": "framer-qa4wf1",
+      "style": "will-change: transform; opacity: 0; transform: translateY(85px);"
+    },
+    {
+      "cls": "framer-162rota-container",
+      "style": "transform: translateY(-50%); opacity: 1;"
+    }
+  ]
+}

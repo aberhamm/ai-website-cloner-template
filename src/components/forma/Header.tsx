@@ -9,7 +9,7 @@ export function Header() {
         <Link
           className="inline-flex max-mobile:[&_.brand-mark]:w-[34px]"
           aria-label="Forma, home"
-          href="/"
+          href="/pilates"
         >
           <span className="inline-flex items-center gap-3 text-[28px]/9 font-semibold tracking-[-0.05em] max-mobile:gap-1.5 max-mobile:text-[26px] max-[361px]:text-2xl/9">
             <span className="brand-mark" aria-hidden="true"></span>

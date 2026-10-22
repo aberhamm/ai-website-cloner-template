@@ -1,0 +1,34 @@
+[
+  {
+    "route": "/",
+    "status": 200
+  },
+  {
+    "route": "/blog-index",
+    "status": 200
+  },
+  {
+    "route": "/contact",
+    "status": 200
+  },
+  {
+    "route": "/blog-index/why-your-mood-deserves-better-content",
+    "status": 200
+  },
+  {
+    "route": "/blog-index/article-summaries-that-make-sense",
+    "status": 200
+  },
+  {
+    "route": "/blog-index/why-scrolling-is-out-and-speaking-is-in",
+    "status": 200
+  },
+  {
+    "route": "/blog-index/how-to-do-online-dating-as-weebs",
+    "status": 200
+  },
+  {
+    "route": "/blog-index/not-a-real-article",
+    "status": 404
+  }
+]

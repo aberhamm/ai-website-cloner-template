@@ -13,3 +13,7 @@ Booking and policy dialogs use concise demo content. The source has no configure
 Lint, TypeScript, and Next.js production build pass.
 
 Worktree ownership: root created pilates-clone, pilates-schedule, pilates-faq, and pilates-pricing under the primary project's .worktrees directory. The three worker worktrees were removed after their changes were integrated into pilates-clone. The completed pilates-clone worktree is retained because it serves the active preview at localhost:3017 and the primary checkout independently advanced with another clone. Root owns its cleanup after the preview is stopped and the user integrates or discards the copy. Existing unrelated worktrees are untouched.
+
+## Integration
+
+Pilates is integrated at `/pilates` with a separate route-group root layout and stylesheet. Readable keeps `/`, `/blog-index`, its article URLs, and `/contact`. Both sites preserve their own fonts and metadata. The default repository branch is `master`. Root will remove the Pilates worktree after the merged commit is pushed and no preview process uses it.

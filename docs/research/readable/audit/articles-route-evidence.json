@@ -1,0 +1,2442 @@
+[
+  {
+    "slug": "why-your-mood-deserves-better-content",
+    "width": 1440,
+    "source": {
+      "top": {
+        "url": "https://readable.framer.website/blog-index/why-your-mood-deserves-better-content",
+        "title": "Why Your Mood Deserves Better Content",
+        "words": 6,
+        "appear": [
+          {
+            "id": "1lpep8y",
+            "style": "opacity: 0.001; transform: translateX(-50%) translateY(-85px); will-change: transform;"
+          },
+          {
+            "id": "19roo6b",
+            "style": "opacity: 0.001; transform: none; will-change: transform;"
+          },
+          {
+            "id": "17kra46",
+            "style": "opacity: 0.001; transform: translateY(57.3656px); will-change: transform;"
+          }
+        ],
+        "motion": [],
+        "nav": [
+          {
+            "text": "",
+            "current": null,
+            "aria": null,
+            "color": "rgb(0, 0, 238)"
+          },
+          {
+            "text": "Blog",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Contact",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Get Template",
+            "current": null,
+            "aria": null,
+            "color": "rgb(0, 0, 238)"
+          }
+        ]
+      },
+      "scrolled": {
+        "y": 1200,
+        "sections": [
+          {
+            "class": "framer-1ebl17a",
+            "top": 50.41223907470703,
+            "opacity": "0.927135",
+            "transform": "matrix(1, 0, 0, 1, 0, 6.19349)",
+            "translate": "none"
+          },
+          {
+            "class": "framer-1umtnx7",
+            "top": 423.7872314453125,
+            "opacity": "0.927135",
+            "transform": "matrix(1, 0, 0, 1, 0, 6.19349)",
+            "translate": "none"
+          },
+          {
+            "class": "framer-1pryhab",
+            "top": 797.1622314453125,
+            "opacity": "0.927135",
+            "transform": "matrix(1, 0, 0, 1, 0, 6.19349)",
+            "translate": "none"
+          }
+        ],
+        "cards": [
+          {
+            "tag": "A",
+            "href": "./why-your-mood-deserves-better-content",
+            "text": "Why Your Mood Deserves Better ContentYour state of mind"
+          },
+          {
+            "tag": "A",
+            "href": "./article-summaries-that-make-sense",
+            "text": "Article Summaries That Make SenseSave time, skip the fl"
+          },
+          {
+            "tag": "A",
+            "href": "./why-scrolling-is-out-and-speaking-is-in",
+            "text": "Why Scrolling Is Out and Speaking Is InDiscover how voi"
+          },
+          {
+            "tag": "A",
+            "href": "./how-to-do-online-dating-as-weebs",
+            "text": "How To Do Online Dating As WeebsIs Sharing Anime Love a"
+          }
+        ]
+      },
+      "carousel": {
+        "y": 2700,
+        "buttons": [
+          {
+            "label": "Previous",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": "Next",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": null,
+            "text": "Subscribe",
+            "transform": "none"
+          }
+        ]
+      }
+    },
+    "local": {
+      "top": {
+        "url": "http://localhost:3107/blog-index/why-your-mood-deserves-better-content",
+        "title": "Why Your Mood Deserves Better Content",
+        "words": 0,
+        "appear": [],
+        "motion": [
+          {
+            "class": "article-intro",
+            "style": "0px 2.40001px"
+          },
+          {
+            "class": "article-cover",
+            "style": "0px 2.40001px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          }
+        ],
+        "nav": [
+          {
+            "text": "",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Blog",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Contact",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Get Template ",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "How It Works",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Features",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Why Choose Us",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Testimonials",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Instagram",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Linkedin",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Threads",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Twitter",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Contact Us",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Blogs",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          }
+        ]
+      },
+      "scrolled": {
+        "y": 1200,
+        "sections": [
+          {
+            "class": "article-section",
+            "top": 48.93209457397461,
+            "opacity": "0.94363",
+            "transform": "none",
+            "translate": "0px 4.79147px"
+          },
+          {
+            "class": "article-section",
+            "top": 423.4707946777344,
+            "opacity": "0.929755",
+            "transform": "none",
+            "translate": "0px 5.97079px"
+          },
+          {
+            "class": "article-section",
+            "top": 808.2435302734375,
+            "opacity": "0.79548",
+            "transform": "none",
+            "translate": "0px 17.3842px"
+          }
+        ],
+        "cards": [
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Why Your Mood Deserves Better ContentYour state of mind"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Article Summaries That Make SenseSave time, skip the fl"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Why Scrolling Is Out and Speaking Is InDiscover how voi"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "How To Do Online Dating As WeebsIs Sharing Anime Love a"
+          }
+        ]
+      },
+      "carousel": {
+        "y": 2700,
+        "buttons": [
+          {
+            "label": "Previous articles",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": "Next articles",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": null,
+            "text": "Subscribe ",
+            "transform": "none"
+          }
+        ],
+        "heading": "Fresh Takes, Fun Reads, and AI-Curated Topics"
+      }
+    }
+  },
+  {
+    "slug": "article-summaries-that-make-sense",
+    "width": 1440,
+    "source": {
+      "top": {
+        "url": "https://readable.framer.website/blog-index/article-summaries-that-make-sense",
+        "title": "Article Summaries That Make Sense",
+        "words": 5,
+        "appear": [
+          {
+            "id": "1lpep8y",
+            "style": "opacity: 0.001; transform: translateX(-50%) translateY(-85px); will-change: transform;"
+          },
+          {
+            "id": "19roo6b",
+            "style": "opacity: 0.001; transform: none; will-change: transform;"
+          },
+          {
+            "id": "17kra46",
+            "style": "opacity: 0.001; transform: translateY(49.8297px); will-change: transform;"
+          }
+        ],
+        "motion": [],
+        "nav": [
+          {
+            "text": "",
+            "current": null,
+            "aria": null,
+            "color": "rgb(0, 0, 238)"
+          },
+          {
+            "text": "Blog",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Contact",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Get Template",
+            "current": null,
+            "aria": null,
+            "color": "rgb(0, 0, 238)"
+          }
+        ]
+      },
+      "scrolled": {
+        "y": 1200,
+        "sections": [
+          {
+            "class": "framer-1ebl17a",
+            "top": 48.916343688964844,
+            "opacity": "0.944734",
+            "transform": "matrix(1, 0, 0, 1, 0, 4.69759)",
+            "translate": "none"
+          },
+          {
+            "class": "framer-1umtnx7",
+            "top": 364.6976013183594,
+            "opacity": "0.944734",
+            "transform": "matrix(1, 0, 0, 1, 0, 4.69759)",
+            "translate": "none"
+          },
+          {
+            "class": "framer-1pryhab",
+            "top": 738.0725708007812,
+            "opacity": "0.944734",
+            "transform": "matrix(1, 0, 0, 1, 0, 4.69759)",
+            "translate": "none"
+          }
+        ],
+        "cards": [
+          {
+            "tag": "A",
+            "href": "./why-your-mood-deserves-better-content",
+            "text": "Why Your Mood Deserves Better ContentYour state of mind"
+          },
+          {
+            "tag": "A",
+            "href": "./article-summaries-that-make-sense",
+            "text": "Article Summaries That Make SenseSave time, skip the fl"
+          },
+          {
+            "tag": "A",
+            "href": "./why-scrolling-is-out-and-speaking-is-in",
+            "text": "Why Scrolling Is Out and Speaking Is InDiscover how voi"
+          },
+          {
+            "tag": "A",
+            "href": "./how-to-do-online-dating-as-weebs",
+            "text": "How To Do Online Dating As WeebsIs Sharing Anime Love a"
+          }
+        ]
+      },
+      "carousel": {
+        "y": 2700,
+        "buttons": [
+          {
+            "label": "Previous",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": "Next",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": null,
+            "text": "Subscribe",
+            "transform": "none"
+          }
+        ]
+      }
+    },
+    "local": {
+      "top": {
+        "url": "http://localhost:3107/blog-index/article-summaries-that-make-sense",
+        "title": "Article Summaries That Make Sense",
+        "words": 0,
+        "appear": [],
+        "motion": [
+          {
+            "class": "article-intro",
+            "style": "0px 2.39879px"
+          },
+          {
+            "class": "article-cover",
+            "style": "0px 2.39879px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          }
+        ],
+        "nav": [
+          {
+            "text": "",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Blog",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Contact",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Get Template ",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "How It Works",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Features",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Why Choose Us",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Testimonials",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Instagram",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Linkedin",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Threads",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Twitter",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Contact Us",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Blogs",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          }
+        ]
+      },
+      "scrolled": {
+        "y": 1200,
+        "sections": [
+          {
+            "class": "article-section",
+            "top": 50.1124267578125,
+            "opacity": "0.929743",
+            "transform": "none",
+            "translate": "0px 5.9718px"
+          },
+          {
+            "class": "article-section",
+            "top": 375.53851318359375,
+            "opacity": "0.816091",
+            "transform": "none",
+            "translate": "0px 15.6323px"
+          },
+          {
+            "class": "article-section",
+            "top": 818.265625,
+            "opacity": "0",
+            "transform": "none",
+            "translate": "0px 85px"
+          }
+        ],
+        "cards": [
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Why Your Mood Deserves Better ContentYour state of mind"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Article Summaries That Make SenseSave time, skip the fl"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Why Scrolling Is Out and Speaking Is InDiscover how voi"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "How To Do Online Dating As WeebsIs Sharing Anime Love a"
+          }
+        ]
+      },
+      "carousel": {
+        "y": 2699,
+        "buttons": [
+          {
+            "label": "Previous articles",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": "Next articles",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": null,
+            "text": "Subscribe ",
+            "transform": "none"
+          }
+        ],
+        "heading": "Fresh Takes, Fun Reads, and AI-Curated Topics"
+      }
+    }
+  },
+  {
+    "slug": "why-scrolling-is-out-and-speaking-is-in",
+    "width": 1440,
+    "source": {
+      "top": {
+        "url": "https://readable.framer.website/blog-index/why-scrolling-is-out-and-speaking-is-in",
+        "title": "Why Scrolling Is Out and Speaking Is In",
+        "words": 8,
+        "appear": [
+          {
+            "id": "1lpep8y",
+            "style": "opacity: 0.001; transform: translateX(-50%) translateY(-85px); will-change: transform;"
+          },
+          {
+            "id": "19roo6b",
+            "style": "opacity: 0.001; transform: none; will-change: transform;"
+          },
+          {
+            "id": "17kra46",
+            "style": "opacity: 0.001; transform: translateY(57.602px); will-change: transform;"
+          }
+        ],
+        "motion": [],
+        "nav": [
+          {
+            "text": "",
+            "current": null,
+            "aria": null,
+            "color": "rgb(0, 0, 238)"
+          },
+          {
+            "text": "Blog",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Contact",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Get Template",
+            "current": null,
+            "aria": null,
+            "color": "rgb(0, 0, 238)"
+          }
+        ]
+      },
+      "scrolled": {
+        "y": 1200,
+        "sections": [
+          {
+            "class": "framer-1ebl17a",
+            "top": 52.453182220458984,
+            "opacity": "0.903124",
+            "transform": "matrix(1, 0, 0, 1, 0, 8.23443)",
+            "translate": "none"
+          },
+          {
+            "class": "framer-1umtnx7",
+            "top": 425.82818603515625,
+            "opacity": "0.903124",
+            "transform": "matrix(1, 0, 0, 1, 0, 8.23443)",
+            "translate": "none"
+          },
+          {
+            "class": "framer-1pryhab",
+            "top": 799.2031860351562,
+            "opacity": "0.903124",
+            "transform": "matrix(1, 0, 0, 1, 0, 8.23443)",
+            "translate": "none"
+          }
+        ],
+        "cards": [
+          {
+            "tag": "A",
+            "href": "./why-your-mood-deserves-better-content",
+            "text": "Why Your Mood Deserves Better ContentYour state of mind"
+          },
+          {
+            "tag": "A",
+            "href": "./article-summaries-that-make-sense",
+            "text": "Article Summaries That Make SenseSave time, skip the fl"
+          },
+          {
+            "tag": "A",
+            "href": "./why-scrolling-is-out-and-speaking-is-in",
+            "text": "Why Scrolling Is Out and Speaking Is InDiscover how voi"
+          },
+          {
+            "tag": "A",
+            "href": "./how-to-do-online-dating-as-weebs",
+            "text": "How To Do Online Dating As WeebsIs Sharing Anime Love a"
+          }
+        ]
+      },
+      "carousel": {
+        "y": 2700,
+        "buttons": [
+          {
+            "label": "Previous",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": "Next",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": null,
+            "text": "Subscribe",
+            "transform": "none"
+          }
+        ]
+      }
+    },
+    "local": {
+      "top": {
+        "url": "http://localhost:3107/blog-index/why-scrolling-is-out-and-speaking-is-in",
+        "title": "Why Scrolling Is Out and Speaking Is In",
+        "words": 0,
+        "appear": [],
+        "motion": [
+          {
+            "class": "article-intro",
+            "style": "0px 1.87566px"
+          },
+          {
+            "class": "article-cover",
+            "style": "0px 1.87566px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          }
+        ],
+        "nav": [
+          {
+            "text": "",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Blog",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Contact",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Get Template ",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "How It Works",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Features",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Why Choose Us",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Testimonials",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Instagram",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Linkedin",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Threads",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Twitter",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Contact Us",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Blogs",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          }
+        ]
+      },
+      "scrolled": {
+        "y": 1200,
+        "sections": [
+          {
+            "class": "article-section",
+            "top": 50.111881256103516,
+            "opacity": "0.92975",
+            "transform": "none",
+            "translate": "0px 5.97126px"
+          },
+          {
+            "class": "article-section",
+            "top": 423.47125244140625,
+            "opacity": "0.92975",
+            "transform": "none",
+            "translate": "0px 5.97126px"
+          },
+          {
+            "class": "article-section",
+            "top": 806.490234375,
+            "opacity": "0.816108",
+            "transform": "none",
+            "translate": "0px 15.6309px"
+          }
+        ],
+        "cards": [
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Why Your Mood Deserves Better ContentYour state of mind"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Article Summaries That Make SenseSave time, skip the fl"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Why Scrolling Is Out and Speaking Is InDiscover how voi"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "How To Do Online Dating As WeebsIs Sharing Anime Love a"
+          }
+        ]
+      },
+      "carousel": {
+        "y": 2697,
+        "buttons": [
+          {
+            "label": "Previous articles",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": "Next articles",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": null,
+            "text": "Subscribe ",
+            "transform": "none"
+          }
+        ],
+        "heading": "Fresh Takes, Fun Reads, and AI-Curated Topics"
+      }
+    }
+  },
+  {
+    "slug": "how-to-do-online-dating-as-weebs",
+    "width": 1440,
+    "source": {
+      "top": {
+        "url": "https://readable.framer.website/blog-index/how-to-do-online-dating-as-weebs",
+        "title": "How To Do Online Dating As Weebs",
+        "words": 7,
+        "appear": [
+          {
+            "id": "1lpep8y",
+            "style": "opacity: 0.001; transform: translateX(-50%) translateY(-85px); will-change: transform;"
+          },
+          {
+            "id": "19roo6b",
+            "style": "opacity: 0.001; transform: none; will-change: transform;"
+          },
+          {
+            "id": "17kra46",
+            "style": "opacity: 0.001; transform: translateY(47.7962px); will-change: transform;"
+          }
+        ],
+        "motion": [],
+        "nav": [
+          {
+            "text": "",
+            "current": null,
+            "aria": null,
+            "color": "rgb(0, 0, 238)"
+          },
+          {
+            "text": "Blog",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Contact",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Get Template",
+            "current": null,
+            "aria": null,
+            "color": "rgb(0, 0, 238)"
+          }
+        ]
+      },
+      "scrolled": {
+        "y": 1200,
+        "sections": [
+          {
+            "class": "framer-1ebl17a",
+            "top": 49.434932708740234,
+            "opacity": "0.938633",
+            "transform": "matrix(1, 0, 0, 1, 0, 5.21618)",
+            "translate": "none"
+          },
+          {
+            "class": "framer-1umtnx7",
+            "top": 453.4036865234375,
+            "opacity": "0.938633",
+            "transform": "matrix(1, 0, 0, 1, 0, 5.21618)",
+            "translate": "none"
+          },
+          {
+            "class": "framer-1pryhab",
+            "top": 799.7786865234375,
+            "opacity": "0.938633",
+            "transform": "matrix(1, 0, 0, 1, 0, 5.21618)",
+            "translate": "none"
+          }
+        ],
+        "cards": [
+          {
+            "tag": "A",
+            "href": "./why-your-mood-deserves-better-content",
+            "text": "Why Your Mood Deserves Better ContentYour state of mind"
+          },
+          {
+            "tag": "A",
+            "href": "./article-summaries-that-make-sense",
+            "text": "Article Summaries That Make SenseSave time, skip the fl"
+          },
+          {
+            "tag": "A",
+            "href": "./why-scrolling-is-out-and-speaking-is-in",
+            "text": "Why Scrolling Is Out and Speaking Is InDiscover how voi"
+          },
+          {
+            "tag": "A",
+            "href": "./how-to-do-online-dating-as-weebs",
+            "text": "How To Do Online Dating As WeebsIs Sharing Anime Love a"
+          }
+        ]
+      },
+      "carousel": {
+        "y": 2700,
+        "buttons": [
+          {
+            "label": "Previous",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": "Next",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": null,
+            "text": "Subscribe",
+            "transform": "none"
+          }
+        ]
+      }
+    },
+    "local": {
+      "top": {
+        "url": "http://localhost:3107/blog-index/how-to-do-online-dating-as-weebs",
+        "title": "How To Do Online Dating As Weebs",
+        "words": 0,
+        "appear": [],
+        "motion": [
+          {
+            "class": "article-intro",
+            "style": "0px 3.41583px"
+          },
+          {
+            "class": "article-cover",
+            "style": "0px 3.41583px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          }
+        ],
+        "nav": [
+          {
+            "text": "",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Blog",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Contact",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Get Template ",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "How It Works",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Features",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Why Choose Us",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Testimonials",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Instagram",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Linkedin",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Threads",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Twitter",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Contact Us",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Blogs",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          }
+        ]
+      },
+      "scrolled": {
+        "y": 1200,
+        "sections": [
+          {
+            "class": "article-section",
+            "top": 49.49306869506836,
+            "opacity": "0.93703",
+            "transform": "none",
+            "translate": "0px 5.35244px"
+          },
+          {
+            "class": "article-section",
+            "top": 455.5103454589844,
+            "opacity": "0.912746",
+            "transform": "none",
+            "translate": "0px 7.41661px"
+          },
+          {
+            "class": "article-section",
+            "top": 815.9808349609375,
+            "opacity": "0.746733",
+            "transform": "none",
+            "translate": "0px 21.5277px"
+          }
+        ],
+        "cards": [
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Why Your Mood Deserves Better ContentYour state of mind"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Article Summaries That Make SenseSave time, skip the fl"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Why Scrolling Is Out and Speaking Is InDiscover how voi"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "How To Do Online Dating As WeebsIs Sharing Anime Love a"
+          }
+        ]
+      },
+      "carousel": {
+        "y": 2700,
+        "buttons": [
+          {
+            "label": "Previous articles",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": "Next articles",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": null,
+            "text": "Subscribe ",
+            "transform": "none"
+          }
+        ],
+        "heading": "Fresh Takes, Fun Reads, and AI-Curated Topics"
+      }
+    }
+  },
+  {
+    "slug": "why-your-mood-deserves-better-content",
+    "width": 390,
+    "source": {
+      "top": {
+        "url": "https://readable.framer.website/blog-index/why-your-mood-deserves-better-content",
+        "title": "Why Your Mood Deserves Better Content",
+        "words": 6,
+        "appear": [
+          {
+            "id": "1lpep8y",
+            "style": "opacity: 0.001; transform: translateX(-50%) translateY(-85px); will-change: transform;"
+          },
+          {
+            "id": "19roo6b",
+            "style": "opacity: 0.001; transform: none; will-change: transform;"
+          },
+          {
+            "id": "17kra46",
+            "style": "opacity: 0.001; transform: translateY(50.4557px); will-change: transform;"
+          }
+        ],
+        "motion": [],
+        "nav": [
+          {
+            "text": "",
+            "current": null,
+            "aria": null,
+            "color": "rgb(0, 0, 238)"
+          },
+          {
+            "text": "Blog",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Contact",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Get Template",
+            "current": null,
+            "aria": null,
+            "color": "rgb(0, 0, 238)"
+          }
+        ]
+      },
+      "scrolled": {
+        "y": 1200,
+        "sections": [
+          {
+            "class": "framer-1ebl17a",
+            "top": -400.078125,
+            "opacity": "1",
+            "transform": "none",
+            "translate": "none"
+          },
+          {
+            "class": "framer-1umtnx7",
+            "top": 102.325927734375,
+            "opacity": "0.922085",
+            "transform": "matrix(1, 0, 0, 1, 0, 6.62279)",
+            "translate": "none"
+          },
+          {
+            "class": "framer-1pryhab",
+            "top": 605.919677734375,
+            "opacity": "0.922085",
+            "transform": "matrix(1, 0, 0, 1, 0, 6.62279)",
+            "translate": "none"
+          }
+        ],
+        "cards": [
+          {
+            "tag": "A",
+            "href": "./why-your-mood-deserves-better-content",
+            "text": "Why Your Mood Deserves Better ContentYour state of mind"
+          },
+          {
+            "tag": "A",
+            "href": "./article-summaries-that-make-sense",
+            "text": "Article Summaries That Make SenseSave time, skip the fl"
+          },
+          {
+            "tag": "A",
+            "href": "./why-scrolling-is-out-and-speaking-is-in",
+            "text": "Why Scrolling Is Out and Speaking Is InDiscover how voi"
+          },
+          {
+            "tag": "A",
+            "href": "./how-to-do-online-dating-as-weebs",
+            "text": "How To Do Online Dating As WeebsIs Sharing Anime Love a"
+          }
+        ]
+      },
+      "carousel": {
+        "y": 2700,
+        "buttons": [
+          {
+            "label": "Previous",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": "Next",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": null,
+            "text": "Subscribe",
+            "transform": "none"
+          }
+        ]
+      }
+    },
+    "local": {
+      "top": {
+        "url": "http://localhost:3107/blog-index/why-your-mood-deserves-better-content",
+        "title": "Why Your Mood Deserves Better Content",
+        "words": 0,
+        "appear": [],
+        "motion": [
+          {
+            "class": "article-intro",
+            "style": "0px 2.39952px"
+          },
+          {
+            "class": "article-cover",
+            "style": "0px 2.39952px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 2.39952px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          }
+        ],
+        "nav": [
+          {
+            "text": "",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Blog",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Contact",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Get Template ",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "How It Works",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Features",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Why Choose Us",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Testimonials",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Instagram",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Linkedin",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Threads",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Twitter",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Contact Us",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Blogs",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          }
+        ]
+      },
+      "scrolled": {
+        "y": 1200,
+        "sections": [
+          {
+            "class": "article-section",
+            "top": -400.125,
+            "opacity": "1",
+            "transform": "none",
+            "translate": "0px"
+          },
+          {
+            "class": "article-section",
+            "top": 100.21258544921875,
+            "opacity": "0.912757",
+            "transform": "none",
+            "translate": "0px 7.4157px"
+          },
+          {
+            "class": "article-section",
+            "top": 606.1557006835938,
+            "opacity": "0.851293",
+            "transform": "none",
+            "translate": "0px 12.6401px"
+          }
+        ],
+        "cards": [
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Why Your Mood Deserves Better ContentYour state of mind"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Article Summaries That Make SenseSave time, skip the fl"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Why Scrolling Is Out and Speaking Is InDiscover how voi"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "How To Do Online Dating As WeebsIs Sharing Anime Love a"
+          }
+        ]
+      },
+      "carousel": {
+        "y": 2697,
+        "buttons": [
+          {
+            "label": "Previous articles",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": "Next articles",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": null,
+            "text": "Subscribe ",
+            "transform": "none"
+          }
+        ],
+        "heading": "Fresh Takes, Fun Reads, and AI-Curated Topics"
+      }
+    }
+  },
+  {
+    "slug": "article-summaries-that-make-sense",
+    "width": 390,
+    "source": {
+      "top": {
+        "url": "https://readable.framer.website/blog-index/article-summaries-that-make-sense",
+        "title": "Article Summaries That Make Sense",
+        "words": 5,
+        "appear": [
+          {
+            "id": "1lpep8y",
+            "style": "opacity: 0.001; transform: translateX(-50%) translateY(-85px); will-change: transform;"
+          },
+          {
+            "id": "19roo6b",
+            "style": "opacity: 0.001; transform: none; will-change: transform;"
+          },
+          {
+            "id": "17kra46",
+            "style": "opacity: 0.001; transform: translateY(65.5786px); will-change: transform;"
+          }
+        ],
+        "motion": [],
+        "nav": [
+          {
+            "text": "",
+            "current": null,
+            "aria": null,
+            "color": "rgb(0, 0, 238)"
+          },
+          {
+            "text": "Blog",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Contact",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Get Template",
+            "current": null,
+            "aria": null,
+            "color": "rgb(0, 0, 238)"
+          }
+        ]
+      },
+      "scrolled": {
+        "y": 1200,
+        "sections": [
+          {
+            "class": "framer-1ebl17a",
+            "top": -445.671875,
+            "opacity": "1",
+            "transform": "none",
+            "translate": "none"
+          },
+          {
+            "class": "framer-1umtnx7",
+            "top": 17.742889404296875,
+            "opacity": "0.928944",
+            "transform": "matrix(1, 0, 0, 1, 0, 6.03978)",
+            "translate": "none"
+          },
+          {
+            "class": "framer-1pryhab",
+            "top": 513.524169921875,
+            "opacity": "0.928944",
+            "transform": "matrix(1, 0, 0, 1, 0, 6.03978)",
+            "translate": "none"
+          }
+        ],
+        "cards": [
+          {
+            "tag": "A",
+            "href": "./why-your-mood-deserves-better-content",
+            "text": "Why Your Mood Deserves Better ContentYour state of mind"
+          },
+          {
+            "tag": "A",
+            "href": "./article-summaries-that-make-sense",
+            "text": "Article Summaries That Make SenseSave time, skip the fl"
+          },
+          {
+            "tag": "A",
+            "href": "./why-scrolling-is-out-and-speaking-is-in",
+            "text": "Why Scrolling Is Out and Speaking Is InDiscover how voi"
+          },
+          {
+            "tag": "A",
+            "href": "./how-to-do-online-dating-as-weebs",
+            "text": "How To Do Online Dating As WeebsIs Sharing Anime Love a"
+          }
+        ]
+      },
+      "carousel": {
+        "y": 2700,
+        "buttons": [
+          {
+            "label": "Previous",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": "Next",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": null,
+            "text": "Subscribe",
+            "transform": "none"
+          }
+        ]
+      }
+    },
+    "local": {
+      "top": {
+        "url": "http://localhost:3107/blog-index/article-summaries-that-make-sense",
+        "title": "Article Summaries That Make Sense",
+        "words": 0,
+        "appear": [],
+        "motion": [
+          {
+            "class": "article-intro",
+            "style": "0px 3.04123px"
+          },
+          {
+            "class": "article-cover",
+            "style": "0px 3.04123px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 3.04123px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          }
+        ],
+        "nav": [
+          {
+            "text": "",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Blog",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Contact",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Get Template ",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "How It Works",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Features",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Why Choose Us",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Testimonials",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Instagram",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Linkedin",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Threads",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Twitter",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Contact Us",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Blogs",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          }
+        ]
+      },
+      "scrolled": {
+        "y": 1200,
+        "sections": [
+          {
+            "class": "article-section",
+            "top": -445.71875,
+            "opacity": "1",
+            "transform": "none",
+            "translate": "0px"
+          },
+          {
+            "class": "article-section",
+            "top": 14.163665771484375,
+            "opacity": "0.937045",
+            "transform": "none",
+            "translate": "0px 5.35117px"
+          },
+          {
+            "class": "article-section",
+            "top": 510.9210205078125,
+            "opacity": "0.891922",
+            "transform": "none",
+            "translate": "0px 9.18666px"
+          }
+        ],
+        "cards": [
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Why Your Mood Deserves Better ContentYour state of mind"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Article Summaries That Make SenseSave time, skip the fl"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Why Scrolling Is Out and Speaking Is InDiscover how voi"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "How To Do Online Dating As WeebsIs Sharing Anime Love a"
+          }
+        ]
+      },
+      "carousel": {
+        "y": 2692,
+        "buttons": [
+          {
+            "label": "Previous articles",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": "Next articles",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": null,
+            "text": "Subscribe ",
+            "transform": "none"
+          }
+        ],
+        "heading": "Fresh Takes, Fun Reads, and AI-Curated Topics"
+      }
+    }
+  },
+  {
+    "slug": "why-scrolling-is-out-and-speaking-is-in",
+    "width": 390,
+    "source": {
+      "top": {
+        "url": "https://readable.framer.website/blog-index/why-scrolling-is-out-and-speaking-is-in",
+        "title": "Why Scrolling Is Out and Speaking Is In",
+        "words": 8,
+        "appear": [
+          {
+            "id": "1lpep8y",
+            "style": "opacity: 0.001; transform: translateX(-50%) translateY(-85px); will-change: transform;"
+          },
+          {
+            "id": "19roo6b",
+            "style": "opacity: 0.001; transform: none; will-change: transform;"
+          },
+          {
+            "id": "17kra46",
+            "style": "opacity: 0.001; transform: translateY(65.8394px); will-change: transform;"
+          }
+        ],
+        "motion": [],
+        "nav": [
+          {
+            "text": "",
+            "current": null,
+            "aria": null,
+            "color": "rgb(0, 0, 238)"
+          },
+          {
+            "text": "Blog",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Contact",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Get Template",
+            "current": null,
+            "aria": null,
+            "color": "rgb(0, 0, 238)"
+          }
+        ]
+      },
+      "scrolled": {
+        "y": 1200,
+        "sections": [
+          {
+            "class": "framer-1ebl17a",
+            "top": -445.671875,
+            "opacity": "1",
+            "transform": "none",
+            "translate": "none"
+          },
+          {
+            "class": "framer-1umtnx7",
+            "top": 19.66619873046875,
+            "opacity": "0.906317",
+            "transform": "matrix(1, 0, 0, 1, 0, 7.96308)",
+            "translate": "none"
+          },
+          {
+            "class": "framer-1pryhab",
+            "top": 546.0411987304688,
+            "opacity": "0.906317",
+            "transform": "matrix(1, 0, 0, 1, 0, 7.96308)",
+            "translate": "none"
+          }
+        ],
+        "cards": [
+          {
+            "tag": "A",
+            "href": "./why-your-mood-deserves-better-content",
+            "text": "Why Your Mood Deserves Better ContentYour state of mind"
+          },
+          {
+            "tag": "A",
+            "href": "./article-summaries-that-make-sense",
+            "text": "Article Summaries That Make SenseSave time, skip the fl"
+          },
+          {
+            "tag": "A",
+            "href": "./why-scrolling-is-out-and-speaking-is-in",
+            "text": "Why Scrolling Is Out and Speaking Is InDiscover how voi"
+          },
+          {
+            "tag": "A",
+            "href": "./how-to-do-online-dating-as-weebs",
+            "text": "How To Do Online Dating As WeebsIs Sharing Anime Love a"
+          }
+        ]
+      },
+      "carousel": {
+        "y": 2700,
+        "buttons": [
+          {
+            "label": "Previous",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": "Next",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": null,
+            "text": "Subscribe",
+            "transform": "none"
+          }
+        ]
+      }
+    },
+    "local": {
+      "top": {
+        "url": "http://localhost:3107/blog-index/why-scrolling-is-out-and-speaking-is-in",
+        "title": "Why Scrolling Is Out and Speaking Is In",
+        "words": 0,
+        "appear": [],
+        "motion": [
+          {
+            "class": "article-intro",
+            "style": "0px 3.82826px"
+          },
+          {
+            "class": "article-cover",
+            "style": "0px 3.82826px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 3.82826px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          }
+        ],
+        "nav": [
+          {
+            "text": "",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Blog",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Contact",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Get Template ",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "How It Works",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Features",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Why Choose Us",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Testimonials",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Instagram",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Linkedin",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Threads",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Twitter",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Contact Us",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Blogs",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          }
+        ]
+      },
+      "scrolled": {
+        "y": 1200,
+        "sections": [
+          {
+            "class": "article-section",
+            "top": -445.71875,
+            "opacity": "1",
+            "transform": "none",
+            "translate": "0px"
+          },
+          {
+            "class": "article-section",
+            "top": 11.5179443359375,
+            "opacity": "0.968171",
+            "transform": "none",
+            "translate": "0px 2.70545px"
+          },
+          {
+            "class": "article-section",
+            "top": 538.9891357421875,
+            "opacity": "0.921635",
+            "transform": "none",
+            "translate": "0px 6.66099px"
+          }
+        ],
+        "cards": [
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Why Your Mood Deserves Better ContentYour state of mind"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Article Summaries That Make SenseSave time, skip the fl"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Why Scrolling Is Out and Speaking Is InDiscover how voi"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "How To Do Online Dating As WeebsIs Sharing Anime Love a"
+          }
+        ]
+      },
+      "carousel": {
+        "y": 2688,
+        "buttons": [
+          {
+            "label": "Previous articles",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": "Next articles",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": null,
+            "text": "Subscribe ",
+            "transform": "none"
+          }
+        ],
+        "heading": "Fresh Takes, Fun Reads, and AI-Curated Topics"
+      }
+    }
+  },
+  {
+    "slug": "how-to-do-online-dating-as-weebs",
+    "width": 390,
+    "source": {
+      "top": {
+        "url": "https://readable.framer.website/blog-index/how-to-do-online-dating-as-weebs",
+        "title": "How To Do Online Dating As Weebs",
+        "words": 7,
+        "appear": [
+          {
+            "id": "1lpep8y",
+            "style": "opacity: 0.001; transform: translateX(-50%) translateY(-85px); will-change: transform;"
+          },
+          {
+            "id": "19roo6b",
+            "style": "opacity: 0.001; transform: none; will-change: transform;"
+          },
+          {
+            "id": "17kra46",
+            "style": "opacity: 0.001; transform: translateY(56.8954px); will-change: transform;"
+          }
+        ],
+        "motion": [],
+        "nav": [
+          {
+            "text": "",
+            "current": null,
+            "aria": null,
+            "color": "rgb(0, 0, 238)"
+          },
+          {
+            "text": "Blog",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Contact",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Get Template",
+            "current": null,
+            "aria": null,
+            "color": "rgb(0, 0, 238)"
+          }
+        ]
+      },
+      "scrolled": {
+        "y": 1200,
+        "sections": [
+          {
+            "class": "framer-1ebl17a",
+            "top": -445.671875,
+            "opacity": "1",
+            "transform": "none",
+            "translate": "none"
+          },
+          {
+            "class": "framer-1umtnx7",
+            "top": 121.11517333984375,
+            "opacity": "0.884491",
+            "transform": "matrix(1, 0, 0, 1, 0, 9.81828)",
+            "translate": "none"
+          },
+          {
+            "class": "framer-1pryhab",
+            "top": 639.6776123046875,
+            "opacity": "0.884491",
+            "transform": "matrix(1, 0, 0, 1, 0, 9.81828)",
+            "translate": "none"
+          }
+        ],
+        "cards": [
+          {
+            "tag": "A",
+            "href": "./why-your-mood-deserves-better-content",
+            "text": "Why Your Mood Deserves Better ContentYour state of mind"
+          },
+          {
+            "tag": "A",
+            "href": "./article-summaries-that-make-sense",
+            "text": "Article Summaries That Make SenseSave time, skip the fl"
+          },
+          {
+            "tag": "A",
+            "href": "./why-scrolling-is-out-and-speaking-is-in",
+            "text": "Why Scrolling Is Out and Speaking Is InDiscover how voi"
+          },
+          {
+            "tag": "A",
+            "href": "./how-to-do-online-dating-as-weebs",
+            "text": "How To Do Online Dating As WeebsIs Sharing Anime Love a"
+          }
+        ]
+      },
+      "carousel": {
+        "y": 2700,
+        "buttons": [
+          {
+            "label": "Previous",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": "Next",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": null,
+            "text": "Subscribe",
+            "transform": "none"
+          }
+        ]
+      }
+    },
+    "local": {
+      "top": {
+        "url": "http://localhost:3107/blog-index/how-to-do-online-dating-as-weebs",
+        "title": "How To Do Online Dating As Weebs",
+        "words": 0,
+        "appear": [],
+        "motion": [
+          {
+            "class": "article-intro",
+            "style": "0px 1.45383px"
+          },
+          {
+            "class": "article-cover",
+            "style": "0px 1.45383px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 1.45383px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          },
+          {
+            "class": "article-section",
+            "style": "0px 85px"
+          }
+        ],
+        "nav": [
+          {
+            "text": "",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Blog",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Contact",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Get Template ",
+            "current": null,
+            "aria": null,
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "How It Works",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Features",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Why Choose Us",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Testimonials",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Instagram",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Linkedin",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Threads",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Twitter",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Contact Us",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          },
+          {
+            "text": "Blogs",
+            "current": null,
+            "aria": null,
+            "color": "rgb(210, 210, 210)"
+          }
+        ]
+      },
+      "scrolled": {
+        "y": 1200,
+        "sections": [
+          {
+            "class": "article-section",
+            "top": -445.71875,
+            "opacity": "1",
+            "transform": "none",
+            "translate": "0px"
+          },
+          {
+            "class": "article-section",
+            "top": 110.51416015625,
+            "opacity": "0.975017",
+            "transform": "none",
+            "translate": "0px 2.12352px"
+          },
+          {
+            "class": "article-section",
+            "top": 631.5230712890625,
+            "opacity": "0.912781",
+            "transform": "none",
+            "translate": "0px 7.41364px"
+          }
+        ],
+        "cards": [
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Why Your Mood Deserves Better ContentYour state of mind"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Article Summaries That Make SenseSave time, skip the fl"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "Why Scrolling Is Out and Speaking Is InDiscover how voi"
+          },
+          {
+            "tag": "ARTICLE",
+            "href": null,
+            "text": "How To Do Online Dating As WeebsIs Sharing Anime Love a"
+          }
+        ]
+      },
+      "carousel": {
+        "y": 2661,
+        "buttons": [
+          {
+            "label": "Previous articles",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": "Next articles",
+            "text": "",
+            "transform": "none"
+          },
+          {
+            "label": null,
+            "text": "Subscribe ",
+            "transform": "none"
+          }
+        ],
+        "heading": "Fresh Takes, Fun Reads, and AI-Curated Topics"
+      }
+    }
+  }
+]
