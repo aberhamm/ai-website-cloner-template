@@ -7,4 +7,15 @@
 - Cart open/close, mobile menu open/Escape, single-open FAQ, shipping notice dismissal and newsletter feedback verified in browser.
 - All 14 image instances load; no horizontal overflow at desktop, tablet or mobile. Browser error log empty.
 - Lint, TypeScript and production build passed.
-- Product and legal pages are beyond the requested home-page scope and link to their original live destinations. Newsletter matches the original coming-soon behavior; checkout/backend not implemented.
+- Product and legal pages are now local. Newsletter and checkout match the original coming-soon/preview behavior; no order/payment backend is implemented.
+
+## Product and legal page extension
+
+- Recovered the source pages via .html URLs; extensionless paths on the source deployment fall back to the homepage. All source HTML and route runtime evidence are in docs/research/routes.
+- Added three product pages and two legal pages, preserving original content and draft policy placeholders. Downloaded three additional Probiotics detail photographs.
+- Desktop and mobile document dimensions agree with the source on all five new pages. No horizontal overflow, missing image assets, unresolved same-page anchors or links back to the original storefront.
+- Verified subscription price/frequency, independent cart lines, quantity updates, cart persistence between product/privacy pages, gallery selection, disclosures, sold-out controls, and checkout-preview modal.
+- Header/footer links return to the correct local homepage section. Existing shipping anchor now resolves. Editorial links and Instagram remain external by design.
+- Working copy retained at .worktrees/yuko-clone for the preview and future integration. Root agent owns cleanup after preview stops and changes are integrated or exported. Worker worktrees are removed after integration.
+
+Product photograph rendering was verified with viewport screenshots. Chromium full-page capture omitted some off-screen image paints despite successful image loading, so those incomplete clone PNGs were discarded; the source full-page references, dimension reports, and local viewport evidence are retained. Legal page screenshot comparisons differ by less than 0.005% of color channels at the >10/255 threshold.

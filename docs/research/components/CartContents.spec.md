@@ -1,0 +1,3 @@
+# CartContents and Store
+
+Cart uses original yuko-cart localStorage schema: id,quantity,purchaseMode,subscriptionFrequency. Add to cart opens shared floating header panel. Quantities1–99, removal at0. Subscription frequencies have independent line items and price tiers. Silver thumbnails64x80px, rounded12px; original item copy/controls/price and subtotal. Free shipping message above100 matches source. Checkout opens original preview dialog message, without an order/payment backend. Empty cart links to /#shop. Escape/backdrop/close button dismiss dialog. Controls and main nav remain local across product/privacy/terms routes. Source runtime captured in docs/research/source/0uxusu9kim988.js.txt.

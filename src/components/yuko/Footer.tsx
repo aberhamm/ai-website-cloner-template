@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 export function Footer() {
   const [message, setMessage] = useState("");
@@ -61,35 +62,31 @@ export function Footer() {
               className="flex flex-col items-start gap-0 md:gap-2"
               aria-label="Explore"
             >
-              <a href="#shop">{"Shop"}</a>
-              <a href="#science">{"Science"}</a>
-              <a href="#about">{"About"}</a>
+              <Link href="/#shop">{"Shop"}</Link>
+              <Link href="/#science">{"Science"}</Link>
+              <Link href="/#about">{"About"}</Link>
             </nav>
             <nav
               className="flex flex-col items-start gap-0 md:gap-2"
               aria-label="Support"
             >
-              <a href="mailto:contact@example.invalid">{"Contact"}</a>
-              <a href="#shipping">{"Shipping & returns"}</a>
-              <a
+              <Link href="mailto:contact@example.invalid">{"Contact"}</Link>
+              <Link href="/#shipping">{"Shipping & returns"}</Link>
+              <Link
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noreferrer"
               >
                 {"Instagram ↗"}
-              </a>
+              </Link>
             </nav>
           </div>
         </div>
         <div className="flex flex-col justify-between gap-2 px-1 text-[13px] leading-6 text-muted md:flex-row md:gap-6 md:px-0">
           <p>{"© 2026 YukoHealth"}</p>
           <nav className="flex gap-6" aria-label="Legal">
-            <a href="https://yukohealth-storefront-v1.21st.app/privacy">
-              {"Privacy"}
-            </a>
-            <a href="https://yukohealth-storefront-v1.21st.app/terms">
-              {"Terms"}
-            </a>
+            <Link href="/privacy">{"Privacy"}</Link>
+            <Link href="/terms">{"Terms"}</Link>
           </nav>
         </div>
       </footer>

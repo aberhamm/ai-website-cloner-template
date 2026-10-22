@@ -1,6 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useShop } from "./Store";
+import { CartContents } from "./CartContents";
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 
 // The source morphs a control into the measured panel, then staggers its content.
@@ -166,7 +170,14 @@ function useMorphPanel(open: boolean, close: () => void) {
 }
 
 export function Header() {
+  const isProduct = usePathname().startsWith("/products/");
   const [openPanel, setOpenPanel] = useState<"menu" | "cart" | null>(null);
+  const { count } = useShop();
+  useEffect(() => {
+    const open = () => setOpenPanel("cart");
+    window.addEventListener("yuko-open-cart", open);
+    return () => window.removeEventListener("yuko-open-cart", open);
+  }, []);
   const close = () => setOpenPanel(null);
   const menuOpen = openPanel === "menu";
   const cartOpen = openPanel === "cart";
@@ -259,10 +270,10 @@ export function Header() {
                   aria-label="Mobile navigation"
                   onClick={close}
                 >
-                  <a
+                  <Link
                     className="flex min-h-16 items-center justify-between border-t border-border hover:text-muted focus-visible:text-muted"
                     data-morph-reveal="true"
-                    href="#shop"
+                    href="/#shop"
                   >
                     {"Shop"}
                     <svg
@@ -279,11 +290,11 @@ export function Header() {
                         strokeLinejoin="round"
                       ></path>
                     </svg>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="flex min-h-16 items-center justify-between border-t border-border hover:text-muted focus-visible:text-muted"
                     data-morph-reveal="true"
-                    href="#science"
+                    href="/#science"
                   >
                     {"Science"}
                     <svg
@@ -300,11 +311,11 @@ export function Header() {
                         strokeLinejoin="round"
                       ></path>
                     </svg>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="flex min-h-16 items-center justify-between border-t border-border hover:text-muted focus-visible:text-muted"
                     data-morph-reveal="true"
-                    href="#about"
+                    href="/#about"
                   >
                     {"About"}
                     <svg
@@ -321,7 +332,7 @@ export function Header() {
                         strokeLinejoin="round"
                       ></path>
                     </svg>
-                  </a>
+                  </Link>
                 </nav>
               </div>
             </div>
@@ -331,27 +342,28 @@ export function Header() {
           className="hidden gap-2 min-[768px]:flex"
           aria-label="Main navigation"
         >
-          <a
-            className="inline-flex items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 min-h-header-control bg-floating backdrop-blur-floating hover:bg-floating-hover"
+          <Link
+            aria-current={isProduct ? "true" : undefined}
+            className="yuko-shop-link inline-flex items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 min-h-header-control bg-floating backdrop-blur-floating hover:bg-floating-hover"
             tabIndex={0}
-            href="#shop"
+            href="/#shop"
           >
             {"Shop"}
-          </a>
-          <a
+          </Link>
+          <Link
             className="inline-flex items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 min-h-header-control bg-floating backdrop-blur-floating hover:bg-floating-hover"
             tabIndex={0}
-            href="#science"
+            href="/#science"
           >
             {"Science"}
-          </a>
-          <a
+          </Link>
+          <Link
             className="inline-flex items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 min-h-header-control bg-floating backdrop-blur-floating hover:bg-floating-hover"
             tabIndex={0}
-            href="#about"
+            href="/#about"
           >
             {"About"}
-          </a>
+          </Link>
         </nav>
         <div
           className="group/panel relative isolate col-start-3 row-start-1 justify-self-end data-[open=true]:z-3"
@@ -365,7 +377,7 @@ export function Header() {
             aria-hidden={cartOpen}
             aria-expanded={cartOpen}
             aria-controls="cart-panel"
-            aria-label="Open cart, 0 items"
+            aria-label={`Open cart, ${count} ${count === 1 ? "item" : "items"}`}
             type="button"
             className="group/trigger relative z-1 flex gap-1"
             tabIndex={0}
@@ -377,7 +389,7 @@ export function Header() {
               className="inline-flex items-center justify-center gap-2 rounded-full py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none min-h-header-control bg-floating backdrop-blur-floating group-hover/trigger:bg-floating-hover max-[360px]:px-3 max-md:min-h-8 min-w-8 px-3 tabular-nums md:min-w-[37px]"
               aria-live="polite"
             >
-              <span>{"0"}</span>
+              <span>{count}</span>
             </span>
           </button>
           <div
@@ -427,33 +439,16 @@ export function Header() {
                     </svg>
                   </button>
                 </div>
-                <div className="flex shrink-0 flex-col gap-2">
-                  <div
-                    className="flex flex-col items-start gap-4"
-                    data-morph-reveal="true"
-                  >
-                    <p className="text-muted">
-                      {"There are no items in your cart"}
-                    </p>
-                    <a
-                      className="inline-flex items-center justify-center gap-2 rounded-full px-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 bg-foreground text-white hover:bg-[#454545] min-h-[calc(var(--header-control-height)*1.5)] w-full py-1 text-[15px] leading-6"
-                      tabIndex={0}
-                      onClick={close}
-                      href="#shop"
-                    >
-                      {"Browse shop"}
-                    </a>
-                  </div>
-                </div>
+                <CartContents close={close} />
               </div>
             </div>
           </div>
         </div>
       </header>
-      <a
+      <Link
         className="fixed top-5 left-1/2 z-19 flex w-max -translate-x-1/2 items-center justify-center gap-1.5 justify-self-center text-lg leading-8 tracking-[-0.03em] text-white mix-blend-difference max-[360px]:text-base md:top-4 md:gap-2 md:text-2xl"
         aria-label="YukoHealth home"
-        href="#top"
+        href="/#top"
       >
         <span
           className="relative block h-[16.58px] w-[16.288px] shrink-0 md:h-[20.725px] md:w-[20.36px]"
@@ -479,7 +474,7 @@ export function Header() {
           />
         </span>
         <span>{"YukoHealth"}</span>
-      </a>
+      </Link>
     </>
   );
 }

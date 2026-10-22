@@ -4,3 +4,69 @@
 :root { --font-inter: inter, "inter Fallback"; }
 .extracted-fill { position:absolute; height:100%; width:100%; inset:0; color:transparent; }
 .extracted-collapsed { height:0; }
+
+body.yuko-dialog-open { overflow: hidden; }
+
+/* Interactive page sections: loaded before hydration to avoid layout shifts. */
+
+        .product-accordion-panel {
+          height: 0;
+          interpolate-size: allow-keywords;
+          transition: height 220ms ease;
+        }
+        .product-accordion-panel[data-state="open"] {
+          height: auto;
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .product-accordion-panel {
+            transition: none;
+          }
+        }
+
+
+        .purchase-frequency {
+          display: grid;
+          grid-template-rows: 0fr;
+          overflow: hidden;
+          opacity: 0;
+          transition:
+            grid-template-rows 250ms ease-out,
+            opacity 250ms ease-out;
+        }
+        .purchase-frequency[data-open="true"] {
+          grid-template-rows: 1fr;
+          opacity: 1;
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .purchase-frequency {
+            transition: none;
+          }
+        }
+
+
+        .gallery-layer {
+          transition: opacity 240ms ease;
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .gallery-layer {
+            transition: none;
+          }
+        }
+
+
+        .faq-panel {
+          height: 0;
+          interpolate-size: allow-keywords;
+          transition: height 220ms ease;
+        }
+        .faq-panel[data-state="open"] {
+          height: auto;
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .faq-panel {
+            transition: none;
+          }
+        }
+
+
+.yuko-shop-link[aria-current="true"] {background-color:var(--color-floating-active);}

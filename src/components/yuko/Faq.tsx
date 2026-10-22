@@ -175,7 +175,10 @@ export function Faq() {
             </div>
           </div>
         </div>
-        <div className="border-t border-border [&_h3]:[font:inherit]">
+        <div
+          id="shipping"
+          className="border-t border-border [&_h3]:[font:inherit]"
+        >
           <h3>
             <button
               type="button"
@@ -250,21 +253,6 @@ export function Faq() {
           </div>
         </div>
       </div>
-      <style jsx>{`
-        .faq-panel {
-          height: 0;
-          interpolate-size: allow-keywords;
-          transition: height 220ms ease;
-        }
-        .faq-panel[data-state="open"] {
-          height: auto;
-        }
-        @media (prefers-reduced-motion: reduce) {
-          .faq-panel {
-            transition: none;
-          }
-        }
-      `}</style>
     </section>
   );
 }

@@ -11,4 +11,4 @@ Fixed header/navigation, cart/menu panels and difference-blended brand mark over
 7. FAQ: introduction and six disclosures.
 8. Footer: newsletter block, navigation, legal links and copyright.
 
-Home is the cloned route. Product and legal destinations beyond the requested page link to the original site. External editorial sources retain their original URLs.
+Local routes include /, /products/probiotics, /products/hand-lotion, /products/hair-growth, /privacy and /terms. Header/footer anchors return to homepage sections. External editorial sources retain their original URLs.

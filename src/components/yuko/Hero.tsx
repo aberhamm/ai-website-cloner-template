@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 /* eslint-disable @next/next/no-img-element */
 export function Hero() {
@@ -64,10 +65,10 @@ export function Hero() {
         aria-label="Shop the range"
       >
         <article className="flex flex-col gap-5 md:gap-6 min-[600px]:max-md:last:col-span-full min-[600px]:max-md:last:w-[calc((100%-24px)/2)] min-[600px]:max-md:last:justify-self-center">
-          <a
+          <Link
             className="relative block aspect-[432/520] w-full overflow-hidden rounded-card bg-[#f1f1f1] md:aspect-[432/560] [&_img]:object-cover [&_img]:transition-transform [&_img]:duration-500 [&_img]:ease-[ease] hover:[&_img]:scale-[1.025] motion-reduce:[&_img]:transition-none"
             aria-label="View Probiotics"
-            href="https://yukohealth-storefront-v1.21st.app/products/probiotics"
+            href="/products/probiotics"
           >
             <img
               alt="Probiotics in an unbranded brushed silver tin"
@@ -79,32 +80,30 @@ export function Hero() {
             <span className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none absolute top-4 right-4 bg-control backdrop-blur-floating max-md:min-h-8">
               {"Gut"}
             </span>
-          </a>
+          </Link>
           <div className="flex flex-col items-center gap-2 text-center md:px-4">
             <h2 className="text-[15px] leading-6 tracking-normal">
-              <a href="https://yukohealth-storefront-v1.21st.app/products/probiotics">
-                {"Probiotics"}
-              </a>
+              <Link href="/products/probiotics">{"Probiotics"}</Link>
             </h2>
             <p className="text-[13px] leading-6 text-muted">
               {"Lactobacillus & Bifidobacterium cultures."}
             </p>
-            <a
+            <Link
               data-sold-out="false"
               aria-label="View Probiotics, $38"
               className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 bg-control hover:bg-[#20202016] min-w-16 data-[sold-out=true]:opacity-50"
               tabIndex={0}
-              href="https://yukohealth-storefront-v1.21st.app/products/probiotics"
+              href="/products/probiotics"
             >
               {"$38"}
-            </a>
+            </Link>
           </div>
         </article>
         <article className="flex flex-col gap-5 md:gap-6 min-[600px]:max-md:last:col-span-full min-[600px]:max-md:last:w-[calc((100%-24px)/2)] min-[600px]:max-md:last:justify-self-center">
-          <a
+          <Link
             className="relative block aspect-[432/520] w-full overflow-hidden rounded-card bg-[#f1f1f1] md:aspect-[432/560] [&_img]:object-cover [&_img]:transition-transform [&_img]:duration-500 [&_img]:ease-[ease] hover:[&_img]:scale-[1.025] motion-reduce:[&_img]:transition-none"
             aria-label="View Hand Lotion"
-            href="https://yukohealth-storefront-v1.21st.app/products/hand-lotion"
+            href="/products/hand-lotion"
           >
             <img
               alt="Hand Lotion in an unbranded silver 50 ml tube"
@@ -116,32 +115,30 @@ export function Hero() {
             <span className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none absolute top-4 right-4 bg-control backdrop-blur-floating max-md:min-h-8">
               {"Hands"}
             </span>
-          </a>
+          </Link>
           <div className="flex flex-col items-center gap-2 text-center md:px-4">
             <h2 className="text-[15px] leading-6 tracking-normal">
-              <a href="https://yukohealth-storefront-v1.21st.app/products/hand-lotion">
-                {"Hand Lotion"}
-              </a>
+              <Link href="/products/hand-lotion">{"Hand Lotion"}</Link>
             </h2>
             <p className="text-[13px] leading-6 text-muted">
               {"Daily hand care. Bergamot & Vanilla."}
             </p>
-            <a
+            <Link
               data-sold-out="false"
               aria-label="View Hand Lotion, $32"
               className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 bg-control hover:bg-[#20202016] min-w-16 data-[sold-out=true]:opacity-50"
               tabIndex={0}
-              href="https://yukohealth-storefront-v1.21st.app/products/hand-lotion"
+              href="/products/hand-lotion"
             >
               {"$32"}
-            </a>
+            </Link>
           </div>
         </article>
         <article className="flex flex-col gap-5 md:gap-6 min-[600px]:max-md:last:col-span-full min-[600px]:max-md:last:w-[calc((100%-24px)/2)] min-[600px]:max-md:last:justify-self-center">
-          <a
+          <Link
             className="relative block aspect-[432/520] w-full overflow-hidden rounded-card bg-[#f1f1f1] md:aspect-[432/560] [&_img]:object-cover [&_img]:transition-transform [&_img]:duration-500 [&_img]:ease-[ease] hover:[&_img]:scale-[1.025] motion-reduce:[&_img]:transition-none"
             aria-label="View Hair Growth, sold out"
-            href="https://yukohealth-storefront-v1.21st.app/products/hair-growth"
+            href="/products/hair-growth"
           >
             <img
               alt="Hair Growth in an unbranded silver jar of 60 capsules"
@@ -156,25 +153,23 @@ export function Hero() {
             <span className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none absolute top-4 left-4 bg-glass max-md:min-h-8">
               {"Sold out"}
             </span>
-          </a>
+          </Link>
           <div className="flex flex-col items-center gap-2 text-center md:px-4">
             <h2 className="text-[15px] leading-6 tracking-normal">
-              <a href="https://yukohealth-storefront-v1.21st.app/products/hair-growth">
-                {"Hair Growth"}
-              </a>
+              <Link href="/products/hair-growth">{"Hair Growth"}</Link>
             </h2>
             <p className="text-[13px] leading-6 text-muted">
               {"A daily hair supplement for men."}
             </p>
-            <a
+            <Link
               data-sold-out="true"
               aria-label="View Hair Growth, $44, sold out"
               className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 bg-control hover:bg-[#20202016] min-w-16 data-[sold-out=true]:opacity-50"
               tabIndex={0}
-              href="https://yukohealth-storefront-v1.21st.app/products/hair-growth"
+              href="/products/hair-growth"
             >
               {"$44"}
-            </a>
+            </Link>
           </div>
         </article>
       </section>
