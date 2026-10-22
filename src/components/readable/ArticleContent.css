@@ -134,3 +134,7 @@
     max-width: 100%;
   }
 }
+.article-author-name > img {
+  width: 14px;
+  height: auto;
+}
