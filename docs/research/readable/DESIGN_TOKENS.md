@@ -1,0 +1,2 @@
+# Design tokens
+Background #fcfafe; foreground #323140; muted gray #94939d; blue #c5d8ff; pink #f1d3ff; lavender #dcd0ff; dark panel #272627. Inter Display400/500/600/700, local WOFF2. Desktop h1 56/67.2 with -2px tracking; h2 48/57.6; h3 40/48; card title24/28.8. Mobile h1 38/45.6; h2 32/38.4. Main max-width1280px; desktop section padding120px40px; card gaps24px; outer panels35px radius; cards20–24px radius; buttons50px radius. Source computed values archived in computed.json and component JSONs.

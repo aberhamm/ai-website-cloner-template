@@ -19,7 +19,10 @@ const linkGroups = [
     heading: "Social",
     links: [
       { label: "Instagram", href: "https://www.instagram.com/breeje.work/" },
-      { label: "Linkedin", href: "https://www.linkedin.com/in/rehan-ahmed-a97042285/" },
+      {
+        label: "Linkedin",
+        href: "https://www.linkedin.com/in/rehan-ahmed-a97042285/",
+      },
       { label: "Threads", href: "https://www.threads.net/@breeje.work" },
       { label: "Twitter", href: "https://x.com/rehanxahmed" },
     ],
@@ -45,23 +48,59 @@ export function Footer() {
     <footer className="readable-footer">
       <div className="readable-footer-panel">
         <div className="readable-footer-newsletter">
-          <Image className="readable-footer-logo" src="/readable/qusHmeKBaT6wkyPpdsdNTqbZWCw.png" alt="Readable" width={64} height={64} />
+          <Image
+            className="readable-footer-logo"
+            src="/readable/qusHmeKBaT6wkyPpdsdNTqbZWCw.png"
+            alt="Readable"
+            width={64}
+            height={64}
+          />
           <div className="readable-footer-copy">
             <h2>Stay in the Loop with Readable</h2>
-            <p>Subscribe to our newsletter for smart article picks, updates, and tips—delivered fresh to your inbox.</p>
+            <p>
+              Subscribe to our newsletter for smart article picks, updates, and
+              tips—delivered fresh to your inbox.
+            </p>
           </div>
           <form className="readable-footer-form" onSubmit={handleSubmit}>
-            <label className="readable-footer-email-label" htmlFor="readable-newsletter-email">Email address</label>
-            <input id="readable-newsletter-email" name="email" type="email" placeholder="Enter email" autoComplete="email" required />
-            <button type="submit">Subscribe <ChevronRight size={14} aria-hidden="true" /></button>
+            <label
+              className="readable-footer-email-label"
+              htmlFor="readable-newsletter-email"
+            >
+              Email address
+            </label>
+            <input
+              id="readable-newsletter-email"
+              name="email"
+              type="email"
+              placeholder="Enter email"
+              autoComplete="email"
+              required
+            />
+            <button type="submit">
+              Subscribe <ChevronRight size={14} aria-hidden="true" />
+            </button>
           </form>
-          {submitted && <p className="readable-footer-notice" role="status">Demo preview — newsletter signup is not connected.</p>}
+          {submitted && (
+            <p className="readable-footer-notice" role="status">
+              Demo preview — newsletter signup is not connected.
+            </p>
+          )}
         </div>
-        <nav className="readable-footer-navigation" aria-label="Footer navigation">
+        <nav
+          className="readable-footer-navigation"
+          aria-label="Footer navigation"
+        >
           {linkGroups.map(({ heading, links }) => (
             <div className="readable-footer-link-group" key={heading}>
               <h3>{heading}</h3>
-              <ul>{links.map(({ label, href }) => <li key={label}><a href={href}>{label}</a></li>)}</ul>
+              <ul>
+                {links.map(({ label, href }) => (
+                  <li key={label}>
+                    <a href={href}>{label}</a>
+                  </li>
+                ))}
+              </ul>
             </div>
           ))}
         </nav>

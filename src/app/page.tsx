@@ -1,38 +1,24 @@
-import { Navigation } from "@/components/Navigation";
-import { HeroSection } from "@/components/HeroSection";
-import { HeaderVideo } from "@/components/HeaderVideo";
-import { ManifestoSection } from "@/components/ManifestoSection";
-import { PlatformIcons } from "@/components/PlatformIcons";
-import { ExtensionSection } from "@/components/ExtensionSection";
-import { AISection } from "@/components/AISection";
-import { SearchSection } from "@/components/SearchSection";
-import { FeaturesSection } from "@/components/FeaturesSection";
-import { ReviewsSection } from "@/components/ReviewsSection";
-import { UseCasesSection } from "@/components/UseCasesSection";
-import { StatementSection } from "@/components/StatementSection";
-import { BlogSection } from "@/components/BlogSection";
-import { SiteFooter } from "@/components/SiteFooter";
-
+import { Nav, Hero, CTA } from "@/components/readable/Hero";
+import { HowItWorks } from "@/components/readable/HowItWorks";
+import { Features } from "@/components/readable/Features";
+import { WhyChooseUs } from "@/components/readable/WhyChooseUs";
+import { Testimonials } from "@/components/readable/Testimonials";
+import { Footer } from "@/components/readable/Footer";
+import { Blog } from "@/components/readable/Blog";
 export default function Home() {
   return (
     <>
-      <Navigation />
+      <Nav />
       <main>
-        <HeroSection />
-        <HeaderVideo />
-        <ManifestoSection />
-        <PlatformIcons />
-        <ExtensionSection />
-        <AISection />
-        <SearchSection />
-        <FeaturesSection />
-        <ReviewsSection />
-        <UseCasesSection />
-        <StatementSection />
-        <PlatformIcons />
-        <BlogSection />
-        <SiteFooter />
+        <Hero />
+        <HowItWorks />
+        <Features />
+        <WhyChooseUs />
+        <Testimonials />
+        <Blog />
+        <CTA />
       </main>
+      <Footer />
     </>
   );
 }
