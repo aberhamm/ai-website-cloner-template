@@ -1,0 +1,11 @@
+# Interaction observations
+- Theme: Light theme and Dark theme segmented icon buttons change the entire page palette; native CSS dark variant. Default observed: dark.
+- Header: fixed; scrolling changes container into narrower rounded floating glass panel, swapping Login/Sign Up for Get Started. 300ms transition. Mobile menu replaces desktop links.
+- Source header Features/Solution/Pricing/About are hash links; several anchors do not have target IDs. Footer Pricing goes to /pricing. Login/signup and many footer links use #.
+- Hero dashboard buttons are decorative UI; stock rows retain true text. CSS hover transitions are preserved.
+- Showcase is click-driven, not scroll-driven: Conversational AI, Reports & charts, Pipeline runs, Data modeling change dashboard content. Default Conversational AI.
+- FAQ sidebar scrolls between three groups; selection also follows viewport. Questions toggle one panel per group; What is Folio is initially open. Radix data-state drives appearance.
+- Pricing: Monthly/Annually switch with 500ms slider animation; annual default, Save 25% note. Exact states in pricing JSON.
+- Contact: required first/last name, email, subject and message; optional company. Local demo submission must clearly indicate no message sent.
+- Logos move in opposite marquee rows; feature diagrams have pulsing indicators and decorative motions. Respect prefers-reduced-motion.
+- Responsive: desktop 1440; tablet 768; mobile 390. Header mobile below lg; grids stack at md; feature bento and footer collapse using original extracted utility CSS.

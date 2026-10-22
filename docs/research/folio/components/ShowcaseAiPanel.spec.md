@@ -1,0 +1,3 @@
+# ShowcaseAiPanel specification
+Target: src/components/folio/ShowcaseAiPanel.tsx
+Shared contract: ShowcaseSection.spec.md. Original dashboard content extracted after selecting the corresponding source tab and waiting for transition. All inner typography, SVG paths, labels, table/chart data and responsive utility classes retained verbatim in generated JSX. Panel is rendered within the active/stacked deck; no independent scroll or click state. Assets use /folio/logo.png. Desktop illustration h600, tablet h500, mobile h340; overflow crop matches source. Inner dashboard buttons retain original decorative behavior.
