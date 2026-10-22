@@ -1,0 +1,122 @@
+{
+  "templateBundle": "https://framerusercontent.com/sites/5SmrnoBY6nnY5xl7ioPZ2l/CItup7wuZ1PZqGlPCM-Imih2e40DFlxC_58DOuDfaCs.IO3YUU46.mjs",
+  "title": {
+    "selector": ".framer-5tsg7w h1",
+    "trigger": "onMount",
+    "tokenization": "word",
+    "repeat": false,
+    "startDelay": 0.2,
+    "initial": {
+      "filter": "blur(6px)",
+      "opacity": 0.001,
+      "y": 50
+    },
+    "transition": {
+      "damping": 100,
+      "delay": 0.05,
+      "mass": 3,
+      "stiffness": 500,
+      "type": "spring"
+    }
+  },
+  "intro": {
+    "selector": ".framer-19roo6b",
+    "trigger": "onMount",
+    "initial": {
+      "opacity": 0.001,
+      "y": 0
+    },
+    "transition": {
+      "delay": 0,
+      "duration": 1.2,
+      "ease": [
+        0.68,
+        0,
+        0,
+        1
+      ],
+      "type": "tween"
+    }
+  },
+  "cover": {
+    "selector": ".framer-17kra46",
+    "trigger": "onMount",
+    "initial": {
+      "opacity": 0.001,
+      "y": 85
+    },
+    "transition": {
+      "damping": 40,
+      "delay": 0.6,
+      "mass": 1,
+      "stiffness": 150,
+      "type": "spring"
+    }
+  },
+  "sections": {
+    "selectors": [
+      ".framer-1ebl17a",
+      ".framer-1umtnx7",
+      ".framer-1pryhab"
+    ],
+    "threshold": 0,
+    "once": true,
+    "initial": {
+      "opacity": 0,
+      "y": 85
+    },
+    "transition": {
+      "damping": 40,
+      "delay": 0,
+      "mass": 1,
+      "stiffness": 150,
+      "type": "spring"
+    }
+  },
+  "carousel": {
+    "sourceBundle": "https://framerusercontent.com/sites/5SmrnoBY6nnY5xl7ioPZ2l/chunk-ETWOBYDO.mjs",
+    "autoplay": false,
+    "draggable": false,
+    "infinity": true,
+    "transition": {
+      "damping": 40,
+      "delay": 0,
+      "mass": 1,
+      "stiffness": 200,
+      "type": "spring"
+    },
+    "buttons": {
+      "whileTap": {
+        "scale": 0.9
+      },
+      "transition": {
+        "duration": 0.15
+      }
+    },
+    "desktopStep": 430,
+    "mobileStep": 340
+  },
+  "card": {
+    "sourceBundle": "https://framerusercontent.com/sites/5SmrnoBY6nnY5xl7ioPZ2l/chunk-VQJV3VDW.mjs",
+    "selector": "a.framer-pnlJV",
+    "fullCardLink": true,
+    "hover": {
+      "buttonLabel": {
+        "position": "absolute",
+        "left": "-94px",
+        "top": "50%",
+        "transform": "translateY(-50%)"
+      },
+      "arrowContainer": {
+        "flex": "1 0 0px",
+        "width": "1px"
+      },
+      "transition": {
+        "bounce": 0.2,
+        "delay": 0,
+        "duration": 0.4,
+        "type": "spring"
+      }
+    }
+  }
+}
