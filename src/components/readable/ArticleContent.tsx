@@ -1,13 +1,18 @@
 import Image from "next/image";
 import type { ReadableArticle } from "@/data/readable-articles";
+import { WordHeading } from "./WordHeading";
 import "./ArticleContent.css";
 
 export function ArticleContent({ article }: { article: ReadableArticle }) {
   return (
     <article className="readable-article">
       <header className="article-top">
-        <div className="article-intro" data-motion="rise">
-          <h1>{article.title}</h1>
+        <div
+          className="article-intro"
+          data-motion="fade"
+          data-motion-trigger="mount"
+        >
+          <WordHeading>{article.title}</WordHeading>
           <p className="article-description">{article.description}</p>
           <div className="article-author">
             <Image
@@ -39,6 +44,8 @@ export function ArticleContent({ article }: { article: ReadableArticle }) {
           className="article-cover"
           loading="eager"
           data-motion="rise"
+          data-motion-trigger="mount"
+          data-motion-delay="0.6"
         />
       </header>
       <div className="article-sections">
