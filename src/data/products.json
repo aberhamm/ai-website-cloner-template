@@ -1,0 +1,250 @@
+[
+  {
+    "id": "probiotics",
+    "slug": "probiotics",
+    "name": "Probiotics",
+    "category": "Gut",
+    "description": "Lactobacillus & Bifidobacterium cultures.",
+    "longDescription": "A little space for your daily care. Our Probiotics bring Lactobacillus and Bifidobacterium cultures together in a compact silver tin. Take a closer look at the formula, get to know the label, and find a place for it in your routine.",
+    "price": 38,
+    "subscription": {
+      "price": 34.2
+    },
+    "soldOut": false,
+    "size": "30 tablets",
+    "gallery": [
+      {
+        "src": "/images/probiotics.webp",
+        "alt": "Probiotics in an unbranded brushed silver tin",
+        "label": "The tin"
+      },
+      {
+        "src": "/images/probiotics-lid-detail-unbranded.webp",
+        "alt": "Close-up of the Probiotics tin lid and brushed silver finish",
+        "label": "A closer look"
+      },
+      {
+        "src": "/images/probiotics-surface-detail.webp",
+        "alt": "Macro detail of the curved silver edge of the Probiotics tin",
+        "label": "The details"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Category",
+        "value": "Dietary supplement"
+      },
+      {
+        "label": "Format",
+        "value": "Tablets"
+      },
+      {
+        "label": "Contents",
+        "value": "30 tablets"
+      },
+      {
+        "label": "Packaging",
+        "value": "Silver tin"
+      }
+    ],
+    "details": [
+      {
+        "title": "Inside the formula",
+        "body": "Lactobacillus and Bifidobacterium cultures. The complete ingredient list, individual strains and amounts will be published with the final product label."
+      },
+      {
+        "title": "How to use",
+        "body": "Follow the directions on your product’s label. Serving size and frequency will be listed on the final label before the store opens."
+      },
+      {
+        "title": "Storage & care",
+        "body": "Check the storage instructions and use-by date on your tin. Keep the original packaging so these details are always close at hand."
+      },
+      {
+        "title": "Is it right for me?",
+        "body": "Check the full ingredient and allergen information before choosing a supplement. Product-specific suitability information will be available with the final label."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What comes in the tin?",
+        "answer": "30 tablets in the silver YukoHealth tin. The tablet count is the pack size; it does not specify the number of servings."
+      },
+      {
+        "question": "Where can I find the full ingredient list?",
+        "answer": "We’ll publish the complete formulation, strains and amounts with the final product label. The current product description introduces the two culture groups."
+      },
+      {
+        "question": "Can I order it now?",
+        "answer": "You can explore the range and save products to your cart. Online checkout is coming soon, and your selections stay on this device."
+      }
+    ],
+    "sections": [
+      {
+        "id": "a-closer-look",
+        "component": "editorial",
+        "title": "A small tin.\nA place in your day.",
+        "body": "Brushed silver and softly rounded edges. A closer look at the packaging you’ll reach for as part of your everyday care.",
+        "image": {
+          "src": "/images/probiotics-lid-editorial-unbranded.webp",
+          "alt": "The softly rounded lid of the silver Probiotics tin",
+          "label": "Packaging detail"
+        }
+      },
+      {
+        "id": "your-routine",
+        "component": "careSteps",
+        "title": "Get to know\nyour routine.",
+        "image": {
+          "src": "/images/daily-ritual.webp",
+          "alt": "A woman taking a quiet moment with a glass of water in her kitchen",
+          "label": "An everyday moment"
+        },
+        "steps": [
+          {
+            "title": "Read the label",
+            "body": "Get familiar with the ingredients, directions and serving information before you begin."
+          },
+          {
+            "title": "Find its place",
+            "body": "Follow the storage instructions and choose a spot that fits into your day."
+          },
+          {
+            "title": "Keep the tin",
+            "body": "Keep your tin and its label together, and check the use-by date before use."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hand-lotion",
+    "slug": "hand-lotion",
+    "name": "Hand Lotion",
+    "category": "Hands",
+    "description": "Daily hand care. Bergamot & Vanilla.",
+    "longDescription": "A small moment of care for hands that do a lot. Our Hand Lotion pairs bergamot and vanilla in a silver tube that fits beside the sink or into your everyday bag. Keep it close for the pauses between one thing and the next.",
+    "price": 32,
+    "subscription": {
+      "price": 28.8
+    },
+    "soldOut": false,
+    "size": "50 ml",
+    "gallery": [
+      {
+        "src": "/images/hand-lotion.webp",
+        "alt": "Hand Lotion in an unbranded silver 50 ml tube",
+        "label": "The tube"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Category",
+        "value": "Hand care"
+      },
+      {
+        "label": "Size",
+        "value": "50 ml"
+      },
+      {
+        "label": "Scent",
+        "value": "Bergamot & Vanilla"
+      },
+      {
+        "label": "Packaging",
+        "value": "Silver tube"
+      }
+    ],
+    "details": [
+      {
+        "title": "Inside the formula",
+        "body": "Bergamot and vanilla are the scent notes. The complete ingredient list will be available with the final product label."
+      },
+      {
+        "title": "How to use",
+        "body": "Use as directed on the tube. Keep it close to the moments when you make time for hand care."
+      },
+      {
+        "title": "Storage & care",
+        "body": "Replace the cap after use and follow the storage instructions on the label."
+      },
+      {
+        "title": "Is it right for me?",
+        "body": "Check the complete ingredient list for any ingredients you avoid. Skin-type and allergen information will be provided with the final formulation."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What does it smell like?",
+        "answer": "The scent pairs bergamot and vanilla."
+      },
+      {
+        "question": "How large is the tube?",
+        "answer": "Each tube contains 50 ml of Hand Lotion."
+      }
+    ]
+  },
+  {
+    "id": "hair-growth",
+    "slug": "hair-growth",
+    "name": "Hair Growth",
+    "category": "Hair",
+    "description": "A daily hair supplement for men.",
+    "longDescription": "A hair supplement for men, in a simple silver jar. Designed to sit alongside your everyday care, with 60 capsules in each pack. Explore the product details here while we prepare the next update on availability.",
+    "price": 44,
+    "subscription": {
+      "price": 39.6
+    },
+    "soldOut": true,
+    "size": "60 capsules",
+    "gallery": [
+      {
+        "src": "/images/hair-growth.webp",
+        "alt": "Hair Growth in an unbranded silver jar of 60 capsules",
+        "label": "The jar"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Category",
+        "value": "Dietary supplement"
+      },
+      {
+        "label": "Format",
+        "value": "Capsules"
+      },
+      {
+        "label": "Contents",
+        "value": "60 capsules"
+      },
+      {
+        "label": "Packaging",
+        "value": "Silver jar"
+      }
+    ],
+    "details": [
+      {
+        "title": "Inside the formula",
+        "body": "The complete ingredient list and amounts will be available with the final product label."
+      },
+      {
+        "title": "How to use",
+        "body": "Follow the directions on the product label. Capsule count describes pack size, rather than daily serving size."
+      },
+      {
+        "title": "Storage & care",
+        "body": "Keep the original jar and follow the storage instructions and use-by date on its label."
+      },
+      {
+        "title": "Is it right for me?",
+        "body": "This product is presented as a hair supplement for men. Check the full ingredients, allergens and suitability information when the final label is available."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "When will it be back?",
+        "answer": "Hair Growth is currently sold out. A restock date hasn’t been announced yet; check back here for updates."
+      }
+    ]
+  }
+]
