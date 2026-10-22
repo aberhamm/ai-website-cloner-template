@@ -1,26 +1,8 @@
-import { Nav, Hero, CTA } from "@/components/readable/Hero";
-import { HowItWorks } from "@/components/readable/HowItWorks";
-import { Features } from "@/components/readable/Features";
-import { WhyChooseUs } from "@/components/readable/WhyChooseUs";
-import { Testimonials } from "@/components/readable/Testimonials";
-import { Footer } from "@/components/readable/Footer";
-import { Blog } from "@/components/readable/Blog";
-import { Motion } from "@/components/readable/Motion";
-export default function Home() {
-  return (
-    <>
-      <Motion />
-      <Nav />
-      <main>
-        <Hero />
-        <HowItWorks />
-        <Features />
-        <WhyChooseUs />
-        <Testimonials />
-        <Blog />
-        <CTA />
-      </main>
-      <Footer />
-    </>
-  );
-}
+import { HeroSection } from '@/components/folio/HeroSection';
+import { LogoCloud } from '@/components/folio/LogoCloud';
+import { HowItWorks } from '@/components/folio/HowItWorks';
+import { FeatureGrid } from '@/components/folio/FeatureGrid';
+import { ShowcaseSection } from '@/components/folio/ShowcaseSection';
+import { Testimonials } from '@/components/folio/Testimonials';
+import { FaqSection } from '@/components/folio/FaqSection';
+export default function HomePage() { return <main className="flex min-h-screen flex-col"><div className="min-h-screen"><HeroSection /><LogoCloud /><HowItWorks /><FeatureGrid /><ShowcaseSection /><Testimonials /><FaqSection /></div></main>; }
