@@ -1,0 +1,6 @@
+# Verified audit corrections
+Source H1s tokenize by word: initial blur6px, opacity.001, y50. Word stagger.05s, spring damping100/mass3/stiffness500. Start.2s on secondary pages,2.2s desktop home/.3s mobile home. WordHeading renders semantic inline spans with CSS spring sampling and reduced-motion/no-script fallback.
+
+Motion data API: data-motion=rise/fade/scale/drop/lane-up/lane-down/cta-icon; data-motion-trigger=mount overrides viewport; data-motion-delay supports0.1/0.2/0.3/0.4/0.6; data-motion-repeat=true permits exit/reentry; data-motion-threshold=1 waits full visibility. Default threshold0 with zero rootMargin (source). Rise uses sampled overdamped150/40/1 spring; fade uses1.2s cubic(.68,0,0,1). React effect rescans each pathname and cleans observers. Source evidence in home-initial.json and companion page audit reports.
+
+Remaining shared work from verified audit: source hero panel zoom-out from scale2/y-460 over3s after.75; header fade delayed1.9; phone group scale1.2/y-300→normal1s (mobile.8/y100 after.6); feature joint scales0→1 after.6 and rocks±20deg1s mirror; contact card stagger.2/.4/.6; CTA central icon repeats1.2→1 scale on viewport reentry. Shared CTA/Subscribe/Send button gradient reverses endpoints#746e8b→#3a344f at147.792deg; no source hover lift. Links hover#f4d1ff.
