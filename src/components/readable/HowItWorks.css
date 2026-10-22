@@ -1,0 +1,130 @@
+.readable-how {
+  position: relative;
+  padding: 120px 40px;
+  overflow: hidden;
+  color: #323140;
+}
+
+.readable-how .readable-how-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.readable-how-heading { margin-bottom: 68px; }
+.readable-how .readable-how-eyebrow {
+  display: inline-flex;
+  border-radius: 80px;
+  background: #f2eef9;
+  padding: 6px;
+  margin-bottom: 16px;
+  color: #323140;
+}
+.readable-how-eyebrow > span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 24px;
+  background: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -.16px;
+}
+.readable-how-eyebrow svg { color: #9995aa; }
+.readable-how-heading-text { display: flex; align-items: flex-end; justify-content: space-between; gap: 32px; }
+.readable-how-heading-text h2 {
+  width: 602px;
+  max-width: 52%;
+  margin: 0;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -1.44px;
+}
+.readable-how-heading-text > p {
+  width: 563px;
+  max-width: 46%;
+  margin: 0;
+  color: #8996ab;
+  text-align: right;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -.16px;
+}
+.readable-how-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.readable-how-card {
+  position: relative;
+  height: 469px;
+  padding: 24px;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.readable-how-card-1 { background: #c5d8ff; }
+.readable-how-card-2 { background: #f1d3ff; }
+.readable-how-card-3 { background: #dcd0ff; }
+.readable-how-number {
+  width: 52px;
+  height: 52px;
+  border: 6px solid rgba(255, 255, 255, .9);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.readable-how-graphic { position: absolute; inset: 0; }
+.readable-how-words { position: absolute; left: 0; right: 0; top: 140px; display: grid; gap: 16px; }
+.readable-how-word-row {
+  display: flex;
+  width: max-content;
+  animation: readable-how-marquee 30s linear infinite;
+  color: rgba(255, 255, 255, .3);
+  font-size: 40px;
+  line-height: 53px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.readable-how-word-row:nth-child(2) { animation-direction: reverse; }
+.readable-how-word-row:nth-child(3) { animation-duration: 35s; }
+.readable-how-word-group { display: flex; gap: 20px; padding-right: 20px; }
+.readable-how-icon {
+  position: absolute;
+  top: 174px;
+  left: 50%;
+  width: 121px;
+  height: 121px;
+  transform: translateX(-50%);
+  border-radius: 35.45px;
+  background: white;
+  display: grid;
+  place-items: center;
+  color: #28233f;
+  transition: transform .2s ease;
+}
+.readable-how-icon:hover { transform: translateX(-50%) scale(1.05); }
+.readable-how-copy { position: relative; margin-top: auto; pointer-events: none; }
+.readable-how-copy h3 { margin: 0 0 8px; font-size: 24px; font-weight: 400; line-height: 1.2; letter-spacing: -.72px; }
+.readable-how-copy p { margin: 0; font-size: 16px; line-height: 1.4; letter-spacing: -.16px; color: #787490; }
+.readable-how-connector { position: absolute; bottom: 0; left: 0; width: 100%; height: 180px; color: #eeebff; }
+@keyframes readable-how-marquee { from { transform: translateX(-10%); } to { transform: translateX(-60%); } }
+@media (max-width: 809px) {
+  .readable-how { padding: 80px 24px; }
+  .readable-how-heading { margin-bottom: 40px; }
+  .readable-how-heading-text { flex-direction: column; align-items: flex-start; gap: 24px; }
+  .readable-how-heading-text h2 { width: 100%; max-width: 100%; font-size: 32px; letter-spacing: -.96px; }
+  .readable-how-heading-text > p { width: 100%; max-width: 100%; text-align: left; }
+  .readable-how-cards { grid-template-columns: 1fr; }
+  .readable-how-card { height: 469px; }
+  .readable-how-connector { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .readable-how-word-row { animation: none; }
+  .readable-how-icon { transition: none; }
+}
