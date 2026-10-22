@@ -1,2 +1,102 @@
 /* eslint-disable @next/next/no-img-element */
-export function Routines() { return (<section className="grid grid-cols-2 items-center gap-column md:grid-cols-3 md:items-start [&>*]:min-w-0" id="routines" aria-labelledby="routines-title"><div className="group/tile relative isolate block w-full overflow-hidden [&_img]:object-cover [&_img]:transition-transform [&_img]:duration-500 [&_img]:ease-[ease] hover:[&_img]:scale-[1.025] motion-reduce:[&_img]:transition-none aspect-square rounded-full max-md:col-span-full max-md:w-[85%] max-md:max-w-[432px] max-md:justify-self-center"><img alt="A slower morning" loading="lazy" decoding="async" src="/images/slower-morning.webp" className="extracted-fill" /><span className="absolute top-1/2 left-1/2 grid size-10 -translate-1/2 place-items-center rounded-full bg-glass backdrop-blur-floating transition-[background,scale] duration-180 ease-[ease] group-hover/tile:scale-110 group-hover/tile:bg-white motion-reduce:transition-none md:size-8" aria-hidden="true"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16"><path d="m6 4 6 4-6 4Z" fill="currentColor"></path></svg></span><span className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 absolute left-1/2 -translate-x-1/2 bg-glass backdrop-blur-floating bottom-6 md:bottom-8">{"A slower morning"}</span></div><div className="grid grid-cols-2 items-start gap-column self-stretch max-[360px]:gap-4 max-md:col-span-full md:max-xl:gap-4 [&>:first-child]:self-end"><div className="group/tile relative isolate block w-full overflow-hidden [&_img]:object-cover [&_img]:transition-transform [&_img]:duration-500 [&_img]:ease-[ease] hover:[&_img]:scale-[1.025] motion-reduce:[&_img]:transition-none aspect-[196/320] rounded-card md:aspect-[196/352] [&_img]:object-[48%_0%]"><img alt="A better start" loading="lazy" decoding="async" src="/images/better-start.webp" className="extracted-fill" /><span className="absolute top-1/2 left-1/2 grid size-10 -translate-1/2 place-items-center rounded-full bg-glass backdrop-blur-floating transition-[background,scale] duration-180 ease-[ease] group-hover/tile:scale-110 group-hover/tile:bg-white motion-reduce:transition-none md:size-8" aria-hidden="true"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16"><path d="m6 4 6 4-6 4Z" fill="currentColor"></path></svg></span><span className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full py-2 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none absolute bottom-4 left-1/2 -translate-x-1/2 bg-glass backdrop-blur-floating w-[calc(100%-24px)] px-2 text-xs/4 max-md:min-h-8 max-[360px]:w-[calc(100%-16px)] max-[360px]:text-[11px]/4 md:w-[calc(100%-16px)] md:px-1 md:text-[11px]/4 xl:w-[calc(100%-32px)] xl:px-2 xl:text-[13px]/4">{"A better start"}</span></div><div className="group/tile relative isolate block w-full overflow-hidden [&_img]:object-cover [&_img]:transition-transform [&_img]:duration-500 [&_img]:ease-[ease] hover:[&_img]:scale-[1.025] motion-reduce:[&_img]:transition-none aspect-[196/320] rounded-card md:aspect-[196/352] [&_img]:object-[48%_0%]"><img alt="Daily ritual" loading="lazy" decoding="async" src="/images/daily-ritual.webp" className="extracted-fill" /><span className="absolute top-1/2 left-1/2 grid size-10 -translate-1/2 place-items-center rounded-full bg-glass backdrop-blur-floating transition-[background,scale] duration-180 ease-[ease] group-hover/tile:scale-110 group-hover/tile:bg-white motion-reduce:transition-none md:size-8" aria-hidden="true"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16"><path d="m6 4 6 4-6 4Z" fill="currentColor"></path></svg></span><span className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full py-2 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none absolute bottom-4 left-1/2 -translate-x-1/2 bg-glass backdrop-blur-floating w-[calc(100%-24px)] px-2 text-xs/4 max-md:min-h-8 max-[360px]:w-[calc(100%-16px)] max-[360px]:text-[11px]/4 md:w-[calc(100%-16px)] md:px-1 md:text-[11px]/4 xl:w-[calc(100%-32px)] xl:px-2 xl:text-[13px]/4">{"Daily ritual"}</span></div></div><div className="flex flex-col gap-6 max-md:col-span-full max-md:mt-2 xl:gap-10"><div className="group/tile relative isolate block w-full overflow-hidden [&_img]:object-cover [&_img]:transition-transform [&_img]:duration-500 [&_img]:ease-[ease] hover:[&_img]:scale-[1.025] motion-reduce:[&_img]:transition-none aspect-[432/224] rounded-full max-md:max-w-[520px] max-md:self-center [&_img]:object-[0%_36%]"><img alt="A little time for yourself." loading="lazy" decoding="async" src="/images/time-for-yourself.webp" className="extracted-fill" /><span className="absolute top-1/2 left-1/2 grid size-10 -translate-1/2 place-items-center rounded-full bg-glass backdrop-blur-floating transition-[background,scale] duration-180 ease-[ease] group-hover/tile:scale-110 group-hover/tile:bg-white motion-reduce:transition-none md:size-8" aria-hidden="true"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16"><path d="m6 4 6 4-6 4Z" fill="currentColor"></path></svg></span></div><div className="flex flex-col items-center gap-4 text-center text-[13px] leading-6 md:max-xl:gap-3 [&_h2]:text-[13px] [&_h2]:leading-6 [&_h2]:tracking-normal"><h2 id="routines-title" className="gradient-text">{"A little time for yourself."}</h2><p>{"After the shower. Before heading out."}<br />{"Find a moment that feels like yours."}</p></div></div></section>); }
+export function Routines() {
+  return (
+    <section
+      className="grid grid-cols-2 items-center gap-column md:grid-cols-3 md:items-start [&>*]:min-w-0"
+      id="routines"
+      aria-labelledby="routines-title"
+    >
+      <div className="group/tile relative isolate block w-full overflow-hidden [&_img]:object-cover [&_img]:transition-transform [&_img]:duration-500 [&_img]:ease-[ease] hover:[&_img]:scale-[1.025] motion-reduce:[&_img]:transition-none aspect-square rounded-full max-md:col-span-full max-md:w-[85%] max-md:max-w-[432px] max-md:justify-self-center">
+        <img
+          alt="A slower morning"
+          loading="lazy"
+          decoding="async"
+          src="/images/slower-morning.webp"
+          className="extracted-fill"
+        />
+        <span
+          className="absolute top-1/2 left-1/2 grid size-10 -translate-1/2 place-items-center rounded-full bg-glass backdrop-blur-floating transition-[background,scale] duration-180 ease-[ease] group-hover/tile:scale-110 group-hover/tile:bg-white motion-reduce:transition-none md:size-8"
+          aria-hidden="true"
+        >
+          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16">
+            <path d="m6 4 6 4-6 4Z" fill="currentColor"></path>
+          </svg>
+        </span>
+        <span className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 absolute left-1/2 -translate-x-1/2 bg-glass backdrop-blur-floating bottom-6 md:bottom-8">
+          {"A slower morning"}
+        </span>
+      </div>
+      <div className="grid grid-cols-2 items-start gap-column self-stretch max-[360px]:gap-4 max-md:col-span-full md:max-xl:gap-4 [&>:first-child]:self-end">
+        <div className="group/tile relative isolate block w-full overflow-hidden [&_img]:object-cover [&_img]:transition-transform [&_img]:duration-500 [&_img]:ease-[ease] hover:[&_img]:scale-[1.025] motion-reduce:[&_img]:transition-none aspect-[196/320] rounded-card md:aspect-[196/352] [&_img]:object-[48%_0%]">
+          <img
+            alt="A better start"
+            loading="lazy"
+            decoding="async"
+            src="/images/better-start.webp"
+            className="extracted-fill"
+          />
+          <span
+            className="absolute top-1/2 left-1/2 grid size-10 -translate-1/2 place-items-center rounded-full bg-glass backdrop-blur-floating transition-[background,scale] duration-180 ease-[ease] group-hover/tile:scale-110 group-hover/tile:bg-white motion-reduce:transition-none md:size-8"
+            aria-hidden="true"
+          >
+            <svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16">
+              <path d="m6 4 6 4-6 4Z" fill="currentColor"></path>
+            </svg>
+          </span>
+          <span className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full py-2 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none absolute bottom-4 left-1/2 -translate-x-1/2 bg-glass backdrop-blur-floating w-[calc(100%-24px)] px-2 text-xs/4 max-md:min-h-8 max-[360px]:w-[calc(100%-16px)] max-[360px]:text-[11px]/4 md:w-[calc(100%-16px)] md:px-1 md:text-[11px]/4 xl:w-[calc(100%-32px)] xl:px-2 xl:text-[13px]/4">
+            {"A better start"}
+          </span>
+        </div>
+        <div className="group/tile relative isolate block w-full overflow-hidden [&_img]:object-cover [&_img]:transition-transform [&_img]:duration-500 [&_img]:ease-[ease] hover:[&_img]:scale-[1.025] motion-reduce:[&_img]:transition-none aspect-[196/320] rounded-card md:aspect-[196/352] [&_img]:object-[48%_0%]">
+          <img
+            alt="Daily ritual"
+            loading="lazy"
+            decoding="async"
+            src="/images/daily-ritual.webp"
+            className="extracted-fill"
+          />
+          <span
+            className="absolute top-1/2 left-1/2 grid size-10 -translate-1/2 place-items-center rounded-full bg-glass backdrop-blur-floating transition-[background,scale] duration-180 ease-[ease] group-hover/tile:scale-110 group-hover/tile:bg-white motion-reduce:transition-none md:size-8"
+            aria-hidden="true"
+          >
+            <svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16">
+              <path d="m6 4 6 4-6 4Z" fill="currentColor"></path>
+            </svg>
+          </span>
+          <span className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full py-2 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none absolute bottom-4 left-1/2 -translate-x-1/2 bg-glass backdrop-blur-floating w-[calc(100%-24px)] px-2 text-xs/4 max-md:min-h-8 max-[360px]:w-[calc(100%-16px)] max-[360px]:text-[11px]/4 md:w-[calc(100%-16px)] md:px-1 md:text-[11px]/4 xl:w-[calc(100%-32px)] xl:px-2 xl:text-[13px]/4">
+            {"Daily ritual"}
+          </span>
+        </div>
+      </div>
+      <div className="flex flex-col gap-6 max-md:col-span-full max-md:mt-2 xl:gap-10">
+        <div className="group/tile relative isolate block w-full overflow-hidden [&_img]:object-cover [&_img]:transition-transform [&_img]:duration-500 [&_img]:ease-[ease] hover:[&_img]:scale-[1.025] motion-reduce:[&_img]:transition-none aspect-[432/224] rounded-full max-md:max-w-[520px] max-md:self-center [&_img]:object-[0%_36%]">
+          <img
+            alt="A little time for yourself."
+            loading="lazy"
+            decoding="async"
+            src="/images/time-for-yourself.webp"
+            className="extracted-fill"
+          />
+          <span
+            className="absolute top-1/2 left-1/2 grid size-10 -translate-1/2 place-items-center rounded-full bg-glass backdrop-blur-floating transition-[background,scale] duration-180 ease-[ease] group-hover/tile:scale-110 group-hover/tile:bg-white motion-reduce:transition-none md:size-8"
+            aria-hidden="true"
+          >
+            <svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16">
+              <path d="m6 4 6 4-6 4Z" fill="currentColor"></path>
+            </svg>
+          </span>
+        </div>
+        <div className="flex flex-col items-center gap-4 text-center text-[13px] leading-6 md:max-xl:gap-3 [&_h2]:text-[13px] [&_h2]:leading-6 [&_h2]:tracking-normal">
+          <h2 id="routines-title" className="gradient-text">
+            {"A little time for yourself."}
+          </h2>
+          <p>
+            {"After the shower. Before heading out."}
+            <br />
+            {"Find a moment that feels like yours."}
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}

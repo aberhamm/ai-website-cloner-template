@@ -1,52 +1,11 @@
-# mymind.com Behaviors
+# YukoHealth behaviors
 
-## Navigation — Scroll-Triggered Floating Pill
-- Trigger: scroll position > ~100px
-- State A (top): transparent bg, 87px height, padding-top 33px, full-width, no shadow, no radius
-- State B (scrolled): white bg (#fff), 60px height, padding 0, border-radius 30px, box-shadow rgba(116,130,151,0.14) 0 4px 22px, centered with max-width, transform translateX(-490px from full-width origin)
-- Class added: `is-sticky`
-- Transition: CSS transition on all properties
+The page uses native smooth anchor scrolling, with scroll padding of header height + 24px. No Lenis or scroll-driven content switching. Header stays fixed with translucent pills and a difference-blended logo. Mobile navigation appears below 768px. Mobile gutter 20px, tablet 24px, desktop 32px. Desktop section gap 112px, tablet 88px, mobile 112px.
 
-## Hero Bubbles — Static Colored Tags
-- Word bubbles (notes, bookmarks, inspiration, articles, images) each have colored gradient backgrounds
-- orange: rgba(233,143,83,0.06), pink: rgba(228,138,191,0.06), blue: rgba(153,210,251,0.06), red: rgba(234,114,107,0.06), yellow: rgba(255,207,39,0.06)
-- No scroll or hover animation observed — static display
+Cart and mobile Menu are click-driven morph panels; only one may open. Escape, outside click and navigation close the panel. Empty cart has a Browse shop link. Header controls are 32px desktop and 40px mobile.
 
-## Videos — Autoplay/Muted/Loop
-- Hero video: mp4, autoplay, loop, muted
-- Extension video: mp4, autoplay, loop, muted
-- Phone video: mp4, autoplay, loop, muted (in iPhone mockup)
-- AI video: webm, autoplay, muted, NOT loop (plays once)
-- Search video: webm, autoplay, loop, muted
-- Serendipity video: webm, autoplay, loop, muted
+Shipping notice dismisses on click. Product images scale to 1.025 on hover over 500ms. Editorial images scale to 1.03; arrow links translate 2px over 180ms. Routine tiles are static editorial images with decorative play symbols, not video controls in the source.
 
-## Use Cases — Click-Driven Tabs
-- Interaction model: CLICK-driven (not scroll)
-- Tab pills: Designers, Writers, Marketers, Researchers, Developers, Everyone
-- Clicking each tab switches content below
-- Content changes: heading text + subtext change per tab
+Science uses three native details/summary disclosures, shared name, first open. FAQ is click-driven and single-open, first open. Footer validates email and displays “Thanks for your interest. Newsletter signup is coming soon.” No external subscription service in the source.
 
-## Button Hover States
-- Sign up button: orange (#FF5924) background pill, white text
-- Nav links: colored dots before text (orange, yellow, pink, green)
-
-## Manifesto Crossed-Out Items
-- Items with strikethrough: social features, vanity metrics, invasive tracking, social pressure, collaboration, ads
-- Static display, no interaction
-
-## Reviews Section
-- Review screenshot images positioned as floating cards
-- Background: gradient image (absolute positioned behind content)
-
-## Scroll Libraries
-- No Lenis detected
-- No Locomotive Scroll detected
-- No scroll-snap on body
-- Standard browser scrolling
-
-## Responsive Behavior (observed)
-- Desktop 1440px: full layout
-- Nav becomes pill/floating at all viewport widths when scrolled
-- Features section: 2-column card grid → likely stacks on mobile
-- Blog posts: 3-column → likely stacks on mobile
-- Footer: 4-column → likely stacks on mobile
+Inspected desktop 1440px, tablet 768px and mobile 390px. Screenshots saved in docs/design-references. Computed tablet tree saved in computed-tablet.json. All original content and classes were retained before interaction implementation.

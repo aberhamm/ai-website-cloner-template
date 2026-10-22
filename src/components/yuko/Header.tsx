@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element, @next/next/no-html-link-for-pages */
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
@@ -262,7 +262,7 @@ export function Header() {
                   <a
                     className="flex min-h-16 items-center justify-between border-t border-border hover:text-muted focus-visible:text-muted"
                     data-morph-reveal="true"
-                    href="/#shop"
+                    href="#shop"
                   >
                     {"Shop"}
                     <svg
@@ -283,7 +283,7 @@ export function Header() {
                   <a
                     className="flex min-h-16 items-center justify-between border-t border-border hover:text-muted focus-visible:text-muted"
                     data-morph-reveal="true"
-                    href="/#science"
+                    href="#science"
                   >
                     {"Science"}
                     <svg
@@ -304,7 +304,7 @@ export function Header() {
                   <a
                     className="flex min-h-16 items-center justify-between border-t border-border hover:text-muted focus-visible:text-muted"
                     data-morph-reveal="true"
-                    href="/#about"
+                    href="#about"
                   >
                     {"About"}
                     <svg
@@ -334,21 +334,21 @@ export function Header() {
           <a
             className="inline-flex items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 min-h-header-control bg-floating backdrop-blur-floating hover:bg-floating-hover"
             tabIndex={0}
-            href="/#shop"
+            href="#shop"
           >
             {"Shop"}
           </a>
           <a
             className="inline-flex items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 min-h-header-control bg-floating backdrop-blur-floating hover:bg-floating-hover"
             tabIndex={0}
-            href="/#science"
+            href="#science"
           >
             {"Science"}
           </a>
           <a
             className="inline-flex items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 min-h-header-control bg-floating backdrop-blur-floating hover:bg-floating-hover"
             tabIndex={0}
-            href="/#about"
+            href="#about"
           >
             {"About"}
           </a>
@@ -439,7 +439,7 @@ export function Header() {
                       className="inline-flex items-center justify-center gap-2 rounded-full px-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 bg-foreground text-white hover:bg-[#454545] min-h-[calc(var(--header-control-height)*1.5)] w-full py-1 text-[15px] leading-6"
                       tabIndex={0}
                       onClick={close}
-                      href="/#shop"
+                      href="#shop"
                     >
                       {"Browse shop"}
                     </a>
@@ -453,7 +453,7 @@ export function Header() {
       <a
         className="fixed top-5 left-1/2 z-19 flex w-max -translate-x-1/2 items-center justify-center gap-1.5 justify-self-center text-lg leading-8 tracking-[-0.03em] text-white mix-blend-difference max-[360px]:text-base md:top-4 md:gap-2 md:text-2xl"
         aria-label="YukoHealth home"
-        href="/#top"
+        href="#top"
       >
         <span
           className="relative block h-[16.58px] w-[16.288px] shrink-0 md:h-[20.725px] md:w-[20.36px]"

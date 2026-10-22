@@ -2,11 +2,255 @@
 
 import { useState } from "react";
 
-/* eslint-disable @next/next/no-img-element */
 export function Faq() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
-  return (<section className="grid grid-cols-1 md:grid-cols-3 [&>*]:min-w-0 gap-8 md:gap-column" id="faq" aria-labelledby="faq-title"><div className="flex flex-col gap-4 px-1 min-[768px]:gap-6 min-[768px]:px-0"><h2 id="faq-title">{"You might have a few"}<br />{"questions now."}</h2><p className="text-muted">{"About the range, the label"}<br />{"and your order."}</p></div><div className="col-span-2 max-[767px]:col-auto"><div className="border-t border-border [&_h3]:[font:inherit]"><h3><button type="button" className="group/accordion flex min-h-[72px] w-full items-center justify-between gap-4 py-[22px] text-left focus-visible:outline-offset-[-2px] md:gap-5 md:py-6" id="_R_6pbsrb_-trigger" aria-expanded={openIndex === 0} data-state={openIndex === 0 ? "open" : "closed"} onClick={() => setOpenIndex((current) => current === 0 ? null : 0)} aria-controls="_R_6pbsrb_-panel">{"What’s in the YukoHealth range?"}<span className="mx-2 size-1.5 shrink-0 rotate-45 border-t-[1.5px] border-r-[1.5px] border-current transition-transform duration-180 ease-[ease] group-aria-expanded/accordion:rotate-135 motion-reduce:transition-none md:mx-[13px]" aria-hidden="true"></span></button></h3><div id="_R_6pbsrb_-panel" aria-labelledby="_R_6pbsrb_-trigger" aria-hidden={openIndex !== 0} inert={openIndex !== 0} data-state={openIndex === 0 ? "open" : "closed"} className="overflow-hidden faq-panel"><div className="pr-4 pb-6 md:pr-8 [&_p]:max-w-[700px] [&_p]:text-muted"><p>{"Three everyday-care products: Probiotics, Hand Lotion and Hair Growth, a hair supplement. Explore each product separately to find the details that matter to you."}</p></div></div></div><div className="border-t border-border [&_h3]:[font:inherit]"><h3><button type="button" className="group/accordion flex min-h-[72px] w-full items-center justify-between gap-4 py-[22px] text-left focus-visible:outline-offset-[-2px] md:gap-5 md:py-6" id="_R_apbsrb_-trigger" aria-expanded={openIndex === 1} data-state={openIndex === 1 ? "open" : "closed"} onClick={() => setOpenIndex((current) => current === 1 ? null : 1)} aria-controls="_R_apbsrb_-panel">{"Where should I look for ingredient details?"}<span className="mx-2 size-1.5 shrink-0 rotate-45 border-t-[1.5px] border-r-[1.5px] border-current transition-transform duration-180 ease-[ease] group-aria-expanded/accordion:rotate-135 motion-reduce:transition-none md:mx-[13px]" aria-hidden="true"></span></button></h3><div id="_R_apbsrb_-panel" aria-labelledby="_R_apbsrb_-trigger" aria-hidden={openIndex !== 1} inert={openIndex !== 1} data-state={openIndex === 1 ? "open" : "closed"} className="overflow-hidden faq-panel"><div className="pr-4 pb-6 md:pr-8 [&_p]:max-w-[700px] [&_p]:text-muted"><p>{"Start with the ingredient list on the product label. Our care notes explain how to read a label and where to find more information about individual ingredients."}</p></div></div></div><div className="border-t border-border [&_h3]:[font:inherit]"><h3><button type="button" className="group/accordion flex min-h-[72px] w-full items-center justify-between gap-4 py-[22px] text-left focus-visible:outline-offset-[-2px] md:gap-5 md:py-6" id="_R_epbsrb_-trigger" aria-expanded={openIndex === 2} data-state={openIndex === 2 ? "open" : "closed"} onClick={() => setOpenIndex((current) => current === 2 ? null : 2)} aria-controls="_R_epbsrb_-panel">{"How do I use and store my product?"}<span className="mx-2 size-1.5 shrink-0 rotate-45 border-t-[1.5px] border-r-[1.5px] border-current transition-transform duration-180 ease-[ease] group-aria-expanded/accordion:rotate-135 motion-reduce:transition-none md:mx-[13px]" aria-hidden="true"></span></button></h3><div id="_R_epbsrb_-panel" aria-labelledby="_R_epbsrb_-trigger" aria-hidden={openIndex !== 2} inert={openIndex !== 2} data-state={openIndex === 2 ? "open" : "closed"} className="overflow-hidden faq-panel"><div className="pr-4 pb-6 md:pr-8 [&_p]:max-w-[700px] [&_p]:text-muted"><p>{"Follow the directions and storage instructions on your product’s label, and check the use-by date before use."}</p></div></div></div><div className="border-t border-border [&_h3]:[font:inherit]" id="shipping"><h3><button type="button" className="group/accordion flex min-h-[72px] w-full items-center justify-between gap-4 py-[22px] text-left focus-visible:outline-offset-[-2px] md:gap-5 md:py-6" id="_R_ipbsrb_-trigger" aria-expanded={openIndex === 3} data-state={openIndex === 3 ? "open" : "closed"} onClick={() => setOpenIndex((current) => current === 3 ? null : 3)} aria-controls="_R_ipbsrb_-panel">{"Is shipping free?"}<span className="mx-2 size-1.5 shrink-0 rotate-45 border-t-[1.5px] border-r-[1.5px] border-current transition-transform duration-180 ease-[ease] group-aria-expanded/accordion:rotate-135 motion-reduce:transition-none md:mx-[13px]" aria-hidden="true"></span></button></h3><div id="_R_ipbsrb_-panel" aria-labelledby="_R_ipbsrb_-trigger" aria-hidden={openIndex !== 3} inert={openIndex !== 3} data-state={openIndex === 3 ? "open" : "closed"} className="overflow-hidden faq-panel"><div className="pr-4 pb-6 md:pr-8 [&_p]:max-w-[700px] [&_p]:text-muted"><p>{"Free shipping on US orders over $100. Other shipping options, delivery estimates and our returns policy will be available before checkout opens."}</p></div></div></div><div className="border-t border-border [&_h3]:[font:inherit]"><h3><button type="button" className="group/accordion flex min-h-[72px] w-full items-center justify-between gap-4 py-[22px] text-left focus-visible:outline-offset-[-2px] md:gap-5 md:py-6" id="_R_mpbsrb_-trigger" aria-expanded={openIndex === 4} data-state={openIndex === 4 ? "open" : "closed"} onClick={() => setOpenIndex((current) => current === 4 ? null : 4)} aria-controls="_R_mpbsrb_-panel">{"Can I order Hair Growth today?"}<span className="mx-2 size-1.5 shrink-0 rotate-45 border-t-[1.5px] border-r-[1.5px] border-current transition-transform duration-180 ease-[ease] group-aria-expanded/accordion:rotate-135 motion-reduce:transition-none md:mx-[13px]" aria-hidden="true"></span></button></h3><div id="_R_mpbsrb_-panel" aria-labelledby="_R_mpbsrb_-trigger" aria-hidden={openIndex !== 4} inert={openIndex !== 4} data-state={openIndex === 4 ? "open" : "closed"} className="overflow-hidden faq-panel"><div className="pr-4 pb-6 md:pr-8 [&_p]:max-w-[700px] [&_p]:text-muted"><p>{"Hair Growth is currently sold out. Check back here for updates on availability."}</p></div></div></div><div className="border-t border-border [&_h3]:[font:inherit]"><h3><button type="button" className="group/accordion flex min-h-[72px] w-full items-center justify-between gap-4 py-[22px] text-left focus-visible:outline-offset-[-2px] md:gap-5 md:py-6" id="_R_qpbsrb_-trigger" aria-expanded={openIndex === 5} data-state={openIndex === 5 ? "open" : "closed"} onClick={() => setOpenIndex((current) => current === 5 ? null : 5)} aria-controls="_R_qpbsrb_-panel">{"Where can I learn more before choosing?"}<span className="mx-2 size-1.5 shrink-0 rotate-45 border-t-[1.5px] border-r-[1.5px] border-current transition-transform duration-180 ease-[ease] group-aria-expanded/accordion:rotate-135 motion-reduce:transition-none md:mx-[13px]" aria-hidden="true"></span></button></h3><div id="_R_qpbsrb_-panel" aria-labelledby="_R_qpbsrb_-trigger" aria-hidden={openIndex !== 5} inert={openIndex !== 5} data-state={openIndex === 5 ? "open" : "closed"} className="overflow-hidden faq-panel"><div className="pr-4 pb-6 md:pr-8 [&_p]:max-w-[700px] [&_p]:text-muted"><p>{"Explore our science section and care notes for a closer look at ingredients, product labels and everyday routines. You can also follow the sources linked in each note."}</p></div></div></div></div><style jsx>{`
+  return (
+    <section
+      className="grid grid-cols-1 md:grid-cols-3 [&>*]:min-w-0 gap-8 md:gap-column"
+      id="faq"
+      aria-labelledby="faq-title"
+    >
+      <div className="flex flex-col gap-4 px-1 min-[768px]:gap-6 min-[768px]:px-0">
+        <h2 id="faq-title">
+          {"You might have a few"}
+          <br />
+          {"questions now."}
+        </h2>
+        <p className="text-muted">
+          {"About the range, the label"}
+          <br />
+          {"and your order."}
+        </p>
+      </div>
+      <div className="col-span-2 max-[767px]:col-auto">
+        <div className="border-t border-border [&_h3]:[font:inherit]">
+          <h3>
+            <button
+              type="button"
+              className="group/accordion flex min-h-[72px] w-full items-center justify-between gap-4 py-[22px] text-left focus-visible:outline-offset-[-2px] md:gap-5 md:py-6"
+              id="_R_6pbsrb_-trigger"
+              aria-expanded={openIndex === 0}
+              data-state={openIndex === 0 ? "open" : "closed"}
+              onClick={() =>
+                setOpenIndex((current) => (current === 0 ? null : 0))
+              }
+              aria-controls="_R_6pbsrb_-panel"
+            >
+              {"What’s in the YukoHealth range?"}
+              <span
+                className="mx-2 size-1.5 shrink-0 rotate-45 border-t-[1.5px] border-r-[1.5px] border-current transition-transform duration-180 ease-[ease] group-aria-expanded/accordion:rotate-135 motion-reduce:transition-none md:mx-[13px]"
+                aria-hidden="true"
+              ></span>
+            </button>
+          </h3>
+          <div
+            id="_R_6pbsrb_-panel"
+            aria-labelledby="_R_6pbsrb_-trigger"
+            aria-hidden={openIndex !== 0}
+            inert={openIndex !== 0}
+            data-state={openIndex === 0 ? "open" : "closed"}
+            className="overflow-hidden faq-panel"
+          >
+            <div className="pr-4 pb-6 md:pr-8 [&_p]:max-w-[700px] [&_p]:text-muted">
+              <p>
+                {
+                  "Three everyday-care products: Probiotics, Hand Lotion and Hair Growth, a hair supplement. Explore each product separately to find the details that matter to you."
+                }
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="border-t border-border [&_h3]:[font:inherit]">
+          <h3>
+            <button
+              type="button"
+              className="group/accordion flex min-h-[72px] w-full items-center justify-between gap-4 py-[22px] text-left focus-visible:outline-offset-[-2px] md:gap-5 md:py-6"
+              id="_R_apbsrb_-trigger"
+              aria-expanded={openIndex === 1}
+              data-state={openIndex === 1 ? "open" : "closed"}
+              onClick={() =>
+                setOpenIndex((current) => (current === 1 ? null : 1))
+              }
+              aria-controls="_R_apbsrb_-panel"
+            >
+              {"Where should I look for ingredient details?"}
+              <span
+                className="mx-2 size-1.5 shrink-0 rotate-45 border-t-[1.5px] border-r-[1.5px] border-current transition-transform duration-180 ease-[ease] group-aria-expanded/accordion:rotate-135 motion-reduce:transition-none md:mx-[13px]"
+                aria-hidden="true"
+              ></span>
+            </button>
+          </h3>
+          <div
+            id="_R_apbsrb_-panel"
+            aria-labelledby="_R_apbsrb_-trigger"
+            aria-hidden={openIndex !== 1}
+            inert={openIndex !== 1}
+            data-state={openIndex === 1 ? "open" : "closed"}
+            className="overflow-hidden faq-panel"
+          >
+            <div className="pr-4 pb-6 md:pr-8 [&_p]:max-w-[700px] [&_p]:text-muted">
+              <p>
+                {
+                  "Start with the ingredient list on the product label. Our care notes explain how to read a label and where to find more information about individual ingredients."
+                }
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="border-t border-border [&_h3]:[font:inherit]">
+          <h3>
+            <button
+              type="button"
+              className="group/accordion flex min-h-[72px] w-full items-center justify-between gap-4 py-[22px] text-left focus-visible:outline-offset-[-2px] md:gap-5 md:py-6"
+              id="_R_epbsrb_-trigger"
+              aria-expanded={openIndex === 2}
+              data-state={openIndex === 2 ? "open" : "closed"}
+              onClick={() =>
+                setOpenIndex((current) => (current === 2 ? null : 2))
+              }
+              aria-controls="_R_epbsrb_-panel"
+            >
+              {"How do I use and store my product?"}
+              <span
+                className="mx-2 size-1.5 shrink-0 rotate-45 border-t-[1.5px] border-r-[1.5px] border-current transition-transform duration-180 ease-[ease] group-aria-expanded/accordion:rotate-135 motion-reduce:transition-none md:mx-[13px]"
+                aria-hidden="true"
+              ></span>
+            </button>
+          </h3>
+          <div
+            id="_R_epbsrb_-panel"
+            aria-labelledby="_R_epbsrb_-trigger"
+            aria-hidden={openIndex !== 2}
+            inert={openIndex !== 2}
+            data-state={openIndex === 2 ? "open" : "closed"}
+            className="overflow-hidden faq-panel"
+          >
+            <div className="pr-4 pb-6 md:pr-8 [&_p]:max-w-[700px] [&_p]:text-muted">
+              <p>
+                {
+                  "Follow the directions and storage instructions on your product’s label, and check the use-by date before use."
+                }
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="border-t border-border [&_h3]:[font:inherit]"
+          id="shipping"
+        >
+          <h3>
+            <button
+              type="button"
+              className="group/accordion flex min-h-[72px] w-full items-center justify-between gap-4 py-[22px] text-left focus-visible:outline-offset-[-2px] md:gap-5 md:py-6"
+              id="_R_ipbsrb_-trigger"
+              aria-expanded={openIndex === 3}
+              data-state={openIndex === 3 ? "open" : "closed"}
+              onClick={() =>
+                setOpenIndex((current) => (current === 3 ? null : 3))
+              }
+              aria-controls="_R_ipbsrb_-panel"
+            >
+              {"Is shipping free?"}
+              <span
+                className="mx-2 size-1.5 shrink-0 rotate-45 border-t-[1.5px] border-r-[1.5px] border-current transition-transform duration-180 ease-[ease] group-aria-expanded/accordion:rotate-135 motion-reduce:transition-none md:mx-[13px]"
+                aria-hidden="true"
+              ></span>
+            </button>
+          </h3>
+          <div
+            id="_R_ipbsrb_-panel"
+            aria-labelledby="_R_ipbsrb_-trigger"
+            aria-hidden={openIndex !== 3}
+            inert={openIndex !== 3}
+            data-state={openIndex === 3 ? "open" : "closed"}
+            className="overflow-hidden faq-panel"
+          >
+            <div className="pr-4 pb-6 md:pr-8 [&_p]:max-w-[700px] [&_p]:text-muted">
+              <p>
+                {
+                  "Free shipping on US orders over $100. Other shipping options, delivery estimates and our returns policy will be available before checkout opens."
+                }
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="border-t border-border [&_h3]:[font:inherit]">
+          <h3>
+            <button
+              type="button"
+              className="group/accordion flex min-h-[72px] w-full items-center justify-between gap-4 py-[22px] text-left focus-visible:outline-offset-[-2px] md:gap-5 md:py-6"
+              id="_R_mpbsrb_-trigger"
+              aria-expanded={openIndex === 4}
+              data-state={openIndex === 4 ? "open" : "closed"}
+              onClick={() =>
+                setOpenIndex((current) => (current === 4 ? null : 4))
+              }
+              aria-controls="_R_mpbsrb_-panel"
+            >
+              {"Can I order Hair Growth today?"}
+              <span
+                className="mx-2 size-1.5 shrink-0 rotate-45 border-t-[1.5px] border-r-[1.5px] border-current transition-transform duration-180 ease-[ease] group-aria-expanded/accordion:rotate-135 motion-reduce:transition-none md:mx-[13px]"
+                aria-hidden="true"
+              ></span>
+            </button>
+          </h3>
+          <div
+            id="_R_mpbsrb_-panel"
+            aria-labelledby="_R_mpbsrb_-trigger"
+            aria-hidden={openIndex !== 4}
+            inert={openIndex !== 4}
+            data-state={openIndex === 4 ? "open" : "closed"}
+            className="overflow-hidden faq-panel"
+          >
+            <div className="pr-4 pb-6 md:pr-8 [&_p]:max-w-[700px] [&_p]:text-muted">
+              <p>
+                {
+                  "Hair Growth is currently sold out. Check back here for updates on availability."
+                }
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="border-t border-border [&_h3]:[font:inherit]">
+          <h3>
+            <button
+              type="button"
+              className="group/accordion flex min-h-[72px] w-full items-center justify-between gap-4 py-[22px] text-left focus-visible:outline-offset-[-2px] md:gap-5 md:py-6"
+              id="_R_qpbsrb_-trigger"
+              aria-expanded={openIndex === 5}
+              data-state={openIndex === 5 ? "open" : "closed"}
+              onClick={() =>
+                setOpenIndex((current) => (current === 5 ? null : 5))
+              }
+              aria-controls="_R_qpbsrb_-panel"
+            >
+              {"Where can I learn more before choosing?"}
+              <span
+                className="mx-2 size-1.5 shrink-0 rotate-45 border-t-[1.5px] border-r-[1.5px] border-current transition-transform duration-180 ease-[ease] group-aria-expanded/accordion:rotate-135 motion-reduce:transition-none md:mx-[13px]"
+                aria-hidden="true"
+              ></span>
+            </button>
+          </h3>
+          <div
+            id="_R_qpbsrb_-panel"
+            aria-labelledby="_R_qpbsrb_-trigger"
+            aria-hidden={openIndex !== 5}
+            inert={openIndex !== 5}
+            data-state={openIndex === 5 ? "open" : "closed"}
+            className="overflow-hidden faq-panel"
+          >
+            <div className="pr-4 pb-6 md:pr-8 [&_p]:max-w-[700px] [&_p]:text-muted">
+              <p>
+                {
+                  "Explore our science section and care notes for a closer look at ingredients, product labels and everyday routines. You can also follow the sources linked in each note."
+                }
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <style jsx>{`
         .faq-panel {
           height: 0;
           interpolate-size: allow-keywords;
@@ -16,6 +260,11 @@ export function Faq() {
           height: auto;
         }
         @media (prefers-reduced-motion: reduce) {
-          .faq-panel { transition: none; }
+          .faq-panel {
+            transition: none;
+          }
         }
-      `}</style></section>); }
+      `}</style>
+    </section>
+  );
+}
