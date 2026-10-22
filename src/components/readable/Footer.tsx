@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import { useState, type FormEvent } from "react";
 import "./Footer.css";
@@ -9,10 +10,10 @@ const linkGroups = [
   {
     heading: "Sections",
     links: [
-      { label: "How It Works", href: "#how-it-works" },
-      { label: "Features", href: "#features" },
-      { label: "Why Choose Us", href: "#why-choose-us" },
-      { label: "Testimonials", href: "#testimonials" },
+      { label: "How It Works", href: "/#how-it-works" },
+      { label: "Features", href: "/#features" },
+      { label: "Why Choose Us", href: "/#why-choose-us" },
+      { label: "Testimonials", href: "/#testimonials" },
     ],
   },
   {
@@ -30,8 +31,8 @@ const linkGroups = [
   {
     heading: "Pages",
     links: [
-      { label: "Contact Us", href: "https://readable.framer.website/contact" },
-      { label: "Blogs", href: "https://readable.framer.website/blog-index" },
+      { label: "Contact Us", href: "/contact" },
+      { label: "Blogs", href: "/blog-index" },
     ],
   },
 ];
@@ -97,7 +98,7 @@ export function Footer() {
               <ul>
                 {links.map(({ label, href }) => (
                   <li key={label}>
-                    <a href={href}>{label}</a>
+                    <Link href={href}>{label}</Link>
                   </li>
                 ))}
               </ul>

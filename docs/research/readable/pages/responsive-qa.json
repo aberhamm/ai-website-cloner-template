@@ -1,0 +1,68 @@
+[
+  {
+    "cardWidth": 330,
+    "footerHeight": 744,
+    "missing": 0,
+    "path": "/blog-index",
+    "viewport": 390,
+    "width": 390
+  },
+  {
+    "footerHeight": 744,
+    "missing": 0,
+    "path": "/contact",
+    "viewport": 390,
+    "width": 390
+  },
+  {
+    "footerHeight": 744,
+    "missing": 0,
+    "path": "/blog-index/why-your-mood-deserves-better-content",
+    "viewport": 390,
+    "width": 390
+  },
+  {
+    "cardWidth": 330,
+    "footerHeight": 568,
+    "missing": 0,
+    "path": "/blog-index",
+    "viewport": 768,
+    "width": 768
+  },
+  {
+    "footerHeight": 568,
+    "missing": 0,
+    "path": "/contact",
+    "viewport": 768,
+    "width": 768
+  },
+  {
+    "footerHeight": 568,
+    "missing": 0,
+    "path": "/blog-index/why-your-mood-deserves-better-content",
+    "viewport": 768,
+    "width": 768
+  },
+  {
+    "cardWidth": 524,
+    "footerHeight": 416,
+    "missing": 0,
+    "path": "/blog-index",
+    "viewport": 1440,
+    "width": 1440
+  },
+  {
+    "footerHeight": 416,
+    "missing": 0,
+    "path": "/contact",
+    "viewport": 1440,
+    "width": 1440
+  },
+  {
+    "footerHeight": 416,
+    "missing": 0,
+    "path": "/blog-index/why-your-mood-deserves-better-content",
+    "viewport": 1440,
+    "width": 1440
+  }
+]

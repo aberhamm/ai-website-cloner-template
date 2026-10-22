@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useRef } from "react";
 import "./Blog.css";
 
@@ -197,14 +198,14 @@ export function Blog() {
                 <div className="readable-blog-card-content">
                   <h3>{article.title}</h3>
                   <p>{article.description}</p>
-                  <a
-                    href={`https://readable.framer.website/blog-index/${article.slug}`}
+                  <Link
+                    href={`/blog-index/${article.slug}`}
                     className="readable-blog-read-more"
                     aria-label={`Read more: ${article.title}`}
                     tabIndex={copy !== 1 ? -1 : undefined}
                   >
                     Read More<span aria-hidden="true">↗</span>
-                  </a>
+                  </Link>
                 </div>
                 <Image
                   src={`/readable/${article.image}`}

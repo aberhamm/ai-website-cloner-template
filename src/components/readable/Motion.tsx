@@ -1,10 +1,12 @@
 "use client";
 
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 import "./Motion.css";
 
 /** Reveals the server-rendered content once, when it enters the viewport. */
 export function Motion() {
+  const pathname = usePathname();
   useEffect(() => {
     const elements = document.querySelectorAll<HTMLElement>("[data-motion]");
     const preference = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -32,6 +34,6 @@ export function Motion() {
       observer.disconnect();
       preference.removeEventListener("change", revealAll);
     };
-  }, []);
+  }, [pathname]);
   return null;
 }

@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import {
   ArrowDown,
   ArrowUpRight,
@@ -20,11 +21,11 @@ export function Nav() {
   return (
     <header className="readable-nav">
       <nav aria-label="Main navigation">
-        <a href="#" aria-label="Readable home" className="nav-logo">
+        <Link href="/" aria-label="Readable home" className="nav-logo">
           <img src="/readable/aTHWZjlwriiOo8Qpy2DtD6NQD4.png" alt="" />
-        </a>
-        <a href="https://readable.framer.website/blog-index">Blog</a>
-        <a href="https://readable.framer.website/contact">Contact</a>
+        </Link>
+        <Link href="/blog-index">Blog</Link>
+        <Link href="/contact">Contact</Link>
         <a className="nav-template" href={checkout}>
           Get Template <ArrowUpRight size={12} />
         </a>

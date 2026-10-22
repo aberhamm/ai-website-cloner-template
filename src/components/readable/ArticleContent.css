@@ -1,0 +1,136 @@
+.readable-article {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 200px 0 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.article-top {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.article-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+}
+.article-intro h1 {
+  max-width: 630px;
+  font-size: 56px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: -2px;
+}
+.article-description {
+  max-width: 441px;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #8996ab;
+}
+.article-author {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+}
+.article-portrait {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.article-author-name {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #787490;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 4px;
+}
+.article-author-role {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #8996ab;
+}
+.article-cover {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.article-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.article-section-top {
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.article-section-label {
+  display: inline-block;
+  max-width: 100%;
+  padding: 8px 14px;
+  border-radius: 24px;
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.4;
+}
+.article-section h2 {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.article-section > p {
+  margin-top: 32px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #787490;
+}
+@media (max-width: 1199px) {
+  .readable-article {
+    max-width: 940px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 809px) {
+  .readable-article {
+    padding: 200px 20px 56px;
+    gap: 40px;
+  }
+  .article-top {
+    gap: 40px;
+  }
+  .article-intro h1 {
+    font-size: 38px;
+    letter-spacing: -1.2px;
+  }
+  .article-description {
+    max-width: 100%;
+  }
+  .article-section h2 {
+    font-size: 32px;
+  }
+  .article-section-label {
+    font-size: 14px;
+  }
+  .article-cover {
+    border-radius: 20px;
+  }
+}
+@media (max-width: 809px) {
+  .article-intro h1 {
+    max-width: 100%;
+  }
+}
