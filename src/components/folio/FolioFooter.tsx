@@ -1,3 +1,4 @@
+import Link from "next/link";
 /* Source DOM and utility styles transcribed from Folio. */
 export function FolioFooter() {
   return (
@@ -13,9 +14,9 @@ export function FolioFooter() {
         <p className="mx-auto mt-6 max-w-xl text-balance text-base text-muted-foreground md:text-lg">
 {"Connect your warehouse, ask in plain English, and ship the chart before the meeting ends."}
         </p>
-        <button className="inline-flex shrink-0 items-center justify-center gap-2 whitespace-nowrap outline-none transition-all focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&_svg:not([class*='size-'])]:size-4 [&_svg]:pointer-events-none [&_svg]:shrink-0 bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 h-10 has-[>svg]:px-4 mt-8 rounded-full px-6 py-5 font-medium text-sm" data-slot="button">
+        <Link href="/pricing" className="inline-flex shrink-0 items-center justify-center gap-2 whitespace-nowrap outline-none transition-all focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&_svg:not([class*='size-'])]:size-4 [&_svg]:pointer-events-none [&_svg]:shrink-0 bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 h-10 has-[>svg]:px-4 mt-8 rounded-full px-6 py-5 font-medium text-sm" data-slot="button">
 {"Try Folio Free"}
-        </button>
+        </Link>
       </div>
       <div className="relative px-6 pb-3 md:pb-6 lg:px-8">
         <div className="mx-auto max-w-7xl rounded-3xl border border-border bg-card p-8 shadow-sm md:p-12">
@@ -67,13 +68,13 @@ export function FolioFooter() {
                 </h4>
                 <ul className="mt-5 space-y-3">
                   <li>
-                    <a href="#features">
+                    <Link href="/#features">
                       <span className="inline-flex items-center gap-1.5 text-muted-foreground text-sm transition-colors hover:text-foreground">
                         <span>
 {"Features"}
                         </span>
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="#">
@@ -88,13 +89,13 @@ export function FolioFooter() {
                     </a>
                   </li>
                   <li>
-                    <a href="/pricing">
+                    <Link href="/pricing">
                       <span className="inline-flex items-center gap-1.5 text-muted-foreground text-sm transition-colors hover:text-foreground">
                         <span>
 {"Pricing"}
                         </span>
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="#">
@@ -578,12 +579,12 @@ export function FolioFooter() {
               </a>
             </span>
             <div className="flex gap-6 text-sm">
-              <a className="text-muted-foreground transition-colors hover:text-foreground" href="/terms">
+              <Link className="text-muted-foreground transition-colors hover:text-foreground" href="/terms">
 {"Terms & Conditions"}
-              </a>
-              <a className="text-muted-foreground transition-colors hover:text-foreground" href="/privacy">
+              </Link>
+              <Link className="text-muted-foreground transition-colors hover:text-foreground" href="/privacy">
 {"Privacy Policy"}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
