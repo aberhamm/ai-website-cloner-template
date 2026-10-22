@@ -1,7 +1,7 @@
 /* Source DOM and utility styles transcribed from Folio. */
 export function HowItWorks() {
   return (
-    <section className="py-16 sm:py-20 md:py-28">
+    <section id="features" className="py-16 sm:py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <p className="font-mono text-[11px] text-muted-foreground uppercase tracking-[0.2em]">
 {"How it works"}

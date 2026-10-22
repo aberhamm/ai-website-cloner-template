@@ -1,7 +1,7 @@
 /* Source DOM and utility styles transcribed from Folio. */
 export function Testimonials() {
   return (
-    <section className="py-20 md:py-28">
+    <section id="about" className="py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid items-end gap-8 md:grid-cols-2 md:gap-12">
           <h2 className="text-balance font-bold text-4xl text-foreground tracking-tight md:text-5xl">

@@ -72,3 +72,10 @@
 .folio-s66{background:radial-gradient(ellipse at center, rgba(37, 99, 235, 0.5) 0%, rgba(37, 99, 235, 0.15) 45%, transparent 75%)}
 .folio-s67{background:radial-gradient(ellipse at center, rgba(37, 99, 235, 0.4) 0%, rgba(37, 99, 235, 0.1) 45%, transparent 75%)}
 .folio-s68{background:radial-gradient(ellipse at center, rgba(37, 99, 235, 0.3) 0%, rgba(37, 99, 235, 0.1) 45%, transparent 75%)}
+/* Honor reduced motion for the source's decorative loops. */
+html { scroll-behavior: smooth; }
+section[id] { scroll-margin-top: 100px; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}

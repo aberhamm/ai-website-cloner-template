@@ -1,7 +1,7 @@
 /* Source DOM and utility styles transcribed from Folio. */
 export function HeroSection() {
   return (
-    <main className="relative z-10 overflow-hidden border-b">
+    <div className="relative z-10 overflow-hidden border-b">
       <section className="relative bg-background">
         <div className="container relative mx-auto">
           <div className="border-border border-dashed bg-background sm:border-x">
@@ -1089,6 +1089,6 @@ export function HeroSection() {
           </div>
         </div>
       </section>
-    </main>
+    </div>
   );
 }

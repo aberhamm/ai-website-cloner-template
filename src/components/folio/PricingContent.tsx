@@ -1,5 +1,8 @@
+"use client";
+import { useState } from "react";
 /* Source DOM and utility styles transcribed from Folio. */
 export function PricingContent() {
+  const [annual, setAnnual] = useState(true);
   return (
     <main className="flex min-h-screen flex-col">
       <div className="container mx-auto">
@@ -27,11 +30,11 @@ export function PricingContent() {
                   </p>
                   <div className="my-12">
                     <div className="bg-foreground/5 relative mx-auto grid w-fit grid-cols-2 rounded-full p-1">
-                      <div aria-hidden="true" className="bg-card ring-foreground/5 pointer-events-none absolute inset-1 w-1/2 rounded-full border border-transparent shadow ring-1 transition-transform duration-500 ease-in-out translate-x-full"></div>
-                      <button className="relative block h-8 w-24 rounded-full text-sm transition-colors text-foreground/75 hover:opacity-75">
+                      <div aria-hidden="true" className={"bg-card ring-foreground/5 pointer-events-none absolute inset-1 w-1/2 rounded-full border border-transparent shadow ring-1 transition-transform duration-500 ease-in-out" + (annual ? " translate-x-full" : "")}></div>
+                      <button type="button" aria-pressed={!annual} onClick={() => setAnnual(false)} className={"relative block h-8 w-24 rounded-full text-sm transition-colors hover:opacity-75 " + (!annual ? "text-foreground font-medium" : "text-foreground/75")}>
 {"Monthly"}
                       </button>
-                      <button className="relative block h-8 w-24 rounded-full text-sm transition-colors text-foreground font-medium">
+                      <button type="button" aria-pressed={annual} onClick={() => setAnnual(true)} className={"relative block h-8 w-24 rounded-full text-sm transition-colors hover:opacity-75 " + (annual ? "text-foreground font-medium" : "text-foreground/75")}>
 {"Annually"}
                       </button>
                     </div>
@@ -106,7 +109,7 @@ export function PricingContent() {
                         <div>
                           <span className="text-3xl font-semibold">
 {"$"}
-{"24"}
+{annual ? "24" : "29"}
                           </span>
                           <div className="text-muted-foreground text-sm">
 {"Per month"}
@@ -187,13 +190,13 @@ export function PricingContent() {
                         <div>
                           <span className="text-3xl font-semibold">
 {"$"}
-{"79"}
+{annual ? "79" : "99"}
                           </span>
                           <div className="text-muted-foreground text-sm">
 {"Per month"}
                           </div>
                         </div>
-                        <a className="cursor-pointer inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring h-9 px-4 py-2 w-full shadow-sm shadow-black/10 border border-transparent bg-card ring-1 ring-foreground/10 duration-200 hover:bg-muted/50 dark:ring-foreground/15 dark:hover:bg-muted/50" href="#">
+                        <a className="cursor-pointer inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring h-9 px-4 py-2 w-full shadow-sm shadow-black/10 border border-transparent bg-card ring-1 ring-foreground/10 duration-200 hover:bg-muted/50 dark:ring-foreground/15 dark:hover:bg-muted/50" href="/contact">
 {"Contact Sales"}
                         </a>
                         <ul className="space-y-3 text-sm">
@@ -269,7 +272,7 @@ export function PricingContent() {
 {"For organizations requiring dedicated infrastructure, custom integrations, and enterprise-grade security."}
                           </p>
                         </div>
-                        <a className="cursor-pointer inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring shadow-sm shadow-black/10 border border-transparent bg-card ring-1 ring-foreground/10 duration-200 hover:bg-muted/50 dark:ring-foreground/15 dark:hover:bg-muted/50 h-9 px-4 py-2" href="#">
+                        <a className="cursor-pointer inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring shadow-sm shadow-black/10 border border-transparent bg-card ring-1 ring-foreground/10 duration-200 hover:bg-muted/50 dark:ring-foreground/15 dark:hover:bg-muted/50 h-9 px-4 py-2" href="/contact">
 {"Contact Sales"}
                         </a>
                       </div>
