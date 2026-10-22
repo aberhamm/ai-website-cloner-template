@@ -1,88 +1,255 @@
-# HeroSection Specification
+# Hero
 
-## Overview
-- **Target file:** `src/components/HeroSection.tsx`
-- **Live URL:** https://outfit.hellohello.is/ (top of page)
-- **Interaction model:** static (no scroll/click/hover behaviors)
-- **Imports:** `OutfitWordmark` from `@/components/icons`
+Target: src/components/forma/Hero.tsx
+Reference: docs/design-references/source-desktop.png
+DOM and exact utility classes captured in the generated component.
 
-## DOM Structure
+## Computed desktop styles
+
+```json
+{
+  "tag": "SECTION",
+  "classes": "relative isolate flex min-h-[max(900px,calc(100svh-152px))] items-end bg-[#e2e9d2] max-tablet:min-h-[820px] max-mobile:min-h-[max(860px,calc(100svh+160px))] max-[361px]:min-h-[max(880px,calc(100svh+180px))]",
+  "text": null,
+  "styles": {
+    "fontFamily": "\"Inter Variable\", Inter, Arial, sans-serif",
+    "fontSize": "15px",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "color": "rgb(16, 16, 16)",
+    "backgroundColor": "rgb(226, 233, 210)",
+    "padding": "0px",
+    "gap": "normal",
+    "display": "flex",
+    "gridTemplateColumns": "none",
+    "minHeight": "900px",
+    "maxWidth": "none",
+    "transition": "all"
+  },
+  "children": [
+    {
+      "tag": "IMG",
+      "classes": "-z-10 object-cover object-center max-mobile:object-[54%_30%]",
+      "text": "",
+      "styles": {
+        "fontFamily": "\"Inter Variable\", Inter, Arial, sans-serif",
+        "fontSize": "15px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgba(0, 0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "block",
+        "gridTemplateColumns": "none",
+        "minHeight": "0px",
+        "maxWidth": "100%",
+        "transition": "all"
+      },
+      "children": []
+    },
+    {
+      "tag": "DIV",
+      "classes": "relative flex min-h-[450px] w-full items-end after:pointer-events-none after:absolute after:inset-0 after:bg-[linear-gradient(180deg,#e2e9d200,#e2e9d2)] max-mobile:min-h-[510px] max-mobile:after:bg-[linear-gradient(180deg,#e2e9d200,#e2e9d2_75%)]",
+      "text": null,
+      "styles": {
+        "fontFamily": "\"Inter Variable\", Inter, Arial, sans-serif",
+        "fontSize": "15px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(16, 16, 16)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "gap": "normal",
+        "display": "flex",
+        "gridTemplateColumns": "none",
+        "minHeight": "450px",
+        "maxWidth": "none",
+        "transition": "all"
+      },
+      "children": [
+        {
+          "tag": "DIV",
+          "classes": "mx-auto w-full max-w-[1600px] px-gutter relative z-1 flex items-end justify-between gap-12 py-20 max-tablet:py-14 max-mobile:flex-col max-mobile:items-start max-mobile:gap-9 max-mobile:pt-20 max-mobile:pb-10",
+          "text": null,
+          "styles": {
+            "fontFamily": "\"Inter Variable\", Inter, Arial, sans-serif",
+            "fontSize": "15px",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "color": "rgb(16, 16, 16)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "padding": "80px",
+            "gap": "48px",
+            "display": "flex",
+            "gridTemplateColumns": "none",
+            "minHeight": "auto",
+            "maxWidth": "1600px",
+            "transition": "all"
+          },
+          "children": [
+            {
+              "tag": "DIV",
+              "classes": "",
+              "text": null,
+              "styles": {
+                "fontFamily": "\"Inter Variable\", Inter, Arial, sans-serif",
+                "fontSize": "15px",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "color": "rgb(16, 16, 16)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "padding": "0px",
+                "gap": "normal",
+                "display": "block",
+                "gridTemplateColumns": "none",
+                "minHeight": "auto",
+                "maxWidth": "none",
+                "transition": "all"
+              },
+              "children": [
+                {
+                  "tag": "H1",
+                  "classes": "max-mobile:text-[56px]/none",
+                  "text": null,
+                  "styles": {
+                    "fontFamily": "\"Inter Variable\", Inter, Arial, sans-serif",
+                    "fontSize": "56px",
+                    "lineHeight": "56px",
+                    "letterSpacing": "-2.24px",
+                    "color": "rgb(16, 16, 16)",
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "padding": "0px",
+                    "gap": "normal",
+                    "display": "block",
+                    "gridTemplateColumns": "none",
+                    "minHeight": "0px",
+                    "maxWidth": "none",
+                    "transition": "all"
+                  },
+                  "children": []
+                },
+                {
+                  "tag": "P",
+                  "classes": "mt-6 max-mobile:mt-5",
+                  "text": null,
+                  "styles": {
+                    "fontFamily": "\"Inter Variable\", Inter, Arial, sans-serif",
+                    "fontSize": "15px",
+                    "lineHeight": "24px",
+                    "letterSpacing": "normal",
+                    "color": "rgb(16, 16, 16)",
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "padding": "0px",
+                    "gap": "normal",
+                    "display": "block",
+                    "gridTemplateColumns": "none",
+                    "minHeight": "0px",
+                    "maxWidth": "none",
+                    "transition": "all"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "DIV",
+              "classes": "flex flex-col items-start gap-4 max-tablet:max-w-[330px] max-mobile:max-w-full max-mobile:gap-3",
+              "text": null,
+              "styles": {
+                "fontFamily": "\"Inter Variable\", Inter, Arial, sans-serif",
+                "fontSize": "15px",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "color": "rgb(16, 16, 16)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "padding": "0px",
+                "gap": "16px",
+                "display": "flex",
+                "gridTemplateColumns": "none",
+                "minHeight": "auto",
+                "maxWidth": "none",
+                "transition": "all"
+              },
+              "children": [
+                {
+                  "tag": "H2",
+                  "classes": "text-[28px]/9 font-normal tracking-[-0.03em] max-mobile:text-2xl/8",
+                  "text": null,
+                  "styles": {
+                    "fontFamily": "\"Inter Variable\", Inter, Arial, sans-serif",
+                    "fontSize": "28px",
+                    "lineHeight": "36px",
+                    "letterSpacing": "-0.84px",
+                    "color": "rgb(16, 16, 16)",
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "padding": "0px",
+                    "gap": "normal",
+                    "display": "block",
+                    "gridTemplateColumns": "none",
+                    "minHeight": "auto",
+                    "maxWidth": "none",
+                    "transition": "all"
+                  },
+                  "children": []
+                },
+                {
+                  "tag": "DIV",
+                  "classes": "",
+                  "text": null,
+                  "styles": {
+                    "fontFamily": "\"Inter Variable\", Inter, Arial, sans-serif",
+                    "fontSize": "15px",
+                    "lineHeight": "24px",
+                    "letterSpacing": "normal",
+                    "color": "rgb(16, 16, 16)",
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "padding": "0px",
+                    "gap": "normal",
+                    "display": "block",
+                    "gridTemplateColumns": "none",
+                    "minHeight": "auto",
+                    "maxWidth": "none",
+                    "transition": "all"
+                  },
+                  "children": []
+                },
+                {
+                  "tag": "P",
+                  "classes": "text-[13px]/5 max-mobile:text-xs/5",
+                  "text": null,
+                  "styles": {
+                    "fontFamily": "\"Inter Variable\", Inter, Arial, sans-serif",
+                    "fontSize": "13px",
+                    "lineHeight": "20px",
+                    "letterSpacing": "normal",
+                    "color": "rgb(16, 16, 16)",
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "padding": "0px",
+                    "gap": "normal",
+                    "display": "block",
+                    "gridTemplateColumns": "none",
+                    "minHeight": "auto",
+                    "maxWidth": "none",
+                    "transition": "all"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
 ```
-<section className="px-4 lg:px-6">
-  <div className="mt-26 mb-6">                      {/* margin: 104px top, 24px bottom */}
-    <div className="relative">
-      <OutfitWordmark className="mb-6 w-full h-auto" />  {/* SVG, viewBox 0 0 1391 296 */}
-    </div>
-    <div className="mb-10 grid grid-cols-8 gap-x-6 gap-y-10 text-xs font-bold md:grid-cols-16 md:gap-6">
-      <div className="col-span-3 md:col-span-4">
-        <h1 className="uppercase">Outfit</h1>
-      </div>
-      <div className="col-span-3 md:col-span-4">
-        <h2 className="mb-4 uppercase">Why</h2>
-        <p className="text-sm leading-4 tracking-tight md:max-w-[60%]">
-          Created by the ++hellohello team, this store and signature collection
-          celebrates our collective creativity and passion for apparel. Carefully designed.
-        </p>
-      </div>
-      <div className="col-span-3 md:col-span-7 md:col-start-9">
-        <h2 className="mb-4 uppercase">Visit ++ Website</h2>
-        <h2 className="uppercase">Shipping &amp; Returns</h2>
-      </div>
-      <div className="col-span-1 md:col-span-1 text-right">
-        <p className="uppercase">© 2026</p>
-      </div>
-    </div>
-  </div>
-</section>
-```
 
-## Computed Styles (extracted from getComputedStyle)
+## Behavior
+Static content, viewport entry reveal; hover on links and photo/card tilt.
 
-### Outer wrapper (`.px-4 lg:px-6`)
-- padding: `0px 24px` (lg, 1440px viewport)
-- height: 429.211px
-- color: `var(--color-red)` (i.e. `#ff0001` — inherited from body.red)
+## Responsive
+Exact source max-mobile and max-tablet classes preserved. Mobile 390px, tablet 768px, desktop 1440px.
 
-### Inner block (`.mt-26 mb-6`)
-- margin: `104px 0 24px`
-- width: 100% of parent
-
-### Title SVG container (`.relative`)
-- height: 296px
-- contains the OutfitWordmark SVG with `width: 100%; height: auto`
-- The SVG fills horizontally; the small ®-trademark is the 7th path inside the SVG (already part of the viewBox, no separate element needed)
-
-### Info-row grid
-- 8 cols mobile (gap 24px x, 40px y), 16 cols ≥ md (gap 24px)
-- font-size: 12px (text-xs)
-- font-weight: 700 (font-bold)
-- line-height: 16px
-- text-transform: uppercase (on labels)
-
-### Paragraph (`.text-sm leading-4 tracking-tight md:max-w-[60%]`)
-- font-size: 14px
-- font-weight: 700 (inherits font-bold from parent)
-- line-height: 16px
-- letter-spacing: tight
-- max-width: 60% on md+
-
-## Text Content (verbatim)
-- Title (in SVG): "OUTFIT®"
-- Labels: `Outfit`, `Why`, `Visit ++ Website`, `Shipping & Returns`, `© 2026`
-- Paragraph: `Created by the ++hellohello team, this store and signature collection celebrates our collective creativity and passion for apparel. Carefully designed.`
-
-## Color
-- Text color: inherits from `body.red` (red `#ff0001`)
-- Background: transparent (body cream `#ede4dd` shows through)
-
-## Responsive Behavior
-- **Desktop (≥1024px):** 16-col grid as defined; SVG full width.
-- **Tablet (768–1023px):** Same grid, slightly tighter padding (`px-4` only).
-- **Mobile (<768px):** 8-col grid, paragraph max-width: 100%, layout stacks via natural col-spans.
-
-## Notes for builder
-- Export as `HeroSection` (named export).
-- Use `<section>` for the outer wrapper.
-- The SVG must scale fluidly — set `className="w-full h-auto"` on the imported `OutfitWordmark`.
-- Do NOT add any `style={{ ... }}` blocks — Tailwind classes only.
-- Use the `<h1>OUTFIT</h1>` semantic structure as shown (real H1 only on the small "Outfit" label, since the SVG is graphic; this matches the source).
+## Content and assets
+Verbatim source content and asset references preserved in component.
