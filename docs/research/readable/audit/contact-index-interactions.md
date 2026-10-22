@@ -39,3 +39,9 @@ H1 word effect for contact and index:
 Header outer fade: tween duration1.2/ease[.68,0,0,1]. Form and blog cards: spring damping40/mass1/stiffness150/delay.6. Contact card stagger delays .2/.4/.6.
 
 Shared Contact testimonial title has no source entrance effect (local rise is extra). CTA header source scroll rise85 once delay0, spring40/1/150. Shared testimonial tickers/CTA icon cycles delegated to root audit. Source submit success/server behavior deliberately untested; demo-only local form is documented existing scope.
+
+## Implementation verification
+
+Applied page-specific fixes using the shared `WordHeading` and `Motion` foundation: both hero wrappers fade at mount; titles animate by word; contact form and all index cards use mount rise85 with .6s delay; contact scroll cards stagger .2/.4/.6. Contact button now crossfades to the reversed source gradient on hover/focus, with reduced-motion transition disabled.
+
+`npm run typecheck` and scoped ESLint passed. Isolated preview on port3118 checked1440×1000 and390×844. Browser DOM verified title IDs/word spans, all four index cards visible after mount including offscreen cards, contact cards hidden until viewport entry with expected computed delays, button overlay0→1 on hover and exact gradient endpoints. No horizontal overflow at either viewport. Shared Read More hover, footer, and optional static Contact testimonial title remain parent integration work.

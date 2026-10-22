@@ -4,6 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 import { CTA, Glow, Nav } from "./Hero";
 import { Footer } from "./Footer";
 import { Motion } from "./Motion";
+import { WordHeading } from "./WordHeading";
 import "./BlogIndex.css";
 
 const articles = [
@@ -50,7 +51,11 @@ export function BlogIndex() {
         <section className="blog-index-hero" aria-labelledby="blog-index-title">
           <div className="blog-index-panel">
             <Glow />
-            <div data-motion="rise" className="blog-index-heading">
+            <div
+              data-motion="fade"
+              data-motion-trigger="mount"
+              className="blog-index-heading"
+            >
               <div className="blog-index-eyebrow">
                 <span>
                   <Image
@@ -62,9 +67,9 @@ export function BlogIndex() {
                   Blog
                 </span>
               </div>
-              <h1 id="blog-index-title">
+              <WordHeading id="blog-index-title">
                 Seamless Activity Planning with Voice-Activated AI
-              </h1>
+              </WordHeading>
               <p>
                 Our pre recorded sessions contain all the essentials to help you
                 fix your mood in few sessions
@@ -79,6 +84,8 @@ export function BlogIndex() {
               href={`/blog-index/${article.slug}`}
               className={`blog-index-card blog-index-${article.color}`}
               data-motion="rise"
+              data-motion-trigger="mount"
+              data-motion-delay="0.6"
             >
               <div className="blog-index-card-copy">
                 <div>

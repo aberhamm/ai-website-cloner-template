@@ -4,6 +4,7 @@ import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { useState, type FormEvent } from "react";
 import { Glow } from "./Hero";
+import { WordHeading } from "./WordHeading";
 import "./ContactContent.css";
 
 const cards = [
@@ -50,18 +51,26 @@ export function ContactContent() {
       <section className="contact-hero" aria-labelledby="contact-heading">
         <div className="contact-panel">
           <Glow />
-          <header data-motion="rise" className="contact-header">
+          <header
+            data-motion="fade"
+            data-motion-trigger="mount"
+            className="contact-header"
+          >
             <Eyebrow icon="hO44sjUFP3idS9BBz8iwQTeyaI.svg">Contact Us</Eyebrow>
-            <h1 id="contact-heading">
-              Whether it’s a question, suggestion, or just a hello—drop it
-              below.
-            </h1>
+            <WordHeading id="contact-heading">
+              Whether it’s a question, suggestion, or just a hello—drop it below.
+            </WordHeading>
             <p>
               We’ll get back to you faster than your favorite anime character
               powers up.
             </p>
           </header>
-          <div data-motion="rise" className="contact-form-container">
+          <div
+            data-motion="rise"
+            data-motion-trigger="mount"
+            data-motion-delay="0.6"
+            className="contact-form-container"
+          >
             <form className="contact-form" onSubmit={submit}>
               <div className="contact-fields">
                 <div className="contact-field-row">
@@ -107,7 +116,8 @@ export function ContactContent() {
                 </label>
               </div>
               <button className="contact-submit" type="submit">
-                Send Message <ArrowUpRight size={18} aria-hidden="true" />
+                <span>Send Message</span>
+                <ArrowUpRight size={18} aria-hidden="true" />
               </button>
               {submitted && (
                 <p role="status" className="contact-notice">
@@ -142,6 +152,7 @@ export function ContactContent() {
             {cards.map((card, index) => (
               <article
                 data-motion="rise"
+                data-motion-delay={((index + 1) * 0.2).toFixed(1)}
                 className={`contact-card contact-card-${index + 1}`}
                 key={card.title}
               >
