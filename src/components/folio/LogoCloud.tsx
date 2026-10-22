@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element -- Preserve the source assets' intrinsic sizing and exact CSS presentation. */
 /* Source DOM and utility styles transcribed from Folio. */
 export function LogoCloud() {
   return (

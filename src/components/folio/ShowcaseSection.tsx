@@ -1,4 +1,5 @@
 "use client";
+import { CheckIcon } from '@/components/icons';
 
 import { useEffect, useState } from "react";
 import { ShowcaseAiPanel } from "./ShowcaseAiPanel";
@@ -108,25 +109,19 @@ export function ShowcaseSection() {
 <div className="mt-12 flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
           <div className="flex items-center gap-2 text-muted-foreground text-sm">
             <span className="flex size-4 items-center justify-center rounded-full bg-emerald-500">
-              <svg className="lucide lucide-check size-2.5 text-white" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 6 9 17l-5-5"></path>
-              </svg>
+              <CheckIcon className="lucide lucide-check size-2.5 text-white" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
             </span>
 {"Static spreadsheet exports"}
           </div>
           <div className="flex items-center gap-2 text-muted-foreground text-sm">
             <span className="flex size-4 items-center justify-center rounded-full bg-emerald-500">
-              <svg className="lucide lucide-check size-2.5 text-white" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 6 9 17l-5-5"></path>
-              </svg>
+              <CheckIcon className="lucide lucide-check size-2.5 text-white" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
             </span>
 {"Modern data intelligence with AI"}
           </div>
           <div className="flex items-center gap-2 text-muted-foreground text-sm">
             <span className="flex size-4 items-center justify-center rounded-full bg-emerald-500">
-              <svg className="lucide lucide-check size-2.5 text-white" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 6 9 17l-5-5"></path>
-              </svg>
+              <CheckIcon className="lucide lucide-check size-2.5 text-white" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
             </span>
 {"SQL-only editors and BI tools"}
           </div>

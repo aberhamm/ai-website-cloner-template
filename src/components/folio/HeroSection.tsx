@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element -- Preserve the source assets' intrinsic sizing and exact CSS presentation. */
+import { ChevronRightIcon } from '@/components/icons';
 /* Source DOM and utility styles transcribed from Folio. */
 export function HeroSection() {
   return (
@@ -15,9 +17,7 @@ export function HeroSection() {
                     <a className="block" href="#">
                       <span className="relative z-10 flex items-center gap-1 px-4 py-1.5 font-medium text-foreground text-sm">
 {"Simplify Charts — Open Source"}
-                        <svg className="lucide lucide-chevron-right size-4" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                          <path d="m9 18 6-6-6-6"></path>
-                        </svg>
+                        <ChevronRightIcon className="lucide lucide-chevron-right size-4" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
                       </span>
                     </a>
                   </div>

@@ -1,4 +1,6 @@
+/* eslint-disable @next/next/no-img-element -- Preserve the source assets' intrinsic sizing and exact CSS presentation. */
 "use client";
+import { MenuIcon, MoonIcon, SunIcon, XIcon } from '@/components/icons';
 
 import Link from "next/link";
 import { useEffect, useState, useSyncExternalStore } from "react";
@@ -67,15 +69,8 @@ export function FolioHeader() {
                 </span>
               </Link>
               <button aria-label={menuOpen ? "Close Menu" : "Open Menu"} aria-expanded={menuOpen} aria-controls="folio-mobile-menu" onClick={() => setMenuOpen(!menuOpen)} className="-m-2.5 -mr-4 relative z-20 block cursor-pointer p-2.5 lg:hidden" type="button">
-                <svg className="lucide lucide-menu m-auto size-6 duration-200 in-data-[state=active]:rotate-180 in-data-[state=active]:scale-0 in-data-[state=active]:opacity-0" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                  <line x1="4" x2="20" y1="12" y2="12"></line>
-                  <line x1="4" x2="20" y1="6" y2="6"></line>
-                  <line x1="4" x2="20" y1="18" y2="18"></line>
-                </svg>
-                <svg className="lucide lucide-x -rotate-180 absolute inset-0 m-auto size-6 scale-0 opacity-0 duration-200 in-data-[state=active]:rotate-0 in-data-[state=active]:scale-100 in-data-[state=active]:opacity-100" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M18 6 6 18"></path>
-                  <path d="m6 6 12 12"></path>
-                </svg>
+                <MenuIcon className="lucide lucide-menu m-auto size-6 duration-200 in-data-[state=active]:rotate-180 in-data-[state=active]:scale-0 in-data-[state=active]:opacity-0" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
+                <XIcon className="lucide lucide-x -rotate-180 absolute inset-0 m-auto size-6 scale-0 opacity-0 duration-200 in-data-[state=active]:rotate-0 in-data-[state=active]:scale-100 in-data-[state=active]:opacity-100" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
               </button>
             </div>
             <div className="absolute inset-0 m-auto hidden size-fit lg:block">
@@ -147,23 +142,11 @@ export function FolioHeader() {
                 <div aria-label="Toggle Theme" className="relative flex items-center rounded-full p-1 ring-1 ring-border self-start sm:self-auto" data-theme-toggle="">
                   <button aria-label="Light theme" aria-pressed={!dark} onClick={() => chooseTheme(false)} className={`relative size-6.5 rounded-full p-1.5 text-fd-muted-foreground ${!dark ? "text-fd-accent-foreground" : ""}`} type="button">
                     {!dark && <div className="absolute inset-0 rounded-full bg-accent folio-s1" />}
-                    <svg className="lucide lucide-sun relative m-auto size-full" fill="currentColor" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="12" cy="12" r="4"></circle>
-                      <path d="M12 2v2"></path>
-                      <path d="M12 20v2"></path>
-                      <path d="m4.93 4.93 1.41 1.41"></path>
-                      <path d="m17.66 17.66 1.41 1.41"></path>
-                      <path d="M2 12h2"></path>
-                      <path d="M20 12h2"></path>
-                      <path d="m6.34 17.66-1.41 1.41"></path>
-                      <path d="m19.07 4.93-1.41 1.41"></path>
-                    </svg>
+                    <SunIcon className="lucide lucide-sun relative m-auto size-full" fill="currentColor" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
                   </button>
                   <button aria-label="Dark theme" aria-pressed={dark} onClick={() => chooseTheme(true)} className={`relative size-6.5 rounded-full p-1.5 text-fd-muted-foreground ${dark ? "text-fd-accent-foreground" : ""}`} type="button">
                     {dark && <div className="absolute inset-0 rounded-full bg-accent folio-s1" />}
-                    <svg className="lucide lucide-moon relative m-auto size-full" fill="currentColor" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
-                    </svg>
+                    <MoonIcon className="lucide lucide-moon relative m-auto size-full" fill="currentColor" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
                   </button>
                 </div>
                 <a className={`inline-flex shrink-0 items-center justify-center whitespace-nowrap font-medium text-sm outline-none transition-all focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&_svg:not([class*='size-'])]:size-4 [&_svg]:pointer-events-none [&_svg]:shrink-0 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:border-border dark:bg-input/30 dark:hover:bg-input/50 h-8 gap-1.5 rounded-md px-3 has-[>svg]:px-2.5 w-full sm:w-auto${scrolled ? " lg:hidden" : ""}`} data-slot="button" onClick={() => setMenuOpen(false)} href="#">

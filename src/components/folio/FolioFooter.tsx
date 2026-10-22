@@ -1,10 +1,12 @@
+/* eslint-disable @next/next/no-img-element -- Preserve the source assets' intrinsic sizing and exact CSS presentation. */
+import { ArrowUpRightIcon, MailIcon } from '@/components/icons';
 import Link from "next/link";
 /* Source DOM and utility styles transcribed from Folio. */
 export function FolioFooter() {
   return (
     <footer className="relative mt-12 overflow-hidden bg-background">
       <div aria-hidden="true" className="pointer-events-none absolute inset-0">
-        <img alt="" className="object-cover folio-s2" decoding="async" loading="lazy" sizes="100vw" src="/folio/images/dashboard-bg.jpg" />
+        <img alt="" className="object-cover folio-s2" decoding="async" loading="eager" sizes="100vw" src="/folio/images/dashboard-bg.jpg" />
         <div className="absolute inset-0 bg-background/30 dark:bg-background/70"></div>
       </div>
       <div className="relative px-6 pt-24 pb-32 text-center md:pt-32 md:pb-40 lg:px-8">
@@ -32,10 +34,7 @@ export function FolioFooter() {
 {"Folio is the AI-powered workspace that helps teams query databases, visualize data, and make faster decisions — all in one place."}
               </p>
               <a className="mt-6 inline-flex items-center gap-2 rounded-full border border-border bg-background px-3.5 py-1.5 font-medium text-foreground text-xs shadow-sm transition-shadow hover:shadow" href="mailto:hello@folio.app">
-                <svg className="lucide lucide-mail size-3.5 text-muted-foreground" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                  <rect height="16" rx="2" width="20" x="2" y="4"></rect>
-                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
-                </svg>
+                <MailIcon className="lucide lucide-mail size-3.5 text-muted-foreground" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"hello@folio.app"}
               </a>
               <div className="mt-6 flex gap-2">
@@ -112,10 +111,7 @@ export function FolioFooter() {
                         <span>
 {"API"}
                         </span>
-                        <svg className="lucide lucide-arrow-up-right size-3.5 shrink-0 opacity-70" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M7 7h10v10"></path>
-                          <path d="M7 17 17 7"></path>
-                        </svg>
+                        <ArrowUpRightIcon className="lucide lucide-arrow-up-right size-3.5 shrink-0 opacity-70" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
                       </span>
                     </a>
                   </li>
@@ -125,10 +121,7 @@ export function FolioFooter() {
                         <span>
 {"Slack app"}
                         </span>
-                        <svg className="lucide lucide-arrow-up-right size-3.5 shrink-0 opacity-70" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M7 7h10v10"></path>
-                          <path d="M7 17 17 7"></path>
-                        </svg>
+                        <ArrowUpRightIcon className="lucide lucide-arrow-up-right size-3.5 shrink-0 opacity-70" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
                       </span>
                     </a>
                   </li>
@@ -443,10 +436,7 @@ export function FolioFooter() {
                         <span>
 {"API reference"}
                         </span>
-                        <svg className="lucide lucide-arrow-up-right size-3.5 shrink-0 opacity-70" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M7 7h10v10"></path>
-                          <path d="M7 17 17 7"></path>
-                        </svg>
+                        <ArrowUpRightIcon className="lucide lucide-arrow-up-right size-3.5 shrink-0 opacity-70" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
                       </span>
                     </a>
                   </li>
@@ -456,10 +446,7 @@ export function FolioFooter() {
                         <span>
 {"System status"}
                         </span>
-                        <svg className="lucide lucide-arrow-up-right size-3.5 shrink-0 opacity-70" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M7 7h10v10"></path>
-                          <path d="M7 17 17 7"></path>
-                        </svg>
+                        <ArrowUpRightIcon className="lucide lucide-arrow-up-right size-3.5 shrink-0 opacity-70" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
                       </span>
                     </a>
                   </li>

@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element -- Preserve the source assets' intrinsic sizing and exact CSS presentation. */
+import { BadgeCheckIcon, CalendarIcon, ChevronsUpDownIcon, CopyIcon, GlobeIcon, ZapIcon } from '@/components/icons';
 /* Source DOM and utility styles transcribed from Folio. */
 export function FeatureGrid() {
   return (
@@ -372,9 +374,7 @@ export function FeatureGrid() {
                   <div className="-translate-x-1/2 -translate-y-1/2 pointer-events-none absolute top-1/2 left-1/2 size-44 rounded-full border border-foreground/15 border-dashed"></div>
                   <div className="-translate-x-1/2 -translate-y-1/2 pointer-events-none absolute top-1/2 left-1/2 size-56 rounded-full border border-foreground/10 border-dashed"></div>
                   <div className="relative flex size-16 items-center justify-center rounded-2xl bg-zinc-900 shadow-md">
-                    <svg className="lucide lucide-zap size-7 text-emerald-400" fill="currentColor" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
-                    </svg>
+                    <ZapIcon className="lucide lucide-zap size-7 text-emerald-400" fill="currentColor" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
                     <div className="-right-1 -bottom-1 absolute size-6 rounded-full bg-gradient-to-br from-rose-300 to-pink-400 shadow ring-2 ring-background"></div>
                   </div>
                 </div>
@@ -408,11 +408,7 @@ export function FeatureGrid() {
                     </div>
                   </div>
                   <div className="flex w-fit items-center gap-2 rounded-xl border border-border/50 bg-card px-2.5 py-1.5 shadow-sm">
-                    <svg className="lucide lucide-globe size-3.5 shrink-0 text-muted-foreground" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="12" cy="12" r="10"></circle>
-                      <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
-                      <path d="M2 12h20"></path>
-                    </svg>
+                    <GlobeIcon className="lucide lucide-globe size-3.5 shrink-0 text-muted-foreground" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
                     <div className="text-xs leading-none">
                       <span className="text-muted-foreground">
 {"Searched web:"}
@@ -485,12 +481,7 @@ export function FeatureGrid() {
                     <div className="absolute top-0 bottom-0 left-6 border-foreground/15 border-l border-dashed"></div>
                     <div className="relative">
                       <div className="-left-9 absolute top-0 z-10 flex size-6 items-center justify-center rounded-md bg-blue-100 ring-1 ring-blue-200/60 dark:bg-blue-950/40 dark:ring-blue-900/40">
-                        <svg className="lucide lucide-calendar size-3 text-blue-600 dark:text-blue-400" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M8 2v4"></path>
-                          <path d="M16 2v4"></path>
-                          <rect height="18" rx="2" width="18" x="3" y="4"></rect>
-                          <path d="M3 10h18"></path>
-                        </svg>
+                        <CalendarIcon className="lucide lucide-calendar size-3 text-blue-600 dark:text-blue-400" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
                       </div>
                       <div className="space-y-1.5">
                         <div className="flex items-center gap-1.5 pl-1 text-[11px]">
@@ -509,10 +500,7 @@ export function FeatureGrid() {
                         <div className="ml-1 rounded-md border border-border bg-card p-2.5 shadow-sm">
                           <div className="flex items-center justify-between">
                             <span className="inline-flex items-center gap-0.5 rounded-md bg-emerald-100 px-1.5 py-px font-medium text-[10px] text-emerald-700 dark:bg-emerald-950/50 dark:text-emerald-400">
-                              <svg className="lucide lucide-badge-check size-2.5" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"></path>
-                                <path d="m9 12 2 2 4-4"></path>
-                              </svg>
+                              <BadgeCheckIcon className="lucide lucide-badge-check size-2.5" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Published"}
                             </span>
                             <div className="-space-x-1 flex">
@@ -534,10 +522,7 @@ export function FeatureGrid() {
                         <div className="relative pt-1">
                           <div className="-left-6 absolute top-0 h-1/2 w-6 rounded-bl-full border-foreground/15 border-b border-l border-dashed"></div>
                           <div className="flex items-center gap-1 text-[10px] text-muted-foreground">
-                            <svg className="lucide lucide-chevrons-up-down size-2.5 shrink-0" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="m7 15 5 5 5-5"></path>
-                              <path d="m7 9 5-5 5 5"></path>
-                            </svg>
+                            <ChevronsUpDownIcon className="lucide lucide-chevrons-up-down size-2.5 shrink-0" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Show 4 more events"}
                           </div>
                         </div>
@@ -546,10 +531,7 @@ export function FeatureGrid() {
                     <div className="h-3"></div>
                     <div className="relative">
                       <div className="-left-9 absolute top-0 z-10 flex size-6 items-center justify-center rounded-md bg-blue-100 ring-1 ring-blue-200/60 dark:bg-blue-950/40 dark:ring-blue-900/40">
-                        <svg className="lucide lucide-copy size-3 text-blue-600 dark:text-blue-400" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                          <rect height="14" rx="2" ry="2" width="14" x="8" y="8"></rect>
-                          <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
-                        </svg>
+                        <CopyIcon className="lucide lucide-copy size-3 text-blue-600 dark:text-blue-400" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
                       </div>
                       <div className="space-y-1.5">
                         <div className="flex items-center gap-1.5 pl-1 text-[11px]">
@@ -578,10 +560,7 @@ export function FeatureGrid() {
                         <div className="relative pt-1">
                           <div className="-left-6 absolute top-0 h-1/2 w-6 rounded-bl-full border-foreground/15 border-b border-l border-dashed"></div>
                           <div className="flex items-center gap-1 text-[10px] text-muted-foreground">
-                            <svg className="lucide lucide-chevrons-up-down size-2.5 shrink-0" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="m7 15 5 5 5-5"></path>
-                              <path d="m7 9 5-5 5 5"></path>
-                            </svg>
+                            <ChevronsUpDownIcon className="lucide lucide-chevrons-up-down size-2.5 shrink-0" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Show all saved queries"}
                           </div>
                         </div>

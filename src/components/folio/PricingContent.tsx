@@ -1,4 +1,5 @@
 "use client";
+import { ArrowUpRightIcon, CheckIcon } from '@/components/icons';
 import { useState } from "react";
 /* Source DOM and utility styles transcribed from Folio. */
 export function PricingContent() {
@@ -72,27 +73,19 @@ export function PricingContent() {
                         </a>
                         <ul className="space-y-3 text-sm">
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"100 workflow executions/month"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"5 active workflows"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Core integrations"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Community support"}
                           </li>
                         </ul>
@@ -123,57 +116,39 @@ export function PricingContent() {
 {"Everything in Free, plus:"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"5,000 executions/month"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Unlimited workflows"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"All 100+ integrations"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"AI model access (GPT-4, Claude)"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Version history"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Priority support"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Custom webhooks"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Team collaboration"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Advanced analytics"}
                           </li>
                         </ul>
@@ -204,57 +179,39 @@ export function PricingContent() {
 {"Everything in Pro, plus:"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"50,000 executions/month"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Unlimited team members"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Custom AI model integration"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"SSO & SAML"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Audit logs"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Dedicated support"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"SLA guarantee"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"On-premise deployment"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Custom integrations"}
                           </li>
                         </ul>
@@ -279,57 +236,39 @@ export function PricingContent() {
                       <div className="col-span-2 p-8">
                         <ul className="grid md:grid-cols-2 gap-x-14 gap-y-3 text-sm" role="list">
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Unlimited workflow executions"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Dedicated infrastructure"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Custom AI model training"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Advanced security & compliance"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"White-label options"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Custom SLA"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"24/7 premium support"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Dedicated success manager"}
                           </li>
                           <li className="flex items-center gap-2">
-                            <svg className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
+                            <CheckIcon className="lucide lucide-check text-muted-foreground size-3" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
 {"Custom contract terms"}
                           </li>
                         </ul>
@@ -355,10 +294,7 @@ export function PricingContent() {
                         <a className="inline-flex shrink-0 items-center justify-center whitespace-nowrap font-medium text-sm outline-none transition-all focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&_svg:not([class*='size-'])]:size-4 [&_svg]:pointer-events-none [&_svg]:shrink-0 bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 h-10 rounded-md px-6 has-[>svg]:px-4 group gap-4" data-slot="button" href="/contact">
 {"Start Free"}
 {" "}
-                          <svg className="lucide lucide-arrow-up-right group-hover:-rotate-12 size-4 transition-transform" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7 7h10v10"></path>
-                            <path d="M7 17 17 7"></path>
-                          </svg>
+                          <ArrowUpRightIcon className="lucide lucide-arrow-up-right group-hover:-rotate-12 size-4 transition-transform" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
                         </a>
                       </div>
                     </div>

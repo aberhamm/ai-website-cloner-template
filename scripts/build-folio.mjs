@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+if (!process.argv.includes('--regenerate')) throw new Error('Extraction utility: --regenerate overwrites components. Use only for a fresh transcription, before interaction work.');
 const base = 'https://folio-topaz-delta.vercel.app';
 const research = 'docs/research/folio';
 const pages = ['home','pricing','contact','terms','privacy'];

@@ -1,3 +1,4 @@
+import { PlusIcon } from '@/components/icons';
 /* Source DOM and utility styles transcribed from Folio. */
 export function PrivacyContent() {
   return (
@@ -26,10 +27,7 @@ export function PrivacyContent() {
               <div className="absolute left-3 h-6 w-px bg-background"></div>
               <div className="absolute top-3 h-px w-6 bg-background"></div>
               <div className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2">
-                <svg className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5v14"></path>
-                </svg>
+                <PlusIcon className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg" />
               </div>
             </div>
           </div>
@@ -38,10 +36,7 @@ export function PrivacyContent() {
               <div className="absolute left-3 h-6 w-px bg-background"></div>
               <div className="absolute top-3 h-px w-6 bg-background"></div>
               <div className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2">
-                <svg className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5v14"></path>
-                </svg>
+                <PlusIcon className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg" />
               </div>
             </div>
           </div>
@@ -152,10 +147,7 @@ export function PrivacyContent() {
               <div className="absolute left-3 h-6 w-px bg-background"></div>
               <div className="absolute top-3 h-px w-6 bg-background"></div>
               <div className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2">
-                <svg className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5v14"></path>
-                </svg>
+                <PlusIcon className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg" />
               </div>
             </div>
           </div>
@@ -164,10 +156,7 @@ export function PrivacyContent() {
               <div className="absolute left-3 h-6 w-px bg-background"></div>
               <div className="absolute top-3 h-px w-6 bg-background"></div>
               <div className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2">
-                <svg className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5v14"></path>
-                </svg>
+                <PlusIcon className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg" />
               </div>
             </div>
           </div>

@@ -1,4 +1,5 @@
 "use client";
+import { ChevronDownIcon } from '@/components/icons';
 
 import { useEffect, useId, useRef, useState, type KeyboardEvent } from "react";
 
@@ -103,9 +104,7 @@ function FaqItem({ question, answer, open, id, onToggle }: {
       <h3 className="flex" data-orientation="vertical" data-state={state}>
         <button aria-controls={`${id}-content`} aria-expanded={open} className="flex flex-1 items-start justify-between gap-4 text-left font-medium outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 [&[data-state=open]>svg]:rotate-180 cursor-pointer rounded-none border-b py-4 text-base transition-none hover:no-underline data-[state=open]:border-transparent" data-orientation="vertical" data-radix-collection-item="" data-slot="accordion-trigger" data-state={state} id={`${id}-trigger`} type="button" onKeyDown={moveFocus} onClick={() => { setPresent(true); onToggle(); }}>
           {question}
-          <svg className="lucide lucide-chevron-down pointer-events-none size-4 shrink-0 translate-y-0.5 text-muted-foreground transition-transform duration-200" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                        <path d="m6 9 6 6 6-6"></path>
-                      </svg>
+          <ChevronDownIcon className="lucide lucide-chevron-down pointer-events-none size-4 shrink-0 translate-y-0.5 text-muted-foreground transition-transform duration-200" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
         </button>
       </h3>
       <div ref={contentRef} aria-labelledby={`${id}-trigger`} className="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" data-orientation="vertical" data-slot="accordion-content" data-state={state} hidden={!open && !present} id={`${id}-content`} role="region" onAnimationEnd={() => { if (!open) setPresent(false); }}>

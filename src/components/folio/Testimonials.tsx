@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element -- Preserve the source assets' intrinsic sizing and exact CSS presentation. */
+import { PlusIcon } from '@/components/icons';
 /* Source DOM and utility styles transcribed from Folio. */
 export function Testimonials() {
   return (
@@ -229,10 +231,7 @@ export function Testimonials() {
             </p>
           </div>
           <div aria-hidden="true" className="my-4 flex h-44 break-inside-avoid items-center justify-center rounded-3xl border-2 border-border border-dashed bg-transparent">
-            <svg className="lucide lucide-plus size-7 text-muted-foreground/40" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 12h14"></path>
-              <path d="M12 5v14"></path>
-            </svg>
+            <PlusIcon className="lucide lucide-plus size-7 text-muted-foreground/40" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 "use client";
+import { ArrowUpRightIcon, PlusIcon, SendHorizontalIcon } from '@/components/icons';
 import { useState, type FormEvent } from "react";
 import Link from "next/link";
 /* Source DOM and utility styles transcribed from Folio. */
@@ -38,10 +39,7 @@ export function ContactContent() {
               <div className="absolute left-3 h-6 w-px bg-background"></div>
               <div className="absolute top-3 h-px w-6 bg-background"></div>
               <div className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2">
-                <svg className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5v14"></path>
-                </svg>
+                <PlusIcon className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg" />
               </div>
             </div>
           </div>
@@ -50,10 +48,7 @@ export function ContactContent() {
               <div className="absolute left-3 h-6 w-px bg-background"></div>
               <div className="absolute top-3 h-px w-6 bg-background"></div>
               <div className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2">
-                <svg className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5v14"></path>
-                </svg>
+                <PlusIcon className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg" />
               </div>
             </div>
           </div>
@@ -107,10 +102,7 @@ export function ContactContent() {
                       </div>
                       <button className="inline-flex shrink-0 items-center justify-center whitespace-nowrap font-medium text-sm outline-none transition-all focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&_svg:not([class*='size-'])]:size-4 [&_svg]:pointer-events-none [&_svg]:shrink-0 bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 h-10 rounded-md px-6 has-[>svg]:px-4 w-full group gap-3" data-slot="button" type="submit" disabled={status === "sending"}>
 {status === "sending" ? "Sending..." : "Send Message"}
-                        <svg className="lucide lucide-send-horizontal group-hover:-rotate-12 h-4 w-4 transition-transform" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z"></path>
-                          <path d="M6 12h16"></path>
-                        </svg>
+                        <SendHorizontalIcon className="lucide lucide-send-horizontal group-hover:-rotate-12 h-4 w-4 transition-transform" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
                       </button>
                       <p className="text-center text-muted-foreground text-xs">
 {"Demo form — submissions are simulated. Wire it to your own endpoint in "}
@@ -200,10 +192,7 @@ export function ContactContent() {
               <div className="absolute left-3 h-6 w-px bg-background"></div>
               <div className="absolute top-3 h-px w-6 bg-background"></div>
               <div className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2">
-                <svg className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5v14"></path>
-                </svg>
+                <PlusIcon className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg" />
               </div>
             </div>
           </div>
@@ -212,10 +201,7 @@ export function ContactContent() {
               <div className="absolute left-3 h-6 w-px bg-background"></div>
               <div className="absolute top-3 h-px w-6 bg-background"></div>
               <div className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2">
-                <svg className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5v14"></path>
-                </svg>
+                <PlusIcon className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg" />
               </div>
             </div>
           </div>
@@ -238,10 +224,7 @@ export function ContactContent() {
                       <Link className="inline-flex shrink-0 items-center justify-center whitespace-nowrap font-medium text-sm outline-none transition-all focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&_svg:not([class*='size-'])]:size-4 [&_svg]:pointer-events-none [&_svg]:shrink-0 bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 h-10 rounded-md px-6 has-[>svg]:px-4 group gap-4" data-slot="button" href="/">
 {"Explore Platform"}
 {" "}
-                        <svg className="lucide lucide-arrow-up-right group-hover:-rotate-12 size-4 transition-transform" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M7 7h10v10"></path>
-                          <path d="M7 17 17 7"></path>
-                        </svg>
+                        <ArrowUpRightIcon className="lucide lucide-arrow-up-right group-hover:-rotate-12 size-4 transition-transform" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" />
                       </Link>
                     </div>
                   </div>
@@ -257,10 +240,7 @@ export function ContactContent() {
               <div className="absolute left-3 h-6 w-px bg-background"></div>
               <div className="absolute top-3 h-px w-6 bg-background"></div>
               <div className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2">
-                <svg className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5v14"></path>
-                </svg>
+                <PlusIcon className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg" />
               </div>
             </div>
           </div>
@@ -269,10 +249,7 @@ export function ContactContent() {
               <div className="absolute left-3 h-6 w-px bg-background"></div>
               <div className="absolute top-3 h-px w-6 bg-background"></div>
               <div className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2">
-                <svg className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5v14"></path>
-                </svg>
+                <PlusIcon className="lucide lucide-plus text-border/70 dark:text-border" fill="none" height="20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg" />
               </div>
             </div>
           </div>
