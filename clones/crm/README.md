@@ -22,4 +22,4 @@ Editable fields, notes, task statuses, record creation and deletion, search, fil
 - Source captures, measured specifications, and verification: `docs/research/`
 - Reference and comparison screenshots: `docs/design-references/`
 
-This standalone app is tracked in `clones/crm`. Run the commands above from that directory. The root project remains the Readable clone.
+This standalone app is tracked in `clones/crm`. Run the commands above from that directory. The root application remains unchanged by the CRM integration.
