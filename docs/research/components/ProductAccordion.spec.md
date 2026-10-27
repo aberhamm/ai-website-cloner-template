@@ -1,0 +1,3 @@
+# ProductAccordion
+
+Click-driven, single open, first item initially open. Content from product details and FAQs plus shipping policy, verbatim in src/data/products.json. Original source markup in docs/research/routes/products-*.html. Buttons minimum72px, padding24px desktop/22px mobile, fullwidth flex justify-between gap20px desktop/16px mobile. Body maxwidth700px, muted15px/24px, padding-bottom24px. Chevron rotates45deg closed to135deg open in180ms. Height transitions220ms ease, disabled for reduced-motion; styles loaded with global stylesheet to prevent layout shifts before hydration. aria-expanded/controls/labelledby/hidden and inert reflect open state.

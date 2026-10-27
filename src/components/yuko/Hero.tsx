@@ -1,0 +1,178 @@
+"use client";
+import Link from "next/link";
+import { useState } from "react";
+/* eslint-disable @next/next/no-img-element */
+export function Hero() {
+  const [shippingVisible, setShippingVisible] = useState(true);
+  return (
+    <section aria-labelledby="hero-title">
+      <h1
+        id="hero-title"
+        className="gradient-text mx-auto mb-14 w-fit text-center text-[28px] leading-9 tracking-[-0.04em] max-[360px]:text-[25px] md:mb-28 md:leading-8"
+      >
+        {"For the days you live in"}
+      </h1>
+      <div className="relative">
+        <div className="relative aspect-[4/5] min-h-[400px] w-full overflow-hidden rounded-card bg-white min-[600px]:max-md:aspect-[1.35] md:aspect-[1376/560] md:min-h-0">
+          <img
+            alt="Abstract translucent serum droplets against a blue and blush backdrop"
+            decoding="async"
+            className="object-cover object-center extracted-fill"
+            src="/images/hero.webp"
+          />
+          {shippingVisible && (
+            <div className="absolute top-4 left-4 flex items-center gap-3 rounded-full bg-glass py-2 pr-3 pl-4 text-[13px] leading-4 backdrop-blur-floating md:top-auto md:bottom-6 md:left-6 md:gap-4 xl:top-6 xl:bottom-auto">
+              <p className="max-w-[200px]">
+                {"Free shipping on US orders over $100."}
+              </p>
+              <button
+                onClick={() => setShippingVisible(false)}
+                aria-label="Dismiss shipping notice"
+                type="button"
+                className="rounded-full -my-1 grid h-9 w-8 place-items-center md:h-8 md:w-6"
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  height="16"
+                  fill="none"
+                >
+                  <path
+                    d="m5 5 6 6m0-6-6 6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          )}
+        </div>
+        <div className="pt-5 text-center text-[13px] leading-[22px] max-[360px]:text-xs md:absolute md:top-0 md:left-1/2 md:w-max md:max-w-[calc(100%-80px)] md:-translate-x-1/2 md:rounded-b-[40px] md:bg-canvas md:px-6 md:pt-6 md:pb-8 md:text-[15px] md:leading-6 md:before:absolute md:before:top-0 md:before:right-full md:before:size-10 md:before:rounded-tr-[40px] md:before:shadow-[20px_-20px_0_20px_var(--color-canvas)] md:before:content-[''] md:after:absolute md:after:top-0 md:after:left-full md:after:size-10 md:after:rounded-tl-[40px] md:after:shadow-[-20px_-20px_0_20px_var(--color-canvas)] md:after:content-['']">
+          <p>
+            {"Daily supplements and hand care."}
+            <br />
+            {"Learn what’s in each formula and choose"}
+            <br />
+            {"what fits your routine."}
+          </p>
+        </div>
+      </div>
+      <section
+        className="grid grid-cols-1 gap-10 md:grid-cols-3 md:gap-column [&>*]:min-w-0 mt-6 min-[600px]:max-md:grid-cols-2 min-[600px]:max-md:gap-x-6 md:mt-10"
+        id="shop"
+        aria-label="Shop the range"
+      >
+        <article className="flex flex-col gap-5 md:gap-6 min-[600px]:max-md:last:col-span-full min-[600px]:max-md:last:w-[calc((100%-24px)/2)] min-[600px]:max-md:last:justify-self-center">
+          <Link
+            className="relative block aspect-[432/520] w-full overflow-hidden rounded-card bg-[#f1f1f1] md:aspect-[432/560] [&_img]:object-cover [&_img]:transition-transform [&_img]:duration-500 [&_img]:ease-[ease] hover:[&_img]:scale-[1.025] motion-reduce:[&_img]:transition-none"
+            aria-label="View Probiotics"
+            href="/yuko/products/probiotics"
+          >
+            <img
+              alt="Probiotics in an unbranded brushed silver tin"
+              loading="lazy"
+              decoding="async"
+              src="/images/probiotics.webp"
+              className="extracted-fill"
+            />
+            <span className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none absolute top-4 right-4 bg-control backdrop-blur-floating max-md:min-h-8">
+              {"Gut"}
+            </span>
+          </Link>
+          <div className="flex flex-col items-center gap-2 text-center md:px-4">
+            <h2 className="text-[15px] leading-6 tracking-normal">
+              <Link href="/yuko/products/probiotics">{"Probiotics"}</Link>
+            </h2>
+            <p className="text-[13px] leading-6 text-muted">
+              {"Lactobacillus & Bifidobacterium cultures."}
+            </p>
+            <Link
+              data-sold-out="false"
+              aria-label="View Probiotics, $38"
+              className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 bg-control hover:bg-[#20202016] min-w-16 data-[sold-out=true]:opacity-50"
+              tabIndex={0}
+              href="/yuko/products/probiotics"
+            >
+              {"$38"}
+            </Link>
+          </div>
+        </article>
+        <article className="flex flex-col gap-5 md:gap-6 min-[600px]:max-md:last:col-span-full min-[600px]:max-md:last:w-[calc((100%-24px)/2)] min-[600px]:max-md:last:justify-self-center">
+          <Link
+            className="relative block aspect-[432/520] w-full overflow-hidden rounded-card bg-[#f1f1f1] md:aspect-[432/560] [&_img]:object-cover [&_img]:transition-transform [&_img]:duration-500 [&_img]:ease-[ease] hover:[&_img]:scale-[1.025] motion-reduce:[&_img]:transition-none"
+            aria-label="View Hand Lotion"
+            href="/yuko/products/hand-lotion"
+          >
+            <img
+              alt="Hand Lotion in an unbranded silver 50 ml tube"
+              loading="lazy"
+              decoding="async"
+              src="/images/hand-lotion.webp"
+              className="extracted-fill"
+            />
+            <span className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none absolute top-4 right-4 bg-control backdrop-blur-floating max-md:min-h-8">
+              {"Hands"}
+            </span>
+          </Link>
+          <div className="flex flex-col items-center gap-2 text-center md:px-4">
+            <h2 className="text-[15px] leading-6 tracking-normal">
+              <Link href="/yuko/products/hand-lotion">{"Hand Lotion"}</Link>
+            </h2>
+            <p className="text-[13px] leading-6 text-muted">
+              {"Daily hand care. Bergamot & Vanilla."}
+            </p>
+            <Link
+              data-sold-out="false"
+              aria-label="View Hand Lotion, $32"
+              className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 bg-control hover:bg-[#20202016] min-w-16 data-[sold-out=true]:opacity-50"
+              tabIndex={0}
+              href="/yuko/products/hand-lotion"
+            >
+              {"$32"}
+            </Link>
+          </div>
+        </article>
+        <article className="flex flex-col gap-5 md:gap-6 min-[600px]:max-md:last:col-span-full min-[600px]:max-md:last:w-[calc((100%-24px)/2)] min-[600px]:max-md:last:justify-self-center">
+          <Link
+            className="relative block aspect-[432/520] w-full overflow-hidden rounded-card bg-[#f1f1f1] md:aspect-[432/560] [&_img]:object-cover [&_img]:transition-transform [&_img]:duration-500 [&_img]:ease-[ease] hover:[&_img]:scale-[1.025] motion-reduce:[&_img]:transition-none"
+            aria-label="View Hair Growth, sold out"
+            href="/yuko/products/hair-growth"
+          >
+            <img
+              alt="Hair Growth in an unbranded silver jar of 60 capsules"
+              loading="lazy"
+              decoding="async"
+              src="/images/hair-growth.webp"
+              className="extracted-fill"
+            />
+            <span className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none absolute top-4 right-4 bg-control backdrop-blur-floating max-md:min-h-8">
+              {"Hair"}
+            </span>
+            <span className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none absolute top-4 left-4 bg-glass max-md:min-h-8">
+              {"Sold out"}
+            </span>
+          </Link>
+          <div className="flex flex-col items-center gap-2 text-center md:px-4">
+            <h2 className="text-[15px] leading-6 tracking-normal">
+              <Link href="/yuko/products/hair-growth">{"Hair Growth"}</Link>
+            </h2>
+            <p className="text-[13px] leading-6 text-muted">
+              {"A daily hair supplement for men."}
+            </p>
+            <Link
+              data-sold-out="true"
+              aria-label="View Hair Growth, $44, sold out"
+              className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 bg-control hover:bg-[#20202016] min-w-16 data-[sold-out=true]:opacity-50"
+              tabIndex={0}
+              href="/yuko/products/hair-growth"
+            >
+              {"$44"}
+            </Link>
+          </div>
+        </article>
+      </section>
+    </section>
+  );
+}

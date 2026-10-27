@@ -30,3 +30,8 @@ Desktop (1440px) and mobile (390px) screenshots were compared for every route. A
 Contact submissions are simulated, as on the original; no message is sent. Login, most footer links and some dashboard buttons are decorative `#` controls on the source and remain placeholders. There is no authentication, payments, database or AI service. Pricing/contact navigation and missing homepage section anchors were connected locally. Dynamic illustration and marquee frames can differ by capture time. Original photo optimization/compression can cause small pixel differences.
 
 No deployment has been made. The export has no new Git branch or repository. The template checkout is preserved separately from this clone.
+
+## Additional integrated clones
+
+- `/pilates`: Forma Pilates, with an independent root layout and stylesheet.
+- `/yuko`: YukoHealth storefront, three product pages at `/yuko/products/{probiotics,hand-lotion,hair-growth}`, and `/yuko/privacy` and `/yuko/terms`. The cart persists locally; checkout retains the source's preview behavior. See `docs/research/VALIDATION.md` for Yuko evidence and verification.
