@@ -87,7 +87,7 @@ export function HandLotionContent() {
             <Link
               className="relative block aspect-[432/520] w-full overflow-hidden rounded-card bg-[#f1f1f1] md:aspect-[432/560] [&_img]:object-cover [&_img]:transition-transform [&_img]:duration-500 [&_img]:ease-[ease] hover:[&_img]:scale-[1.025] motion-reduce:[&_img]:transition-none"
               aria-label="View Probiotics"
-              href="/products/probiotics"
+              href="/yuko/products/probiotics"
             >
               <img
                 alt="Probiotics in an unbranded brushed silver tin"
@@ -102,7 +102,7 @@ export function HandLotionContent() {
             </Link>
             <div className="flex flex-col items-center gap-2 text-center md:px-4">
               <h2 className="text-[15px] leading-6 tracking-normal">
-                <Link href="/products/probiotics">{"Probiotics"}</Link>
+                <Link href="/yuko/products/probiotics">{"Probiotics"}</Link>
               </h2>
               <p className="text-[13px] leading-6 text-muted">
                 {"Lactobacillus & Bifidobacterium cultures."}
@@ -112,7 +112,7 @@ export function HandLotionContent() {
                 aria-label="View Probiotics, $38"
                 className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 bg-control hover:bg-[#20202016] min-w-16 data-[sold-out=true]:opacity-50"
                 tabIndex={0}
-                href="/products/probiotics"
+                href="/yuko/products/probiotics"
               >
                 {"$38"}
               </Link>
@@ -130,7 +130,7 @@ export function HandLotionContent() {
             <Link
               className="relative block aspect-[432/520] w-full overflow-hidden rounded-card bg-[#f1f1f1] md:aspect-[432/560] [&_img]:object-cover [&_img]:transition-transform [&_img]:duration-500 [&_img]:ease-[ease] hover:[&_img]:scale-[1.025] motion-reduce:[&_img]:transition-none"
               aria-label="View Hair Growth, sold out"
-              href="/products/hair-growth"
+              href="/yuko/products/hair-growth"
             >
               <img
                 alt="Hair Growth in an unbranded silver jar of 60 capsules"
@@ -148,7 +148,7 @@ export function HandLotionContent() {
             </Link>
             <div className="flex flex-col items-center gap-2 text-center md:px-4">
               <h2 className="text-[15px] leading-6 tracking-normal">
-                <Link href="/products/hair-growth">{"Hair Growth"}</Link>
+                <Link href="/yuko/products/hair-growth">{"Hair Growth"}</Link>
               </h2>
               <p className="text-[13px] leading-6 text-muted">
                 {"A daily hair supplement for men."}
@@ -158,7 +158,7 @@ export function HandLotionContent() {
                 aria-label="View Hair Growth, $44, sold out"
                 className="inline-flex min-h-8 items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 bg-control hover:bg-[#20202016] min-w-16 data-[sold-out=true]:opacity-50"
                 tabIndex={0}
-                href="/products/hair-growth"
+                href="/yuko/products/hair-growth"
               >
                 {"$44"}
               </Link>

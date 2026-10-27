@@ -1,0 +1,4147 @@
+{
+  "records": [
+    {
+      "id": "b93832b8-8cfb-4be3-9f27-300ed3bf6743",
+      "type": "tasks",
+      "name": "Follow up with Owen on ROI model",
+      "path": "/tasks/b93832b8-8cfb-4be3-9f27-300ed3bf6743",
+      "fields": {
+        "title": "Follow up with Owen on ROI model",
+        "status": "open",
+        "relatedRecords": "contacts:e2e9bce0-bb4b-4ad5-b74b-205b9d318651",
+        "assignee": "76aed3b8-9e82-43e8-9191-87814628d1ad"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Owen Patel contact",
+          "href": "/contacts/e2e9bce0-bb4b-4ad5-b74b-205b9d318651"
+        }
+      ],
+      "text": "Tasks\nFollow up with Owen on ROI model\nCopy link\nFollow up with Owen on ROI model\nTitle\nStatus\nStatus\nTodo\nDue date\nOct 21, 2026\nRelated records\nRelated records\nOwen Patel\ncontact\nAssignee\nAssignee\nJR\nJamie Rivera\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Follow up with Owen on ROI model. 22h ago"
+    },
+    {
+      "id": "e2e9bce0-bb4b-4ad5-b74b-205b9d318651",
+      "type": "contacts",
+      "name": "Owen Patel",
+      "path": "/contacts/e2e9bce0-bb4b-4ad5-b74b-205b9d318651",
+      "fields": {
+        "name": "Owen Patel",
+        "email": "owen.patel@vantagefreight.com",
+        "phone": "+1 (415) 555-1755",
+        "role": "VP Supply Chain",
+        "accountId": "ad5f74df-85a5-4b14-8575-05ebece5767d",
+        "owner": "76aed3b8-9e82-43e8-9191-87814628d1ad"
+      },
+      "notes": [
+        "Prefers async updates over email. Very data-driven; send numbers, not slides."
+      ],
+      "links": [
+        {
+          "text": "Vantage Freight",
+          "href": "/accounts/ad5f74df-85a5-4b14-8575-05ebece5767d"
+        }
+      ],
+      "text": "Contacts\nOwen Patel\nCopy link\nOwen Patel\nName\nEmail\nPhone\nRole\nAccount\nAccount\nVantage Freight\nOwner\nOwner\nJR\nJamie Rivera\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan added a note to Owen Patel. 22h ago\n\nAlex Morgan created Owen Patel. 22h ago"
+    },
+    {
+      "id": "f8a6d448-0d9b-44c3-8952-0d78e4bd097d",
+      "type": "tasks",
+      "name": "Send redlined DPA to Lumenfield legal",
+      "path": "/tasks/f8a6d448-0d9b-44c3-8952-0d78e4bd097d",
+      "fields": {
+        "title": "Send redlined DPA to Lumenfield legal",
+        "status": "in_progress",
+        "relatedRecords": "opportunities:148ff78a-294e-4175-903b-6d44aa96ff67",
+        "assignee": "6c7138af-bc42-4530-bc96-ff7255759a65"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Lumenfield — Enterprise platform opportunity",
+          "href": "/opportunities/148ff78a-294e-4175-903b-6d44aa96ff67"
+        }
+      ],
+      "text": "Tasks\nSend redlined DPA to Lumenfield legal\nCopy link\nSend redlined DPA to Lumenfield legal\nTitle\nStatus\nStatus\nIn progress\nDue date\nOct 22, 2026\nRelated records\nRelated records\nLumenfield — Enterprise platform\nopportunity\nAssignee\nAssignee\nAM\nAlex Morgan\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Send redlined DPA to Lumenfield legal. 22h ago"
+    },
+    {
+      "id": "148ff78a-294e-4175-903b-6d44aa96ff67",
+      "type": "opportunities",
+      "name": "Lumenfield — Enterprise platform",
+      "path": "/opportunities/148ff78a-294e-4175-903b-6d44aa96ff67",
+      "fields": {
+        "name": "Lumenfield — Enterprise platform",
+        "accountId": "56e0f039-9b38-4d2e-8583-580cde768b64",
+        "stage": "negotiation",
+        "amount": "148000",
+        "contactIds": "7bcb30c3-a77c-4469-8905-1285c857b343",
+        "owner": "6c7138af-bc42-4530-bc96-ff7255759a65"
+      },
+      "notes": [
+        "Legal redlines on DPA; final pricing call Thursday",
+        "Priya confirmed budget is approved for FY27. Main open item is the DPA — their legal wants a 30-day breach notice window. Daniel is the technical champion and wants SSO + SCIM on day one.",
+        "Pricing call recap: they're comparing us with two other vendors. We're ahead on onboarding speed. Holding at list price with a 2-year lock."
+      ],
+      "links": [
+        {
+          "text": "Lumenfield",
+          "href": "/accounts/56e0f039-9b38-4d2e-8583-580cde768b64"
+        },
+        {
+          "text": "Priya Raman",
+          "href": "/contacts/bc746029-7396-4c88-96dd-174b21f43ccd"
+        },
+        {
+          "text": "Daniel Okafor",
+          "href": "/contacts/7bcb30c3-a77c-4469-8905-1285c857b343"
+        }
+      ],
+      "text": "Opportunities\nLumenfield — Enterprise platform\nCopy link\nLumenfield — Enterprise platform\nName\nAccount\nAccount\nLumenfield\nStage\nStage\nNegotiation\nAmount (USD)\nClose date\nNov 13, 2026\nRelated contacts\nRelated contacts\nPriya Raman\nDaniel Okafor\nNext step\nOwner\nOwner\nAM\nAlex Morgan\nNotes\nAdd note\nNote 1\nNote 2\nActivity\n\nAlex Morgan added a note to Lumenfield — Enterprise platform. 22h ago\n\nAlex Morgan added a note to Lumenfield — Enterprise platform. 22h ago\n\nAlex Morgan created Lumenfield — Enterprise platform. 22h ago"
+    },
+    {
+      "id": "3486d24d-49af-466f-8f75-902c05e3f81d",
+      "type": "tasks",
+      "name": "Prep pricing call with Cedarstone procurement",
+      "path": "/tasks/3486d24d-49af-466f-8f75-902c05e3f81d",
+      "fields": {
+        "title": "Prep pricing call with Cedarstone procurement",
+        "status": "open",
+        "relatedRecords": "opportunities:d2276825-243d-487f-ad75-09a8d9263e46",
+        "assignee": "76aed3b8-9e82-43e8-9191-87814628d1ad"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Cedarstone — Omnichannel suite opportunity",
+          "href": "/opportunities/d2276825-243d-487f-ad75-09a8d9263e46"
+        }
+      ],
+      "text": "Tasks\nPrep pricing call with Cedarstone procurement\nCopy link\nPrep pricing call with Cedarstone procurement\nTitle\nStatus\nStatus\nTodo\nDue date\nOct 23, 2026\nRelated records\nRelated records\nCedarstone — Omnichannel suite\nopportunity\nAssignee\nAssignee\nJR\nJamie Rivera\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Prep pricing call with Cedarstone procurement. 22h ago"
+    },
+    {
+      "id": "d2276825-243d-487f-ad75-09a8d9263e46",
+      "type": "opportunities",
+      "name": "Cedarstone — Omnichannel suite",
+      "path": "/opportunities/d2276825-243d-487f-ad75-09a8d9263e46",
+      "fields": {
+        "name": "Cedarstone — Omnichannel suite",
+        "accountId": "b3f3ca19-7f88-4982-a41d-858a04d08674",
+        "stage": "negotiation",
+        "amount": "215000",
+        "contactIds": "34b0932a-e3ff-4dbf-9eb9-e7aeef83174e",
+        "owner": "6c7138af-bc42-4530-bc96-ff7255759a65"
+      },
+      "notes": [
+        "Procurement wants net-60 terms",
+        "Tom is pushing for a Q4 go-live ahead of holiday season. Rachel (procurement) asked for net-60 terms and a volume tier above 1,500 seats."
+      ],
+      "links": [
+        {
+          "text": "Cedarstone Retail",
+          "href": "/accounts/b3f3ca19-7f88-4982-a41d-858a04d08674"
+        },
+        {
+          "text": "Tom Gallagher",
+          "href": "/contacts/fa85800e-9ae2-48f0-a660-ba59756ed317"
+        },
+        {
+          "text": "Rachel Stein",
+          "href": "/contacts/34b0932a-e3ff-4dbf-9eb9-e7aeef83174e"
+        }
+      ],
+      "text": "Opportunities\nCedarstone — Omnichannel suite\nCopy link\nCedarstone — Omnichannel suite\nName\nAccount\nAccount\nCedarstone Retail\nStage\nStage\nNegotiation\nAmount (USD)\nClose date\nNov 19, 2026\nRelated contacts\nRelated contacts\nTom Gallagher\nRachel Stein\nNext step\nOwner\nOwner\nAM\nAlex Morgan\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan added a note to Cedarstone — Omnichannel suite. 22h ago\n\nAlex Morgan created Cedarstone — Omnichannel suite. 22h ago"
+    },
+    {
+      "id": "e718180e-85c5-4851-82b6-fe8405968d53",
+      "type": "tasks",
+      "name": "Revise Brightpath proposal (3-year option)",
+      "path": "/tasks/e718180e-85c5-4851-82b6-fe8405968d53",
+      "fields": {
+        "title": "Revise Brightpath proposal (3-year option)",
+        "status": "open",
+        "relatedRecords": "opportunities:132ebafe-2497-4efc-b370-3d35fef90ec1",
+        "assignee": "13c9049c-460f-4183-a03b-ce57b28ef55a"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Brightpath — Fleet analytics rollout opportunity",
+          "href": "/opportunities/132ebafe-2497-4efc-b370-3d35fef90ec1"
+        }
+      ],
+      "text": "Tasks\nRevise Brightpath proposal (3-year option)\nCopy link\nRevise Brightpath proposal (3-year option)\nTitle\nStatus\nStatus\nTodo\nDue date\nOct 26, 2026\nRelated records\nRelated records\nBrightpath — Fleet analytics rollout\nopportunity\nAssignee\nAssignee\nSN\nSofia Nguyen\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Revise Brightpath proposal (3-year option). 22h ago"
+    },
+    {
+      "id": "132ebafe-2497-4efc-b370-3d35fef90ec1",
+      "type": "opportunities",
+      "name": "Brightpath — Fleet analytics rollout",
+      "path": "/opportunities/132ebafe-2497-4efc-b370-3d35fef90ec1",
+      "fields": {
+        "name": "Brightpath — Fleet analytics rollout",
+        "accountId": "48bca1de-fc15-4414-93d2-dc01e571c09e",
+        "stage": "proposal",
+        "amount": "96000",
+        "contactIds": "8482180c-8401-43b2-b327-d3467c23f0eb",
+        "owner": "76aed3b8-9e82-43e8-9191-87814628d1ad"
+      },
+      "notes": [
+        "Send revised proposal with 3-year option",
+        ""
+      ],
+      "links": [
+        {
+          "text": "Brightpath Logistics",
+          "href": "/accounts/48bca1de-fc15-4414-93d2-dc01e571c09e"
+        },
+        {
+          "text": "Megan Holt",
+          "href": "/contacts/8482180c-8401-43b2-b327-d3467c23f0eb"
+        }
+      ],
+      "text": "Opportunities\nBrightpath — Fleet analytics rollout\nCopy link\nBrightpath — Fleet analytics rollout\nName\nAccount\nAccount\nBrightpath Logistics\nStage\nStage\nProposal\nAmount (USD)\nClose date\nDec 4, 2026\nRelated contacts\nRelated contacts\nMegan Holt\nNext step\nOwner\nOwner\nJR\nJamie Rivera\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Brightpath — Fleet analytics rollout. 22h ago"
+    },
+    {
+      "id": "ec73301c-1288-4db9-a26c-f8ee61bbeb8e",
+      "type": "tasks",
+      "name": "Complete Halcyon security questionnaire",
+      "path": "/tasks/ec73301c-1288-4db9-a26c-f8ee61bbeb8e",
+      "fields": {
+        "title": "Complete Halcyon security questionnaire",
+        "status": "open",
+        "relatedRecords": "accounts:bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1",
+        "assignee": "6c7138af-bc42-4530-bc96-ff7255759a65"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Halcyon Health account",
+          "href": "/accounts/bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1"
+        }
+      ],
+      "text": "Tasks\nComplete Halcyon security questionnaire\nCopy link\nComplete Halcyon security questionnaire\nTitle\nStatus\nStatus\nTodo\nDue date\nOct 28, 2026\nRelated records\nRelated records\nHalcyon Health\naccount\nAssignee\nAssignee\nAM\nAlex Morgan\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Complete Halcyon security questionnaire. 22h ago"
+    },
+    {
+      "id": "bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1",
+      "type": "accounts",
+      "name": "Halcyon Health",
+      "path": "/accounts/bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1",
+      "fields": {
+        "name": "Halcyon Health",
+        "website": "https://halcyonhealth.com",
+        "industry": "Healthcare",
+        "revenue": "76000000",
+        "headcount": "540",
+        "location": "Boston, MA",
+        "linkedin": "https://www.linkedin.com/company/halcyonhealth",
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "owner": "6c7138af-bc42-4530-bc96-ff7255759a65"
+      },
+      "notes": [
+        "HIPAA BAA required. Marcus owns the security review; expect ~2 weeks turnaround."
+      ],
+      "links": [],
+      "text": "Accounts\nHalcyon Health\nCopy link\nHalcyon Health\nName\nWebsite\nIndustry\nAnnual revenue (USD)\nHeadcount\nLocation\nLinkedIn\nFacebook\nInstagram\nTwitter / X\nOwner\nOwner\nAM\nAlex Morgan\nCreated\nOct 21, 2026\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan added a note to Halcyon Health. 22h ago\n\nAlex Morgan created Halcyon Health. 22h ago"
+    },
+    {
+      "id": "879daaa0-43b9-4bd4-b7cd-fee481cb2b2f",
+      "type": "tasks",
+      "name": "Book technical deep-dive with Kestrel",
+      "path": "/tasks/879daaa0-43b9-4bd4-b7cd-fee481cb2b2f",
+      "fields": {
+        "title": "Book technical deep-dive with Kestrel",
+        "status": "in_progress",
+        "relatedRecords": "accounts:af5ef57d-8ff6-4748-8ee1-0b5bb308d23a",
+        "assignee": "13c9049c-460f-4183-a03b-ce57b28ef55a"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [],
+      "text": "Tasks\nBook technical deep-dive with Kestrel\nCopy link\nBook technical deep-dive with Kestrel\nTitle\nStatus\nStatus\nIn progress\nDue date\nOct 27, 2026\nRelated records\nRelated records\naccounts:af5ef57d-8ff6-4748-8ee1-0b5bb308d23a\nAssignee\nAssignee\nSet assignee…\n\nAdd members in Settings → Team to assign this record.\n\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Book technical deep-dive with Kestrel. 22h ago"
+    },
+    {
+      "id": "af5ef57d-8ff6-4748-8ee1-0b5bb308d23a",
+      "type": "accounts",
+      "name": "Kestrel Security",
+      "path": "/accounts/af5ef57d-8ff6-4748-8ee1-0b5bb308d23a",
+      "fields": {
+        "name": "Kestrel Security",
+        "website": "https://kestrelsec.com",
+        "industry": "Cybersecurity",
+        "revenue": "54000000",
+        "headcount": "390",
+        "location": "Arlington, VA",
+        "linkedin": "https://www.linkedin.com/company/kestrelsec",
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "owner": "76aed3b8-9e82-43e8-9191-87814628d1ad"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [],
+      "text": "Accounts\nKestrel Security\nCopy link\nKestrel Security\nName\nWebsite\nIndustry\nAnnual revenue (USD)\nHeadcount\nLocation\nLinkedIn\nFacebook\nInstagram\nTwitter / X\nOwner\nOwner\nJR\nJamie Rivera\nCreated\nOct 21, 2026\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Kestrel Security. 22h ago"
+    },
+    {
+      "id": "f0160760-f7b4-4eea-80c6-8c33695e16f4",
+      "type": "tasks",
+      "name": "Intro call with Pinegrove",
+      "path": "/tasks/f0160760-f7b4-4eea-80c6-8c33695e16f4",
+      "fields": {
+        "title": "Intro call with Pinegrove",
+        "status": "open",
+        "relatedRecords": "contacts:4c940b78-4f8a-4d8c-aa2c-7e11fa229ad1",
+        "assignee": "76aed3b8-9e82-43e8-9191-87814628d1ad"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [],
+      "text": "Tasks\nIntro call with Pinegrove\nCopy link\nIntro call with Pinegrove\nTitle\nStatus\nStatus\nTodo\nDue date\nOct 29, 2026\nRelated records\nRelated records\ncontacts:4c940b78-4f8a-4d8c-aa2c-7e11fa229ad1\nAssignee\nAssignee\nSet assignee…\n\nAdd members in Settings → Team to assign this record.\n\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Intro call with Pinegrove. Oct 21, 2026"
+    },
+    {
+      "id": "4c940b78-4f8a-4d8c-aa2c-7e11fa229ad1",
+      "type": "contacts",
+      "name": "Grace Chen",
+      "path": "/contacts/4c940b78-4f8a-4d8c-aa2c-7e11fa229ad1",
+      "fields": {
+        "name": "Grace Chen",
+        "email": "grace.chen@pinegrove.edu",
+        "phone": "+1 (819) 555-1718",
+        "role": "Director of Learning",
+        "accountId": "abcc3d9d-da4e-49b3-9e1c-cbb5500d6288",
+        "owner": "6c7138af-bc42-4530-bc96-ff7255759a65"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Pinegrove Education",
+          "href": "/accounts/abcc3d9d-da4e-49b3-9e1c-cbb5500d6288"
+        }
+      ],
+      "text": "Contacts\nGrace Chen\nCopy link\nGrace Chen\nName\nEmail\nPhone\nRole\nAccount\nAccount\nPinegrove Education\nOwner\nOwner\nAM\nAlex Morgan\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Grace Chen. 22h ago"
+    },
+    {
+      "id": "56e0f039-9b38-4d2e-8583-580cde768b64",
+      "type": "accounts",
+      "name": "Lumenfield",
+      "path": "/accounts/56e0f039-9b38-4d2e-8583-580cde768b64",
+      "fields": {
+        "name": "Lumenfield",
+        "website": "https://lumenfield.io",
+        "industry": "Analytics",
+        "revenue": "48000000",
+        "headcount": "320",
+        "location": "San Francisco, CA",
+        "linkedin": "https://www.linkedin.com/company/lumenfield",
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "owner": "6c7138af-bc42-4530-bc96-ff7255759a65"
+      },
+      "notes": [
+        "Strategic account — expansion potential into their EU entity in 2027."
+      ],
+      "links": [],
+      "text": "Accounts\nLumenfield\nCopy link\nLumenfield\nName\nWebsite\nIndustry\nAnnual revenue (USD)\nHeadcount\nLocation\nLinkedIn\nFacebook\nInstagram\nTwitter / X\nOwner\nOwner\nAM\nAlex Morgan\nCreated\nOct 21, 2026\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan added a note to Lumenfield. 22h ago\n\nAlex Morgan created Lumenfield. 22h ago"
+    },
+    {
+      "id": "48bca1de-fc15-4414-93d2-dc01e571c09e",
+      "type": "accounts",
+      "name": "Brightpath Logistics",
+      "path": "/accounts/48bca1de-fc15-4414-93d2-dc01e571c09e",
+      "fields": {
+        "name": "Brightpath Logistics",
+        "website": "https://brightpath.co",
+        "industry": "Logistics",
+        "revenue": "112000000",
+        "headcount": "870",
+        "location": "Chicago, IL",
+        "linkedin": "https://www.linkedin.com/company/brightpath",
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "owner": "76aed3b8-9e82-43e8-9191-87814628d1ad"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [],
+      "text": "Accounts\nBrightpath Logistics\nCopy link\nBrightpath Logistics\nName\nWebsite\nIndustry\nAnnual revenue (USD)\nHeadcount\nLocation\nLinkedIn\nFacebook\nInstagram\nTwitter / X\nOwner\nOwner\nJR\nJamie Rivera\nCreated\nOct 21, 2026\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Brightpath Logistics. 22h ago"
+    },
+    {
+      "id": "d3af9352-cfb0-4ae5-8f6a-e8287cad8856",
+      "type": "accounts",
+      "name": "Quarry Labs",
+      "path": "/accounts/d3af9352-cfb0-4ae5-8f6a-e8287cad8856",
+      "fields": {
+        "name": "Quarry Labs",
+        "website": "https://quarrylabs.dev",
+        "industry": "Developer Tools",
+        "revenue": "9500000",
+        "headcount": "64",
+        "location": "Austin, TX",
+        "linkedin": "https://www.linkedin.com/company/quarrylabs",
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "owner": "13c9049c-460f-4183-a03b-ce57b28ef55a"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [],
+      "text": "Accounts\nQuarry Labs\nCopy link\nQuarry Labs\nName\nWebsite\nIndustry\nAnnual revenue (USD)\nHeadcount\nLocation\nLinkedIn\nFacebook\nInstagram\nTwitter / X\nOwner\nOwner\nSN\nSofia Nguyen\nCreated\nOct 21, 2026\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Quarry Labs. 22h ago"
+    },
+    {
+      "id": "bb8f9b0c-3a99-45ce-a5e4-e4bb01c0f32b",
+      "type": "accounts",
+      "name": "Tidewater Finance",
+      "path": "/accounts/bb8f9b0c-3a99-45ce-a5e4-e4bb01c0f32b",
+      "fields": {
+        "name": "Tidewater Finance",
+        "website": "https://tidewater.finance",
+        "industry": "Fintech",
+        "revenue": "31000000",
+        "headcount": "210",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/company/tidewater",
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "owner": "76aed3b8-9e82-43e8-9191-87814628d1ad"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [],
+      "text": "Accounts\nTidewater Finance\nCopy link\nTidewater Finance\nName\nWebsite\nIndustry\nAnnual revenue (USD)\nHeadcount\nLocation\nLinkedIn\nFacebook\nInstagram\nTwitter / X\nOwner\nOwner\nJR\nJamie Rivera\nCreated\nOct 21, 2026\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Tidewater Finance. 22h ago"
+    },
+    {
+      "id": "22383573-7942-4bb8-bd4a-ad5e3faed5f0",
+      "type": "accounts",
+      "name": "Orbitline",
+      "path": "/accounts/22383573-7942-4bb8-bd4a-ad5e3faed5f0",
+      "fields": {
+        "name": "Orbitline",
+        "website": "https://orbitline.ai",
+        "industry": "AI Infrastructure",
+        "revenue": "22000000",
+        "headcount": "140",
+        "location": "Seattle, WA",
+        "linkedin": "https://www.linkedin.com/company/orbitline",
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "owner": "13c9049c-460f-4183-a03b-ce57b28ef55a"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [],
+      "text": "Accounts\nOrbitline\nCopy link\nOrbitline\nName\nWebsite\nIndustry\nAnnual revenue (USD)\nHeadcount\nLocation\nLinkedIn\nFacebook\nInstagram\nTwitter / X\nOwner\nOwner\nSN\nSofia Nguyen\nCreated\nOct 21, 2026\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Orbitline. 22h ago"
+    },
+    {
+      "id": "b3f3ca19-7f88-4982-a41d-858a04d08674",
+      "type": "accounts",
+      "name": "Cedarstone Retail",
+      "path": "/accounts/b3f3ca19-7f88-4982-a41d-858a04d08674",
+      "fields": {
+        "name": "Cedarstone Retail",
+        "website": "https://cedarstone.com",
+        "industry": "Retail",
+        "revenue": "205000000",
+        "headcount": "1900",
+        "location": "Denver, CO",
+        "linkedin": "https://www.linkedin.com/company/cedarstone",
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "owner": "6c7138af-bc42-4530-bc96-ff7255759a65"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [],
+      "text": "Accounts\nCedarstone Retail\nCopy link\nCedarstone Retail\nName\nWebsite\nIndustry\nAnnual revenue (USD)\nHeadcount\nLocation\nLinkedIn\nFacebook\nInstagram\nTwitter / X\nOwner\nOwner\nAM\nAlex Morgan\nCreated\nOct 21, 2026\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Cedarstone Retail. 22h ago"
+    },
+    {
+      "id": "29ac95e6-84bd-457a-b328-cdeb36dacba5",
+      "type": "accounts",
+      "name": "Northbeam Studio",
+      "path": "/accounts/29ac95e6-84bd-457a-b328-cdeb36dacba5",
+      "fields": {
+        "name": "Northbeam Studio",
+        "website": "https://northbeam.studio",
+        "industry": "Design Software",
+        "revenue": "6200000",
+        "headcount": "38",
+        "location": "Portland, OR",
+        "linkedin": "https://www.linkedin.com/company/northbeam",
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "owner": "13c9049c-460f-4183-a03b-ce57b28ef55a"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [],
+      "text": "Accounts\nNorthbeam Studio\nCopy link\nNorthbeam Studio\nName\nWebsite\nIndustry\nAnnual revenue (USD)\nHeadcount\nLocation\nLinkedIn\nFacebook\nInstagram\nTwitter / X\nOwner\nOwner\nSN\nSofia Nguyen\nCreated\nOct 21, 2026\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Northbeam Studio. 22h ago"
+    },
+    {
+      "id": "abcc3d9d-da4e-49b3-9e1c-cbb5500d6288",
+      "type": "accounts",
+      "name": "Pinegrove Education",
+      "path": "/accounts/abcc3d9d-da4e-49b3-9e1c-cbb5500d6288",
+      "fields": {
+        "name": "Pinegrove Education",
+        "website": "https://pinegrove.edu",
+        "industry": "EdTech",
+        "revenue": "14800000",
+        "headcount": "120",
+        "location": "Minneapolis, MN",
+        "linkedin": "https://www.linkedin.com/company/pinegrove",
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "owner": "6c7138af-bc42-4530-bc96-ff7255759a65"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [],
+      "text": "Accounts\nPinegrove Education\nCopy link\nPinegrove Education\nName\nWebsite\nIndustry\nAnnual revenue (USD)\nHeadcount\nLocation\nLinkedIn\nFacebook\nInstagram\nTwitter / X\nOwner\nOwner\nAM\nAlex Morgan\nCreated\nOct 21, 2026\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Pinegrove Education. 22h ago"
+    },
+    {
+      "id": "ad5f74df-85a5-4b14-8575-05ebece5767d",
+      "type": "accounts",
+      "name": "Vantage Freight",
+      "path": "/accounts/ad5f74df-85a5-4b14-8575-05ebece5767d",
+      "fields": {
+        "name": "Vantage Freight",
+        "website": "https://vantagefreight.com",
+        "industry": "Logistics",
+        "revenue": "88000000",
+        "headcount": "640",
+        "location": "Atlanta, GA",
+        "linkedin": "https://www.linkedin.com/company/vantagefreight",
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "owner": "76aed3b8-9e82-43e8-9191-87814628d1ad"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [],
+      "text": "Accounts\nVantage Freight\nCopy link\nVantage Freight\nName\nWebsite\nIndustry\nAnnual revenue (USD)\nHeadcount\nLocation\nLinkedIn\nFacebook\nInstagram\nTwitter / X\nOwner\nOwner\nJR\nJamie Rivera\nCreated\nOct 21, 2026\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Vantage Freight. 22h ago"
+    },
+    {
+      "id": "8670a058-8da9-4b95-a275-8f23609845ee",
+      "type": "accounts",
+      "name": "Silverleaf Energy",
+      "path": "/accounts/8670a058-8da9-4b95-a275-8f23609845ee",
+      "fields": {
+        "name": "Silverleaf Energy",
+        "website": "https://silverleaf.energy",
+        "industry": "Climate Tech",
+        "revenue": "41000000",
+        "headcount": "260",
+        "location": "Oakland, CA",
+        "linkedin": "https://www.linkedin.com/company/silverleaf",
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "owner": "13c9049c-460f-4183-a03b-ce57b28ef55a"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [],
+      "text": "Accounts\nSilverleaf Energy\nCopy link\nSilverleaf Energy\nName\nWebsite\nIndustry\nAnnual revenue (USD)\nHeadcount\nLocation\nLinkedIn\nFacebook\nInstagram\nTwitter / X\nOwner\nOwner\nSN\nSofia Nguyen\nCreated\nOct 21, 2026\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Silverleaf Energy. 22h ago"
+    },
+    {
+      "id": "afb49704-2f37-46b4-91cd-3ef44a69fd3b",
+      "type": "accounts",
+      "name": "Meridian Payroll",
+      "path": "/accounts/afb49704-2f37-46b4-91cd-3ef44a69fd3b",
+      "fields": {
+        "name": "Meridian Payroll",
+        "website": "https://meridianpayroll.com",
+        "industry": "HR Tech",
+        "revenue": "27500000",
+        "headcount": "180",
+        "location": "Salt Lake City, UT",
+        "linkedin": "https://www.linkedin.com/company/meridianpayroll",
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "owner": "6c7138af-bc42-4530-bc96-ff7255759a65"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [],
+      "text": "Accounts\nMeridian Payroll\nCopy link\nMeridian Payroll\nName\nWebsite\nIndustry\nAnnual revenue (USD)\nHeadcount\nLocation\nLinkedIn\nFacebook\nInstagram\nTwitter / X\nOwner\nOwner\nAM\nAlex Morgan\nCreated\nOct 21, 2026\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Meridian Payroll. 22h ago"
+    },
+    {
+      "id": "bc746029-7396-4c88-96dd-174b21f43ccd",
+      "type": "contacts",
+      "name": "Priya Raman",
+      "path": "/contacts/bc746029-7396-4c88-96dd-174b21f43ccd",
+      "fields": {
+        "name": "Priya Raman",
+        "email": "priya.raman@lumenfield.io",
+        "phone": "+1 (415) 555-1200",
+        "role": "VP of Engineering",
+        "accountId": "56e0f039-9b38-4d2e-8583-580cde768b64",
+        "owner": "76aed3b8-9e82-43e8-9191-87814628d1ad"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Lumenfield",
+          "href": "/accounts/56e0f039-9b38-4d2e-8583-580cde768b64"
+        }
+      ],
+      "text": "Contacts\nPriya Raman\nCopy link\nPriya Raman\nName\nEmail\nPhone\nRole\nAccount\nAccount\nLumenfield\nOwner\nOwner\nJR\nJamie Rivera\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Priya Raman. 22h ago"
+    },
+    {
+      "id": "7bcb30c3-a77c-4469-8905-1285c857b343",
+      "type": "contacts",
+      "name": "Daniel Okafor",
+      "path": "/contacts/7bcb30c3-a77c-4469-8905-1285c857b343",
+      "fields": {
+        "name": "Daniel Okafor",
+        "email": "daniel.okafor@lumenfield.io",
+        "phone": "+1 (516) 555-1237",
+        "role": "Head of Data",
+        "accountId": "56e0f039-9b38-4d2e-8583-580cde768b64",
+        "owner": "13c9049c-460f-4183-a03b-ce57b28ef55a"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Lumenfield",
+          "href": "/accounts/56e0f039-9b38-4d2e-8583-580cde768b64"
+        }
+      ],
+      "text": "Contacts\nDaniel Okafor\nCopy link\nDaniel Okafor\nName\nEmail\nPhone\nRole\nAccount\nAccount\nLumenfield\nOwner\nOwner\nSN\nSofia Nguyen\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Daniel Okafor. 22h ago"
+    },
+    {
+      "id": "8482180c-8401-43b2-b327-d3467c23f0eb",
+      "type": "contacts",
+      "name": "Megan Holt",
+      "path": "/contacts/8482180c-8401-43b2-b327-d3467c23f0eb",
+      "fields": {
+        "name": "Megan Holt",
+        "email": "megan.holt@brightpath.co",
+        "phone": "+1 (617) 555-1274",
+        "role": "COO",
+        "accountId": "48bca1de-fc15-4414-93d2-dc01e571c09e",
+        "owner": "6c7138af-bc42-4530-bc96-ff7255759a65"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [],
+      "text": "Contacts\nMegan Holt\nCopy link\nMegan Holt\nName\nEmail\nPhone\nRole\nAccount\nAccount\n48bca1de-fc15-4414-93d2-dc01e571c09e\nOwner\nOwner\nSet owner…\n\nAdd members in Settings → Team to assign this record.\n\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Megan Holt. Oct 21, 2026"
+    },
+    {
+      "id": "ede7b7ad-552a-4876-86b0-09b94f0b8d3f",
+      "type": "contacts",
+      "name": "Luis Ferreira",
+      "path": "/contacts/ede7b7ad-552a-4876-86b0-09b94f0b8d3f",
+      "fields": {
+        "name": "Luis Ferreira",
+        "email": "luis.ferreira@brightpath.co",
+        "phone": "+1 (718) 555-1311",
+        "role": "Director of Operations",
+        "accountId": "48bca1de-fc15-4414-93d2-dc01e571c09e",
+        "owner": "76aed3b8-9e82-43e8-9191-87814628d1ad"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Brightpath Logistics",
+          "href": "/accounts/48bca1de-fc15-4414-93d2-dc01e571c09e"
+        }
+      ],
+      "text": "Contacts\nLuis Ferreira\nCopy link\nLuis Ferreira\nName\nEmail\nPhone\nRole\nAccount\nAccount\nBrightpath Logistics\nOwner\nOwner\nJR\nJamie Rivera\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Luis Ferreira. 22h ago"
+    },
+    {
+      "id": "b1ff35a7-26bd-4e7c-ac76-5724bbff9fea",
+      "type": "contacts",
+      "name": "Sam Whitaker",
+      "path": "/contacts/b1ff35a7-26bd-4e7c-ac76-5724bbff9fea",
+      "fields": {
+        "name": "Sam Whitaker",
+        "email": "sam.whitaker@quarrylabs.dev",
+        "phone": "+1 (819) 555-1348",
+        "role": "CTO & Co-founder",
+        "accountId": "d3af9352-cfb0-4ae5-8f6a-e8287cad8856",
+        "owner": "13c9049c-460f-4183-a03b-ce57b28ef55a"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Quarry Labs",
+          "href": "/accounts/d3af9352-cfb0-4ae5-8f6a-e8287cad8856"
+        }
+      ],
+      "text": "Contacts\nSam Whitaker\nCopy link\nSam Whitaker\nName\nEmail\nPhone\nRole\nAccount\nAccount\nQuarry Labs\nOwner\nOwner\nSN\nSofia Nguyen\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Sam Whitaker. 22h ago"
+    },
+    {
+      "id": "1af7c8f9-bb7c-4726-bc9d-34e7a059a214",
+      "type": "contacts",
+      "name": "Hannah Kim",
+      "path": "/contacts/1af7c8f9-bb7c-4726-bc9d-34e7a059a214",
+      "fields": {
+        "name": "Hannah Kim",
+        "email": "hannah.kim@halcyonhealth.com",
+        "phone": "+1 (415) 555-1385",
+        "role": "Chief Medical Officer",
+        "accountId": "bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1",
+        "owner": "6c7138af-bc42-4530-bc96-ff7255759a65"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Halcyon Health",
+          "href": "/accounts/bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1"
+        }
+      ],
+      "text": "Contacts\nHannah Kim\nCopy link\nHannah Kim\nName\nEmail\nPhone\nRole\nAccount\nAccount\nHalcyon Health\nOwner\nOwner\nAM\nAlex Morgan\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Hannah Kim. 22h ago"
+    },
+    {
+      "id": "3b756490-0562-4536-ab22-ccc8fc0f428e",
+      "type": "contacts",
+      "name": "Marcus Bell",
+      "path": "/contacts/3b756490-0562-4536-ab22-ccc8fc0f428e",
+      "fields": {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@halcyonhealth.com",
+        "phone": "+1 (516) 555-1422",
+        "role": "IT Director",
+        "accountId": "bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1",
+        "owner": "76aed3b8-9e82-43e8-9191-87814628d1ad"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Halcyon Health",
+          "href": "/accounts/bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1"
+        }
+      ],
+      "text": "Contacts\nMarcus Bell\nCopy link\nMarcus Bell\nName\nEmail\nPhone\nRole\nAccount\nAccount\nHalcyon Health\nOwner\nOwner\nJR\nJamie Rivera\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Marcus Bell. 22h ago"
+    },
+    {
+      "id": "29c2d992-c4cf-4dbc-939d-c1fb6d3f73f0",
+      "type": "contacts",
+      "name": "Elena Petrova",
+      "path": "/contacts/29c2d992-c4cf-4dbc-939d-c1fb6d3f73f0",
+      "fields": {
+        "name": "Elena Petrova",
+        "email": "elena.petrova@tidewater.finance",
+        "phone": "+1 (617) 555-1459",
+        "role": "CFO",
+        "accountId": "bb8f9b0c-3a99-45ce-a5e4-e4bb01c0f32b",
+        "owner": "13c9049c-460f-4183-a03b-ce57b28ef55a"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Tidewater Finance",
+          "href": "/accounts/bb8f9b0c-3a99-45ce-a5e4-e4bb01c0f32b"
+        }
+      ],
+      "text": "Contacts\nElena Petrova\nCopy link\nElena Petrova\nName\nEmail\nPhone\nRole\nAccount\nAccount\nTidewater Finance\nOwner\nOwner\nSN\nSofia Nguyen\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Elena Petrova. 22h ago"
+    },
+    {
+      "id": "5a782d76-db12-450a-a1b0-e276127538b4",
+      "type": "contacts",
+      "name": "Jordan Lee",
+      "path": "/contacts/5a782d76-db12-450a-a1b0-e276127538b4",
+      "fields": {
+        "name": "Jordan Lee",
+        "email": "jordan.lee@orbitline.ai",
+        "phone": "+1 (718) 555-1496",
+        "role": "Head of Platform",
+        "accountId": "22383573-7942-4bb8-bd4a-ad5e3faed5f0",
+        "owner": "6c7138af-bc42-4530-bc96-ff7255759a65"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Orbitline",
+          "href": "/accounts/22383573-7942-4bb8-bd4a-ad5e3faed5f0"
+        }
+      ],
+      "text": "Contacts\nJordan Lee\nCopy link\nJordan Lee\nName\nEmail\nPhone\nRole\nAccount\nAccount\nOrbitline\nOwner\nOwner\nAM\nAlex Morgan\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Jordan Lee. 22h ago"
+    },
+    {
+      "id": "b68eaf2e-be1f-428b-8c60-968f0f12cd38",
+      "type": "contacts",
+      "name": "Aisha Mensah",
+      "path": "/contacts/b68eaf2e-be1f-428b-8c60-968f0f12cd38",
+      "fields": {
+        "name": "Aisha Mensah",
+        "email": "aisha.mensah@orbitline.ai",
+        "phone": "+1 (819) 555-1533",
+        "role": "VP Product",
+        "accountId": "22383573-7942-4bb8-bd4a-ad5e3faed5f0",
+        "owner": "76aed3b8-9e82-43e8-9191-87814628d1ad"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Orbitline",
+          "href": "/accounts/22383573-7942-4bb8-bd4a-ad5e3faed5f0"
+        }
+      ],
+      "text": "Contacts\nAisha Mensah\nCopy link\nAisha Mensah\nName\nEmail\nPhone\nRole\nAccount\nAccount\nOrbitline\nOwner\nOwner\nJR\nJamie Rivera\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Aisha Mensah. 22h ago"
+    },
+    {
+      "id": "fa85800e-9ae2-48f0-a660-ba59756ed317",
+      "type": "contacts",
+      "name": "Tom Gallagher",
+      "path": "/contacts/fa85800e-9ae2-48f0-a660-ba59756ed317",
+      "fields": {
+        "name": "Tom Gallagher",
+        "email": "tom.gallagher@cedarstone.com",
+        "phone": "+1 (415) 555-1570",
+        "role": "SVP Digital",
+        "accountId": "b3f3ca19-7f88-4982-a41d-858a04d08674",
+        "owner": "13c9049c-460f-4183-a03b-ce57b28ef55a"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Cedarstone Retail",
+          "href": "/accounts/b3f3ca19-7f88-4982-a41d-858a04d08674"
+        }
+      ],
+      "text": "Contacts\nTom Gallagher\nCopy link\nTom Gallagher\nName\nEmail\nPhone\nRole\nAccount\nAccount\nCedarstone Retail\nOwner\nOwner\nSN\nSofia Nguyen\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Tom Gallagher. 22h ago"
+    },
+    {
+      "id": "34b0932a-e3ff-4dbf-9eb9-e7aeef83174e",
+      "type": "contacts",
+      "name": "Rachel Stein",
+      "path": "/contacts/34b0932a-e3ff-4dbf-9eb9-e7aeef83174e",
+      "fields": {
+        "name": "Rachel Stein",
+        "email": "rachel.stein@cedarstone.com",
+        "phone": "+1 (516) 555-1607",
+        "role": "Procurement Lead",
+        "accountId": "b3f3ca19-7f88-4982-a41d-858a04d08674",
+        "owner": "6c7138af-bc42-4530-bc96-ff7255759a65"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Cedarstone Retail",
+          "href": "/accounts/b3f3ca19-7f88-4982-a41d-858a04d08674"
+        }
+      ],
+      "text": "Contacts\nRachel Stein\nCopy link\nRachel Stein\nName\nEmail\nPhone\nRole\nAccount\nAccount\nCedarstone Retail\nOwner\nOwner\nAM\nAlex Morgan\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Rachel Stein. 22h ago"
+    },
+    {
+      "id": "9b8e2a95-aa29-4eb7-b42c-5f91004b253f",
+      "type": "contacts",
+      "name": "Victor Alvarez",
+      "path": "/contacts/9b8e2a95-aa29-4eb7-b42c-5f91004b253f",
+      "fields": {
+        "name": "Victor Alvarez",
+        "email": "victor.alvarez@kestrelsec.com",
+        "phone": "+1 (617) 555-1644",
+        "role": "CISO",
+        "accountId": "af5ef57d-8ff6-4748-8ee1-0b5bb308d23a",
+        "owner": "76aed3b8-9e82-43e8-9191-87814628d1ad"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Kestrel Security",
+          "href": "/accounts/af5ef57d-8ff6-4748-8ee1-0b5bb308d23a"
+        }
+      ],
+      "text": "Contacts\nVictor Alvarez\nCopy link\nVictor Alvarez\nName\nEmail\nPhone\nRole\nAccount\nAccount\nKestrel Security\nOwner\nOwner\nJR\nJamie Rivera\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Victor Alvarez. 22h ago"
+    },
+    {
+      "id": "ff3f2a24-cd79-4b78-a023-47982c0bec53",
+      "type": "contacts",
+      "name": "Nora Lindqvist",
+      "path": "/contacts/ff3f2a24-cd79-4b78-a023-47982c0bec53",
+      "fields": {
+        "name": "Nora Lindqvist",
+        "email": "nora.lindqvist@northbeam.studio",
+        "phone": "+1 (718) 555-1681",
+        "role": "Founder",
+        "accountId": "29ac95e6-84bd-457a-b328-cdeb36dacba5",
+        "owner": "13c9049c-460f-4183-a03b-ce57b28ef55a"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Northbeam Studio",
+          "href": "/accounts/29ac95e6-84bd-457a-b328-cdeb36dacba5"
+        }
+      ],
+      "text": "Contacts\nNora Lindqvist\nCopy link\nNora Lindqvist\nName\nEmail\nPhone\nRole\nAccount\nAccount\nNorthbeam Studio\nOwner\nOwner\nSN\nSofia Nguyen\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Nora Lindqvist. 22h ago"
+    },
+    {
+      "id": "f7de8c11-5297-4280-86cd-aedc066640ef",
+      "type": "contacts",
+      "name": "Isabel Moreno",
+      "path": "/contacts/f7de8c11-5297-4280-86cd-aedc066640ef",
+      "fields": {
+        "name": "Isabel Moreno",
+        "email": "isabel.moreno@silverleaf.energy",
+        "phone": "+1 (516) 555-1792",
+        "role": "Head of Partnerships",
+        "accountId": "8670a058-8da9-4b95-a275-8f23609845ee",
+        "owner": "13c9049c-460f-4183-a03b-ce57b28ef55a"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Silverleaf Energy",
+          "href": "/accounts/8670a058-8da9-4b95-a275-8f23609845ee"
+        }
+      ],
+      "text": "Contacts\nIsabel Moreno\nCopy link\nIsabel Moreno\nName\nEmail\nPhone\nRole\nAccount\nAccount\nSilverleaf Energy\nOwner\nOwner\nSN\nSofia Nguyen\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Isabel Moreno. 22h ago"
+    },
+    {
+      "id": "f3da5896-d1bd-4afe-a3b4-a0f5274d8a8c",
+      "type": "contacts",
+      "name": "Chris Novak",
+      "path": "/contacts/f3da5896-d1bd-4afe-a3b4-a0f5274d8a8c",
+      "fields": {
+        "name": "Chris Novak",
+        "email": "chris.novak@meridianpayroll.com",
+        "phone": "+1 (617) 555-1829",
+        "role": "RevOps Manager",
+        "accountId": "afb49704-2f37-46b4-91cd-3ef44a69fd3b",
+        "owner": "6c7138af-bc42-4530-bc96-ff7255759a65"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Meridian Payroll",
+          "href": "/accounts/afb49704-2f37-46b4-91cd-3ef44a69fd3b"
+        }
+      ],
+      "text": "Contacts\nChris Novak\nCopy link\nChris Novak\nName\nEmail\nPhone\nRole\nAccount\nAccount\nMeridian Payroll\nOwner\nOwner\nAM\nAlex Morgan\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Chris Novak. 22h ago"
+    },
+    {
+      "id": "78e3a449-4d49-4bd0-9977-12eaaa89bf11",
+      "type": "contacts",
+      "name": "Lena Fischer",
+      "path": "/contacts/78e3a449-4d49-4bd0-9977-12eaaa89bf11",
+      "fields": {
+        "name": "Lena Fischer",
+        "email": "lena.fischer@meridianpayroll.com",
+        "phone": "+1 (718) 555-1866",
+        "role": "CEO",
+        "accountId": "afb49704-2f37-46b4-91cd-3ef44a69fd3b",
+        "owner": "76aed3b8-9e82-43e8-9191-87814628d1ad"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Meridian Payroll",
+          "href": "/accounts/afb49704-2f37-46b4-91cd-3ef44a69fd3b"
+        }
+      ],
+      "text": "Contacts\nLena Fischer\nCopy link\nLena Fischer\nName\nEmail\nPhone\nRole\nAccount\nAccount\nMeridian Payroll\nOwner\nOwner\nJR\nJamie Rivera\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Lena Fischer. 22h ago"
+    },
+    {
+      "id": "8ab1c835-6ce7-41b9-90b8-01b17b292d96",
+      "type": "contacts",
+      "name": "Ethan Brooks",
+      "path": "/contacts/8ab1c835-6ce7-41b9-90b8-01b17b292d96",
+      "fields": {
+        "name": "Ethan Brooks",
+        "email": "ethan.brooks@kestrelsec.com",
+        "phone": "+1 (819) 555-1903",
+        "role": "Security Engineer",
+        "accountId": "af5ef57d-8ff6-4748-8ee1-0b5bb308d23a",
+        "owner": "13c9049c-460f-4183-a03b-ce57b28ef55a"
+      },
+      "notes": [
+        ""
+      ],
+      "links": [
+        {
+          "text": "Kestrel Security",
+          "href": "/accounts/af5ef57d-8ff6-4748-8ee1-0b5bb308d23a"
+        }
+      ],
+      "text": "Contacts\nEthan Brooks\nCopy link\nEthan Brooks\nName\nEmail\nPhone\nRole\nAccount\nAccount\nKestrel Security\nOwner\nOwner\nSN\nSofia Nguyen\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Ethan Brooks. 22h ago"
+    },
+    {
+      "id": "07124f43-48a2-4131-8b32-8a1d14819cc2",
+      "type": "opportunities",
+      "name": "Lumenfield — Data residency (EU)",
+      "path": "/opportunities/07124f43-48a2-4131-8b32-8a1d14819cc2",
+      "fields": {
+        "name": "Lumenfield — Data residency (EU)",
+        "accountId": "56e0f039-9b38-4d2e-8583-580cde768b64",
+        "stage": "qualification",
+        "amount": "38000",
+        "contactIds": "7bcb30c3-a77c-4469-8905-1285c857b343",
+        "owner": "76aed3b8-9e82-43e8-9191-87814628d1ad"
+      },
+      "notes": [
+        "Scope EU hosting requirements",
+        ""
+      ],
+      "links": [
+        {
+          "text": "Lumenfield",
+          "href": "/accounts/56e0f039-9b38-4d2e-8583-580cde768b64"
+        },
+        {
+          "text": "Daniel Okafor",
+          "href": "/contacts/7bcb30c3-a77c-4469-8905-1285c857b343"
+        }
+      ],
+      "text": "Opportunities\nLumenfield — Data residency (EU)\nCopy link\nLumenfield — Data residency (EU)\nName\nAccount\nAccount\nLumenfield\nStage\nStage\nQualification\nAmount (USD)\nClose date\nFeb 19, 2027\nRelated contacts\nRelated contacts\nDaniel Okafor\nNext step\nOwner\nOwner\nJR\nJamie Rivera\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Lumenfield — Data residency (EU). 22h ago"
+    },
+    {
+      "id": "35ce47a7-6be1-423a-9536-2204bf4e7ef9",
+      "type": "opportunities",
+      "name": "Pinegrove — District licenses",
+      "path": "/opportunities/35ce47a7-6be1-423a-9536-2204bf4e7ef9",
+      "fields": {
+        "name": "Pinegrove — District licenses",
+        "accountId": "abcc3d9d-da4e-49b3-9e1c-cbb5500d6288",
+        "stage": "qualification",
+        "amount": "34000",
+        "contactIds": "4c940b78-4f8a-4d8c-aa2c-7e11fa229ad1",
+        "owner": "6c7138af-bc42-4530-bc96-ff7255759a65"
+      },
+      "notes": [
+        "Intro call booked",
+        ""
+      ],
+      "links": [
+        {
+          "text": "Pinegrove Education",
+          "href": "/accounts/abcc3d9d-da4e-49b3-9e1c-cbb5500d6288"
+        },
+        {
+          "text": "Grace Chen",
+          "href": "/contacts/4c940b78-4f8a-4d8c-aa2c-7e11fa229ad1"
+        }
+      ],
+      "text": "Opportunities\nPinegrove — District licenses\nCopy link\nPinegrove — District licenses\nName\nAccount\nAccount\nPinegrove Education\nStage\nStage\nQualification\nAmount (USD)\nClose date\nFeb 4, 2027\nRelated contacts\nRelated contacts\nGrace Chen\nNext step\nOwner\nOwner\nAM\nAlex Morgan\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Pinegrove — District licenses. 22h ago"
+    },
+    {
+      "id": "bccad768-c9e5-46c8-bc22-014a90b21263",
+      "type": "opportunities",
+      "name": "Tidewater — Compliance add-on",
+      "path": "/opportunities/bccad768-c9e5-46c8-bc22-014a90b21263",
+      "fields": {
+        "name": "Tidewater — Compliance add-on",
+        "accountId": "bb8f9b0c-3a99-45ce-a5e4-e4bb01c0f32b",
+        "stage": "qualification",
+        "amount": "27000",
+        "contactIds": "29c2d992-c4cf-4dbc-939d-c1fb6d3f73f0",
+        "owner": "76aed3b8-9e82-43e8-9191-87814628d1ad"
+      },
+      "notes": [
+        "Confirm budget owner",
+        ""
+      ],
+      "links": [
+        {
+          "text": "Tidewater Finance",
+          "href": "/accounts/bb8f9b0c-3a99-45ce-a5e4-e4bb01c0f32b"
+        },
+        {
+          "text": "Elena Petrova",
+          "href": "/contacts/29c2d992-c4cf-4dbc-939d-c1fb6d3f73f0"
+        }
+      ],
+      "text": "Opportunities\nTidewater — Compliance add-on\nCopy link\nTidewater — Compliance add-on\nName\nAccount\nAccount\nTidewater Finance\nStage\nStage\nQualification\nAmount (USD)\nClose date\nJan 7, 2027\nRelated contacts\nRelated contacts\nElena Petrova\nNext step\nOwner\nOwner\nJR\nJamie Rivera\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Tidewater — Compliance add-on. 22h ago"
+    },
+    {
+      "id": "2edef5ed-c747-4ad6-9a33-d0c04fb564db",
+      "type": "opportunities",
+      "name": "Halcyon — Clinic network pilot",
+      "path": "/opportunities/2edef5ed-c747-4ad6-9a33-d0c04fb564db",
+      "fields": {
+        "name": "Halcyon — Clinic network pilot",
+        "accountId": "bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1",
+        "stage": "discovery",
+        "amount": "64000",
+        "contactIds": "3b756490-0562-4536-ab22-ccc8fc0f428e",
+        "owner": "6c7138af-bc42-4530-bc96-ff7255759a65"
+      },
+      "notes": [
+        "Security questionnaire due next week",
+        ""
+      ],
+      "links": [
+        {
+          "text": "Halcyon Health",
+          "href": "/accounts/bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1"
+        },
+        {
+          "text": "Hannah Kim",
+          "href": "/contacts/1af7c8f9-bb7c-4726-bc9d-34e7a059a214"
+        },
+        {
+          "text": "Marcus Bell",
+          "href": "/contacts/3b756490-0562-4536-ab22-ccc8fc0f428e"
+        }
+      ],
+      "text": "Opportunities\nHalcyon — Clinic network pilot\nCopy link\nHalcyon — Clinic network pilot\nName\nAccount\nAccount\nHalcyon Health\nStage\nStage\nDiscovery\nAmount (USD)\nClose date\nDec 25, 2026\nRelated contacts\nRelated contacts\nHannah Kim\nMarcus Bell\nNext step\nOwner\nOwner\nAM\nAlex Morgan\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Halcyon — Clinic network pilot. 22h ago"
+    },
+    {
+      "id": "089f148b-5a4d-4bb7-9594-a180c549566b",
+      "type": "opportunities",
+      "name": "Kestrel — SOC tooling",
+      "path": "/opportunities/089f148b-5a4d-4bb7-9594-a180c549566b",
+      "fields": {
+        "name": "Kestrel — SOC tooling",
+        "accountId": "af5ef57d-8ff6-4748-8ee1-0b5bb308d23a",
+        "stage": "discovery",
+        "amount": "58000",
+        "contactIds": "9b8e2a95-aa29-4eb7-b42c-5f91004b253f",
+        "owner": "76aed3b8-9e82-43e8-9191-87814628d1ad"
+      },
+      "notes": [
+        "Technical deep-dive with security team",
+        ""
+      ],
+      "links": [
+        {
+          "text": "Kestrel Security",
+          "href": "/accounts/af5ef57d-8ff6-4748-8ee1-0b5bb308d23a"
+        },
+        {
+          "text": "Victor Alvarez",
+          "href": "/contacts/9b8e2a95-aa29-4eb7-b42c-5f91004b253f"
+        }
+      ],
+      "text": "Opportunities\nKestrel — SOC tooling\nCopy link\nKestrel — SOC tooling\nName\nAccount\nAccount\nKestrel Security\nStage\nStage\nDiscovery\nAmount (USD)\nClose date\nDec 11, 2026\nRelated contacts\nRelated contacts\nVictor Alvarez\nNext step\nOwner\nOwner\nJR\nJamie Rivera\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Kestrel — SOC tooling. 22h ago"
+    },
+    {
+      "id": "89b0b42a-cf15-45fa-9c28-1f105fba3e8b",
+      "type": "opportunities",
+      "name": "Meridian — Payroll sync",
+      "path": "/opportunities/89b0b42a-cf15-45fa-9c28-1f105fba3e8b",
+      "fields": {
+        "name": "Meridian — Payroll sync",
+        "accountId": "afb49704-2f37-46b4-91cd-3ef44a69fd3b",
+        "stage": "discovery",
+        "amount": "46000",
+        "contactIds": "78e3a449-4d49-4bd0-9977-12eaaa89bf11",
+        "owner": "6c7138af-bc42-4530-bc96-ff7255759a65"
+      },
+      "notes": [
+        "Map current RevOps stack",
+        ""
+      ],
+      "links": [
+        {
+          "text": "Meridian Payroll",
+          "href": "/accounts/afb49704-2f37-46b4-91cd-3ef44a69fd3b"
+        },
+        {
+          "text": "Chris Novak",
+          "href": "/contacts/f3da5896-d1bd-4afe-a3b4-a0f5274d8a8c"
+        },
+        {
+          "text": "Lena Fischer",
+          "href": "/contacts/78e3a449-4d49-4bd0-9977-12eaaa89bf11"
+        }
+      ],
+      "text": "Opportunities\nMeridian — Payroll sync\nCopy link\nMeridian — Payroll sync\nName\nAccount\nAccount\nMeridian Payroll\nStage\nStage\nDiscovery\nAmount (USD)\nClose date\nDec 18, 2026\nRelated contacts\nRelated contacts\nChris Novak\nLena Fischer\nNext step\nOwner\nOwner\nAM\nAlex Morgan\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Meridian — Payroll sync. 22h ago"
+    },
+    {
+      "id": "d4698fa2-a8f1-4333-98a9-03165a58852c",
+      "type": "opportunities",
+      "name": "Orbitline — Usage-based expansion",
+      "path": "/opportunities/d4698fa2-a8f1-4333-98a9-03165a58852c",
+      "fields": {
+        "name": "Orbitline — Usage-based expansion",
+        "accountId": "22383573-7942-4bb8-bd4a-ad5e3faed5f0",
+        "stage": "proposal",
+        "amount": "72500",
+        "contactIds": "b68eaf2e-be1f-428b-8c60-968f0f12cd38",
+        "owner": "13c9049c-460f-4183-a03b-ce57b28ef55a"
+      },
+      "notes": [
+        "Pricing review with finance",
+        ""
+      ],
+      "links": [
+        {
+          "text": "Orbitline",
+          "href": "/accounts/22383573-7942-4bb8-bd4a-ad5e3faed5f0"
+        },
+        {
+          "text": "Jordan Lee",
+          "href": "/contacts/5a782d76-db12-450a-a1b0-e276127538b4"
+        },
+        {
+          "text": "Aisha Mensah",
+          "href": "/contacts/b68eaf2e-be1f-428b-8c60-968f0f12cd38"
+        }
+      ],
+      "text": "Opportunities\nOrbitline — Usage-based expansion\nCopy link\nOrbitline — Usage-based expansion\nName\nAccount\nAccount\nOrbitline\nStage\nStage\nProposal\nAmount (USD)\nClose date\nNov 23, 2026\nRelated contacts\nRelated contacts\nJordan Lee\nAisha Mensah\nNext step\nOwner\nOwner\nSN\nSofia Nguyen\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Orbitline — Usage-based expansion. 22h ago"
+    },
+    {
+      "id": "97796a25-d5bf-486a-957f-75bbe6a55ff7",
+      "type": "opportunities",
+      "name": "Vantage — Route optimization",
+      "path": "/opportunities/97796a25-d5bf-486a-957f-75bbe6a55ff7",
+      "fields": {
+        "name": "Vantage — Route optimization",
+        "accountId": "ad5f74df-85a5-4b14-8575-05ebece5767d",
+        "stage": "proposal",
+        "amount": "124000",
+        "contactIds": "e2e9bce0-bb4b-4ad5-b74b-205b9d318651",
+        "owner": "76aed3b8-9e82-43e8-9191-87814628d1ad"
+      },
+      "notes": [
+        "ROI model shared, awaiting feedback",
+        ""
+      ],
+      "links": [
+        {
+          "text": "Vantage Freight",
+          "href": "/accounts/ad5f74df-85a5-4b14-8575-05ebece5767d"
+        },
+        {
+          "text": "Owen Patel",
+          "href": "/contacts/e2e9bce0-bb4b-4ad5-b74b-205b9d318651"
+        }
+      ],
+      "text": "Opportunities\nVantage — Route optimization\nCopy link\nVantage — Route optimization\nName\nAccount\nAccount\nVantage Freight\nStage\nStage\nProposal\nAmount (USD)\nClose date\nNov 30, 2026\nRelated contacts\nRelated contacts\nOwen Patel\nNext step\nOwner\nOwner\nJR\nJamie Rivera\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Vantage — Route optimization. 22h ago"
+    },
+    {
+      "id": "cd3d6699-4be6-4cfb-8419-805b55ec05ce",
+      "type": "opportunities",
+      "name": "Northbeam — Starter annual",
+      "path": "/opportunities/cd3d6699-4be6-4cfb-8419-805b55ec05ce",
+      "fields": {
+        "name": "Northbeam — Starter annual",
+        "accountId": "29ac95e6-84bd-457a-b328-cdeb36dacba5",
+        "stage": "won",
+        "amount": "9600",
+        "contactIds": "ff3f2a24-cd79-4b78-a023-47982c0bec53",
+        "owner": "13c9049c-460f-4183-a03b-ce57b28ef55a"
+      },
+      "notes": [
+        "Onboarding in progress",
+        ""
+      ],
+      "links": [
+        {
+          "text": "Northbeam Studio",
+          "href": "/accounts/29ac95e6-84bd-457a-b328-cdeb36dacba5"
+        },
+        {
+          "text": "Nora Lindqvist",
+          "href": "/contacts/ff3f2a24-cd79-4b78-a023-47982c0bec53"
+        }
+      ],
+      "text": "Opportunities\nNorthbeam — Starter annual\nCopy link\nNorthbeam — Starter annual\nName\nAccount\nAccount\nNorthbeam Studio\nStage\nStage\nWon\nAmount (USD)\nClose date\nOct 5, 2026\nRelated contacts\nRelated contacts\nNora Lindqvist\nNext step\nOwner\nOwner\nSN\nSofia Nguyen\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Northbeam — Starter annual. 22h ago"
+    },
+    {
+      "id": "a69b6740-d467-4a4e-97bf-da62a75fcc4a",
+      "type": "opportunities",
+      "name": "Quarry Labs — Team plan",
+      "path": "/opportunities/a69b6740-d467-4a4e-97bf-da62a75fcc4a",
+      "fields": {
+        "name": "Quarry Labs — Team plan",
+        "accountId": "d3af9352-cfb0-4ae5-8f6a-e8287cad8856",
+        "stage": "won",
+        "amount": "18500",
+        "contactIds": "b1ff35a7-26bd-4e7c-ac76-5724bbff9fea",
+        "owner": "13c9049c-460f-4183-a03b-ce57b28ef55a"
+      },
+      "notes": [
+        "Kickoff scheduled",
+        ""
+      ],
+      "links": [
+        {
+          "text": "Quarry Labs",
+          "href": "/accounts/d3af9352-cfb0-4ae5-8f6a-e8287cad8856"
+        },
+        {
+          "text": "Sam Whitaker",
+          "href": "/contacts/b1ff35a7-26bd-4e7c-ac76-5724bbff9fea"
+        }
+      ],
+      "text": "Opportunities\nQuarry Labs — Team plan\nCopy link\nQuarry Labs — Team plan\nName\nAccount\nAccount\nQuarry Labs\nStage\nStage\nWon\nAmount (USD)\nClose date\nOct 12, 2026\nRelated contacts\nRelated contacts\nSam Whitaker\nNext step\nOwner\nOwner\nSN\nSofia Nguyen\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Quarry Labs — Team plan. 22h ago"
+    },
+    {
+      "id": "1cb3d3c6-11dc-4a93-9ab6-accec61a81a0",
+      "type": "opportunities",
+      "name": "Silverleaf — Partner integration",
+      "path": "/opportunities/1cb3d3c6-11dc-4a93-9ab6-accec61a81a0",
+      "fields": {
+        "name": "Silverleaf — Partner integration",
+        "accountId": "8670a058-8da9-4b95-a275-8f23609845ee",
+        "stage": "lost",
+        "amount": "41000",
+        "contactIds": "f7de8c11-5297-4280-86cd-aedc066640ef",
+        "owner": "13c9049c-460f-4183-a03b-ce57b28ef55a"
+      },
+      "notes": [
+        "Went with in-house build",
+        ""
+      ],
+      "links": [
+        {
+          "text": "Silverleaf Energy",
+          "href": "/accounts/8670a058-8da9-4b95-a275-8f23609845ee"
+        },
+        {
+          "text": "Isabel Moreno",
+          "href": "/contacts/f7de8c11-5297-4280-86cd-aedc066640ef"
+        }
+      ],
+      "text": "Opportunities\nSilverleaf — Partner integration\nCopy link\nSilverleaf — Partner integration\nName\nAccount\nAccount\nSilverleaf Energy\nStage\nStage\nLost\nAmount (USD)\nClose date\nSep 25, 2026\nRelated contacts\nRelated contacts\nIsabel Moreno\nNext step\nOwner\nOwner\nSN\nSofia Nguyen\nNotes\nAdd note\nNote 1\nActivity\n\nAlex Morgan created Silverleaf — Partner integration. 22h ago"
+    }
+  ],
+  "tables": {
+    "/tasks": {
+      "headers": [
+        "Task",
+        "Assignee",
+        "Due date",
+        "Related records"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Overdue"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Follow up with Owen on ROI model",
+            "JRJamie Rivera",
+            "Oct 21",
+            "Owen Patel"
+          ],
+          "links": [
+            {
+              "text": "Follow up with Owen on ROI model",
+              "href": "/tasks/b93832b8-8cfb-4be3-9f27-300ed3bf6743"
+            },
+            {
+              "text": "Owen Patel",
+              "href": "/contacts/e2e9bce0-bb4b-4ad5-b74b-205b9d318651"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Today"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Send redlined DPA to Lumenfield legal",
+            "AMAlex Morgan",
+            "Oct 22",
+            "Lumenfield — Enterprise platform"
+          ],
+          "links": [
+            {
+              "text": "Send redlined DPA to Lumenfield legal",
+              "href": "/tasks/f8a6d448-0d9b-44c3-8952-0d78e4bd097d"
+            },
+            {
+              "text": "Lumenfield — Enterprise platform",
+              "href": "/opportunities/148ff78a-294e-4175-903b-6d44aa96ff67"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Tomorrow"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Prep pricing call with Cedarstone procurement",
+            "JRJamie Rivera",
+            "Oct 23",
+            "Cedarstone — Omnichannel suite"
+          ],
+          "links": [
+            {
+              "text": "Prep pricing call with Cedarstone procurement",
+              "href": "/tasks/3486d24d-49af-466f-8f75-902c05e3f81d"
+            },
+            {
+              "text": "Cedarstone — Omnichannel suite",
+              "href": "/opportunities/d2276825-243d-487f-ad75-09a8d9263e46"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Upcoming"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Revise Brightpath proposal (3-year option)",
+            "SNSofia Nguyen",
+            "Oct 26",
+            "Brightpath — Fleet analytics rollout"
+          ],
+          "links": [
+            {
+              "text": "Revise Brightpath proposal (3-year option)",
+              "href": "/tasks/e718180e-85c5-4851-82b6-fe8405968d53"
+            },
+            {
+              "text": "Brightpath — Fleet analytics rollout",
+              "href": "/opportunities/132ebafe-2497-4efc-b370-3d35fef90ec1"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Complete Halcyon security questionnaire",
+            "AMAlex Morgan",
+            "Oct 28",
+            "Halcyon Health"
+          ],
+          "links": [
+            {
+              "text": "Complete Halcyon security questionnaire",
+              "href": "/tasks/ec73301c-1288-4db9-a26c-f8ee61bbeb8e"
+            },
+            {
+              "text": "Halcyon Health",
+              "href": "/accounts/bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Book technical deep-dive with Kestrel",
+            "SNSofia Nguyen",
+            "Oct 27",
+            "Kestrel Security"
+          ],
+          "links": [
+            {
+              "text": "Book technical deep-dive with Kestrel",
+              "href": "/tasks/879daaa0-43b9-4bd4-b7cd-fee481cb2b2f"
+            },
+            {
+              "text": "Kestrel Security",
+              "href": "/accounts/af5ef57d-8ff6-4748-8ee1-0b5bb308d23a"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Intro call with Pinegrove",
+            "JRJamie Rivera",
+            "Oct 29",
+            "Grace Chen"
+          ],
+          "links": [
+            {
+              "text": "Intro call with Pinegrove",
+              "href": "/tasks/f0160760-f7b4-4eea-80c6-8c33695e16f4"
+            },
+            {
+              "text": "Grace Chen",
+              "href": "/contacts/4c940b78-4f8a-4d8c-aa2c-7e11fa229ad1"
+            }
+          ]
+        }
+      ]
+    },
+    "/accounts": {
+      "headers": [
+        "Name",
+        "Website",
+        "Owner",
+        "Industry",
+        "Revenue (USD)",
+        "Headcount",
+        "Location",
+        "LinkedIn",
+        "Facebook",
+        "Instagram",
+        "Twitter / X",
+        "Created at",
+        "Contacts",
+        "Opportunity count"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Lumenfield",
+            "lumenfield.io",
+            "Alex Morgan",
+            "Analytics",
+            "$48,000,000",
+            "320",
+            "San Francisco, CA",
+            "linkedin.com/company/lumenfield",
+            "—",
+            "—",
+            "—",
+            "Oct 21, 2026",
+            "2",
+            "2"
+          ],
+          "links": [
+            {
+              "text": "Lumenfield",
+              "href": "/accounts/56e0f039-9b38-4d2e-8583-580cde768b64"
+            },
+            {
+              "text": "",
+              "href": "/accounts/56e0f039-9b38-4d2e-8583-580cde768b64"
+            },
+            {
+              "text": "lumenfield.io",
+              "href": "https://lumenfield.io"
+            },
+            {
+              "text": "linkedin.com/company/lumenfield",
+              "href": "https://www.linkedin.com/company/lumenfield"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Brightpath Logistics",
+            "brightpath.co",
+            "Jamie Rivera",
+            "Logistics",
+            "$112,000,000",
+            "870",
+            "Chicago, IL",
+            "linkedin.com/company/brightpath",
+            "—",
+            "—",
+            "—",
+            "Oct 21, 2026",
+            "2",
+            "1"
+          ],
+          "links": [
+            {
+              "text": "Brightpath Logistics",
+              "href": "/accounts/48bca1de-fc15-4414-93d2-dc01e571c09e"
+            },
+            {
+              "text": "",
+              "href": "/accounts/48bca1de-fc15-4414-93d2-dc01e571c09e"
+            },
+            {
+              "text": "brightpath.co",
+              "href": "https://brightpath.co"
+            },
+            {
+              "text": "linkedin.com/company/brightpath",
+              "href": "https://www.linkedin.com/company/brightpath"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Quarry Labs",
+            "quarrylabs.dev",
+            "Sofia Nguyen",
+            "Developer Tools",
+            "$9,500,000",
+            "64",
+            "Austin, TX",
+            "linkedin.com/company/quarrylabs",
+            "—",
+            "—",
+            "—",
+            "Oct 21, 2026",
+            "1",
+            "1"
+          ],
+          "links": [
+            {
+              "text": "Quarry Labs",
+              "href": "/accounts/d3af9352-cfb0-4ae5-8f6a-e8287cad8856"
+            },
+            {
+              "text": "",
+              "href": "/accounts/d3af9352-cfb0-4ae5-8f6a-e8287cad8856"
+            },
+            {
+              "text": "quarrylabs.dev",
+              "href": "https://quarrylabs.dev"
+            },
+            {
+              "text": "linkedin.com/company/quarrylabs",
+              "href": "https://www.linkedin.com/company/quarrylabs"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Halcyon Health",
+            "halcyonhealth.com",
+            "Alex Morgan",
+            "Healthcare",
+            "$76,000,000",
+            "540",
+            "Boston, MA",
+            "linkedin.com/company/halcyonhealth",
+            "—",
+            "—",
+            "—",
+            "Oct 21, 2026",
+            "2",
+            "1"
+          ],
+          "links": [
+            {
+              "text": "Halcyon Health",
+              "href": "/accounts/bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1"
+            },
+            {
+              "text": "",
+              "href": "/accounts/bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1"
+            },
+            {
+              "text": "halcyonhealth.com",
+              "href": "https://halcyonhealth.com"
+            },
+            {
+              "text": "linkedin.com/company/halcyonhealth",
+              "href": "https://www.linkedin.com/company/halcyonhealth"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Tidewater Finance",
+            "tidewater.finance",
+            "Jamie Rivera",
+            "Fintech",
+            "$31,000,000",
+            "210",
+            "New York, NY",
+            "linkedin.com/company/tidewater",
+            "—",
+            "—",
+            "—",
+            "Oct 21, 2026",
+            "1",
+            "1"
+          ],
+          "links": [
+            {
+              "text": "Tidewater Finance",
+              "href": "/accounts/bb8f9b0c-3a99-45ce-a5e4-e4bb01c0f32b"
+            },
+            {
+              "text": "",
+              "href": "/accounts/bb8f9b0c-3a99-45ce-a5e4-e4bb01c0f32b"
+            },
+            {
+              "text": "tidewater.finance",
+              "href": "https://tidewater.finance"
+            },
+            {
+              "text": "linkedin.com/company/tidewater",
+              "href": "https://www.linkedin.com/company/tidewater"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Orbitline",
+            "orbitline.ai",
+            "Sofia Nguyen",
+            "AI Infrastructure",
+            "$22,000,000",
+            "140",
+            "Seattle, WA",
+            "linkedin.com/company/orbitline",
+            "—",
+            "—",
+            "—",
+            "Oct 21, 2026",
+            "2",
+            "1"
+          ],
+          "links": [
+            {
+              "text": "Orbitline",
+              "href": "/accounts/22383573-7942-4bb8-bd4a-ad5e3faed5f0"
+            },
+            {
+              "text": "",
+              "href": "/accounts/22383573-7942-4bb8-bd4a-ad5e3faed5f0"
+            },
+            {
+              "text": "orbitline.ai",
+              "href": "https://orbitline.ai"
+            },
+            {
+              "text": "linkedin.com/company/orbitline",
+              "href": "https://www.linkedin.com/company/orbitline"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Cedarstone Retail",
+            "cedarstone.com",
+            "Alex Morgan",
+            "Retail",
+            "$205,000,000",
+            "1,900",
+            "Denver, CO",
+            "linkedin.com/company/cedarstone",
+            "—",
+            "—",
+            "—",
+            "Oct 21, 2026",
+            "2",
+            "1"
+          ],
+          "links": [
+            {
+              "text": "Cedarstone Retail",
+              "href": "/accounts/b3f3ca19-7f88-4982-a41d-858a04d08674"
+            },
+            {
+              "text": "",
+              "href": "/accounts/b3f3ca19-7f88-4982-a41d-858a04d08674"
+            },
+            {
+              "text": "cedarstone.com",
+              "href": "https://cedarstone.com"
+            },
+            {
+              "text": "linkedin.com/company/cedarstone",
+              "href": "https://www.linkedin.com/company/cedarstone"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Kestrel Security",
+            "kestrelsec.com",
+            "Jamie Rivera",
+            "Cybersecurity",
+            "$54,000,000",
+            "390",
+            "Arlington, VA",
+            "linkedin.com/company/kestrelsec",
+            "—",
+            "—",
+            "—",
+            "Oct 21, 2026",
+            "2",
+            "1"
+          ],
+          "links": [
+            {
+              "text": "Kestrel Security",
+              "href": "/accounts/af5ef57d-8ff6-4748-8ee1-0b5bb308d23a"
+            },
+            {
+              "text": "",
+              "href": "/accounts/af5ef57d-8ff6-4748-8ee1-0b5bb308d23a"
+            },
+            {
+              "text": "kestrelsec.com",
+              "href": "https://kestrelsec.com"
+            },
+            {
+              "text": "linkedin.com/company/kestrelsec",
+              "href": "https://www.linkedin.com/company/kestrelsec"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Northbeam Studio",
+            "northbeam.studio",
+            "Sofia Nguyen",
+            "Design Software",
+            "$6,200,000",
+            "38",
+            "Portland, OR",
+            "linkedin.com/company/northbeam",
+            "—",
+            "—",
+            "—",
+            "Oct 21, 2026",
+            "1",
+            "1"
+          ],
+          "links": [
+            {
+              "text": "Northbeam Studio",
+              "href": "/accounts/29ac95e6-84bd-457a-b328-cdeb36dacba5"
+            },
+            {
+              "text": "",
+              "href": "/accounts/29ac95e6-84bd-457a-b328-cdeb36dacba5"
+            },
+            {
+              "text": "northbeam.studio",
+              "href": "https://northbeam.studio"
+            },
+            {
+              "text": "linkedin.com/company/northbeam",
+              "href": "https://www.linkedin.com/company/northbeam"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Pinegrove Education",
+            "pinegrove.edu",
+            "Alex Morgan",
+            "EdTech",
+            "$14,800,000",
+            "120",
+            "Minneapolis, MN",
+            "linkedin.com/company/pinegrove",
+            "—",
+            "—",
+            "—",
+            "Oct 21, 2026",
+            "1",
+            "1"
+          ],
+          "links": [
+            {
+              "text": "Pinegrove Education",
+              "href": "/accounts/abcc3d9d-da4e-49b3-9e1c-cbb5500d6288"
+            },
+            {
+              "text": "",
+              "href": "/accounts/abcc3d9d-da4e-49b3-9e1c-cbb5500d6288"
+            },
+            {
+              "text": "pinegrove.edu",
+              "href": "https://pinegrove.edu"
+            },
+            {
+              "text": "linkedin.com/company/pinegrove",
+              "href": "https://www.linkedin.com/company/pinegrove"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Vantage Freight",
+            "vantagefreight.com",
+            "Jamie Rivera",
+            "Logistics",
+            "$88,000,000",
+            "640",
+            "Atlanta, GA",
+            "linkedin.com/company/vantagefreight",
+            "—",
+            "—",
+            "—",
+            "Oct 21, 2026",
+            "1",
+            "1"
+          ],
+          "links": [
+            {
+              "text": "Vantage Freight",
+              "href": "/accounts/ad5f74df-85a5-4b14-8575-05ebece5767d"
+            },
+            {
+              "text": "",
+              "href": "/accounts/ad5f74df-85a5-4b14-8575-05ebece5767d"
+            },
+            {
+              "text": "vantagefreight.com",
+              "href": "https://vantagefreight.com"
+            },
+            {
+              "text": "linkedin.com/company/vantagefreight",
+              "href": "https://www.linkedin.com/company/vantagefreight"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Silverleaf Energy",
+            "silverleaf.energy",
+            "Sofia Nguyen",
+            "Climate Tech",
+            "$41,000,000",
+            "260",
+            "Oakland, CA",
+            "linkedin.com/company/silverleaf",
+            "—",
+            "—",
+            "—",
+            "Oct 21, 2026",
+            "1",
+            "1"
+          ],
+          "links": [
+            {
+              "text": "Silverleaf Energy",
+              "href": "/accounts/8670a058-8da9-4b95-a275-8f23609845ee"
+            },
+            {
+              "text": "",
+              "href": "/accounts/8670a058-8da9-4b95-a275-8f23609845ee"
+            },
+            {
+              "text": "silverleaf.energy",
+              "href": "https://silverleaf.energy"
+            },
+            {
+              "text": "linkedin.com/company/silverleaf",
+              "href": "https://www.linkedin.com/company/silverleaf"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Meridian Payroll",
+            "meridianpayroll.com",
+            "Alex Morgan",
+            "HR Tech",
+            "$27,500,000",
+            "180",
+            "Salt Lake City, UT",
+            "linkedin.com/company/meridianpayroll",
+            "—",
+            "—",
+            "—",
+            "Oct 21, 2026",
+            "2",
+            "1"
+          ],
+          "links": [
+            {
+              "text": "Meridian Payroll",
+              "href": "/accounts/afb49704-2f37-46b4-91cd-3ef44a69fd3b"
+            },
+            {
+              "text": "",
+              "href": "/accounts/afb49704-2f37-46b4-91cd-3ef44a69fd3b"
+            },
+            {
+              "text": "meridianpayroll.com",
+              "href": "https://meridianpayroll.com"
+            },
+            {
+              "text": "linkedin.com/company/meridianpayroll",
+              "href": "https://www.linkedin.com/company/meridianpayroll"
+            }
+          ]
+        }
+      ]
+    },
+    "/contacts": {
+      "headers": [
+        "Name",
+        "Email",
+        "Phone",
+        "Role"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Priya Raman",
+            "priya.raman@lumenfield.io",
+            "+1 (415) 555-1200",
+            "VP of Engineering"
+          ],
+          "links": [
+            {
+              "text": "Priya Raman",
+              "href": "/contacts/bc746029-7396-4c88-96dd-174b21f43ccd"
+            },
+            {
+              "text": "",
+              "href": "/contacts/bc746029-7396-4c88-96dd-174b21f43ccd"
+            },
+            {
+              "text": "priya.raman@lumenfield.io",
+              "href": "mailto:priya.raman@lumenfield.io"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Daniel Okafor",
+            "daniel.okafor@lumenfield.io",
+            "+1 (516) 555-1237",
+            "Head of Data"
+          ],
+          "links": [
+            {
+              "text": "Daniel Okafor",
+              "href": "/contacts/7bcb30c3-a77c-4469-8905-1285c857b343"
+            },
+            {
+              "text": "",
+              "href": "/contacts/7bcb30c3-a77c-4469-8905-1285c857b343"
+            },
+            {
+              "text": "daniel.okafor@lumenfield.io",
+              "href": "mailto:daniel.okafor@lumenfield.io"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Megan Holt",
+            "megan.holt@brightpath.co",
+            "+1 (617) 555-1274",
+            "COO"
+          ],
+          "links": [
+            {
+              "text": "Megan Holt",
+              "href": "/contacts/8482180c-8401-43b2-b327-d3467c23f0eb"
+            },
+            {
+              "text": "",
+              "href": "/contacts/8482180c-8401-43b2-b327-d3467c23f0eb"
+            },
+            {
+              "text": "megan.holt@brightpath.co",
+              "href": "mailto:megan.holt@brightpath.co"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Luis Ferreira",
+            "luis.ferreira@brightpath.co",
+            "+1 (718) 555-1311",
+            "Director of Operations"
+          ],
+          "links": [
+            {
+              "text": "Luis Ferreira",
+              "href": "/contacts/ede7b7ad-552a-4876-86b0-09b94f0b8d3f"
+            },
+            {
+              "text": "",
+              "href": "/contacts/ede7b7ad-552a-4876-86b0-09b94f0b8d3f"
+            },
+            {
+              "text": "luis.ferreira@brightpath.co",
+              "href": "mailto:luis.ferreira@brightpath.co"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Sam Whitaker",
+            "sam.whitaker@quarrylabs.dev",
+            "+1 (819) 555-1348",
+            "CTO & Co-founder"
+          ],
+          "links": [
+            {
+              "text": "Sam Whitaker",
+              "href": "/contacts/b1ff35a7-26bd-4e7c-ac76-5724bbff9fea"
+            },
+            {
+              "text": "",
+              "href": "/contacts/b1ff35a7-26bd-4e7c-ac76-5724bbff9fea"
+            },
+            {
+              "text": "sam.whitaker@quarrylabs.dev",
+              "href": "mailto:sam.whitaker@quarrylabs.dev"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Hannah Kim",
+            "hannah.kim@halcyonhealth.com",
+            "+1 (415) 555-1385",
+            "Chief Medical Officer"
+          ],
+          "links": [
+            {
+              "text": "Hannah Kim",
+              "href": "/contacts/1af7c8f9-bb7c-4726-bc9d-34e7a059a214"
+            },
+            {
+              "text": "",
+              "href": "/contacts/1af7c8f9-bb7c-4726-bc9d-34e7a059a214"
+            },
+            {
+              "text": "hannah.kim@halcyonhealth.com",
+              "href": "mailto:hannah.kim@halcyonhealth.com"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Marcus Bell",
+            "marcus.bell@halcyonhealth.com",
+            "+1 (516) 555-1422",
+            "IT Director"
+          ],
+          "links": [
+            {
+              "text": "Marcus Bell",
+              "href": "/contacts/3b756490-0562-4536-ab22-ccc8fc0f428e"
+            },
+            {
+              "text": "",
+              "href": "/contacts/3b756490-0562-4536-ab22-ccc8fc0f428e"
+            },
+            {
+              "text": "marcus.bell@halcyonhealth.com",
+              "href": "mailto:marcus.bell@halcyonhealth.com"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Elena Petrova",
+            "elena.petrova@tidewater.finance",
+            "+1 (617) 555-1459",
+            "CFO"
+          ],
+          "links": [
+            {
+              "text": "Elena Petrova",
+              "href": "/contacts/29c2d992-c4cf-4dbc-939d-c1fb6d3f73f0"
+            },
+            {
+              "text": "",
+              "href": "/contacts/29c2d992-c4cf-4dbc-939d-c1fb6d3f73f0"
+            },
+            {
+              "text": "elena.petrova@tidewater.finance",
+              "href": "mailto:elena.petrova@tidewater.finance"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Jordan Lee",
+            "jordan.lee@orbitline.ai",
+            "+1 (718) 555-1496",
+            "Head of Platform"
+          ],
+          "links": [
+            {
+              "text": "Jordan Lee",
+              "href": "/contacts/5a782d76-db12-450a-a1b0-e276127538b4"
+            },
+            {
+              "text": "",
+              "href": "/contacts/5a782d76-db12-450a-a1b0-e276127538b4"
+            },
+            {
+              "text": "jordan.lee@orbitline.ai",
+              "href": "mailto:jordan.lee@orbitline.ai"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Aisha Mensah",
+            "aisha.mensah@orbitline.ai",
+            "+1 (819) 555-1533",
+            "VP Product"
+          ],
+          "links": [
+            {
+              "text": "Aisha Mensah",
+              "href": "/contacts/b68eaf2e-be1f-428b-8c60-968f0f12cd38"
+            },
+            {
+              "text": "",
+              "href": "/contacts/b68eaf2e-be1f-428b-8c60-968f0f12cd38"
+            },
+            {
+              "text": "aisha.mensah@orbitline.ai",
+              "href": "mailto:aisha.mensah@orbitline.ai"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Tom Gallagher",
+            "tom.gallagher@cedarstone.com",
+            "+1 (415) 555-1570",
+            "SVP Digital"
+          ],
+          "links": [
+            {
+              "text": "Tom Gallagher",
+              "href": "/contacts/fa85800e-9ae2-48f0-a660-ba59756ed317"
+            },
+            {
+              "text": "",
+              "href": "/contacts/fa85800e-9ae2-48f0-a660-ba59756ed317"
+            },
+            {
+              "text": "tom.gallagher@cedarstone.com",
+              "href": "mailto:tom.gallagher@cedarstone.com"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Rachel Stein",
+            "rachel.stein@cedarstone.com",
+            "+1 (516) 555-1607",
+            "Procurement Lead"
+          ],
+          "links": [
+            {
+              "text": "Rachel Stein",
+              "href": "/contacts/34b0932a-e3ff-4dbf-9eb9-e7aeef83174e"
+            },
+            {
+              "text": "",
+              "href": "/contacts/34b0932a-e3ff-4dbf-9eb9-e7aeef83174e"
+            },
+            {
+              "text": "rachel.stein@cedarstone.com",
+              "href": "mailto:rachel.stein@cedarstone.com"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Victor Alvarez",
+            "victor.alvarez@kestrelsec.com",
+            "+1 (617) 555-1644",
+            "CISO"
+          ],
+          "links": [
+            {
+              "text": "Victor Alvarez",
+              "href": "/contacts/9b8e2a95-aa29-4eb7-b42c-5f91004b253f"
+            },
+            {
+              "text": "",
+              "href": "/contacts/9b8e2a95-aa29-4eb7-b42c-5f91004b253f"
+            },
+            {
+              "text": "victor.alvarez@kestrelsec.com",
+              "href": "mailto:victor.alvarez@kestrelsec.com"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Nora Lindqvist",
+            "nora.lindqvist@northbeam.studio",
+            "+1 (718) 555-1681",
+            "Founder"
+          ],
+          "links": [
+            {
+              "text": "Nora Lindqvist",
+              "href": "/contacts/ff3f2a24-cd79-4b78-a023-47982c0bec53"
+            },
+            {
+              "text": "",
+              "href": "/contacts/ff3f2a24-cd79-4b78-a023-47982c0bec53"
+            },
+            {
+              "text": "nora.lindqvist@northbeam.studio",
+              "href": "mailto:nora.lindqvist@northbeam.studio"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Grace Chen",
+            "grace.chen@pinegrove.edu",
+            "+1 (819) 555-1718",
+            "Director of Learning"
+          ],
+          "links": [
+            {
+              "text": "Grace Chen",
+              "href": "/contacts/4c940b78-4f8a-4d8c-aa2c-7e11fa229ad1"
+            },
+            {
+              "text": "",
+              "href": "/contacts/4c940b78-4f8a-4d8c-aa2c-7e11fa229ad1"
+            },
+            {
+              "text": "grace.chen@pinegrove.edu",
+              "href": "mailto:grace.chen@pinegrove.edu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Owen Patel",
+            "owen.patel@vantagefreight.com",
+            "+1 (415) 555-1755",
+            "VP Supply Chain"
+          ],
+          "links": [
+            {
+              "text": "Owen Patel",
+              "href": "/contacts/e2e9bce0-bb4b-4ad5-b74b-205b9d318651"
+            },
+            {
+              "text": "",
+              "href": "/contacts/e2e9bce0-bb4b-4ad5-b74b-205b9d318651"
+            },
+            {
+              "text": "owen.patel@vantagefreight.com",
+              "href": "mailto:owen.patel@vantagefreight.com"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Isabel Moreno",
+            "isabel.moreno@silverleaf.energy",
+            "+1 (516) 555-1792",
+            "Head of Partnerships"
+          ],
+          "links": [
+            {
+              "text": "Isabel Moreno",
+              "href": "/contacts/f7de8c11-5297-4280-86cd-aedc066640ef"
+            },
+            {
+              "text": "",
+              "href": "/contacts/f7de8c11-5297-4280-86cd-aedc066640ef"
+            },
+            {
+              "text": "isabel.moreno@silverleaf.energy",
+              "href": "mailto:isabel.moreno@silverleaf.energy"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Chris Novak",
+            "chris.novak@meridianpayroll.com",
+            "+1 (617) 555-1829",
+            "RevOps Manager"
+          ],
+          "links": [
+            {
+              "text": "Chris Novak",
+              "href": "/contacts/f3da5896-d1bd-4afe-a3b4-a0f5274d8a8c"
+            },
+            {
+              "text": "",
+              "href": "/contacts/f3da5896-d1bd-4afe-a3b4-a0f5274d8a8c"
+            },
+            {
+              "text": "chris.novak@meridianpayroll.com",
+              "href": "mailto:chris.novak@meridianpayroll.com"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Lena Fischer",
+            "lena.fischer@meridianpayroll.com",
+            "+1 (718) 555-1866",
+            "CEO"
+          ],
+          "links": [
+            {
+              "text": "Lena Fischer",
+              "href": "/contacts/78e3a449-4d49-4bd0-9977-12eaaa89bf11"
+            },
+            {
+              "text": "",
+              "href": "/contacts/78e3a449-4d49-4bd0-9977-12eaaa89bf11"
+            },
+            {
+              "text": "lena.fischer@meridianpayroll.com",
+              "href": "mailto:lena.fischer@meridianpayroll.com"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Ethan Brooks",
+            "ethan.brooks@kestrelsec.com",
+            "+1 (819) 555-1903",
+            "Security Engineer"
+          ],
+          "links": [
+            {
+              "text": "Ethan Brooks",
+              "href": "/contacts/8ab1c835-6ce7-41b9-90b8-01b17b292d96"
+            },
+            {
+              "text": "",
+              "href": "/contacts/8ab1c835-6ce7-41b9-90b8-01b17b292d96"
+            },
+            {
+              "text": "ethan.brooks@kestrelsec.com",
+              "href": "mailto:ethan.brooks@kestrelsec.com"
+            }
+          ]
+        }
+      ]
+    },
+    "/chat/652d1706-5a30-42d4-aea8-208df9c6f266": {
+      "headers": [
+        "Opportunity",
+        "Stage",
+        "Amount",
+        "Close date",
+        "Blocker"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Cedarstone — Omnichannel suite",
+            "Negotiation",
+            "$215,000",
+            "Oct 30",
+            "Procurement wants net-60 terms"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Lumenfield — Enterprise platform",
+            "Negotiation",
+            "$148,000",
+            "Oct 24",
+            "DPA redlines with legal"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Vantage — Route optimization",
+            "Proposal",
+            "$124,000",
+            "Nov 10",
+            "Waiting on ROI model feedback"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Brightpath — Fleet analytics rollout",
+            "Proposal",
+            "$96,000",
+            "Nov 14",
+            "Revised 3-year proposal not sent"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Orbitline — Usage-based expansion",
+            "Proposal",
+            "$72,500",
+            "Nov 3",
+            "Pricing review with finance"
+          ],
+          "links": []
+        }
+      ]
+    },
+    "/lists/792f0232-5855-4a6d-a067-3e58a109dba4": {
+      "headers": [
+        "Name",
+        "Website",
+        "Owner",
+        "Industry",
+        "Revenue (USD)",
+        "Headcount",
+        "Location",
+        "LinkedIn",
+        "Facebook",
+        "Instagram",
+        "Twitter / X",
+        "Created at",
+        "Contacts",
+        "Opportunity count"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Lumenfield",
+            "lumenfield.io",
+            "Alex Morgan",
+            "Analytics",
+            "$48,000,000",
+            "320",
+            "San Francisco, CA",
+            "linkedin.com/company/lumenfield",
+            "—",
+            "—",
+            "—",
+            "Oct 21, 2026",
+            "2",
+            "2"
+          ],
+          "links": [
+            {
+              "text": "Lumenfield",
+              "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4?record=56e0f039-9b38-4d2e-8583-580cde768b64"
+            },
+            {
+              "text": "",
+              "href": "/accounts/56e0f039-9b38-4d2e-8583-580cde768b64"
+            },
+            {
+              "text": "lumenfield.io",
+              "href": "https://lumenfield.io"
+            },
+            {
+              "text": "linkedin.com/company/lumenfield",
+              "href": "https://www.linkedin.com/company/lumenfield"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Brightpath Logistics",
+            "brightpath.co",
+            "Jamie Rivera",
+            "Logistics",
+            "$112,000,000",
+            "870",
+            "Chicago, IL",
+            "linkedin.com/company/brightpath",
+            "—",
+            "—",
+            "—",
+            "Oct 21, 2026",
+            "2",
+            "1"
+          ],
+          "links": [
+            {
+              "text": "Brightpath Logistics",
+              "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4?record=48bca1de-fc15-4414-93d2-dc01e571c09e"
+            },
+            {
+              "text": "",
+              "href": "/accounts/48bca1de-fc15-4414-93d2-dc01e571c09e"
+            },
+            {
+              "text": "brightpath.co",
+              "href": "https://brightpath.co"
+            },
+            {
+              "text": "linkedin.com/company/brightpath",
+              "href": "https://www.linkedin.com/company/brightpath"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Halcyon Health",
+            "halcyonhealth.com",
+            "Alex Morgan",
+            "Healthcare",
+            "$76,000,000",
+            "540",
+            "Boston, MA",
+            "linkedin.com/company/halcyonhealth",
+            "—",
+            "—",
+            "—",
+            "Oct 21, 2026",
+            "2",
+            "1"
+          ],
+          "links": [
+            {
+              "text": "Halcyon Health",
+              "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4?record=bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1"
+            },
+            {
+              "text": "",
+              "href": "/accounts/bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1"
+            },
+            {
+              "text": "halcyonhealth.com",
+              "href": "https://halcyonhealth.com"
+            },
+            {
+              "text": "linkedin.com/company/halcyonhealth",
+              "href": "https://www.linkedin.com/company/halcyonhealth"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Cedarstone Retail",
+            "cedarstone.com",
+            "Alex Morgan",
+            "Retail",
+            "$205,000,000",
+            "1,900",
+            "Denver, CO",
+            "linkedin.com/company/cedarstone",
+            "—",
+            "—",
+            "—",
+            "Oct 21, 2026",
+            "2",
+            "1"
+          ],
+          "links": [
+            {
+              "text": "Cedarstone Retail",
+              "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4?record=b3f3ca19-7f88-4982-a41d-858a04d08674"
+            },
+            {
+              "text": "",
+              "href": "/accounts/b3f3ca19-7f88-4982-a41d-858a04d08674"
+            },
+            {
+              "text": "cedarstone.com",
+              "href": "https://cedarstone.com"
+            },
+            {
+              "text": "linkedin.com/company/cedarstone",
+              "href": "https://www.linkedin.com/company/cedarstone"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Kestrel Security",
+            "kestrelsec.com",
+            "Jamie Rivera",
+            "Cybersecurity",
+            "$54,000,000",
+            "390",
+            "Arlington, VA",
+            "linkedin.com/company/kestrelsec",
+            "—",
+            "—",
+            "—",
+            "Oct 21, 2026",
+            "2",
+            "1"
+          ],
+          "links": [
+            {
+              "text": "Kestrel Security",
+              "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4?record=af5ef57d-8ff6-4748-8ee1-0b5bb308d23a"
+            },
+            {
+              "text": "",
+              "href": "/accounts/af5ef57d-8ff6-4748-8ee1-0b5bb308d23a"
+            },
+            {
+              "text": "kestrelsec.com",
+              "href": "https://kestrelsec.com"
+            },
+            {
+              "text": "linkedin.com/company/kestrelsec",
+              "href": "https://www.linkedin.com/company/kestrelsec"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Vantage Freight",
+            "vantagefreight.com",
+            "Jamie Rivera",
+            "Logistics",
+            "$88,000,000",
+            "640",
+            "Atlanta, GA",
+            "linkedin.com/company/vantagefreight",
+            "—",
+            "—",
+            "—",
+            "Oct 21, 2026",
+            "1",
+            "1"
+          ],
+          "links": [
+            {
+              "text": "Vantage Freight",
+              "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4?record=ad5f74df-85a5-4b14-8575-05ebece5767d"
+            },
+            {
+              "text": "",
+              "href": "/accounts/ad5f74df-85a5-4b14-8575-05ebece5767d"
+            },
+            {
+              "text": "vantagefreight.com",
+              "href": "https://vantagefreight.com"
+            },
+            {
+              "text": "linkedin.com/company/vantagefreight",
+              "href": "https://www.linkedin.com/company/vantagefreight"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "pages": {
+    "/tasks": {
+      "text": "Skip to content\nAM\nAlex Morgan\nUp next\nTasks\nChats\nNew chat\nQ4 late-stage pipeline review\nRecords\nAccounts\nContacts\nOpportunities\nLists\nNew list\nChampions\nQ4 commit\nStrategic accounts\nTasks\nCreate task\nFilter\nDisplay\nTask\n\t\nAssignee\n\t\nDue date\n\t\nRelated records\n\nOverdue\n\nFollow up with Owen on ROI model\n\t\nJR\nJamie Rivera\n\t\nOct 21\n\t\nOwen Patel\n\nToday\n\nSend redlined DPA to Lumenfield legal\n\t\nAM\nAlex Morgan\n\t\nOct 22\n\t\nLumenfield — Enterprise platform\n\nTomorrow\n\nPrep pricing call with Cedarstone procurement\n\t\nJR\nJamie Rivera\n\t\nOct 23\n\t\nCedarstone — Omnichannel suite\n\nUpcoming\n\nRevise Brightpath proposal (3-year option)\n\t\nSN\nSofia Nguyen\n\t\nOct 26\n\t\nBrightpath — Fleet analytics rollout\n\n\nComplete Halcyon security questionnaire\n\t\nAM\nAlex Morgan\n\t\nOct 28\n\t\nHalcyon Health\n\n\nBook technical deep-dive with Kestrel\n\t\nSN\nSofia Nguyen\n\t\nOct 27\n\t\nKestrel Security\n\n\nIntro call with Pinegrove\n\t\nJR\nJamie Rivera\n\t\nOct 29\n\t\nGrace Chen",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main-content"
+        },
+        {
+          "text": "Up next",
+          "href": "/home"
+        },
+        {
+          "text": "Tasks",
+          "href": "/tasks"
+        },
+        {
+          "text": "New chat",
+          "href": "/chat/new"
+        },
+        {
+          "text": "Q4 late-stage pipeline review",
+          "href": "/chat/652d1706-5a30-42d4-aea8-208df9c6f266"
+        },
+        {
+          "text": "Accounts",
+          "href": "/accounts"
+        },
+        {
+          "text": "Contacts",
+          "href": "/contacts"
+        },
+        {
+          "text": "Opportunities",
+          "href": "/opportunities"
+        },
+        {
+          "text": "Champions",
+          "href": "/lists/752c896a-e1bc-4349-9ddf-b28c6572ae44"
+        },
+        {
+          "text": "Q4 commit",
+          "href": "/lists/8b76d67a-953f-4f16-a4cb-5d353ac5d5b5"
+        },
+        {
+          "text": "Strategic accounts",
+          "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4"
+        },
+        {
+          "text": "Follow up with Owen on ROI model",
+          "href": "/tasks/b93832b8-8cfb-4be3-9f27-300ed3bf6743"
+        },
+        {
+          "text": "Owen Patel",
+          "href": "/contacts/e2e9bce0-bb4b-4ad5-b74b-205b9d318651"
+        },
+        {
+          "text": "Send redlined DPA to Lumenfield legal",
+          "href": "/tasks/f8a6d448-0d9b-44c3-8952-0d78e4bd097d"
+        },
+        {
+          "text": "Lumenfield — Enterprise platform",
+          "href": "/opportunities/148ff78a-294e-4175-903b-6d44aa96ff67"
+        },
+        {
+          "text": "Prep pricing call with Cedarstone procurement",
+          "href": "/tasks/3486d24d-49af-466f-8f75-902c05e3f81d"
+        },
+        {
+          "text": "Cedarstone — Omnichannel suite",
+          "href": "/opportunities/d2276825-243d-487f-ad75-09a8d9263e46"
+        },
+        {
+          "text": "Revise Brightpath proposal (3-year option)",
+          "href": "/tasks/e718180e-85c5-4851-82b6-fe8405968d53"
+        },
+        {
+          "text": "Brightpath — Fleet analytics rollout",
+          "href": "/opportunities/132ebafe-2497-4efc-b370-3d35fef90ec1"
+        },
+        {
+          "text": "Complete Halcyon security questionnaire",
+          "href": "/tasks/ec73301c-1288-4db9-a26c-f8ee61bbeb8e"
+        },
+        {
+          "text": "Halcyon Health",
+          "href": "/accounts/bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1"
+        },
+        {
+          "text": "Book technical deep-dive with Kestrel",
+          "href": "/tasks/879daaa0-43b9-4bd4-b7cd-fee481cb2b2f"
+        },
+        {
+          "text": "Kestrel Security",
+          "href": "/accounts/af5ef57d-8ff6-4748-8ee1-0b5bb308d23a"
+        },
+        {
+          "text": "Intro call with Pinegrove",
+          "href": "/tasks/f0160760-f7b4-4eea-80c6-8c33695e16f4"
+        },
+        {
+          "text": "Grace Chen",
+          "href": "/contacts/4c940b78-4f8a-4d8c-aa2c-7e11fa229ad1"
+        }
+      ]
+    },
+    "/home": {
+      "text": "Skip to content\nAM\nAlex Morgan\nUp next\nTasks\nChats\nNew chat\nQ4 late-stage pipeline review\nRecords\nAccounts\nContacts\nOpportunities\nLists\nNew list\nChampions\nQ4 commit\nStrategic accounts\nUp next\n\nThu, Oct 22\n\nTasks\n1 overdue\nView all\nSend redlined DPA to Lumenfield legal\nToday\nPrep pricing call with Cedarstone procurement\nTomorrow\nRevise Brightpath proposal (3-year option)\nMon, Oct 26\nBook technical deep-dive with Kestrel\nTue, Oct 27\nComplete Halcyon security questionnaire\nWed, Oct 28\nIntro call with Pinegrove\nThu, Oct 29",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main-content"
+        },
+        {
+          "text": "Up next",
+          "href": "/home"
+        },
+        {
+          "text": "Tasks",
+          "href": "/tasks"
+        },
+        {
+          "text": "New chat",
+          "href": "/chat/new"
+        },
+        {
+          "text": "Q4 late-stage pipeline review",
+          "href": "/chat/652d1706-5a30-42d4-aea8-208df9c6f266"
+        },
+        {
+          "text": "Accounts",
+          "href": "/accounts"
+        },
+        {
+          "text": "Contacts",
+          "href": "/contacts"
+        },
+        {
+          "text": "Opportunities",
+          "href": "/opportunities"
+        },
+        {
+          "text": "Champions",
+          "href": "/lists/752c896a-e1bc-4349-9ddf-b28c6572ae44"
+        },
+        {
+          "text": "Q4 commit",
+          "href": "/lists/8b76d67a-953f-4f16-a4cb-5d353ac5d5b5"
+        },
+        {
+          "text": "Strategic accounts",
+          "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4"
+        },
+        {
+          "text": "1 overdue",
+          "href": "/tasks?due=Overdue"
+        },
+        {
+          "text": "View all",
+          "href": "/tasks"
+        },
+        {
+          "text": "Send redlined DPA to Lumenfield legalToday",
+          "href": "/tasks/f8a6d448-0d9b-44c3-8952-0d78e4bd097d"
+        },
+        {
+          "text": "Prep pricing call with Cedarstone procurementTomorrow",
+          "href": "/tasks/3486d24d-49af-466f-8f75-902c05e3f81d"
+        },
+        {
+          "text": "Revise Brightpath proposal (3-year option)Mon, Oct 26",
+          "href": "/tasks/e718180e-85c5-4851-82b6-fe8405968d53"
+        },
+        {
+          "text": "Book technical deep-dive with KestrelTue, Oct 27",
+          "href": "/tasks/879daaa0-43b9-4bd4-b7cd-fee481cb2b2f"
+        },
+        {
+          "text": "Complete Halcyon security questionnaireWed, Oct 28",
+          "href": "/tasks/ec73301c-1288-4db9-a26c-f8ee61bbeb8e"
+        },
+        {
+          "text": "Intro call with PinegroveThu, Oct 29",
+          "href": "/tasks/f0160760-f7b4-4eea-80c6-8c33695e16f4"
+        }
+      ]
+    },
+    "/accounts": {
+      "text": "Skip to content\nAM\nAlex Morgan\nUp next\nTasks\nChats\nNew chat\nQ4 late-stage pipeline review\nRecords\nAccounts\nContacts\nOpportunities\nLists\nNew list\nChampions\nQ4 commit\nStrategic accounts\nAccounts\nCreate account\nFilter\nDisplay\nName\n\t\nWebsite\n\t\nOwner\n\t\nIndustry\n\t\nRevenue (USD)\n\t\nHeadcount\n\t\nLocation\n\t\nLinkedIn\n\t\nFacebook\n\t\nInstagram\n\t\nTwitter / X\n\t\nCreated at\n\t\nContacts\n\t\nOpportunity count\n\n\nLumenfield\n\tlumenfield.io\tAlex Morgan\tAnalytics\t$48,000,000\t320\tSan Francisco, CA\tlinkedin.com/company/lumenfield\t—\t—\t—\tOct 21, 2026\t2\t2\n\nBrightpath Logistics\n\tbrightpath.co\tJamie Rivera\tLogistics\t$112,000,000\t870\tChicago, IL\tlinkedin.com/company/brightpath\t—\t—\t—\tOct 21, 2026\t2\t1\n\nQuarry Labs\n\tquarrylabs.dev\tSofia Nguyen\tDeveloper Tools\t$9,500,000\t64\tAustin, TX\tlinkedin.com/company/quarrylabs\t—\t—\t—\tOct 21, 2026\t1\t1\n\nHalcyon Health\n\thalcyonhealth.com\tAlex Morgan\tHealthcare\t$76,000,000\t540\tBoston, MA\tlinkedin.com/company/halcyonhealth\t—\t—\t—\tOct 21, 2026\t2\t1\n\nTidewater Finance\n\ttidewater.finance\tJamie Rivera\tFintech\t$31,000,000\t210\tNew York, NY\tlinkedin.com/company/tidewater\t—\t—\t—\tOct 21, 2026\t1\t1\n\nOrbitline\n\torbitline.ai\tSofia Nguyen\tAI Infrastructure\t$22,000,000\t140\tSeattle, WA\tlinkedin.com/company/orbitline\t—\t—\t—\tOct 21, 2026\t2\t1\n\nCedarstone Retail\n\tcedarstone.com\tAlex Morgan\tRetail\t$205,000,000\t1,900\tDenver, CO\tlinkedin.com/company/cedarstone\t—\t—\t—\tOct 21, 2026\t2\t1\n\nKestrel Security\n\tkestrelsec.com\tJamie Rivera\tCybersecurity\t$54,000,000\t390\tArlington, VA\tlinkedin.com/company/kestrelsec\t—\t—\t—\tOct 21, 2026\t2\t1\n\nNorthbeam Studio\n\tnorthbeam.studio\tSofia Nguyen\tDesign Software\t$6,200,000\t38\tPortland, OR\tlinkedin.com/company/northbeam\t—\t—\t—\tOct 21, 2026\t1\t1\n\nPinegrove Education\n\tpinegrove.edu\tAlex Morgan\tEdTech\t$14,800,000\t120\tMinneapolis, MN\tlinkedin.com/company/pinegrove\t—\t—\t—\tOct 21, 2026\t1\t1\n\nVantage Freight\n\tvantagefreight.com\tJamie Rivera\tLogistics\t$88,000,000\t640\tAtlanta, GA\tlinkedin.com/company/vantagefreight\t—\t—\t—\tOct 21, 2026\t1\t1\n\nSilverleaf Energy\n\tsilverleaf.energy\tSofia Nguyen\tClimate Tech\t$41,000,000\t260\tOakland, CA\tlinkedin.com/company/silverleaf\t—\t—\t—\tOct 21, 2026\t1\t1\n\nMeridian Payroll\n\tmeridianpayroll.com\tAlex Morgan\tHR Tech\t$27,500,000\t180\tSalt Lake City, UT\tlinkedin.com/company/meridianpayroll\t—\t—\t—\tOct 21, 2026\t2\t1",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main-content"
+        },
+        {
+          "text": "Up next",
+          "href": "/home"
+        },
+        {
+          "text": "Tasks",
+          "href": "/tasks"
+        },
+        {
+          "text": "New chat",
+          "href": "/chat/new"
+        },
+        {
+          "text": "Q4 late-stage pipeline review",
+          "href": "/chat/652d1706-5a30-42d4-aea8-208df9c6f266"
+        },
+        {
+          "text": "Accounts",
+          "href": "/accounts"
+        },
+        {
+          "text": "Contacts",
+          "href": "/contacts"
+        },
+        {
+          "text": "Opportunities",
+          "href": "/opportunities"
+        },
+        {
+          "text": "Champions",
+          "href": "/lists/752c896a-e1bc-4349-9ddf-b28c6572ae44"
+        },
+        {
+          "text": "Q4 commit",
+          "href": "/lists/8b76d67a-953f-4f16-a4cb-5d353ac5d5b5"
+        },
+        {
+          "text": "Strategic accounts",
+          "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4"
+        },
+        {
+          "text": "Lumenfield",
+          "href": "/accounts/56e0f039-9b38-4d2e-8583-580cde768b64"
+        },
+        {
+          "text": "",
+          "href": "/accounts/56e0f039-9b38-4d2e-8583-580cde768b64"
+        },
+        {
+          "text": "lumenfield.io",
+          "href": "https://lumenfield.io"
+        },
+        {
+          "text": "linkedin.com/company/lumenfield",
+          "href": "https://www.linkedin.com/company/lumenfield"
+        },
+        {
+          "text": "Brightpath Logistics",
+          "href": "/accounts/48bca1de-fc15-4414-93d2-dc01e571c09e"
+        },
+        {
+          "text": "",
+          "href": "/accounts/48bca1de-fc15-4414-93d2-dc01e571c09e"
+        },
+        {
+          "text": "brightpath.co",
+          "href": "https://brightpath.co"
+        },
+        {
+          "text": "linkedin.com/company/brightpath",
+          "href": "https://www.linkedin.com/company/brightpath"
+        },
+        {
+          "text": "Quarry Labs",
+          "href": "/accounts/d3af9352-cfb0-4ae5-8f6a-e8287cad8856"
+        },
+        {
+          "text": "",
+          "href": "/accounts/d3af9352-cfb0-4ae5-8f6a-e8287cad8856"
+        },
+        {
+          "text": "quarrylabs.dev",
+          "href": "https://quarrylabs.dev"
+        },
+        {
+          "text": "linkedin.com/company/quarrylabs",
+          "href": "https://www.linkedin.com/company/quarrylabs"
+        },
+        {
+          "text": "Halcyon Health",
+          "href": "/accounts/bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1"
+        },
+        {
+          "text": "",
+          "href": "/accounts/bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1"
+        },
+        {
+          "text": "halcyonhealth.com",
+          "href": "https://halcyonhealth.com"
+        },
+        {
+          "text": "linkedin.com/company/halcyonhealth",
+          "href": "https://www.linkedin.com/company/halcyonhealth"
+        },
+        {
+          "text": "Tidewater Finance",
+          "href": "/accounts/bb8f9b0c-3a99-45ce-a5e4-e4bb01c0f32b"
+        },
+        {
+          "text": "",
+          "href": "/accounts/bb8f9b0c-3a99-45ce-a5e4-e4bb01c0f32b"
+        },
+        {
+          "text": "tidewater.finance",
+          "href": "https://tidewater.finance"
+        },
+        {
+          "text": "linkedin.com/company/tidewater",
+          "href": "https://www.linkedin.com/company/tidewater"
+        },
+        {
+          "text": "Orbitline",
+          "href": "/accounts/22383573-7942-4bb8-bd4a-ad5e3faed5f0"
+        },
+        {
+          "text": "",
+          "href": "/accounts/22383573-7942-4bb8-bd4a-ad5e3faed5f0"
+        },
+        {
+          "text": "orbitline.ai",
+          "href": "https://orbitline.ai"
+        },
+        {
+          "text": "linkedin.com/company/orbitline",
+          "href": "https://www.linkedin.com/company/orbitline"
+        },
+        {
+          "text": "Cedarstone Retail",
+          "href": "/accounts/b3f3ca19-7f88-4982-a41d-858a04d08674"
+        },
+        {
+          "text": "",
+          "href": "/accounts/b3f3ca19-7f88-4982-a41d-858a04d08674"
+        },
+        {
+          "text": "cedarstone.com",
+          "href": "https://cedarstone.com"
+        },
+        {
+          "text": "linkedin.com/company/cedarstone",
+          "href": "https://www.linkedin.com/company/cedarstone"
+        },
+        {
+          "text": "Kestrel Security",
+          "href": "/accounts/af5ef57d-8ff6-4748-8ee1-0b5bb308d23a"
+        },
+        {
+          "text": "",
+          "href": "/accounts/af5ef57d-8ff6-4748-8ee1-0b5bb308d23a"
+        },
+        {
+          "text": "kestrelsec.com",
+          "href": "https://kestrelsec.com"
+        },
+        {
+          "text": "linkedin.com/company/kestrelsec",
+          "href": "https://www.linkedin.com/company/kestrelsec"
+        },
+        {
+          "text": "Northbeam Studio",
+          "href": "/accounts/29ac95e6-84bd-457a-b328-cdeb36dacba5"
+        },
+        {
+          "text": "",
+          "href": "/accounts/29ac95e6-84bd-457a-b328-cdeb36dacba5"
+        },
+        {
+          "text": "northbeam.studio",
+          "href": "https://northbeam.studio"
+        },
+        {
+          "text": "linkedin.com/company/northbeam",
+          "href": "https://www.linkedin.com/company/northbeam"
+        },
+        {
+          "text": "Pinegrove Education",
+          "href": "/accounts/abcc3d9d-da4e-49b3-9e1c-cbb5500d6288"
+        },
+        {
+          "text": "",
+          "href": "/accounts/abcc3d9d-da4e-49b3-9e1c-cbb5500d6288"
+        },
+        {
+          "text": "pinegrove.edu",
+          "href": "https://pinegrove.edu"
+        },
+        {
+          "text": "linkedin.com/company/pinegrove",
+          "href": "https://www.linkedin.com/company/pinegrove"
+        },
+        {
+          "text": "Vantage Freight",
+          "href": "/accounts/ad5f74df-85a5-4b14-8575-05ebece5767d"
+        },
+        {
+          "text": "",
+          "href": "/accounts/ad5f74df-85a5-4b14-8575-05ebece5767d"
+        },
+        {
+          "text": "vantagefreight.com",
+          "href": "https://vantagefreight.com"
+        },
+        {
+          "text": "linkedin.com/company/vantagefreight",
+          "href": "https://www.linkedin.com/company/vantagefreight"
+        },
+        {
+          "text": "Silverleaf Energy",
+          "href": "/accounts/8670a058-8da9-4b95-a275-8f23609845ee"
+        },
+        {
+          "text": "",
+          "href": "/accounts/8670a058-8da9-4b95-a275-8f23609845ee"
+        },
+        {
+          "text": "silverleaf.energy",
+          "href": "https://silverleaf.energy"
+        },
+        {
+          "text": "linkedin.com/company/silverleaf",
+          "href": "https://www.linkedin.com/company/silverleaf"
+        },
+        {
+          "text": "Meridian Payroll",
+          "href": "/accounts/afb49704-2f37-46b4-91cd-3ef44a69fd3b"
+        },
+        {
+          "text": "",
+          "href": "/accounts/afb49704-2f37-46b4-91cd-3ef44a69fd3b"
+        },
+        {
+          "text": "meridianpayroll.com",
+          "href": "https://meridianpayroll.com"
+        },
+        {
+          "text": "linkedin.com/company/meridianpayroll",
+          "href": "https://www.linkedin.com/company/meridianpayroll"
+        }
+      ]
+    },
+    "/contacts": {
+      "text": "Skip to content\nAM\nAlex Morgan\nUp next\nTasks\nChats\nNew chat\nQ4 late-stage pipeline review\nRecords\nAccounts\nContacts\nOpportunities\nLists\nNew list\nChampions\nQ4 commit\nStrategic accounts\nContacts\nCreate contact\nFilter\nDisplay\nName\n\t\nEmail\n\t\nPhone\n\t\nRole\n\n\nPriya Raman\n\tpriya.raman@lumenfield.io\t+1 (415) 555-1200\tVP of Engineering\n\nDaniel Okafor\n\tdaniel.okafor@lumenfield.io\t+1 (516) 555-1237\tHead of Data\n\nMegan Holt\n\tmegan.holt@brightpath.co\t+1 (617) 555-1274\tCOO\n\nLuis Ferreira\n\tluis.ferreira@brightpath.co\t+1 (718) 555-1311\tDirector of Operations\n\nSam Whitaker\n\tsam.whitaker@quarrylabs.dev\t+1 (819) 555-1348\tCTO & Co-founder\n\nHannah Kim\n\thannah.kim@halcyonhealth.com\t+1 (415) 555-1385\tChief Medical Officer\n\nMarcus Bell\n\tmarcus.bell@halcyonhealth.com\t+1 (516) 555-1422\tIT Director\n\nElena Petrova\n\telena.petrova@tidewater.finance\t+1 (617) 555-1459\tCFO\n\nJordan Lee\n\tjordan.lee@orbitline.ai\t+1 (718) 555-1496\tHead of Platform\n\nAisha Mensah\n\taisha.mensah@orbitline.ai\t+1 (819) 555-1533\tVP Product\n\nTom Gallagher\n\ttom.gallagher@cedarstone.com\t+1 (415) 555-1570\tSVP Digital\n\nRachel Stein\n\trachel.stein@cedarstone.com\t+1 (516) 555-1607\tProcurement Lead\n\nVictor Alvarez\n\tvictor.alvarez@kestrelsec.com\t+1 (617) 555-1644\tCISO\n\nNora Lindqvist\n\tnora.lindqvist@northbeam.studio\t+1 (718) 555-1681\tFounder\n\nGrace Chen\n\tgrace.chen@pinegrove.edu\t+1 (819) 555-1718\tDirector of Learning\n\nOwen Patel\n\towen.patel@vantagefreight.com\t+1 (415) 555-1755\tVP Supply Chain\n\nIsabel Moreno\n\tisabel.moreno@silverleaf.energy\t+1 (516) 555-1792\tHead of Partnerships\n\nChris Novak\n\tchris.novak@meridianpayroll.com\t+1 (617) 555-1829\tRevOps Manager\n\nLena Fischer\n\tlena.fischer@meridianpayroll.com\t+1 (718) 555-1866\tCEO\n\nEthan Brooks\n\tethan.brooks@kestrelsec.com\t+1 (819) 555-1903\tSecurity Engineer",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main-content"
+        },
+        {
+          "text": "Up next",
+          "href": "/home"
+        },
+        {
+          "text": "Tasks",
+          "href": "/tasks"
+        },
+        {
+          "text": "New chat",
+          "href": "/chat/new"
+        },
+        {
+          "text": "Q4 late-stage pipeline review",
+          "href": "/chat/652d1706-5a30-42d4-aea8-208df9c6f266"
+        },
+        {
+          "text": "Accounts",
+          "href": "/accounts"
+        },
+        {
+          "text": "Contacts",
+          "href": "/contacts"
+        },
+        {
+          "text": "Opportunities",
+          "href": "/opportunities"
+        },
+        {
+          "text": "Champions",
+          "href": "/lists/752c896a-e1bc-4349-9ddf-b28c6572ae44"
+        },
+        {
+          "text": "Q4 commit",
+          "href": "/lists/8b76d67a-953f-4f16-a4cb-5d353ac5d5b5"
+        },
+        {
+          "text": "Strategic accounts",
+          "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4"
+        },
+        {
+          "text": "Priya Raman",
+          "href": "/contacts/bc746029-7396-4c88-96dd-174b21f43ccd"
+        },
+        {
+          "text": "",
+          "href": "/contacts/bc746029-7396-4c88-96dd-174b21f43ccd"
+        },
+        {
+          "text": "priya.raman@lumenfield.io",
+          "href": "mailto:priya.raman@lumenfield.io"
+        },
+        {
+          "text": "Daniel Okafor",
+          "href": "/contacts/7bcb30c3-a77c-4469-8905-1285c857b343"
+        },
+        {
+          "text": "",
+          "href": "/contacts/7bcb30c3-a77c-4469-8905-1285c857b343"
+        },
+        {
+          "text": "daniel.okafor@lumenfield.io",
+          "href": "mailto:daniel.okafor@lumenfield.io"
+        },
+        {
+          "text": "Megan Holt",
+          "href": "/contacts/8482180c-8401-43b2-b327-d3467c23f0eb"
+        },
+        {
+          "text": "",
+          "href": "/contacts/8482180c-8401-43b2-b327-d3467c23f0eb"
+        },
+        {
+          "text": "megan.holt@brightpath.co",
+          "href": "mailto:megan.holt@brightpath.co"
+        },
+        {
+          "text": "Luis Ferreira",
+          "href": "/contacts/ede7b7ad-552a-4876-86b0-09b94f0b8d3f"
+        },
+        {
+          "text": "",
+          "href": "/contacts/ede7b7ad-552a-4876-86b0-09b94f0b8d3f"
+        },
+        {
+          "text": "luis.ferreira@brightpath.co",
+          "href": "mailto:luis.ferreira@brightpath.co"
+        },
+        {
+          "text": "Sam Whitaker",
+          "href": "/contacts/b1ff35a7-26bd-4e7c-ac76-5724bbff9fea"
+        },
+        {
+          "text": "",
+          "href": "/contacts/b1ff35a7-26bd-4e7c-ac76-5724bbff9fea"
+        },
+        {
+          "text": "sam.whitaker@quarrylabs.dev",
+          "href": "mailto:sam.whitaker@quarrylabs.dev"
+        },
+        {
+          "text": "Hannah Kim",
+          "href": "/contacts/1af7c8f9-bb7c-4726-bc9d-34e7a059a214"
+        },
+        {
+          "text": "",
+          "href": "/contacts/1af7c8f9-bb7c-4726-bc9d-34e7a059a214"
+        },
+        {
+          "text": "hannah.kim@halcyonhealth.com",
+          "href": "mailto:hannah.kim@halcyonhealth.com"
+        },
+        {
+          "text": "Marcus Bell",
+          "href": "/contacts/3b756490-0562-4536-ab22-ccc8fc0f428e"
+        },
+        {
+          "text": "",
+          "href": "/contacts/3b756490-0562-4536-ab22-ccc8fc0f428e"
+        },
+        {
+          "text": "marcus.bell@halcyonhealth.com",
+          "href": "mailto:marcus.bell@halcyonhealth.com"
+        },
+        {
+          "text": "Elena Petrova",
+          "href": "/contacts/29c2d992-c4cf-4dbc-939d-c1fb6d3f73f0"
+        },
+        {
+          "text": "",
+          "href": "/contacts/29c2d992-c4cf-4dbc-939d-c1fb6d3f73f0"
+        },
+        {
+          "text": "elena.petrova@tidewater.finance",
+          "href": "mailto:elena.petrova@tidewater.finance"
+        },
+        {
+          "text": "Jordan Lee",
+          "href": "/contacts/5a782d76-db12-450a-a1b0-e276127538b4"
+        },
+        {
+          "text": "",
+          "href": "/contacts/5a782d76-db12-450a-a1b0-e276127538b4"
+        },
+        {
+          "text": "jordan.lee@orbitline.ai",
+          "href": "mailto:jordan.lee@orbitline.ai"
+        },
+        {
+          "text": "Aisha Mensah",
+          "href": "/contacts/b68eaf2e-be1f-428b-8c60-968f0f12cd38"
+        },
+        {
+          "text": "",
+          "href": "/contacts/b68eaf2e-be1f-428b-8c60-968f0f12cd38"
+        },
+        {
+          "text": "aisha.mensah@orbitline.ai",
+          "href": "mailto:aisha.mensah@orbitline.ai"
+        },
+        {
+          "text": "Tom Gallagher",
+          "href": "/contacts/fa85800e-9ae2-48f0-a660-ba59756ed317"
+        },
+        {
+          "text": "",
+          "href": "/contacts/fa85800e-9ae2-48f0-a660-ba59756ed317"
+        },
+        {
+          "text": "tom.gallagher@cedarstone.com",
+          "href": "mailto:tom.gallagher@cedarstone.com"
+        },
+        {
+          "text": "Rachel Stein",
+          "href": "/contacts/34b0932a-e3ff-4dbf-9eb9-e7aeef83174e"
+        },
+        {
+          "text": "",
+          "href": "/contacts/34b0932a-e3ff-4dbf-9eb9-e7aeef83174e"
+        },
+        {
+          "text": "rachel.stein@cedarstone.com",
+          "href": "mailto:rachel.stein@cedarstone.com"
+        },
+        {
+          "text": "Victor Alvarez",
+          "href": "/contacts/9b8e2a95-aa29-4eb7-b42c-5f91004b253f"
+        },
+        {
+          "text": "",
+          "href": "/contacts/9b8e2a95-aa29-4eb7-b42c-5f91004b253f"
+        },
+        {
+          "text": "victor.alvarez@kestrelsec.com",
+          "href": "mailto:victor.alvarez@kestrelsec.com"
+        },
+        {
+          "text": "Nora Lindqvist",
+          "href": "/contacts/ff3f2a24-cd79-4b78-a023-47982c0bec53"
+        },
+        {
+          "text": "",
+          "href": "/contacts/ff3f2a24-cd79-4b78-a023-47982c0bec53"
+        },
+        {
+          "text": "nora.lindqvist@northbeam.studio",
+          "href": "mailto:nora.lindqvist@northbeam.studio"
+        },
+        {
+          "text": "Grace Chen",
+          "href": "/contacts/4c940b78-4f8a-4d8c-aa2c-7e11fa229ad1"
+        },
+        {
+          "text": "",
+          "href": "/contacts/4c940b78-4f8a-4d8c-aa2c-7e11fa229ad1"
+        },
+        {
+          "text": "grace.chen@pinegrove.edu",
+          "href": "mailto:grace.chen@pinegrove.edu"
+        },
+        {
+          "text": "Owen Patel",
+          "href": "/contacts/e2e9bce0-bb4b-4ad5-b74b-205b9d318651"
+        },
+        {
+          "text": "",
+          "href": "/contacts/e2e9bce0-bb4b-4ad5-b74b-205b9d318651"
+        },
+        {
+          "text": "owen.patel@vantagefreight.com",
+          "href": "mailto:owen.patel@vantagefreight.com"
+        },
+        {
+          "text": "Isabel Moreno",
+          "href": "/contacts/f7de8c11-5297-4280-86cd-aedc066640ef"
+        },
+        {
+          "text": "",
+          "href": "/contacts/f7de8c11-5297-4280-86cd-aedc066640ef"
+        },
+        {
+          "text": "isabel.moreno@silverleaf.energy",
+          "href": "mailto:isabel.moreno@silverleaf.energy"
+        },
+        {
+          "text": "Chris Novak",
+          "href": "/contacts/f3da5896-d1bd-4afe-a3b4-a0f5274d8a8c"
+        },
+        {
+          "text": "",
+          "href": "/contacts/f3da5896-d1bd-4afe-a3b4-a0f5274d8a8c"
+        },
+        {
+          "text": "chris.novak@meridianpayroll.com",
+          "href": "mailto:chris.novak@meridianpayroll.com"
+        },
+        {
+          "text": "Lena Fischer",
+          "href": "/contacts/78e3a449-4d49-4bd0-9977-12eaaa89bf11"
+        },
+        {
+          "text": "",
+          "href": "/contacts/78e3a449-4d49-4bd0-9977-12eaaa89bf11"
+        },
+        {
+          "text": "lena.fischer@meridianpayroll.com",
+          "href": "mailto:lena.fischer@meridianpayroll.com"
+        },
+        {
+          "text": "Ethan Brooks",
+          "href": "/contacts/8ab1c835-6ce7-41b9-90b8-01b17b292d96"
+        },
+        {
+          "text": "",
+          "href": "/contacts/8ab1c835-6ce7-41b9-90b8-01b17b292d96"
+        },
+        {
+          "text": "ethan.brooks@kestrelsec.com",
+          "href": "mailto:ethan.brooks@kestrelsec.com"
+        }
+      ]
+    },
+    "/opportunities": {
+      "text": "Skip to content\nAM\nAlex Morgan\nUp next\nTasks\nChats\nNew chat\nQ4 late-stage pipeline review\nRecords\nAccounts\nContacts\nOpportunities\nLists\nNew list\nChampions\nQ4 commit\nStrategic accounts\nOpportunities\nCreate opportunity\nFilter\nDisplay\nQualification\n3\nLumenfield — Data residency (EU)\nLumenfield\n$38,000.00\nFeb 19, 2027\nJR\nJamie Rivera\nPinegrove — District licenses\nPinegrove Education\n$34,000.00\nFeb 4, 2027\nAM\nAlex Morgan\nTidewater — Compliance add-on\nTidewater Finance\n$27,000.00\nJan 7, 2027\nJR\nJamie Rivera\nCreate opportunity\n$99,000.00\nDiscovery\n3\nHalcyon — Clinic network pilot\nHalcyon Health\n$64,000.00\nDec 25, 2026\nAM\nAlex Morgan\nKestrel — SOC tooling\nKestrel Security\n$58,000.00\nDec 11, 2026\nJR\nJamie Rivera\nMeridian — Payroll sync\nMeridian Payroll\n$46,000.00\nDec 18, 2026\nAM\nAlex Morgan\nCreate opportunity\n$168,000.00\nProposal\n3\nBrightpath — Fleet analytics rollout\nBrightpath Logistics\n$96,000.00\nDec 4, 2026\nJR\nJamie Rivera\nOrbitline — Usage-based expansion\nOrbitline\n$72,500.00\nNov 23, 2026\nSN\nSofia Nguyen\nVantage — Route optimization\nVantage Freight\n$124,000.00\nNov 30, 2026\nJR\nJamie Rivera\nCreate opportunity\n$292,500.00\nNegotiation\n2\nCedarstone — Omnichannel suite\nCedarstone Retail\n$215,000.00\nNov 19, 2026\nAM\nAlex Morgan\nLumenfield — Enterprise platform\nLumenfield\n$148,000.00\nNov 13, 2026\nAM\nAlex Morgan\nCreate opportunity\n$363,000.00\nWon\n2\nNorthbeam — Starter annual\nNorthbeam Studio\n$9,600.00\nOct 5, 2026\nSN\nSofia Nguyen\nQuarry Labs — Team plan\nQuarry Labs\n$18,500.00\nOct 12, 2026\nSN\nSofia Nguyen\nCreate opportunity\n$28,100.00\nLost\n1\nSilverleaf — Partner integration\nSilverleaf Energy\n$41,000.00\nSep 25, 2026\nSN\nSofia Nguyen\nCreate opportunity\n$41,000.00",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main-content"
+        },
+        {
+          "text": "Up next",
+          "href": "/home"
+        },
+        {
+          "text": "Tasks",
+          "href": "/tasks"
+        },
+        {
+          "text": "New chat",
+          "href": "/chat/new"
+        },
+        {
+          "text": "Q4 late-stage pipeline review",
+          "href": "/chat/652d1706-5a30-42d4-aea8-208df9c6f266"
+        },
+        {
+          "text": "Accounts",
+          "href": "/accounts"
+        },
+        {
+          "text": "Contacts",
+          "href": "/contacts"
+        },
+        {
+          "text": "Opportunities",
+          "href": "/opportunities"
+        },
+        {
+          "text": "Champions",
+          "href": "/lists/752c896a-e1bc-4349-9ddf-b28c6572ae44"
+        },
+        {
+          "text": "Q4 commit",
+          "href": "/lists/8b76d67a-953f-4f16-a4cb-5d353ac5d5b5"
+        },
+        {
+          "text": "Strategic accounts",
+          "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4"
+        },
+        {
+          "text": "Lumenfield — Data residency (EU)",
+          "href": "/opportunities/07124f43-48a2-4131-8b32-8a1d14819cc2?view=board"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/07124f43-48a2-4131-8b32-8a1d14819cc2"
+        },
+        {
+          "text": "Lumenfield",
+          "href": "/accounts/56e0f039-9b38-4d2e-8583-580cde768b64"
+        },
+        {
+          "text": "Pinegrove — District licenses",
+          "href": "/opportunities/35ce47a7-6be1-423a-9536-2204bf4e7ef9?view=board"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/35ce47a7-6be1-423a-9536-2204bf4e7ef9"
+        },
+        {
+          "text": "Pinegrove Education",
+          "href": "/accounts/abcc3d9d-da4e-49b3-9e1c-cbb5500d6288"
+        },
+        {
+          "text": "Tidewater — Compliance add-on",
+          "href": "/opportunities/bccad768-c9e5-46c8-bc22-014a90b21263?view=board"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/bccad768-c9e5-46c8-bc22-014a90b21263"
+        },
+        {
+          "text": "Tidewater Finance",
+          "href": "/accounts/bb8f9b0c-3a99-45ce-a5e4-e4bb01c0f32b"
+        },
+        {
+          "text": "Halcyon — Clinic network pilot",
+          "href": "/opportunities/2edef5ed-c747-4ad6-9a33-d0c04fb564db?view=board"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/2edef5ed-c747-4ad6-9a33-d0c04fb564db"
+        },
+        {
+          "text": "Halcyon Health",
+          "href": "/accounts/bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1"
+        },
+        {
+          "text": "Kestrel — SOC tooling",
+          "href": "/opportunities/089f148b-5a4d-4bb7-9594-a180c549566b?view=board"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/089f148b-5a4d-4bb7-9594-a180c549566b"
+        },
+        {
+          "text": "Kestrel Security",
+          "href": "/accounts/af5ef57d-8ff6-4748-8ee1-0b5bb308d23a"
+        },
+        {
+          "text": "Meridian — Payroll sync",
+          "href": "/opportunities/89b0b42a-cf15-45fa-9c28-1f105fba3e8b?view=board"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/89b0b42a-cf15-45fa-9c28-1f105fba3e8b"
+        },
+        {
+          "text": "Meridian Payroll",
+          "href": "/accounts/afb49704-2f37-46b4-91cd-3ef44a69fd3b"
+        },
+        {
+          "text": "Brightpath — Fleet analytics rollout",
+          "href": "/opportunities/132ebafe-2497-4efc-b370-3d35fef90ec1?view=board"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/132ebafe-2497-4efc-b370-3d35fef90ec1"
+        },
+        {
+          "text": "Brightpath Logistics",
+          "href": "/accounts/48bca1de-fc15-4414-93d2-dc01e571c09e"
+        },
+        {
+          "text": "Orbitline — Usage-based expansion",
+          "href": "/opportunities/d4698fa2-a8f1-4333-98a9-03165a58852c?view=board"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/d4698fa2-a8f1-4333-98a9-03165a58852c"
+        },
+        {
+          "text": "Orbitline",
+          "href": "/accounts/22383573-7942-4bb8-bd4a-ad5e3faed5f0"
+        },
+        {
+          "text": "Vantage — Route optimization",
+          "href": "/opportunities/97796a25-d5bf-486a-957f-75bbe6a55ff7?view=board"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/97796a25-d5bf-486a-957f-75bbe6a55ff7"
+        },
+        {
+          "text": "Vantage Freight",
+          "href": "/accounts/ad5f74df-85a5-4b14-8575-05ebece5767d"
+        },
+        {
+          "text": "Cedarstone — Omnichannel suite",
+          "href": "/opportunities/d2276825-243d-487f-ad75-09a8d9263e46?view=board"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/d2276825-243d-487f-ad75-09a8d9263e46"
+        },
+        {
+          "text": "Cedarstone Retail",
+          "href": "/accounts/b3f3ca19-7f88-4982-a41d-858a04d08674"
+        },
+        {
+          "text": "Lumenfield — Enterprise platform",
+          "href": "/opportunities/148ff78a-294e-4175-903b-6d44aa96ff67?view=board"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/148ff78a-294e-4175-903b-6d44aa96ff67"
+        },
+        {
+          "text": "Lumenfield",
+          "href": "/accounts/56e0f039-9b38-4d2e-8583-580cde768b64"
+        },
+        {
+          "text": "Northbeam — Starter annual",
+          "href": "/opportunities/cd3d6699-4be6-4cfb-8419-805b55ec05ce?view=board"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/cd3d6699-4be6-4cfb-8419-805b55ec05ce"
+        },
+        {
+          "text": "Northbeam Studio",
+          "href": "/accounts/29ac95e6-84bd-457a-b328-cdeb36dacba5"
+        },
+        {
+          "text": "Quarry Labs — Team plan",
+          "href": "/opportunities/a69b6740-d467-4a4e-97bf-da62a75fcc4a?view=board"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/a69b6740-d467-4a4e-97bf-da62a75fcc4a"
+        },
+        {
+          "text": "Quarry Labs",
+          "href": "/accounts/d3af9352-cfb0-4ae5-8f6a-e8287cad8856"
+        },
+        {
+          "text": "Silverleaf — Partner integration",
+          "href": "/opportunities/1cb3d3c6-11dc-4a93-9ab6-accec61a81a0?view=board"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/1cb3d3c6-11dc-4a93-9ab6-accec61a81a0"
+        },
+        {
+          "text": "Silverleaf Energy",
+          "href": "/accounts/8670a058-8da9-4b95-a275-8f23609845ee"
+        }
+      ]
+    },
+    "/chat/new": {
+      "text": "Skip to content\nAM\nAlex Morgan\nUp next\nTasks\nChats\nNew chat\nQ4 late-stage pipeline review\nRecords\nAccounts\nContacts\nOpportunities\nLists\nNew list\nChampions\nQ4 commit\nStrategic accounts\nNew chat\nNew chat\nScroll to end\nAI replies are turned off in this live demo. Connect a model to chat with your CRM.",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main-content"
+        },
+        {
+          "text": "Up next",
+          "href": "/home"
+        },
+        {
+          "text": "Tasks",
+          "href": "/tasks"
+        },
+        {
+          "text": "New chat",
+          "href": "/chat/new"
+        },
+        {
+          "text": "Q4 late-stage pipeline review",
+          "href": "/chat/652d1706-5a30-42d4-aea8-208df9c6f266"
+        },
+        {
+          "text": "Accounts",
+          "href": "/accounts"
+        },
+        {
+          "text": "Contacts",
+          "href": "/contacts"
+        },
+        {
+          "text": "Opportunities",
+          "href": "/opportunities"
+        },
+        {
+          "text": "Champions",
+          "href": "/lists/752c896a-e1bc-4349-9ddf-b28c6572ae44"
+        },
+        {
+          "text": "Q4 commit",
+          "href": "/lists/8b76d67a-953f-4f16-a4cb-5d353ac5d5b5"
+        },
+        {
+          "text": "Strategic accounts",
+          "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4"
+        },
+        {
+          "text": "New chat",
+          "href": "/chat/new"
+        }
+      ]
+    },
+    "/chat/652d1706-5a30-42d4-aea8-208df9c6f266": {
+      "text": "Skip to content\nAM\nAlex Morgan\nUp next\nTasks\nChats\nNew chat\nQ4 late-stage pipeline review\nRecords\nAccounts\nContacts\nOpportunities\nLists\nNew list\nChampions\nQ4 commit\nStrategic accounts\nQ4 late-stage pipeline review\nShare\nNew chat\nScroll to end\nAI replies are turned off in this live demo. Connect a model to chat with your CRM.",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main-content"
+        },
+        {
+          "text": "Up next",
+          "href": "/home"
+        },
+        {
+          "text": "Tasks",
+          "href": "/tasks"
+        },
+        {
+          "text": "New chat",
+          "href": "/chat/new"
+        },
+        {
+          "text": "Q4 late-stage pipeline review",
+          "href": "/chat/652d1706-5a30-42d4-aea8-208df9c6f266"
+        },
+        {
+          "text": "Accounts",
+          "href": "/accounts"
+        },
+        {
+          "text": "Contacts",
+          "href": "/contacts"
+        },
+        {
+          "text": "Opportunities",
+          "href": "/opportunities"
+        },
+        {
+          "text": "Champions",
+          "href": "/lists/752c896a-e1bc-4349-9ddf-b28c6572ae44"
+        },
+        {
+          "text": "Q4 commit",
+          "href": "/lists/8b76d67a-953f-4f16-a4cb-5d353ac5d5b5"
+        },
+        {
+          "text": "Strategic accounts",
+          "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4"
+        },
+        {
+          "text": "New chat",
+          "href": "/chat/new"
+        },
+        {
+          "text": "@Cedarstone — Omnichannel suite",
+          "href": "/opportunities/d2276825-243d-487f-ad75-09a8d9263e46"
+        },
+        {
+          "text": "opportunities / d2276825-243d-487f-ad75-09a8d9263e46",
+          "href": "/opportunities/d2276825-243d-487f-ad75-09a8d9263e46"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/d2276825-243d-487f-ad75-09a8d9263e46"
+        },
+        {
+          "text": "opportunities / 148ff78a-294e-4175-903b-6d44aa96ff67",
+          "href": "/opportunities/148ff78a-294e-4175-903b-6d44aa96ff67"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/148ff78a-294e-4175-903b-6d44aa96ff67"
+        },
+        {
+          "text": "opportunities / 97796a25-d5bf-486a-957f-75bbe6a55ff7",
+          "href": "/opportunities/97796a25-d5bf-486a-957f-75bbe6a55ff7"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/97796a25-d5bf-486a-957f-75bbe6a55ff7"
+        }
+      ]
+    },
+    "/lists/752c896a-e1bc-4349-9ddf-b28c6572ae44": {
+      "text": "Skip to content\nAM\nAlex Morgan\nUp next\nTasks\nChats\nNew chat\nQ4 late-stage pipeline review\nRecords\nAccounts\nContacts\nOpportunities\nLists\nNew list\nChampions\nQ4 commit\nStrategic accounts\nCRM",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main-content"
+        },
+        {
+          "text": "Up next",
+          "href": "/home"
+        },
+        {
+          "text": "Tasks",
+          "href": "/tasks"
+        },
+        {
+          "text": "New chat",
+          "href": "/chat/new"
+        },
+        {
+          "text": "Q4 late-stage pipeline review",
+          "href": "/chat/652d1706-5a30-42d4-aea8-208df9c6f266"
+        },
+        {
+          "text": "Accounts",
+          "href": "/accounts"
+        },
+        {
+          "text": "Contacts",
+          "href": "/contacts"
+        },
+        {
+          "text": "Opportunities",
+          "href": "/opportunities"
+        },
+        {
+          "text": "Champions",
+          "href": "/lists/752c896a-e1bc-4349-9ddf-b28c6572ae44"
+        },
+        {
+          "text": "Q4 commit",
+          "href": "/lists/8b76d67a-953f-4f16-a4cb-5d353ac5d5b5"
+        },
+        {
+          "text": "Strategic accounts",
+          "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4"
+        }
+      ]
+    },
+    "/lists/8b76d67a-953f-4f16-a4cb-5d353ac5d5b5": {
+      "text": "Skip to content\nAM\nAlex Morgan\nUp next\nTasks\nChats\nNew chat\nQ4 late-stage pipeline review\nRecords\nAccounts\nContacts\nOpportunities\nLists\nNew list\nChampions\nQ4 commit\nStrategic accounts\nQ4 commit\nOpportunities\nCreate opportunity\nFilter\nDisplay\nQualification\n0\nCreate opportunity\n$0.00\nDiscovery\n0\nCreate opportunity\n$0.00\nProposal\n3\nBrightpath — Fleet analytics rollout\nBrightpath Logistics\n$96,000.00\nDec 4, 2026\nJR\nJamie Rivera\nOrbitline — Usage-based expansion\nOrbitline\n$72,500.00\nNov 23, 2026\nSN\nSofia Nguyen\nVantage — Route optimization\nVantage Freight\n$124,000.00\nNov 30, 2026\nJR\nJamie Rivera\nCreate opportunity\n$292,500.00\nNegotiation\n2\nCedarstone — Omnichannel suite\nCedarstone Retail\n$215,000.00\nNov 19, 2026\nAM\nAlex Morgan\nLumenfield — Enterprise platform\nLumenfield\n$148,000.00\nNov 13, 2026\nAM\nAlex Morgan\nCreate opportunity\n$363,000.00\nWon\n0\nCreate opportunity\n$0.00\nLost\n0\nCreate opportunity\n$0.00",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main-content"
+        },
+        {
+          "text": "Up next",
+          "href": "/home"
+        },
+        {
+          "text": "Tasks",
+          "href": "/tasks"
+        },
+        {
+          "text": "New chat",
+          "href": "/chat/new"
+        },
+        {
+          "text": "Q4 late-stage pipeline review",
+          "href": "/chat/652d1706-5a30-42d4-aea8-208df9c6f266"
+        },
+        {
+          "text": "Accounts",
+          "href": "/accounts"
+        },
+        {
+          "text": "Contacts",
+          "href": "/contacts"
+        },
+        {
+          "text": "Opportunities",
+          "href": "/opportunities"
+        },
+        {
+          "text": "Champions",
+          "href": "/lists/752c896a-e1bc-4349-9ddf-b28c6572ae44"
+        },
+        {
+          "text": "Q4 commit",
+          "href": "/lists/8b76d67a-953f-4f16-a4cb-5d353ac5d5b5"
+        },
+        {
+          "text": "Strategic accounts",
+          "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4"
+        },
+        {
+          "text": "Brightpath — Fleet analytics rollout",
+          "href": "/lists/8b76d67a-953f-4f16-a4cb-5d353ac5d5b5?view=board&record=132ebafe-2497-4efc-b370-3d35fef90ec1"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/132ebafe-2497-4efc-b370-3d35fef90ec1"
+        },
+        {
+          "text": "Brightpath Logistics",
+          "href": "/accounts/48bca1de-fc15-4414-93d2-dc01e571c09e"
+        },
+        {
+          "text": "Orbitline — Usage-based expansion",
+          "href": "/lists/8b76d67a-953f-4f16-a4cb-5d353ac5d5b5?view=board&record=d4698fa2-a8f1-4333-98a9-03165a58852c"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/d4698fa2-a8f1-4333-98a9-03165a58852c"
+        },
+        {
+          "text": "Orbitline",
+          "href": "/accounts/22383573-7942-4bb8-bd4a-ad5e3faed5f0"
+        },
+        {
+          "text": "Vantage — Route optimization",
+          "href": "/lists/8b76d67a-953f-4f16-a4cb-5d353ac5d5b5?view=board&record=97796a25-d5bf-486a-957f-75bbe6a55ff7"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/97796a25-d5bf-486a-957f-75bbe6a55ff7"
+        },
+        {
+          "text": "Vantage Freight",
+          "href": "/accounts/ad5f74df-85a5-4b14-8575-05ebece5767d"
+        },
+        {
+          "text": "Cedarstone — Omnichannel suite",
+          "href": "/lists/8b76d67a-953f-4f16-a4cb-5d353ac5d5b5?view=board&record=d2276825-243d-487f-ad75-09a8d9263e46"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/d2276825-243d-487f-ad75-09a8d9263e46"
+        },
+        {
+          "text": "Cedarstone Retail",
+          "href": "/accounts/b3f3ca19-7f88-4982-a41d-858a04d08674"
+        },
+        {
+          "text": "Lumenfield — Enterprise platform",
+          "href": "/lists/8b76d67a-953f-4f16-a4cb-5d353ac5d5b5?view=board&record=148ff78a-294e-4175-903b-6d44aa96ff67"
+        },
+        {
+          "text": "",
+          "href": "/opportunities/148ff78a-294e-4175-903b-6d44aa96ff67"
+        },
+        {
+          "text": "Lumenfield",
+          "href": "/accounts/56e0f039-9b38-4d2e-8583-580cde768b64"
+        }
+      ]
+    },
+    "/lists/792f0232-5855-4a6d-a067-3e58a109dba4": {
+      "text": "Skip to content\nAM\nAlex Morgan\nUp next\nTasks\nChats\nNew chat\nQ4 late-stage pipeline review\nRecords\nAccounts\nContacts\nOpportunities\nLists\nNew list\nChampions\nQ4 commit\nStrategic accounts\nStrategic accounts\nAccounts\nCreate account\nFilter\nDisplay\nName\n\t\nWebsite\n\t\nOwner\n\t\nIndustry\n\t\nRevenue (USD)\n\t\nHeadcount\n\t\nLocation\n\t\nLinkedIn\n\t\nFacebook\n\t\nInstagram\n\t\nTwitter / X\n\t\nCreated at\n\t\nContacts\n\t\nOpportunity count\n\n\nLumenfield\n\tlumenfield.io\tAlex Morgan\tAnalytics\t$48,000,000\t320\tSan Francisco, CA\tlinkedin.com/company/lumenfield\t—\t—\t—\tOct 21, 2026\t2\t2\n\nBrightpath Logistics\n\tbrightpath.co\tJamie Rivera\tLogistics\t$112,000,000\t870\tChicago, IL\tlinkedin.com/company/brightpath\t—\t—\t—\tOct 21, 2026\t2\t1\n\nHalcyon Health\n\thalcyonhealth.com\tAlex Morgan\tHealthcare\t$76,000,000\t540\tBoston, MA\tlinkedin.com/company/halcyonhealth\t—\t—\t—\tOct 21, 2026\t2\t1\n\nCedarstone Retail\n\tcedarstone.com\tAlex Morgan\tRetail\t$205,000,000\t1,900\tDenver, CO\tlinkedin.com/company/cedarstone\t—\t—\t—\tOct 21, 2026\t2\t1\n\nKestrel Security\n\tkestrelsec.com\tJamie Rivera\tCybersecurity\t$54,000,000\t390\tArlington, VA\tlinkedin.com/company/kestrelsec\t—\t—\t—\tOct 21, 2026\t2\t1\n\nVantage Freight\n\tvantagefreight.com\tJamie Rivera\tLogistics\t$88,000,000\t640\tAtlanta, GA\tlinkedin.com/company/vantagefreight\t—\t—\t—\tOct 21, 2026\t1\t1",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main-content"
+        },
+        {
+          "text": "Up next",
+          "href": "/home"
+        },
+        {
+          "text": "Tasks",
+          "href": "/tasks"
+        },
+        {
+          "text": "New chat",
+          "href": "/chat/new"
+        },
+        {
+          "text": "Q4 late-stage pipeline review",
+          "href": "/chat/652d1706-5a30-42d4-aea8-208df9c6f266"
+        },
+        {
+          "text": "Accounts",
+          "href": "/accounts"
+        },
+        {
+          "text": "Contacts",
+          "href": "/contacts"
+        },
+        {
+          "text": "Opportunities",
+          "href": "/opportunities"
+        },
+        {
+          "text": "Champions",
+          "href": "/lists/752c896a-e1bc-4349-9ddf-b28c6572ae44"
+        },
+        {
+          "text": "Q4 commit",
+          "href": "/lists/8b76d67a-953f-4f16-a4cb-5d353ac5d5b5"
+        },
+        {
+          "text": "Strategic accounts",
+          "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4"
+        },
+        {
+          "text": "Lumenfield",
+          "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4?record=56e0f039-9b38-4d2e-8583-580cde768b64"
+        },
+        {
+          "text": "",
+          "href": "/accounts/56e0f039-9b38-4d2e-8583-580cde768b64"
+        },
+        {
+          "text": "lumenfield.io",
+          "href": "https://lumenfield.io"
+        },
+        {
+          "text": "linkedin.com/company/lumenfield",
+          "href": "https://www.linkedin.com/company/lumenfield"
+        },
+        {
+          "text": "Brightpath Logistics",
+          "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4?record=48bca1de-fc15-4414-93d2-dc01e571c09e"
+        },
+        {
+          "text": "",
+          "href": "/accounts/48bca1de-fc15-4414-93d2-dc01e571c09e"
+        },
+        {
+          "text": "brightpath.co",
+          "href": "https://brightpath.co"
+        },
+        {
+          "text": "linkedin.com/company/brightpath",
+          "href": "https://www.linkedin.com/company/brightpath"
+        },
+        {
+          "text": "Halcyon Health",
+          "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4?record=bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1"
+        },
+        {
+          "text": "",
+          "href": "/accounts/bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1"
+        },
+        {
+          "text": "halcyonhealth.com",
+          "href": "https://halcyonhealth.com"
+        },
+        {
+          "text": "linkedin.com/company/halcyonhealth",
+          "href": "https://www.linkedin.com/company/halcyonhealth"
+        },
+        {
+          "text": "Cedarstone Retail",
+          "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4?record=b3f3ca19-7f88-4982-a41d-858a04d08674"
+        },
+        {
+          "text": "",
+          "href": "/accounts/b3f3ca19-7f88-4982-a41d-858a04d08674"
+        },
+        {
+          "text": "cedarstone.com",
+          "href": "https://cedarstone.com"
+        },
+        {
+          "text": "linkedin.com/company/cedarstone",
+          "href": "https://www.linkedin.com/company/cedarstone"
+        },
+        {
+          "text": "Kestrel Security",
+          "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4?record=af5ef57d-8ff6-4748-8ee1-0b5bb308d23a"
+        },
+        {
+          "text": "",
+          "href": "/accounts/af5ef57d-8ff6-4748-8ee1-0b5bb308d23a"
+        },
+        {
+          "text": "kestrelsec.com",
+          "href": "https://kestrelsec.com"
+        },
+        {
+          "text": "linkedin.com/company/kestrelsec",
+          "href": "https://www.linkedin.com/company/kestrelsec"
+        },
+        {
+          "text": "Vantage Freight",
+          "href": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4?record=ad5f74df-85a5-4b14-8575-05ebece5767d"
+        },
+        {
+          "text": "",
+          "href": "/accounts/ad5f74df-85a5-4b14-8575-05ebece5767d"
+        },
+        {
+          "text": "vantagefreight.com",
+          "href": "https://vantagefreight.com"
+        },
+        {
+          "text": "linkedin.com/company/vantagefreight",
+          "href": "https://www.linkedin.com/company/vantagefreight"
+        }
+      ]
+    }
+  }
+}

@@ -170,7 +170,7 @@ function useMorphPanel(open: boolean, close: () => void) {
 }
 
 export function Header() {
-  const isProduct = usePathname().startsWith("/products/");
+  const isProduct = usePathname().startsWith("/yuko/products/");
   const [openPanel, setOpenPanel] = useState<"menu" | "cart" | null>(null);
   const { count } = useShop();
   useEffect(() => {
@@ -273,7 +273,7 @@ export function Header() {
                   <Link
                     className="flex min-h-16 items-center justify-between border-t border-border hover:text-muted focus-visible:text-muted"
                     data-morph-reveal="true"
-                    href="/#shop"
+                    href="/yuko#shop"
                   >
                     {"Shop"}
                     <svg
@@ -294,7 +294,7 @@ export function Header() {
                   <Link
                     className="flex min-h-16 items-center justify-between border-t border-border hover:text-muted focus-visible:text-muted"
                     data-morph-reveal="true"
-                    href="/#science"
+                    href="/yuko#science"
                   >
                     {"Science"}
                     <svg
@@ -315,7 +315,7 @@ export function Header() {
                   <Link
                     className="flex min-h-16 items-center justify-between border-t border-border hover:text-muted focus-visible:text-muted"
                     data-morph-reveal="true"
-                    href="/#about"
+                    href="/yuko#about"
                   >
                     {"About"}
                     <svg
@@ -346,21 +346,21 @@ export function Header() {
             aria-current={isProduct ? "true" : undefined}
             className="yuko-shop-link inline-flex items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 min-h-header-control bg-floating backdrop-blur-floating hover:bg-floating-hover"
             tabIndex={0}
-            href="/#shop"
+            href="/yuko#shop"
           >
             {"Shop"}
           </Link>
           <Link
             className="inline-flex items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 min-h-header-control bg-floating backdrop-blur-floating hover:bg-floating-hover"
             tabIndex={0}
-            href="/#science"
+            href="/yuko#science"
           >
             {"Science"}
           </Link>
           <Link
             className="inline-flex items-center justify-center gap-2 rounded-full px-4 py-2 text-[13px] leading-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 min-h-header-control bg-floating backdrop-blur-floating hover:bg-floating-hover"
             tabIndex={0}
-            href="/#about"
+            href="/yuko#about"
           >
             {"About"}
           </Link>
@@ -448,7 +448,7 @@ export function Header() {
       <Link
         className="fixed top-5 left-1/2 z-19 flex w-max -translate-x-1/2 items-center justify-center gap-1.5 justify-self-center text-lg leading-8 tracking-[-0.03em] text-white mix-blend-difference max-[360px]:text-base md:top-4 md:gap-2 md:text-2xl"
         aria-label="YukoHealth home"
-        href="/#top"
+        href="/yuko#top"
       >
         <span
           className="relative block h-[16.58px] w-[16.288px] shrink-0 md:h-[20.725px] md:w-[20.36px]"

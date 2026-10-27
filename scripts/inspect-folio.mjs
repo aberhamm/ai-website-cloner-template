@@ -1,0 +1,9 @@
+import fs from 'node:fs'; import {execFileSync} from 'node:child_process';
+const root=process.cwd();
+const name=process.argv[2]||'home';
+const expression=`(() => {
+const props=['fontFamily','fontSize','fontWeight','lineHeight','letterSpacing','color','backgroundColor','padding','margin','maxWidth','display','gap','position','top','borderRadius','transition','gridTemplateColumns'];
+function tree(el){ if(el.nodeType===3)return el.textContent; if(el.nodeType!==1||['SCRIPT','NEXT-ROUTE-ANNOUNCER'].includes(el.tagName))return null; return {tag:el.tagName.toLowerCase(),attrs:Object.fromEntries([...el.attributes].map(a=>[a.name,a.value])),children:[...el.childNodes].map(tree).filter(x=>x!==null)}; }
+return {title:document.title,bodyClass:document.body.className,htmlClass:document.documentElement.className,tree:tree(document.body),styles:[...document.styleSheets].map(s=>s.href?{url:s.href}:{css:[...s.cssRules].map(r=>r.cssText).join('\\n')}),links:[...new Set([...document.querySelectorAll('a')].map(a=>a.href))],images:[...new Set([...document.images].map(i=>i.getAttribute('src')))],meta:[...document.querySelectorAll('meta,link[rel*=icon]')].map(e=>e.outerHTML),computed:[...document.querySelectorAll('header,section,footer,h1,h2,h3,main,nav')].map(el=>({tag:el.tagName,id:el.id,cls:el.className,text:el.textContent.slice(0,120),rect:el.getBoundingClientRect().toJSON(),css:Object.fromEntries(props.map(p=>[p,getComputedStyle(el)[p]]))}))}; })()`;
+const raw=execFileSync('npx',['--yes','agent-browser','--session','folio-clone','eval','--json','--stdin'],{input:expression,encoding:'utf8',maxBuffer:20e6});
+const data=JSON.parse(raw).data.result;fs.writeFileSync(root+'/docs/research/folio/'+name+'.json',JSON.stringify(data,null,2));console.log(JSON.stringify({title:data.title,links:data.links,sections:data.computed.map(c=>({tag:c.tag,id:c.id,cls:c.cls,text:c.text,rect:c.rect})),styles:data.styles.map(s=>s.url||'inline')},null,2));

@@ -62,16 +62,16 @@ export function Footer() {
               className="flex flex-col items-start gap-0 md:gap-2"
               aria-label="Explore"
             >
-              <Link href="/#shop">{"Shop"}</Link>
-              <Link href="/#science">{"Science"}</Link>
-              <Link href="/#about">{"About"}</Link>
+              <Link href="/yuko#shop">{"Shop"}</Link>
+              <Link href="/yuko#science">{"Science"}</Link>
+              <Link href="/yuko#about">{"About"}</Link>
             </nav>
             <nav
               className="flex flex-col items-start gap-0 md:gap-2"
               aria-label="Support"
             >
               <Link href="mailto:contact@example.invalid">{"Contact"}</Link>
-              <Link href="/#shipping">{"Shipping & returns"}</Link>
+              <Link href="/yuko#shipping">{"Shipping & returns"}</Link>
               <Link
                 href="https://www.instagram.com/"
                 target="_blank"
@@ -85,8 +85,8 @@ export function Footer() {
         <div className="flex flex-col justify-between gap-2 px-1 text-[13px] leading-6 text-muted md:flex-row md:gap-6 md:px-0">
           <p>{"© 2026 YukoHealth"}</p>
           <nav className="flex gap-6" aria-label="Legal">
-            <Link href="/privacy">{"Privacy"}</Link>
-            <Link href="/terms">{"Terms"}</Link>
+            <Link href="/yuko/privacy">{"Privacy"}</Link>
+            <Link href="/yuko/terms">{"Terms"}</Link>
           </nav>
         </div>
       </footer>

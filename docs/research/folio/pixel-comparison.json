@@ -1,0 +1,42 @@
+{
+  "home-1440": {
+    "pixelsOver20Percent": 0.122,
+    "meanChannelDifference": 0.204
+  },
+  "pricing-1440": {
+    "pixelsOver20Percent": 0.002,
+    "meanChannelDifference": 0.123
+  },
+  "contact-1440": {
+    "pixelsOver20Percent": 0.002,
+    "meanChannelDifference": 0.157
+  },
+  "terms-1440": {
+    "pixelsOver20Percent": 0.002,
+    "meanChannelDifference": 0.137
+  },
+  "privacy-1440": {
+    "pixelsOver20Percent": 0.002,
+    "meanChannelDifference": 0.164
+  },
+  "home-390": {
+    "pixelsOver20Percent": 0.125,
+    "meanChannelDifference": 0.192
+  },
+  "pricing-390": {
+    "pixelsOver20Percent": 0.014,
+    "meanChannelDifference": 0.19
+  },
+  "contact-390": {
+    "pixelsOver20Percent": 0.019,
+    "meanChannelDifference": 0.247
+  },
+  "terms-390": {
+    "pixelsOver20Percent": 0.05,
+    "meanChannelDifference": 0.264
+  },
+  "privacy-390": {
+    "pixelsOver20Percent": 0.065,
+    "meanChannelDifference": 0.268
+  }
+}

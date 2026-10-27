@@ -1,0 +1,1282 @@
+{
+  "source": {
+    "1440/": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "60px",
+          "height": 120,
+          "text": "Making Data Intelligence Accessible",
+          "width": 976,
+          "y": 210
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 96,
+          "text": "Everything around your data, in one workspace",
+          "width": 584,
+          "y": 1822
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 96,
+          "text": "Every angle of your data, in one workspace",
+          "width": 584,
+          "y": 2612
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 144,
+          "text": "Why teams prefer Folio to spreadsheets and SQL editors",
+          "width": 584,
+          "y": 4088
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 96,
+          "text": "Loved by teams that ship fast",
+          "width": 584,
+          "y": 5349
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 40,
+          "text": "FAQs",
+          "width": 584,
+          "y": 6667
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "72px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 768,
+          "y": 7997
+        }
+      ],
+      "height": 9260,
+      "scrollWidth": 1429,
+      "width": 1440
+    },
+    "1440/pricing": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "60px",
+          "height": 120,
+          "text": "Pricing that scales with you",
+          "width": 672,
+          "y": 128
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 96,
+          "text": "Simple pricing, powerful automation",
+          "width": 672,
+          "y": 489
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 104,
+          "text": "From question to dashboard in minutes",
+          "width": 550,
+          "y": 1938
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "72px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 768,
+          "y": 2346
+        }
+      ],
+      "height": 3609,
+      "scrollWidth": 1429,
+      "width": 1440
+    },
+    "1440/contact": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "60px",
+          "height": 60,
+          "text": "Get in Touch",
+          "width": 672,
+          "y": 128
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "30px",
+          "height": 36,
+          "text": "Let's Start a Conversation",
+          "width": 551,
+          "y": 397
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "30px",
+          "height": 104,
+          "text": "Ready to ship your first dashboard?",
+          "width": 534,
+          "y": 1197
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "72px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 768,
+          "y": 1557
+        }
+      ],
+      "height": 2820,
+      "scrollWidth": 1429,
+      "width": 1440
+    },
+    "1440/terms": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 45,
+          "text": "Terms of Service",
+          "width": 1230,
+          "y": 24
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Overview",
+          "width": 1230,
+          "y": 145
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Service Description",
+          "width": 1230,
+          "y": 294
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "User Responsibilities",
+          "width": 1230,
+          "y": 735
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Usage Terms",
+          "width": 1230,
+          "y": 1072
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Data Policies",
+          "width": 1230,
+          "y": 1337
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Contact Information",
+          "width": 1230,
+          "y": 1638
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "72px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 768,
+          "y": 1962
+        }
+      ],
+      "height": 3225,
+      "scrollWidth": 1429,
+      "width": 1440
+    },
+    "1440/privacy": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 45,
+          "text": "Privacy Policy",
+          "width": 1230,
+          "y": 24
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Our Commitment to Privacy",
+          "width": 1230,
+          "y": 145
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Data Collection and Usage",
+          "width": 1230,
+          "y": 294
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Your Warehouse Data",
+          "width": 1230,
+          "y": 495
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Data Security",
+          "width": 1230,
+          "y": 644
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Your Rights and Controls",
+          "width": 1230,
+          "y": 845
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Contact Us",
+          "width": 1230,
+          "y": 1046
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Updates to This Policy",
+          "width": 1230,
+          "y": 1167
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "72px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 768,
+          "y": 1439
+        }
+      ],
+      "height": 2702,
+      "scrollWidth": 1429,
+      "width": 1440
+    },
+    "390/": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 120,
+          "text": "Making Data Intelligence Accessible",
+          "width": 331,
+          "y": 146
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "30px",
+          "height": 72,
+          "text": "Everything around your data, in one workspace",
+          "width": 347,
+          "y": 1310
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 120,
+          "text": "Every angle of your data, in one workspace",
+          "width": 331,
+          "y": 2740
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 160,
+          "text": "Why teams prefer Folio to spreadsheets and SQL editors",
+          "width": 331,
+          "y": 5966
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 80,
+          "text": "Loved by teams that ship fast",
+          "width": 331,
+          "y": 7297
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 40,
+          "text": "FAQs",
+          "width": 331,
+          "y": 10552
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 331,
+          "y": 12246
+        }
+      ],
+      "height": 15342,
+      "scrollWidth": 379,
+      "width": 390
+    },
+    "390/pricing": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 80,
+          "text": "Pricing that scales with you",
+          "width": 303,
+          "y": 96
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "30px",
+          "height": 108,
+          "text": "Simple pricing, powerful automation",
+          "width": 303,
+          "y": 397
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 56,
+          "text": "From question to dashboard in minutes",
+          "width": 303,
+          "y": 3225
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 331,
+          "y": 3673
+        }
+      ],
+      "height": 6769,
+      "scrollWidth": 379,
+      "width": 390
+    },
+    "390/contact": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "30px",
+          "height": 36,
+          "text": "Get in Touch",
+          "width": 320,
+          "y": 48
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Let's Start a Conversation",
+          "width": 331,
+          "y": 260
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 56,
+          "text": "Ready to ship your first dashboard?",
+          "width": 281,
+          "y": 1762
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 331,
+          "y": 2174
+        }
+      ],
+      "height": 5270,
+      "scrollWidth": 379,
+      "width": 390
+    },
+    "390/terms": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "30px",
+          "height": 38,
+          "text": "Terms of Service",
+          "width": 347,
+          "y": 16
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Overview",
+          "width": 331,
+          "y": 122
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Service Description",
+          "width": 331,
+          "y": 355
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "User Responsibilities",
+          "width": 331,
+          "y": 1216
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Usage Terms",
+          "width": 331,
+          "y": 1721
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Data Policies",
+          "width": 331,
+          "y": 2070
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Contact Information",
+          "width": 331,
+          "y": 2539
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 331,
+          "y": 2859
+        }
+      ],
+      "height": 5955,
+      "scrollWidth": 379,
+      "width": 390
+    },
+    "390/privacy": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "30px",
+          "height": 38,
+          "text": "Privacy Policy",
+          "width": 347,
+          "y": 16
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Our Commitment to Privacy",
+          "width": 331,
+          "y": 122
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Data Collection and Usage",
+          "width": 331,
+          "y": 383
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Your Warehouse Data",
+          "width": 331,
+          "y": 808
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Data Security",
+          "width": 331,
+          "y": 1097
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Your Rights and Controls",
+          "width": 331,
+          "y": 1466
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Contact Us",
+          "width": 331,
+          "y": 1807
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Updates to This Policy",
+          "width": 331,
+          "y": 2012
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 331,
+          "y": 2364
+        }
+      ],
+      "height": 5460,
+      "scrollWidth": 379,
+      "width": 390
+    }
+  },
+  "local": {
+    "1440/": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "60px",
+          "height": 120,
+          "text": "Making Data Intelligence Accessible",
+          "width": 976,
+          "y": 210
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 96,
+          "text": "Everything around your data, in one workspace",
+          "width": 584,
+          "y": 1822
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 96,
+          "text": "Every angle of your data, in one workspace",
+          "width": 584,
+          "y": 2612
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 144,
+          "text": "Why teams prefer Folio to spreadsheets and SQL editors",
+          "width": 584,
+          "y": 4088
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 96,
+          "text": "Loved by teams that ship fast",
+          "width": 584,
+          "y": 5349
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 40,
+          "text": "FAQs",
+          "width": 584,
+          "y": 6667
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "72px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 768,
+          "y": 7997
+        }
+      ],
+      "height": 9260,
+      "scrollWidth": 1429,
+      "width": 1440
+    },
+    "1440/pricing": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "60px",
+          "height": 120,
+          "text": "Pricing that scales with you",
+          "width": 672,
+          "y": 128
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 96,
+          "text": "Simple pricing, powerful automation",
+          "width": 672,
+          "y": 489
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 104,
+          "text": "From question to dashboard in minutes",
+          "width": 550,
+          "y": 1938
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "72px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 768,
+          "y": 2346
+        }
+      ],
+      "height": 3609,
+      "scrollWidth": 1429,
+      "width": 1440
+    },
+    "1440/contact": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "60px",
+          "height": 60,
+          "text": "Get in Touch",
+          "width": 672,
+          "y": 128
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "30px",
+          "height": 36,
+          "text": "Let's Start a Conversation",
+          "width": 551,
+          "y": 397
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "30px",
+          "height": 104,
+          "text": "Ready to ship your first dashboard?",
+          "width": 534,
+          "y": 1197
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "72px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 768,
+          "y": 1557
+        }
+      ],
+      "height": 2820,
+      "scrollWidth": 1429,
+      "width": 1440
+    },
+    "1440/terms": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 45,
+          "text": "Terms of Service",
+          "width": 1230,
+          "y": 24
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Overview",
+          "width": 1230,
+          "y": 145
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Service Description",
+          "width": 1230,
+          "y": 294
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "User Responsibilities",
+          "width": 1230,
+          "y": 735
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Usage Terms",
+          "width": 1230,
+          "y": 1072
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Data Policies",
+          "width": 1230,
+          "y": 1337
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Contact Information",
+          "width": 1230,
+          "y": 1638
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "72px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 768,
+          "y": 1962
+        }
+      ],
+      "height": 3225,
+      "scrollWidth": 1429,
+      "width": 1440
+    },
+    "1440/privacy": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 45,
+          "text": "Privacy Policy",
+          "width": 1230,
+          "y": 24
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Our Commitment to Privacy",
+          "width": 1230,
+          "y": 145
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Data Collection and Usage",
+          "width": 1230,
+          "y": 294
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Your Warehouse Data",
+          "width": 1230,
+          "y": 495
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Data Security",
+          "width": 1230,
+          "y": 644
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Your Rights and Controls",
+          "width": 1230,
+          "y": 845
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Contact Us",
+          "width": 1230,
+          "y": 1046
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Updates to This Policy",
+          "width": 1230,
+          "y": 1167
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "72px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 768,
+          "y": 1439
+        }
+      ],
+      "height": 2702,
+      "scrollWidth": 1429,
+      "width": 1440
+    },
+    "390/": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 120,
+          "text": "Making Data Intelligence Accessible",
+          "width": 331,
+          "y": 146
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "30px",
+          "height": 72,
+          "text": "Everything around your data, in one workspace",
+          "width": 347,
+          "y": 1310
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 120,
+          "text": "Every angle of your data, in one workspace",
+          "width": 331,
+          "y": 2740
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 160,
+          "text": "Why teams prefer Folio to spreadsheets and SQL editors",
+          "width": 331,
+          "y": 5966
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 80,
+          "text": "Loved by teams that ship fast",
+          "width": 331,
+          "y": 7297
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 40,
+          "text": "FAQs",
+          "width": 331,
+          "y": 10552
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 331,
+          "y": 12246
+        }
+      ],
+      "height": 15342,
+      "scrollWidth": 379,
+      "width": 390
+    },
+    "390/pricing": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "36px",
+          "height": 80,
+          "text": "Pricing that scales with you",
+          "width": 303,
+          "y": 96
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "30px",
+          "height": 108,
+          "text": "Simple pricing, powerful automation",
+          "width": 303,
+          "y": 397
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 56,
+          "text": "From question to dashboard in minutes",
+          "width": 303,
+          "y": 3225
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 331,
+          "y": 3673
+        }
+      ],
+      "height": 6769,
+      "scrollWidth": 379,
+      "width": 390
+    },
+    "390/contact": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "30px",
+          "height": 36,
+          "text": "Get in Touch",
+          "width": 320,
+          "y": 48
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Let's Start a Conversation",
+          "width": 331,
+          "y": 260
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 56,
+          "text": "Ready to ship your first dashboard?",
+          "width": 281,
+          "y": 1762
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 331,
+          "y": 2174
+        }
+      ],
+      "height": 5270,
+      "scrollWidth": 379,
+      "width": 390
+    },
+    "390/terms": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "30px",
+          "height": 38,
+          "text": "Terms of Service",
+          "width": 347,
+          "y": 16
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Overview",
+          "width": 331,
+          "y": 122
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Service Description",
+          "width": 331,
+          "y": 355
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "User Responsibilities",
+          "width": 331,
+          "y": 1216
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Usage Terms",
+          "width": 331,
+          "y": 1721
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Data Policies",
+          "width": 331,
+          "y": 2070
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Contact Information",
+          "width": 331,
+          "y": 2539
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 331,
+          "y": 2859
+        }
+      ],
+      "height": 5955,
+      "scrollWidth": 379,
+      "width": 390
+    },
+    "390/privacy": {
+      "brokenImages": [],
+      "externalRequests": [],
+      "headings": [
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "30px",
+          "height": 38,
+          "text": "Privacy Policy",
+          "width": 347,
+          "y": 16
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Our Commitment to Privacy",
+          "width": 331,
+          "y": 122
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Data Collection and Usage",
+          "width": 331,
+          "y": 383
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Your Warehouse Data",
+          "width": 331,
+          "y": 808
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Data Security",
+          "width": 331,
+          "y": 1097
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Your Rights and Controls",
+          "width": 331,
+          "y": 1466
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Contact Us",
+          "width": 331,
+          "y": 1807
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "20px",
+          "height": 28,
+          "text": "Updates to This Policy",
+          "width": 331,
+          "y": 2012
+        },
+        {
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "fontSize": "48px",
+          "height": 144,
+          "text": "Stop waiting on the data team.",
+          "width": 331,
+          "y": 2364
+        }
+      ],
+      "height": 5460,
+      "scrollWidth": 379,
+      "width": 390
+    }
+  },
+  "comparison": {
+    "1440/": {
+      "heightDifference": 0,
+      "headingDifferences": [],
+      "overflow": false,
+      "brokenImages": [],
+      "externalRequests": []
+    },
+    "1440/pricing": {
+      "heightDifference": 0,
+      "headingDifferences": [],
+      "overflow": false,
+      "brokenImages": [],
+      "externalRequests": []
+    },
+    "1440/contact": {
+      "heightDifference": 0,
+      "headingDifferences": [],
+      "overflow": false,
+      "brokenImages": [],
+      "externalRequests": []
+    },
+    "1440/terms": {
+      "heightDifference": 0,
+      "headingDifferences": [],
+      "overflow": false,
+      "brokenImages": [],
+      "externalRequests": []
+    },
+    "1440/privacy": {
+      "heightDifference": 0,
+      "headingDifferences": [],
+      "overflow": false,
+      "brokenImages": [],
+      "externalRequests": []
+    },
+    "390/": {
+      "heightDifference": 0,
+      "headingDifferences": [],
+      "overflow": false,
+      "brokenImages": [],
+      "externalRequests": []
+    },
+    "390/pricing": {
+      "heightDifference": 0,
+      "headingDifferences": [],
+      "overflow": false,
+      "brokenImages": [],
+      "externalRequests": []
+    },
+    "390/contact": {
+      "heightDifference": 0,
+      "headingDifferences": [],
+      "overflow": false,
+      "brokenImages": [],
+      "externalRequests": []
+    },
+    "390/terms": {
+      "heightDifference": 0,
+      "headingDifferences": [],
+      "overflow": false,
+      "brokenImages": [],
+      "externalRequests": []
+    },
+    "390/privacy": {
+      "heightDifference": 0,
+      "headingDifferences": [],
+      "overflow": false,
+      "brokenImages": [],
+      "externalRequests": []
+    }
+  }
+}

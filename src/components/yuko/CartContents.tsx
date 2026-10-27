@@ -52,7 +52,7 @@ export function CartContents({ close }: { close: () => void }) {
                     />
                     <div className="flex-1">
                       <h3>
-                        <Link href={`/products/${p.slug}`} onClick={close}>
+                        <Link href={`/yuko/products/${p.slug}`} onClick={close}>
                           {p.name}
                         </Link>
                       </h3>
@@ -145,7 +145,7 @@ export function CartContents({ close }: { close: () => void }) {
           >
             <p className="text-muted">There are no items in your cart</p>
             <Link
-              href="/#shop"
+              href="/yuko#shop"
               onClick={close}
               className="inline-flex items-center justify-center gap-2 rounded-full px-4 whitespace-nowrap transition-colors duration-180 ease-[ease] motion-reduce:transition-none max-md:min-h-10 bg-foreground text-white hover:bg-[#454545] min-h-[calc(var(--header-control-height)*1.5)] w-full py-1 text-[15px] leading-6"
             >

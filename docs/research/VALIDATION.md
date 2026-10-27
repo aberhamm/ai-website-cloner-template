@@ -16,6 +16,12 @@
 - Desktop and mobile document dimensions agree with the source on all five new pages. No horizontal overflow, missing image assets, unresolved same-page anchors or links back to the original storefront.
 - Verified subscription price/frequency, independent cart lines, quantity updates, cart persistence between product/privacy pages, gallery selection, disclosures, sold-out controls, and checkout-preview modal.
 - Header/footer links return to the correct local homepage section. Existing shipping anchor now resolves. Editorial links and Instagram remain external by design.
-- Working copy retained at .worktrees/yuko-clone for the preview and future integration. Root agent owns cleanup after preview stops and changes are integrated or exported. Worker worktrees are removed after integration.
+- The original working copy was retained for preview until integration; see the integration record below.
 
 Product photograph rendering was verified with viewport screenshots. Chromium full-page capture omitted some off-screen image paints despite successful image loading, so those incomplete clone PNGs were discarded; the source full-page references, dimension reports, and local viewport evidence are retained. Legal page screenshot comparisons differ by less than 0.005% of color channels at the >10/255 threshold.
+
+## Integration — October 27, 2026
+
+Yuko is integrated under `/yuko`, with product pages under `/yuko/products/{probiotics,hand-lotion,hair-growth}` and legal pages at `/yuko/privacy` and `/yuko/terms`. A separate `(yuko)` route-group root layout and stylesheet preserve the existing Folio and Pilates pages. All Yuko internal navigation and product-route detection use the new prefix.
+
+The combined application passed ESLint, TypeScript and production build checks. All 12 site routes returned HTTP 200. Browser checks covered Yuko internal links, cart persistence from a product page to privacy, image loading and horizontal overflow, plus existing Folio and Pilates pages. The preview is stopped before cleanup; all unique reference screenshots, source evidence and assets are tracked and retained by the merge. The root agent owns removal of the integrated worktree.

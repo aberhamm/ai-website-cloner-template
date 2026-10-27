@@ -1,0 +1,1 @@
+64 inspected routes: 10 main/sidebar destinations and 54 linked record details. Fixed 256px sidebar (hidden below768px), 41px page header,45px toolbar on collection pages. Independent content scroll; opportunity board horizontal scroll. Click-driven navigation, menus, inline edit, dialogs, collapsible sidebar groups. No scroll animation or external scrolling library.
