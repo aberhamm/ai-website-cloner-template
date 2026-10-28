@@ -1,0 +1,1008 @@
+[
+  {
+    "site": "folio",
+    "viewport": 1440,
+    "identicalLayoutAndTypography": true,
+    "before": {
+      "title": "Folio",
+      "width": 1429,
+      "height": 9260,
+      "overflow": false,
+      "brokenImages": [],
+      "headings": [
+        {
+          "text": "Making Data Intelligence Accessible",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "60px",
+          "weight": "600",
+          "line": "60px"
+        },
+        {
+          "text": "Everything around your data, in one workspace",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "48px",
+          "weight": "700",
+          "line": "48px"
+        },
+        {
+          "text": "Every angle of your data, in one workspace",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "48px",
+          "weight": "700",
+          "line": "48px"
+        },
+        {
+          "text": "Why teams prefer Folio to spreadsheets and SQL editors",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "48px",
+          "weight": "700",
+          "line": "48px"
+        },
+        {
+          "text": "Loved by teams that ship fast",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "48px",
+          "weight": "700",
+          "line": "48px"
+        },
+        {
+          "text": "FAQs",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "36px",
+          "weight": "600",
+          "line": "40px"
+        },
+        {
+          "text": "Stop waiting on the data team.",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "72px",
+          "weight": "700",
+          "line": "72px"
+        }
+      ]
+    },
+    "after": {
+      "title": "Folio",
+      "width": 1429,
+      "height": 9260,
+      "overflow": false,
+      "brokenImages": [],
+      "headings": [
+        {
+          "text": "Making Data Intelligence Accessible",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "60px",
+          "weight": "600",
+          "line": "60px"
+        },
+        {
+          "text": "Everything around your data, in one workspace",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "48px",
+          "weight": "700",
+          "line": "48px"
+        },
+        {
+          "text": "Every angle of your data, in one workspace",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "48px",
+          "weight": "700",
+          "line": "48px"
+        },
+        {
+          "text": "Why teams prefer Folio to spreadsheets and SQL editors",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "48px",
+          "weight": "700",
+          "line": "48px"
+        },
+        {
+          "text": "Loved by teams that ship fast",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "48px",
+          "weight": "700",
+          "line": "48px"
+        },
+        {
+          "text": "FAQs",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "36px",
+          "weight": "600",
+          "line": "40px"
+        },
+        {
+          "text": "Stop waiting on the data team.",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "72px",
+          "weight": "700",
+          "line": "72px"
+        }
+      ]
+    }
+  },
+  {
+    "site": "pilates",
+    "viewport": 1440,
+    "identicalLayoutAndTypography": true,
+    "before": {
+      "title": "Forma \u2014 Pilates, redefined",
+      "width": 1440,
+      "height": 6477,
+      "overflow": false,
+      "brokenImages": [],
+      "headings": [
+        {
+          "text": "Pilates,redefined",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "56px",
+          "weight": "500",
+          "line": "56px"
+        },
+        {
+          "text": "3 classes for $49",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "36px"
+        },
+        {
+          "text": "More attention.Better movement.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "36px"
+        },
+        {
+          "text": "Find your flow.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "56px",
+          "weight": "500",
+          "line": "56px"
+        },
+        {
+          "text": "Upcoming classes",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "56px",
+          "weight": "500",
+          "line": "56px"
+        },
+        {
+          "text": "Make it a practice.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "56px",
+          "weight": "500",
+          "line": "56px"
+        },
+        {
+          "text": "You're in good hands.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "56px",
+          "weight": "500",
+          "line": "56px"
+        },
+        {
+          "text": "A few words from the studio.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "36px"
+        },
+        {
+          "text": "See you in South Austin.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "56px",
+          "weight": "500",
+          "line": "56px"
+        },
+        {
+          "text": "Before yourfirst class.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "56px",
+          "weight": "500",
+          "line": "56px"
+        },
+        {
+          "text": "Your first three.\nA stronger start.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "56px",
+          "weight": "500",
+          "line": "56px"
+        }
+      ]
+    },
+    "after": {
+      "title": "Forma \u2014 Pilates, redefined",
+      "width": 1440,
+      "height": 6477,
+      "overflow": false,
+      "brokenImages": [],
+      "headings": [
+        {
+          "text": "Pilates,redefined",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "56px",
+          "weight": "500",
+          "line": "56px"
+        },
+        {
+          "text": "3 classes for $49",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "36px"
+        },
+        {
+          "text": "More attention.Better movement.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "36px"
+        },
+        {
+          "text": "Find your flow.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "56px",
+          "weight": "500",
+          "line": "56px"
+        },
+        {
+          "text": "Upcoming classes",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "56px",
+          "weight": "500",
+          "line": "56px"
+        },
+        {
+          "text": "Make it a practice.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "56px",
+          "weight": "500",
+          "line": "56px"
+        },
+        {
+          "text": "You're in good hands.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "56px",
+          "weight": "500",
+          "line": "56px"
+        },
+        {
+          "text": "A few words from the studio.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "36px"
+        },
+        {
+          "text": "See you in South Austin.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "56px",
+          "weight": "500",
+          "line": "56px"
+        },
+        {
+          "text": "Before yourfirst class.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "56px",
+          "weight": "500",
+          "line": "56px"
+        },
+        {
+          "text": "Your first three.\nA stronger start.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "56px",
+          "weight": "500",
+          "line": "56px"
+        }
+      ]
+    }
+  },
+  {
+    "site": "yuko",
+    "viewport": 1440,
+    "identicalLayoutAndTypography": true,
+    "before": {
+      "title": "YukoHealth \u2014 For the days you live in",
+      "width": 1425,
+      "height": 4929,
+      "overflow": false,
+      "brokenImages": [],
+      "headings": [
+        {
+          "text": "Menu",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "Your cart",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "For the days you live in",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "Probiotics",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "Hand Lotion",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "Hair Growth",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "Know what goes in.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "24px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "A few things.Chosen with care.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "Care notes.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "A little time for yourself.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "You might have a fewquestions now.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "Good things,occasionally.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "24px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "Checkout preview",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "24px",
+          "weight": "400",
+          "line": "32px"
+        }
+      ]
+    },
+    "after": {
+      "title": "YukoHealth \u2014 For the days you live in",
+      "width": 1425,
+      "height": 4929,
+      "overflow": false,
+      "brokenImages": [],
+      "headings": [
+        {
+          "text": "Menu",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "Your cart",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "For the days you live in",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "Probiotics",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "Hand Lotion",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "Hair Growth",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "Know what goes in.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "24px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "A few things.Chosen with care.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "Care notes.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "A little time for yourself.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "You might have a fewquestions now.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "Good things,occasionally.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "24px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "Checkout preview",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "24px",
+          "weight": "400",
+          "line": "32px"
+        }
+      ]
+    }
+  },
+  {
+    "site": "folio",
+    "viewport": 390,
+    "identicalLayoutAndTypography": true,
+    "before": {
+      "title": "Folio",
+      "width": 379,
+      "height": 15342,
+      "overflow": false,
+      "brokenImages": [],
+      "headings": [
+        {
+          "text": "Making Data Intelligence Accessible",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "36px",
+          "weight": "600",
+          "line": "40px"
+        },
+        {
+          "text": "Everything around your data, in one workspace",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "30px",
+          "weight": "700",
+          "line": "36px"
+        },
+        {
+          "text": "Every angle of your data, in one workspace",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "36px",
+          "weight": "700",
+          "line": "40px"
+        },
+        {
+          "text": "Why teams prefer Folio to spreadsheets and SQL editors",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "36px",
+          "weight": "700",
+          "line": "40px"
+        },
+        {
+          "text": "Loved by teams that ship fast",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "36px",
+          "weight": "700",
+          "line": "40px"
+        },
+        {
+          "text": "FAQs",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "36px",
+          "weight": "600",
+          "line": "40px"
+        },
+        {
+          "text": "Stop waiting on the data team.",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "48px",
+          "weight": "700",
+          "line": "48px"
+        }
+      ]
+    },
+    "after": {
+      "title": "Folio",
+      "width": 379,
+      "height": 15342,
+      "overflow": false,
+      "brokenImages": [],
+      "headings": [
+        {
+          "text": "Making Data Intelligence Accessible",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "36px",
+          "weight": "600",
+          "line": "40px"
+        },
+        {
+          "text": "Everything around your data, in one workspace",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "30px",
+          "weight": "700",
+          "line": "36px"
+        },
+        {
+          "text": "Every angle of your data, in one workspace",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "36px",
+          "weight": "700",
+          "line": "40px"
+        },
+        {
+          "text": "Why teams prefer Folio to spreadsheets and SQL editors",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "36px",
+          "weight": "700",
+          "line": "40px"
+        },
+        {
+          "text": "Loved by teams that ship fast",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "36px",
+          "weight": "700",
+          "line": "40px"
+        },
+        {
+          "text": "FAQs",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "36px",
+          "weight": "600",
+          "line": "40px"
+        },
+        {
+          "text": "Stop waiting on the data team.",
+          "font": "\"Tiempos Headline\", Georgia, serif",
+          "size": "48px",
+          "weight": "700",
+          "line": "48px"
+        }
+      ]
+    }
+  },
+  {
+    "site": "pilates",
+    "viewport": 390,
+    "identicalLayoutAndTypography": true,
+    "before": {
+      "title": "Forma \u2014 Pilates, redefined",
+      "width": 390,
+      "height": 10143,
+      "overflow": false,
+      "brokenImages": [],
+      "headings": [
+        {
+          "text": "Pilates,redefined",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "56px",
+          "weight": "500",
+          "line": "56px"
+        },
+        {
+          "text": "3 classes for $49",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "24px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "More attention.Better movement.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "26px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "Find your flow.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "40px",
+          "weight": "500",
+          "line": "42px"
+        },
+        {
+          "text": "Upcoming classes",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "40px",
+          "weight": "500",
+          "line": "42px"
+        },
+        {
+          "text": "Make it a practice.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "40px",
+          "weight": "500",
+          "line": "42px"
+        },
+        {
+          "text": "You're in good hands.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "40px",
+          "weight": "500",
+          "line": "42px"
+        },
+        {
+          "text": "A few words from the studio.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "24px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "See you in South Austin.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "40px",
+          "weight": "500",
+          "line": "42px"
+        },
+        {
+          "text": "Before yourfirst class.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "40px",
+          "weight": "500",
+          "line": "42px"
+        },
+        {
+          "text": "Your first three.\nA stronger start.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "40px",
+          "weight": "500",
+          "line": "42px"
+        }
+      ]
+    },
+    "after": {
+      "title": "Forma \u2014 Pilates, redefined",
+      "width": 390,
+      "height": 10143,
+      "overflow": false,
+      "brokenImages": [],
+      "headings": [
+        {
+          "text": "Pilates,redefined",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "56px",
+          "weight": "500",
+          "line": "56px"
+        },
+        {
+          "text": "3 classes for $49",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "24px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "More attention.Better movement.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "26px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "Find your flow.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "40px",
+          "weight": "500",
+          "line": "42px"
+        },
+        {
+          "text": "Upcoming classes",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "40px",
+          "weight": "500",
+          "line": "42px"
+        },
+        {
+          "text": "Make it a practice.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "40px",
+          "weight": "500",
+          "line": "42px"
+        },
+        {
+          "text": "You're in good hands.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "40px",
+          "weight": "500",
+          "line": "42px"
+        },
+        {
+          "text": "A few words from the studio.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "24px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "See you in South Austin.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "40px",
+          "weight": "500",
+          "line": "42px"
+        },
+        {
+          "text": "Before yourfirst class.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "40px",
+          "weight": "500",
+          "line": "42px"
+        },
+        {
+          "text": "Your first three.\nA stronger start.",
+          "font": "\"Inter Variable\", Inter, Arial, sans-serif",
+          "size": "40px",
+          "weight": "500",
+          "line": "42px"
+        }
+      ]
+    }
+  },
+  {
+    "site": "yuko",
+    "viewport": 390,
+    "identicalLayoutAndTypography": true,
+    "before": {
+      "title": "YukoHealth \u2014 For the days you live in",
+      "width": 375,
+      "height": 7509,
+      "overflow": false,
+      "brokenImages": [],
+      "headings": [
+        {
+          "text": "Menu",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "Your cart",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "For the days you live in",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "36px"
+        },
+        {
+          "text": "Probiotics",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "Hand Lotion",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "Hair Growth",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "Know what goes in.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "A few things.Chosen with care.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "Care notes.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "A little time for yourself.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "You might have a fewquestions now.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "Good things,occasionally.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "24px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "Checkout preview",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "24px",
+          "weight": "400",
+          "line": "32px"
+        }
+      ]
+    },
+    "after": {
+      "title": "YukoHealth \u2014 For the days you live in",
+      "width": 375,
+      "height": 7509,
+      "overflow": false,
+      "brokenImages": [],
+      "headings": [
+        {
+          "text": "Menu",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "Your cart",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "For the days you live in",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "36px"
+        },
+        {
+          "text": "Probiotics",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "Hand Lotion",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "Hair Growth",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "Know what goes in.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "A few things.Chosen with care.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "Care notes.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "A little time for yourself.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "24px"
+        },
+        {
+          "text": "You might have a fewquestions now.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "28px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "Good things,occasionally.",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "24px",
+          "weight": "400",
+          "line": "32px"
+        },
+        {
+          "text": "Checkout preview",
+          "font": "inter, \"inter Fallback\", Arial, Helvetica, sans-serif",
+          "size": "24px",
+          "weight": "400",
+          "line": "32px"
+        }
+      ]
+    }
+  }
+]

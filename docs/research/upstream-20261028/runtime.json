@@ -1,0 +1,72 @@
+[
+  {
+    "port": 3198,
+    "path": "/",
+    "errors": []
+  },
+  {
+    "port": 3198,
+    "path": "/contact",
+    "errors": []
+  },
+  {
+    "port": 3198,
+    "path": "/pricing",
+    "errors": []
+  },
+  {
+    "port": 3198,
+    "path": "/privacy",
+    "errors": []
+  },
+  {
+    "port": 3198,
+    "path": "/terms",
+    "errors": []
+  },
+  {
+    "port": 3198,
+    "path": "/pilates",
+    "errors": []
+  },
+  {
+    "port": 3198,
+    "path": "/yuko",
+    "errors": []
+  },
+  {
+    "port": 3198,
+    "path": "/yuko/privacy",
+    "errors": []
+  },
+  {
+    "port": 3198,
+    "path": "/yuko/terms",
+    "errors": []
+  },
+  {
+    "port": 3198,
+    "path": "/yuko/products/probiotics",
+    "errors": []
+  },
+  {
+    "port": 3198,
+    "path": "/yuko/products/hand-lotion",
+    "errors": []
+  },
+  {
+    "port": 3198,
+    "path": "/yuko/products/hair-growth",
+    "errors": []
+  },
+  {
+    "port": 3199,
+    "path": "/tasks",
+    "errors": []
+  },
+  {
+    "port": 3199,
+    "path": "/accounts",
+    "errors": []
+  }
+]

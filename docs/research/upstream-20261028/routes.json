@@ -1,0 +1,397 @@
+[
+  {
+    "port": 3198,
+    "path": "/",
+    "status": 200
+  },
+  {
+    "port": 3198,
+    "path": "/pricing",
+    "status": 200
+  },
+  {
+    "port": 3198,
+    "path": "/contact",
+    "status": 200
+  },
+  {
+    "port": 3198,
+    "path": "/privacy",
+    "status": 200
+  },
+  {
+    "port": 3198,
+    "path": "/terms",
+    "status": 200
+  },
+  {
+    "port": 3198,
+    "path": "/pilates",
+    "status": 200
+  },
+  {
+    "port": 3198,
+    "path": "/yuko",
+    "status": 200
+  },
+  {
+    "port": 3198,
+    "path": "/yuko/privacy",
+    "status": 200
+  },
+  {
+    "port": 3198,
+    "path": "/yuko/terms",
+    "status": 200
+  },
+  {
+    "port": 3198,
+    "path": "/yuko/products/probiotics",
+    "status": 200
+  },
+  {
+    "port": 3198,
+    "path": "/yuko/products/hand-lotion",
+    "status": 200
+  },
+  {
+    "port": 3198,
+    "path": "/yuko/products/hair-growth",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/accounts",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/accounts/22383573-7942-4bb8-bd4a-ad5e3faed5f0",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/accounts/29ac95e6-84bd-457a-b328-cdeb36dacba5",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/accounts/48bca1de-fc15-4414-93d2-dc01e571c09e",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/accounts/56e0f039-9b38-4d2e-8583-580cde768b64",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/accounts/8670a058-8da9-4b95-a275-8f23609845ee",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/accounts/abcc3d9d-da4e-49b3-9e1c-cbb5500d6288",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/accounts/ad5f74df-85a5-4b14-8575-05ebece5767d",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/accounts/af5ef57d-8ff6-4748-8ee1-0b5bb308d23a",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/accounts/afb49704-2f37-46b4-91cd-3ef44a69fd3b",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/accounts/b3f3ca19-7f88-4982-a41d-858a04d08674",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/accounts/bb8f9b0c-3a99-45ce-a5e4-e4bb01c0f32b",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/accounts/bdd9bd2b-d7e8-49b9-9a64-bc9867af26a1",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/accounts/d3af9352-cfb0-4ae5-8f6a-e8287cad8856",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/chat/652d1706-5a30-42d4-aea8-208df9c6f266",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/chat/new",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/1af7c8f9-bb7c-4726-bc9d-34e7a059a214",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/29c2d992-c4cf-4dbc-939d-c1fb6d3f73f0",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/34b0932a-e3ff-4dbf-9eb9-e7aeef83174e",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/3b756490-0562-4536-ab22-ccc8fc0f428e",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/4c940b78-4f8a-4d8c-aa2c-7e11fa229ad1",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/5a782d76-db12-450a-a1b0-e276127538b4",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/78e3a449-4d49-4bd0-9977-12eaaa89bf11",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/7bcb30c3-a77c-4469-8905-1285c857b343",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/8482180c-8401-43b2-b327-d3467c23f0eb",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/8ab1c835-6ce7-41b9-90b8-01b17b292d96",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/9b8e2a95-aa29-4eb7-b42c-5f91004b253f",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/b1ff35a7-26bd-4e7c-ac76-5724bbff9fea",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/b68eaf2e-be1f-428b-8c60-968f0f12cd38",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/bc746029-7396-4c88-96dd-174b21f43ccd",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/e2e9bce0-bb4b-4ad5-b74b-205b9d318651",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/ede7b7ad-552a-4876-86b0-09b94f0b8d3f",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/f3da5896-d1bd-4afe-a3b4-a0f5274d8a8c",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/f7de8c11-5297-4280-86cd-aedc066640ef",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/fa85800e-9ae2-48f0-a660-ba59756ed317",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/contacts/ff3f2a24-cd79-4b78-a023-47982c0bec53",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/home",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/lists/752c896a-e1bc-4349-9ddf-b28c6572ae44",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/lists/792f0232-5855-4a6d-a067-3e58a109dba4",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/lists/8b76d67a-953f-4f16-a4cb-5d353ac5d5b5",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/opportunities",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/opportunities/07124f43-48a2-4131-8b32-8a1d14819cc2",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/opportunities/089f148b-5a4d-4bb7-9594-a180c549566b",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/opportunities/132ebafe-2497-4efc-b370-3d35fef90ec1",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/opportunities/148ff78a-294e-4175-903b-6d44aa96ff67",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/opportunities/1cb3d3c6-11dc-4a93-9ab6-accec61a81a0",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/opportunities/2edef5ed-c747-4ad6-9a33-d0c04fb564db",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/opportunities/35ce47a7-6be1-423a-9536-2204bf4e7ef9",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/opportunities/89b0b42a-cf15-45fa-9c28-1f105fba3e8b",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/opportunities/97796a25-d5bf-486a-957f-75bbe6a55ff7",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/opportunities/a69b6740-d467-4a4e-97bf-da62a75fcc4a",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/opportunities/bccad768-c9e5-46c8-bc22-014a90b21263",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/opportunities/cd3d6699-4be6-4cfb-8419-805b55ec05ce",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/opportunities/d2276825-243d-487f-ad75-09a8d9263e46",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/opportunities/d4698fa2-a8f1-4333-98a9-03165a58852c",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/tasks",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/tasks/3486d24d-49af-466f-8f75-902c05e3f81d",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/tasks/879daaa0-43b9-4bd4-b7cd-fee481cb2b2f",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/tasks/b93832b8-8cfb-4be3-9f27-300ed3bf6743",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/tasks/e718180e-85c5-4851-82b6-fe8405968d53",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/tasks/ec73301c-1288-4db9-a26c-f8ee61bbeb8e",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/tasks/f0160760-f7b4-4eea-80c6-8c33695e16f4",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/tasks/f8a6d448-0d9b-44c3-8952-0d78e4bd097d",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/settings/profile",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/settings/company",
+    "status": 200
+  },
+  {
+    "port": 3199,
+    "path": "/settings/team",
+    "status": 200
+  }
+]

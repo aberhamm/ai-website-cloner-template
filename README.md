@@ -1,37 +1,160 @@
-# Folio clone
+<div align="center">
 
-A standalone Next.js 16 / React 19 reconstruction of https://folio-topaz-delta.vercel.app/, inspected October 22, 2026.
+# AI Website Cloner Template
 
-## Run
+### Clone any website with one command
 
-Requires Node 24 or later.
+Give your AI coding agent a URL and watch it recreate the website as a clean Next.js app.
 
-```sh
-npm ci
-npm run dev
+**Best results with [Claude Code](https://docs.anthropic.com/en/docs/claude-code) + Opus 5.5. Also supports Codex, Cursor, and OpenCode.**
+
+[![Use this template](https://img.shields.io/badge/Use_this_template-Create_your_copy-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JCodesMore/ai-website-cloner-template/generate) [![Discord](https://img.shields.io/badge/Join_the_community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/hrTSX5yTpB)
+
+[Quick Start](#quick-start) · [Watch Demo](#demo) · [Supported Platforms](#supported-platforms)
+
+<a href="https://github.com/JCodesMore/ai-website-cloner-template/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" /></a> <a href="https://github.com/JCodesMore/ai-website-cloner-template"><img src="https://img.shields.io/github/stars/JCodesMore/ai-website-cloner-template?style=flat" alt="Stars" /></a> <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/JCodesMore/ai-website-cloner-template/badges/token-badge.json" alt="tokens" />
+
+  <a href="https://trendshift.io/repositories/24302?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-24302" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/24302" alt="JCodesMore%2Fai-website-cloner-template | Trendshift" width="250" height="55" /></a> <a href="https://www.star-history.com/jcodesmore/ai-website-cloner-template/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=JCodesMore/ai-website-cloner-template&amp;theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=JCodesMore/ai-website-cloner-template" /><img alt="Star History Global Rank" src="https://api.star-history.com/badge?repo=JCodesMore/ai-website-cloner-template" width="216" height="55" /></picture></a>
+
+</div>
+
+---
+
+## Demo
+
+[![Watch the demo](docs/design-references/comparison.png)](https://youtu.be/O669pVZ_qr0)
+
+> Click the image above to watch the full demo on YouTube.
+
+## Quick Start
+
+### 1. Set up your project
+
+**Recommended: ask your agent.** Paste this into Codex, Claude Code, or your coding agent:
+
+```text
+Set up https://github.com/JCodesMore/ai-website-cloner-template
+as a standalone project in a new folder on my computer.
+Ask me where to put it. Clone the repository, remove its origin remote,
+install dependencies, and run npm run check. Leave it ready for me
+to clone a website.
 ```
 
-`npm run check` runs ESLint, TypeScript, and the production build. `npm start -- --port 3107` serves a production build.
+**Or create your own GitHub repository:**
 
-## Included
+[![Use this template](https://img.shields.io/badge/Use_this_template-Create_your_copy-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JCodesMore/ai-website-cloner-template/generate)
 
-All five routes discovered through same-domain links and the sitemap: `/`, `/pricing`, `/contact`, `/terms`, `/privacy`.
+Give it a name and click **Create repository**. Then give your agent the new repository's link and ask it to clone it onto your computer, install dependencies, and run `npm run check`.
 
-The home page contains seven main sections, a shared floating header and landscape footer. There are 17 page/section/dashboard components plus a shared module exporting 18 original SVG icons. Original text and vector paths are preserved. All 36 image, logo, font and favicon assets are served locally under `public/folio`; rendering makes no requests to the original domain.
+### 2. Clone a website
 
-Interactive behavior includes persistent light/dark themes, responsive navigation, floating header after 50px scroll, four dashboard tabs with 16-second cycling, grouped FAQ accordions and category scrolling, monthly/annual billing, and the simulated contact form. Annual prices are $24/$79; monthly prices are $29/$99. Decorative dashboard controls retain the original source's presentation.
+Open the project in your agent with browser access enabled. In Claude Code or Cursor, run:
 
-The original utility CSS and design tokens are retained in `src/app/globals.css`. Additional styles for the dashboard deck are in `src/components/folio/showcase.css`. Font-face rules use local Geist, Geist Mono and Tiempos files. New custom styles can be added in dedicated CSS files.
+```text
+/clone-website https://example.com
+```
 
-## Verification and limits
+Replace the URL with the website you want to recreate. Once it's built, ask your agent for any changes you want.
 
-Desktop (1440px) and mobile (390px) screenshots were compared for every route. All page heights and h1/h2 positions and sizes match the source at both widths. No horizontal overflow, broken visible images, or external rendering requests were found. Tablet navigation was tested at 768px. Theme persistence, menu keyboard controls, FAQ state/category scrolling, dashboard tabs/timer, billing changes and local contact-form submission were tested in a headless browser.
+## Supported Platforms
 
-Contact submissions are simulated, as on the original; no message is sent. Login, most footer links and some dashboard buttons are decorative `#` controls on the source and remain placeholders. There is no authentication, payments, database or AI service. Pricing/contact navigation and missing homepage section anchors were connected locally. Dynamic illustration and marquee frames can differ by capture time. Original photo optimization/compression can cause small pixel differences.
+| Agent                                                         | Status                     |
+| ------------------------------------------------------------- | -------------------------- |
+| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | **Recommended** — Opus 5.5 |
+| [Codex CLI](https://github.com/openai/codex)                  | Supported                  |
+| [OpenCode](https://opencode.ai/)                              | Supported                  |
+| [Cursor](https://cursor.com/)                                 | Supported                  |
 
-No deployment has been made. The export has no new Git branch or repository. The template checkout is preserved separately from this clone.
+## Prerequisites
 
-## Additional integrated clones
+- [Node.js](https://nodejs.org/) 24+
+- An AI coding agent (see [Supported Platforms](#supported-platforms))
 
-- `/pilates`: Forma Pilates, with an independent root layout and stylesheet.
-- `/yuko`: YukoHealth storefront, three product pages at `/yuko/products/{probiotics,hand-lotion,hair-growth}`, and `/yuko/privacy` and `/yuko/terms`. The cart persists locally; checkout retains the source's preview behavior. See `docs/research/VALIDATION.md` for Yuko evidence and verification.
+## Tech Stack
+
+- **Next.js 16** — App Router, React 19, TypeScript strict
+- **shadcn/ui** — Base UI primitives + Tailwind CSS v4
+- **Tailwind CSS v4** — oklch design tokens
+- **Lucide React** — default icons (replaced by extracted SVGs during cloning)
+
+## How It Works
+
+The `/clone-website` skill follows four steps:
+
+1. **Map** — map source URLs to local routes and preserve existing work.
+2. **Observe** — inspect desktop/mobile pages, extract real assets and fonts, and exercise alternate states.
+3. **Build** — implement editable components and working interactions; delegate independent sections when useful.
+4. **Compare** — review source and local pages at matched sizes/states, repair visible differences, and run the production check.
+
+Framer pages and animated sites have focused inspection guidance for responsive variants, media, sticky scenes, and scroll/time-driven motion. Direct HTTP or asset tools handle extraction where practical; browser comparisons establish appearance and behavior. Deliverables include route mappings, run instructions, comparison screenshots, and any remaining gaps.
+
+## Use Cases
+
+- **Platform migration** — rebuild a site you own from WordPress/Webflow/Squarespace into a modern Next.js codebase
+- **Lost source code** — your site is live but the repo is gone, the developer left, or the stack is legacy. Get the code back in a modern format
+- **Learning** — deconstruct how production sites achieve specific layouts, animations, and responsive behavior by working with real code
+
+## Not Intended For
+
+- **Phishing or impersonation** — this project must not be used for deceptive purposes, impersonation, or any activity that breaks the law.
+- **Passing off someone's design as your own** — logos, brand assets, and original copy belong to their owners.
+- **Violating terms of service** — some sites explicitly prohibit scraping or reproduction. Check first.
+
+## Project Structure
+
+```
+src/
+  app/              # Next.js routes
+  components/       # React components
+    ui/             # shadcn/ui primitives
+    sites/<site>/   # Source-specific components and extracted SVGs
+  lib/utils.ts      # cn() utility
+  types/            # TypeScript interfaces
+  hooks/            # Custom React hooks
+public/
+  sites/<site>/     # Source-specific images, fonts, videos, and other assets
+docs/
+  research/<site>/  # Page brief, asset map, and inspection evidence
+  design-references/ # Screenshots
+.agents/skills/
+  clone-website/    # Canonical skill and inspection reference
+.claude/commands/
+  clone-website.md  # Thin Claude Code bridge
+AGENTS.md           # Agent instructions (single source of truth)
+CLAUDE.md           # Claude Code config (imports AGENTS.md)
+```
+
+## Commands
+
+```bash
+npm run dev    # Start dev server
+npm run build  # Production build
+npm run lint   # ESLint check
+npm run typecheck # TypeScript check
+npm run check  # Run lint + typecheck + build
+```
+
+### If using docker
+
+```bash
+docker compose up app --build # build and run the app
+docker compose up dev --build # run the app in dev mode on port 3001
+```
+
+## Agent Support
+
+The project keeps one portable Agent Skill at `.agents/skills/clone-website/`. Codex, Cursor, and OpenCode read it directly. Claude Code uses the small command bridge at `.claude/commands/clone-website.md` so `/clone-website` and its arguments continue to work without exposing a duplicate skill to the other agents.
+
+## Star History
+
+![Star History Chart](docs/assets/star-history.png)
+
+## License
+
+MIT
+
+## Existing clones in this fork
+
+This fork retains Folio at `/`, Forma Pilates at `/pilates`, YukoHealth at `/yuko`, and the standalone CRM app in `clones/crm`. Existing source files, assets, research, and export/download scripts are preserved. See [the clone notes](docs/EXISTING_CLONES.md) and [upstream integration verification](docs/research/UPSTREAM_INTEGRATION.md).
+
+The canonical cloning workflow is `.agents/skills/clone-website/`. Older duplicated agent skills and synchronization scripts have been removed following upstream. `npm run detach` remains available as a fork-specific export helper.

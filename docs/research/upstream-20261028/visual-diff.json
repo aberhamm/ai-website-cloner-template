@@ -1,0 +1,50 @@
+[
+  {
+    "capture": "folio-1440",
+    "size": [
+      1440,
+      900
+    ],
+    "pixelsDifferentOver10Percent": 0.001
+  },
+  {
+    "capture": "folio-390",
+    "size": [
+      390,
+      900
+    ],
+    "pixelsDifferentOver10Percent": 0.033
+  },
+  {
+    "capture": "pilates-1440",
+    "size": [
+      1440,
+      900
+    ],
+    "pixelsDifferentOver10Percent": 0.0
+  },
+  {
+    "capture": "pilates-390",
+    "size": [
+      390,
+      900
+    ],
+    "pixelsDifferentOver10Percent": 0.0
+  },
+  {
+    "capture": "yuko-1440",
+    "size": [
+      1440,
+      900
+    ],
+    "pixelsDifferentOver10Percent": 0.0
+  },
+  {
+    "capture": "yuko-390",
+    "size": [
+      390,
+      900
+    ],
+    "pixelsDifferentOver10Percent": 0.0
+  }
+]
